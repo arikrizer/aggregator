@@ -182,6 +182,19 @@
 
     .day-empty { text-align: center; color: #a0aec0; padding: 20px; font-size: 0.9rem; display: none; }
     .day-empty.visible { display: block; }
+
+    @media (max-width: 768px) {
+      header { padding: 14px 16px; flex-direction: column; align-items: flex-start; gap: 6px; }
+      header h1 { font-size: 1.1rem; }
+      .layout { flex-direction: column; padding: 16px 12px; gap: 20px; }
+      .sidebar { width: 100%; position: static; }
+      .reading-list { display: none; }
+      .card { padding: 14px 16px; }
+      .card-title { font-size: 0.95rem; }
+      .summary, .sts { font-size: 0.9rem; }
+      .day-header { padding: 14px 16px; }
+      .day-title { font-size: 1rem; }
+    }
   </style>
 </head>
 <body>
