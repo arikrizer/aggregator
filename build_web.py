@@ -492,7 +492,7 @@ applyFilters();
 </body>
 </html>"""
 
-with open("web/index.html", "w", encoding="utf-8") as f:
+with open("docs/index.html", "w", encoding="utf-8") as f:
     f.write(html)
 
 print(f"✅ דף עודכן — {len(all_dates)} ימים, {total_items} פריטים")
