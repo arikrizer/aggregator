@@ -1,0 +1,498 @@
+import os
+import sys
+import json
+import glob
+from datetime import datetime
+from dotenv import load_dotenv
+
+load_dotenv()
+sys.stdout.reconfigure(encoding="utf-8")
+
+from db.supabase_client import fetch_all_articles, fetch_all_digests
+
+# טעינה מ-Supabase
+all_articles = fetch_all_articles()
+all_digests = fetch_all_digests()
+
+# אם Supabase ריק — fallback לקבצים מקומיים
+if not all_articles:
+    print("Supabase ריק — טוען מקבצים מקומיים...")
+    digest_files = sorted(glob.glob("output/digest_*.json"))
+    raw_files = sorted(glob.glob("output/raw_*.json"))
+    if not digest_files or not raw_files:
+        print("אין קבצי output")
+        sys.exit(1)
+    with open(digest_files[-1], encoding="utf-8") as f:
+        digest = json.load(f)
+    with open(raw_files[-1], encoding="utf-8") as f:
+        raw = json.load(f)
+    all_raw = raw.get("strategist", []) + raw.get("tactician", [])
+    seen = set()
+    items_today = []
+    for item in all_raw:
+        if item["url"] not in seen:
+            seen.add(item["url"])
+            items_today.append(item)
+    today = digest.get("date", datetime.now().strftime("%Y-%m-%d"))
+    digests_by_date = {today: {
+        "pulse": digest.get("pulse", ""),
+        "top_read_title": digest.get("top_read", {}).get("title", ""),
+        "top_read_url": digest.get("top_read", {}).get("url", ""),
+        "top_read_reason": digest.get("top_read", {}).get("reason_hebrew", ""),
+    }}
+    articles_by_date = {today: items_today}
+else:
+    print(f"נטענו {len(all_articles)} פריטים ו-{len(all_digests)} דוחות מ-Supabase")
+    digests_by_date = {d["run_date"]: d for d in all_digests}
+
+    # קיבוץ לפי תאריך — dedup per day
+    articles_by_date = {}
+    for item in all_articles:
+        d = item.get("run_date", "")[:10]
+        if d not in articles_by_date:
+            articles_by_date[d] = []
+        articles_by_date[d].append(item)
+
+    # סינון לפי בחירת האינטגרטור
+    for d in articles_by_date:
+        digest_row = digests_by_date.get(d, {})
+        selected = digest_row.get("selected_urls")
+        if selected:
+            url_order = {url: i for i, url in enumerate(selected)}
+            filtered = [a for a in articles_by_date[d] if a["url"] in url_order]
+            filtered.sort(key=lambda a: url_order.get(a["url"], 999))
+            articles_by_date[d] = filtered
+
+# תאריכים מסודרים מהחדש לישן
+all_dates = sorted(articles_by_date.keys(), reverse=True)
+all_items_flat = [item for d in all_dates for item in articles_by_date[d]]
+
+def format_date_he(date_str):
+    try:
+        dt = datetime.strptime(date_str, "%Y-%m-%d")
+        months = ["","ינואר","פברואר","מרץ","אפריל","מאי","יוני",
+                  "יולי","אוגוסט","ספטמבר","אוקטובר","נובמבר","דצמבר"]
+        return f"{dt.day} {months[dt.month]} {dt.year}"
+    except:
+        return date_str
+
+# בניית sections לפי ימים
+days_data = []
+for d in all_dates:
+    digest_row = digests_by_date.get(d, {})
+    days_data.append({
+        "date": d,
+        "date_he": format_date_he(d),
+        "pulse": digest_row.get("pulse", ""),
+        "top_read_title": digest_row.get("top_read_title", ""),
+        "top_read_url": digest_row.get("top_read_url", ""),
+        "top_read_reason": digest_row.get("top_read_reason", ""),
+        "items": articles_by_date[d],
+    })
+
+latest_date_he = days_data[0]["date_he"] if days_data else ""
+total_items = len(all_items_flat)
+
+items_json = json.dumps(all_items_flat, ensure_ascii=False)
+days_json = json.dumps(days_data, ensure_ascii=False)
+
+html = f"""<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>האגרגטור — Human-AI Augmentation</title>
+  <style>
+    * {{ box-sizing: border-box; margin: 0; padding: 0; }}
+
+    body {{
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #f7f8fc;
+      color: #1a202c;
+      min-height: 100vh;
+    }}
+
+    header {{
+      background: #fff;
+      border-bottom: 1px solid #e2e8f0;
+      padding: 20px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }}
+
+    header h1 {{ font-size: 1.4rem; font-weight: 700; color: #1a202c; letter-spacing: -0.5px; }}
+    header h1 span {{ color: #7c3aed; }}
+    .date-badge {{ font-size: 0.83rem; color: #718096; }}
+
+    .layout {{
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 32px 20px;
+      display: flex;
+      gap: 32px;
+      align-items: flex-start;
+    }}
+
+    .sidebar {{
+      width: 220px;
+      flex-shrink: 0;
+      position: sticky;
+      top: 24px;
+    }}
+
+    .sidebar-title {{
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #a0aec0;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }}
+
+    .tag-cloud {{ display: flex; flex-wrap: wrap; gap: 6px; }}
+
+    .cloud-tag {{
+      cursor: pointer;
+      color: #6b46c1;
+      background: #faf5ff;
+      border: 1px solid #e9d8fd;
+      border-radius: 4px;
+      padding: 3px 8px;
+      line-height: 1.4;
+      transition: all 0.15s;
+    }}
+    .cloud-tag:hover {{ background: #7c3aed; color: #fff; border-color: #7c3aed; }}
+    .cloud-tag.tag-active {{ background: #7c3aed !important; color: #fff !important; border-color: #7c3aed !important; }}
+
+    .reading-list {{ margin-top: 28px; }}
+    .reading-list-title {{ font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: #a0aec0; font-weight: 600; margin-bottom: 10px; }}
+    .reading-list-empty {{ font-size: 0.82rem; color: #cbd5e0; }}
+    .reading-item {{ display: flex; align-items: flex-start; gap: 6px; margin-bottom: 8px; }}
+    .reading-item a {{ font-size: 0.92rem; color: #4a5568; text-decoration: none; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }}
+    .reading-item a:hover {{ color: #7c3aed; }}
+    .reading-item button {{ background: none; border: none; color: #cbd5e0; cursor: pointer; font-size: 0.75rem; padding: 0; flex-shrink: 0; margin-top: 1px; }}
+    .reading-item button:hover {{ color: #fc8181; }}
+
+    .container {{ flex: 1; min-width: 0; }}
+
+    .stats-bar {{ display: flex; gap: 16px; margin-bottom: 20px; flex-wrap: wrap; }}
+    .stat {{ background: #fff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 10px 16px; font-size: 0.85rem; color: #4a5568; }}
+    .stat strong {{ color: #1a202c; font-size: 1.1rem; display: block; }}
+
+    .filters {{ display: flex; gap: 8px; margin-bottom: 24px; flex-wrap: wrap; }}
+    .filter-btn {{ background: #fff; border: 1px solid #e2e8f0; color: #4a5568; padding: 6px 14px; border-radius: 20px; font-size: 0.83rem; cursor: pointer; transition: all 0.2s; }}
+    .filter-btn:hover, .filter-btn.active {{ background: #7c3aed; border-color: #7c3aed; color: #fff; }}
+
+    /* הפרדה יומית */
+    .day-section {{ margin-bottom: 40px; }}
+
+    .day-header {{
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      border-radius: 14px;
+      padding: 20px 24px;
+      margin-bottom: 16px;
+    }}
+
+    .day-title {{
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #1a202c;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }}
+
+    .day-title span {{ color: #7c3aed; }}
+
+    .day-divider {{
+      height: 2px;
+      background: linear-gradient(to left, transparent, #e9d8fd, transparent);
+      margin-bottom: 12px;
+    }}
+
+    .pulse-box {{
+      background: #faf5ff;
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin-bottom: 10px;
+    }}
+    .pulse-label {{ font-size: 0.72rem; text-transform: uppercase; letter-spacing: 1px; color: #7c3aed; font-weight: 700; margin-bottom: 4px; }}
+    .pulse-text {{ font-size: 0.95rem; color: #2d3748; line-height: 1.6; }}
+
+    .top-read-box {{
+      background: #fffbeb;
+      border-radius: 8px;
+      padding: 10px 14px;
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+    }}
+    .top-read-icon {{ font-size: 1.1rem; flex-shrink: 0; }}
+    .top-read-content {{ flex: 1; }}
+    .top-read-label {{ font-size: 0.72rem; text-transform: uppercase; letter-spacing: 1px; color: #b7791f; font-weight: 700; margin-bottom: 3px; }}
+    .top-read-title {{ font-size: 0.9rem; font-weight: 600; color: #1a202c; }}
+    .top-read-title a {{ color: inherit; text-decoration: none; }}
+    .top-read-title a:hover {{ color: #7c3aed; }}
+    .top-read-reason {{ font-size: 0.82rem; color: #92400e; margin-top: 2px; }}
+
+    /* כרטיסים */
+    .card {{
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-bottom: 12px;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }}
+    .card:hover {{ border-color: #c4b5fd; box-shadow: 0 2px 12px rgba(124,58,237,0.07); }}
+    .card.highlight {{ border-color: #7c3aed; box-shadow: 0 0 0 3px rgba(124,58,237,0.15); }}
+    .card.hidden {{ display: none; }}
+
+    .card-top {{ display: flex; align-items: flex-start; gap: 12px; margin-bottom: 12px; }}
+    .source-emoji {{ font-size: 1.2rem; flex-shrink: 0; margin-top: 2px; }}
+    .card-title {{ font-size: 1.05rem; font-weight: 600; color: #1a202c; line-height: 1.4; flex: 1; }}
+    .card-title a {{ color: inherit; text-decoration: none; }}
+    .card-title a:hover {{ color: #7c3aed; }}
+
+    .badges {{ display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }}
+    .badge {{ font-size: 0.75rem; padding: 2px 8px; border-radius: 4px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }}
+    .badge-VIRAL    {{ background: #fff0f0; color: #c53030; border: 1px solid #fed7d7; }}
+    .badge-TRENDING {{ background: #ebf8ff; color: #2b6cb0; border: 1px solid #bee3f8; }}
+    .badge-CITED    {{ background: #f0fff4; color: #276749; border: 1px solid #c6f6d5; }}
+    .badge-QUIET    {{ background: #f7fafc; color: #718096; border: 1px solid #e2e8f0; }}
+    .badge-level {{ background: #faf5ff; color: #6b46c1; border: 1px solid #e9d8fd; }}
+    .badge-hr {{ background: #fffbeb; color: #b7791f; border: 1px solid #fefcbf; }}
+
+    .summary {{ font-size: 1.0rem; color: #4a5568; line-height: 1.7; margin-bottom: 10px; }}
+    .sts {{ font-size: 1.0rem; color: #6b46c1; background: #faf5ff; border-right: 3px solid #7c3aed; padding: 6px 10px; border-radius: 0 4px 4px 0; margin-bottom: 10px; }}
+
+    .tags {{ display: flex; gap: 6px; flex-wrap: wrap; }}
+    .tag {{ font-size: 0.75rem; color: #718096; background: #edf2f7; padding: 2px 8px; border-radius: 4px; cursor: pointer; }}
+    .tag:hover {{ color: #6b46c1; background: #faf5ff; }}
+    .tag-active {{ color: #fff !important; background: #7c3aed !important; }}
+
+    .card-checkbox {{ display: flex; align-items: center; gap: 6px; margin-top: 10px; font-size: 0.82rem; color: #a0aec0; cursor: pointer; user-select: none; }}
+    .card-checkbox input {{ accent-color: #7c3aed; cursor: pointer; }}
+    .card-checkbox:hover {{ color: #7c3aed; }}
+
+    .day-empty {{ text-align: center; color: #a0aec0; padding: 20px; font-size: 0.9rem; display: none; }}
+    .day-empty.visible {{ display: block; }}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>ה<span>אגרגטור</span> — Human-AI Augmentation</h1>
+  <span class="date-badge">{latest_date_he}</span>
+</header>
+
+<div class="layout">
+  <div class="sidebar">
+    <div class="sidebar-title">תגיות</div>
+    <div class="tag-cloud" id="tag-cloud"></div>
+    <div class="reading-list">
+      <div class="reading-list-title">📌 לקריאה</div>
+      <div id="reading-list"><span class="reading-list-empty">אין פריטים עדיין</span></div>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <div class="stats-bar" id="stats"></div>
+
+    <div class="filters">
+      <button class="filter-btn active" onclick="filterBy('all', event)">הכל</button>
+      <button class="filter-btn" onclick="filterBy('VIRAL', event)">🔥 Viral</button>
+      <button class="filter-btn" onclick="filterBy('TRENDING', event)">💬 Trending</button>
+      <button class="filter-btn" onclick="filterBy('CITED', event)">🎓 Cited</button>
+      <button class="filter-btn" onclick="filterBy('QUIET', event)">🔇 Quiet</button>
+      <button class="filter-btn" onclick="filterBy('hr', event)">📢 HR Relevant</button>
+    </div>
+
+    <div id="feed"></div>
+
+  </div>
+</div>
+
+<script>
+const DAYS = {days_json};
+const ALL_ITEMS = {items_json};
+const RESONANCE_ICONS = {{ VIRAL: '🔥', TRENDING: '💬', CITED: '🎓', QUIET: '🔇' }};
+
+let currentFilter = 'all';
+let currentTag = null;
+let readingList = new Map();
+
+function toggleReading(url, title, idx) {{
+  if (readingList.has(url)) readingList.delete(url);
+  else readingList.set(url, {{ title, idx }});
+  renderReadingList();
+  applyFilters();
+}}
+
+function removeReading(url) {{
+  readingList.delete(url);
+  renderReadingList();
+  applyFilters();
+}}
+
+function scrollToCard(idx) {{
+  const el = document.getElementById('card-' + idx);
+  if (!el) {{
+    currentFilter = 'all'; currentTag = null;
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    document.querySelector('.filter-btn').classList.add('active');
+    renderTagCloud(); applyFilters();
+    setTimeout(() => scrollToCard(idx), 150);
+    return;
+  }}
+  el.scrollIntoView({{ behavior: 'smooth', block: 'center' }});
+  el.classList.add('highlight');
+  setTimeout(() => el.classList.remove('highlight'), 1800);
+}}
+
+function renderReadingList() {{
+  const el = document.getElementById('reading-list');
+  if (readingList.size === 0) {{ el.innerHTML = '<span class="reading-list-empty">אין פריטים עדיין</span>'; return; }}
+  el.innerHTML = [...readingList.entries()].map(([url, {{title, idx}}]) => `
+    <div class="reading-item">
+      <button onclick="removeReading('${{url}}')" title="הסר">✕</button>
+      <a href="#" onclick="scrollToCard(${{idx}}); return false;">${{title}}</a>
+    </div>
+  `).join('');
+}}
+
+function filterBy(type, e) {{
+  currentFilter = type; currentTag = null;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  if (e) e.target.classList.add('active');
+  renderTagCloud(); applyFilters();
+}}
+
+function filterByTag(tag) {{
+  currentTag = (currentTag === tag) ? null : tag;
+  if (currentTag) {{ currentFilter = 'all'; document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active')); document.querySelector('.filter-btn').classList.add('active'); }}
+  renderTagCloud(); applyFilters();
+}}
+
+function itemVisible(item) {{
+  if (currentFilter === 'hr' && !item.hr_relevant) return false;
+  if (currentFilter !== 'all' && currentFilter !== 'hr' && item.resonance !== currentFilter) return false;
+  if (currentTag && !(item.tags||[]).includes(currentTag)) return false;
+  return true;
+}}
+
+function applyFilters() {{
+  DAYS.forEach((day, di) => {{
+    let visibleCount = 0;
+    day.items.forEach((item, ii) => {{
+      const idx = ALL_ITEMS.findIndex(a => a.url === item.url);
+      const el = document.getElementById('card-' + idx);
+      if (!el) return;
+      if (itemVisible(item)) {{ el.classList.remove('hidden'); visibleCount++; }}
+      else el.classList.add('hidden');
+    }});
+    const emptyEl = document.getElementById('day-empty-' + di);
+    if (emptyEl) {{ emptyEl.classList.toggle('visible', visibleCount === 0); }}
+  }});
+}}
+
+function renderStats() {{
+  const viral = ALL_ITEMS.filter(i => i.resonance === 'VIRAL').length;
+  const trending = ALL_ITEMS.filter(i => i.resonance === 'TRENDING').length;
+  const cited = ALL_ITEMS.filter(i => i.resonance === 'CITED').length;
+  const hr = ALL_ITEMS.filter(i => i.hr_relevant).length;
+  const days = DAYS.length;
+  document.getElementById('stats').innerHTML = `
+    <div class="stat"><strong>${{ALL_ITEMS.length}}</strong>פריטים</div>
+    <div class="stat"><strong>${{days}}</strong>ימים</div>
+    <div class="stat"><strong>${{viral}} 🔥 ${{trending}} 💬 ${{cited}} 🎓</strong>תהודה</div>
+    <div class="stat"><strong>${{hr}} 📢</strong>HR</div>
+  `;
+}}
+
+function renderTagCloud() {{
+  const counts = {{}};
+  ALL_ITEMS.forEach(item => (item.tags||[]).forEach(t => counts[t] = (counts[t]||0) + 1));
+  const max = Math.max(...Object.values(counts));
+  const min = Math.min(...Object.values(counts));
+  const sorted = Object.entries(counts).sort((a,b) => b[1]-a[1]);
+  document.getElementById('tag-cloud').innerHTML = sorted.map(([tag, count]) => {{
+    const size = min===max ? 0.9 : 0.75 + ((count-min)/(max-min))*0.65;
+    return `<span class="cloud-tag ${{currentTag===tag?'tag-active':''}}" style="font-size:${{size.toFixed(2)}}rem" onclick="filterByTag('${{tag}}')">#${{tag.replace(/_/g,' ')}}</span>`;
+  }}).join('');
+}}
+
+function renderFeed() {{
+  const feed = document.getElementById('feed');
+  feed.innerHTML = DAYS.map((day, di) => {{
+    const cardsHtml = day.items.map(item => {{
+      const idx = ALL_ITEMS.findIndex(a => a.url === item.url);
+      return `
+      <div class="card" id="card-${{idx}}">
+        <div class="card-top">
+          <span class="source-emoji">${{item.source_emoji||'📰'}}</span>
+          <div class="card-title"><a href="${{item.url}}" target="_blank">${{item.title}}</a></div>
+        </div>
+        <div class="badges">
+          <span class="badge badge-${{item.resonance}}">${{RESONANCE_ICONS[item.resonance]}} ${{item.resonance}}</span>
+          <span class="badge badge-level">רמה ${{item.model_level}} · ${{item.model_concept}}</span>
+          ${{item.hr_relevant ? '<span class="badge badge-hr">📢 HR</span>' : ''}}
+          ${{item.published_date ? `<span class="badge" style="background:#f7fafc;color:#718096;border:1px solid #e2e8f0">${{item.published_date}}</span>` : ''}}
+        </div>
+        <div class="summary">${{item.summary_hebrew||''}}</div>
+        <div class="sts">⬡ STS — ${{item.sts_angle_hebrew||''}}</div>
+        <div class="tags">${{(item.tags||[]).map(t => `<span class="tag ${{currentTag===t?'tag-active':''}}" onclick="filterByTag('${{t}}')">#${{t}}</span>`).join('')}}</div>
+        <label class="card-checkbox">
+          <input type="checkbox" ${{readingList.has(item.url)?'checked':''}} onchange="toggleReading('${{item.url}}', \`${{item.title.replace(/`/g,"'")}}\`, ${{idx}})">
+          הוסף לרשימת קריאה
+        </label>
+      </div>`;
+    }}).join('');
+
+    const pulseHtml = day.pulse ? `
+      <div class="pulse-box">
+        <div class="pulse-label">⚡ דופק השוק</div>
+        <div class="pulse-text">${{day.pulse}}</div>
+      </div>` : '';
+
+    const topReadHtml = day.top_read_title ? `
+      <div class="top-read-box">
+        <div class="top-read-icon">⭐</div>
+        <div class="top-read-content">
+          <div class="top-read-label">מומלץ לקריאה</div>
+          <div class="top-read-title"><a href="${{day.top_read_url}}" target="_blank">${{day.top_read_title}}</a></div>
+          <div class="top-read-reason">${{day.top_read_reason}}</div>
+        </div>
+      </div>` : '';
+
+    return `
+    <div class="day-section" id="day-${{di}}">
+      <div class="day-header">
+        <div class="day-title">⚡ <span>${{day.date_he}}</span> — ${{day.items.length}} פריטים</div>
+        <div class="day-divider"></div>
+        ${{pulseHtml}}
+        ${{topReadHtml}}
+      </div>
+      ${{cardsHtml}}
+      <div class="day-empty" id="day-empty-${{di}}">אין פריטים התואמים את הסינון ביום זה</div>
+    </div>`;
+  }}).join('');
+}}
+
+renderStats();
+renderTagCloud();
+renderReadingList();
+renderFeed();
+applyFilters();
+</script>
+</body>
+</html>"""
+
+with open("web/index.html", "w", encoding="utf-8") as f:
+    f.write(html)
+
+print(f"✅ דף עודכן — {len(all_dates)} ימים, {total_items} פריטים")

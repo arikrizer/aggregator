@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>האגרגטור — Human-AI Augmentation</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #f7f8fc;
+      color: #1a202c;
+      min-height: 100vh;
+    }
+
+    header {
+      background: #fff;
+      border-bottom: 1px solid #e2e8f0;
+      padding: 20px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header h1 { font-size: 1.4rem; font-weight: 700; color: #1a202c; letter-spacing: -0.5px; }
+    header h1 span { color: #7c3aed; }
+    .date-badge { font-size: 0.83rem; color: #718096; }
+
+    .layout {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 32px 20px;
+      display: flex;
+      gap: 32px;
+      align-items: flex-start;
+    }
+
+    .sidebar {
+      width: 220px;
+      flex-shrink: 0;
+      position: sticky;
+      top: 24px;
+    }
+
+    .sidebar-title {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #a0aec0;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+
+    .tag-cloud { display: flex; flex-wrap: wrap; gap: 6px; }
+
+    .cloud-tag {
+      cursor: pointer;
+      color: #6b46c1;
+      background: #faf5ff;
+      border: 1px solid #e9d8fd;
+      border-radius: 4px;
+      padding: 3px 8px;
+      line-height: 1.4;
+      transition: all 0.15s;
+    }
+    .cloud-tag:hover { background: #7c3aed; color: #fff; border-color: #7c3aed; }
+    .cloud-tag.tag-active { background: #7c3aed !important; color: #fff !important; border-color: #7c3aed !important; }
+
+    .reading-list { margin-top: 28px; }
+    .reading-list-title { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: #a0aec0; font-weight: 600; margin-bottom: 10px; }
+    .reading-list-empty { font-size: 0.82rem; color: #cbd5e0; }
+    .reading-item { display: flex; align-items: flex-start; gap: 6px; margin-bottom: 8px; }
+    .reading-item a { font-size: 0.92rem; color: #4a5568; text-decoration: none; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .reading-item a:hover { color: #7c3aed; }
+    .reading-item button { background: none; border: none; color: #cbd5e0; cursor: pointer; font-size: 0.75rem; padding: 0; flex-shrink: 0; margin-top: 1px; }
+    .reading-item button:hover { color: #fc8181; }
+
+    .container { flex: 1; min-width: 0; }
+
+    .stats-bar { display: flex; gap: 16px; margin-bottom: 20px; flex-wrap: wrap; }
+    .stat { background: #fff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 10px 16px; font-size: 0.85rem; color: #4a5568; }
+    .stat strong { color: #1a202c; font-size: 1.1rem; display: block; }
+
+    .filters { display: flex; gap: 8px; margin-bottom: 24px; flex-wrap: wrap; }
+    .filter-btn { background: #fff; border: 1px solid #e2e8f0; color: #4a5568; padding: 6px 14px; border-radius: 20px; font-size: 0.83rem; cursor: pointer; transition: all 0.2s; }
+    .filter-btn:hover, .filter-btn.active { background: #7c3aed; border-color: #7c3aed; color: #fff; }
+
+    /* הפרדה יומית */
+    .day-section { margin-bottom: 40px; }
+
+    .day-header {
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      border-radius: 14px;
+      padding: 20px 24px;
+      margin-bottom: 16px;
+    }
+
+    .day-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #1a202c;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .day-title span { color: #7c3aed; }
+
+    .day-divider {
+      height: 2px;
+      background: linear-gradient(to left, transparent, #e9d8fd, transparent);
+      margin-bottom: 12px;
+    }
+
+    .pulse-box {
+      background: #faf5ff;
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin-bottom: 10px;
+    }
+    .pulse-label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 1px; color: #7c3aed; font-weight: 700; margin-bottom: 4px; }
+    .pulse-text { font-size: 0.95rem; color: #2d3748; line-height: 1.6; }
+
+    .top-read-box {
+      background: #fffbeb;
+      border-radius: 8px;
+      padding: 10px 14px;
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+    }
+    .top-read-icon { font-size: 1.1rem; flex-shrink: 0; }
+    .top-read-content { flex: 1; }
+    .top-read-label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 1px; color: #b7791f; font-weight: 700; margin-bottom: 3px; }
+    .top-read-title { font-size: 0.9rem; font-weight: 600; color: #1a202c; }
+    .top-read-title a { color: inherit; text-decoration: none; }
+    .top-read-title a:hover { color: #7c3aed; }
+    .top-read-reason { font-size: 0.82rem; color: #92400e; margin-top: 2px; }
+
+    /* כרטיסים */
+    .card {
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-bottom: 12px;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .card:hover { border-color: #c4b5fd; box-shadow: 0 2px 12px rgba(124,58,237,0.07); }
+    .card.highlight { border-color: #7c3aed; box-shadow: 0 0 0 3px rgba(124,58,237,0.15); }
+    .card.hidden { display: none; }
+
+    .card-top { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 12px; }
+    .source-emoji { font-size: 1.2rem; flex-shrink: 0; margin-top: 2px; }
+    .card-title { font-size: 1.05rem; font-weight: 600; color: #1a202c; line-height: 1.4; flex: 1; }
+    .card-title a { color: inherit; text-decoration: none; }
+    .card-title a:hover { color: #7c3aed; }
+
+    .badges { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
+    .badge { font-size: 0.75rem; padding: 2px 8px; border-radius: 4px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+    .badge-VIRAL    { background: #fff0f0; color: #c53030; border: 1px solid #fed7d7; }
+    .badge-TRENDING { background: #ebf8ff; color: #2b6cb0; border: 1px solid #bee3f8; }
+    .badge-CITED    { background: #f0fff4; color: #276749; border: 1px solid #c6f6d5; }
+    .badge-QUIET    { background: #f7fafc; color: #718096; border: 1px solid #e2e8f0; }
+    .badge-level { background: #faf5ff; color: #6b46c1; border: 1px solid #e9d8fd; }
+    .badge-hr { background: #fffbeb; color: #b7791f; border: 1px solid #fefcbf; }
+
+    .summary { font-size: 1.0rem; color: #4a5568; line-height: 1.7; margin-bottom: 10px; }
+    .sts { font-size: 1.0rem; color: #6b46c1; background: #faf5ff; border-right: 3px solid #7c3aed; padding: 6px 10px; border-radius: 0 4px 4px 0; margin-bottom: 10px; }
+
+    .tags { display: flex; gap: 6px; flex-wrap: wrap; }
+    .tag { font-size: 0.75rem; color: #718096; background: #edf2f7; padding: 2px 8px; border-radius: 4px; cursor: pointer; }
+    .tag:hover { color: #6b46c1; background: #faf5ff; }
+    .tag-active { color: #fff !important; background: #7c3aed !important; }
+
+    .card-checkbox { display: flex; align-items: center; gap: 6px; margin-top: 10px; font-size: 0.82rem; color: #a0aec0; cursor: pointer; user-select: none; }
+    .card-checkbox input { accent-color: #7c3aed; cursor: pointer; }
+    .card-checkbox:hover { color: #7c3aed; }
+
+    .day-empty { text-align: center; color: #a0aec0; padding: 20px; font-size: 0.9rem; display: none; }
+    .day-empty.visible { display: block; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>ה<span>אגרגטור</span> — Human-AI Augmentation</h1>
+  <span class="date-badge">17 אפריל 2026</span>
+</header>
+
+<div class="layout">
+  <div class="sidebar">
+    <div class="sidebar-title">תגיות</div>
+    <div class="tag-cloud" id="tag-cloud"></div>
+    <div class="reading-list">
+      <div class="reading-list-title">📌 לקריאה</div>
+      <div id="reading-list"><span class="reading-list-empty">אין פריטים עדיין</span></div>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <div class="stats-bar" id="stats"></div>
+
+    <div class="filters">
+      <button class="filter-btn active" onclick="filterBy('all', event)">הכל</button>
+      <button class="filter-btn" onclick="filterBy('VIRAL', event)">🔥 Viral</button>
+      <button class="filter-btn" onclick="filterBy('TRENDING', event)">💬 Trending</button>
+      <button class="filter-btn" onclick="filterBy('CITED', event)">🎓 Cited</button>
+      <button class="filter-btn" onclick="filterBy('QUIET', event)">🔇 Quiet</button>
+      <button class="filter-btn" onclick="filterBy('hr', event)">📢 HR Relevant</button>
+    </div>
+
+    <div id="feed"></div>
+
+  </div>
+</div>
+
+<script>
+const DAYS = [{"date": "2026-04-17", "date_he": "17 אפריל 2026", "pulse": "דופק השוק — השינויים הארגוניים הנגרמים על ידי AI ומדגישים את הצורך במיומנויות שונות בתקופה של שינוי ארגוני. ישנם סימנים של התפתחות יתר על המידה בשימוש ב-AI ללא הבנה מלאה של השפעותיהן. כמו כן, מודגשת החשיבות של הגורם האנושי באימוץ AI בארגונים", "top_read_title": "The Human Side of AI Adoption: Lessons From the Field", "top_read_url": "https://sloanreview.mit.edu/article/the-human-side-of-ai-adoption-lessons-from-the-field/", "top_read_reason": "מאמר זה מדגיש את החשיבות של הגורם האנושי באימוץ בינה מלאכותית (AI) בארגונים", "items": [{"id": "a0ab6932-3125-4180-a656-aafb036ab936", "run_date": "2026-04-17", "title": "AI Is Flattening Organizations: What L&D Must Do", "url": "https://trainingindustry.com/articles/workforce-development/the-disappearing-middle-how-ai-is-flattening-organizational-structures/", "source_type": "article", "source_emoji": "📰", "summary_hebrew": "מאמר זה דן בשינויים הארגוניים הנגרמים על ידי AI ומדגיש את הצורך במיומנויות שונות בתקופה של שינוי ארגוני. הוא מדגיש כי עובדים שיכולים להתאים ולהשתמש ב-AI באופן יעיל הם אלו שיהיו מוצלחים בסביבות עבודה חדשות. המאמר גם מדגיש את חשיבות הלמידה והפיתוח של כישורים חדשים.", "sts_angle_hebrew": "המאמר בוחן את ההשפעה של AI על מבנה הארגון והדרישה לשינוי כישורים וגישות של עובדים.", "model_level": 2, "model_concept": "Human-AI Teaming", "hr_relevant": true, "resonance": "TRENDING", "tags": ["Hybrid_Intelligence", "HAIT", "HITL", "Augmented_OB", "Job_Redesign_AI"], "published_date": "", "agent": "strategist", "created_at": "2026-04-17T07:49:44.435306+00:00"}, {"id": "d102fe03-b11c-4b37-a8dd-95c5851ae2d3", "run_date": "2026-04-17", "title": "Organizational Network Transformation Through Grounded GenAI: Evidence-Based Strategies for Managing Human-Machine Collaboration", "url": "https://www.innovativehumancapital.com/article/organizational-network-transformation-through-grounded-genai-evidence-based-strategies-for-managing", "source_type": "article", "source_emoji": "📰", "summary_hebrew": "מאמר זה מציג אסטרטגיות מבוססות ראיות לניהול שיתוף פעולה בין אדם למכונה בארגונים. הוא דן בדרכים ליישום AI באופן שיכול לשפר את הביצועים של העובדים ואת היעילות של תהליכים ארגוניים.", "sts_angle_hebrew": "המאמר בוחן את הדרכים ליישום AI בארגונים באופן שיכול לשפר את השיתוף פעולה בין אדם למכונה.", "model_level": 3, "model_concept": "Human-AI Teaming", "hr_relevant": true, "resonance": "CITED", "tags": ["Hybrid_Intelligence", "HAIT", "HITL", "Augmented_OB", "Generative_AI"], "published_date": "", "agent": "strategist", "created_at": "2026-04-17T07:49:44.435306+00:00"}, {"id": "95d06c95-4dca-41ee-9a05-9d7638807503", "run_date": "2026-04-17", "title": "AI Transformation Change Management in Business Today", "url": "https://imaworldwide.com/ai-change-management-strategy/", "source_type": "article", "source_emoji": "📰", "summary_hebrew": "מאמר זה דן בניהול השינוי הארגוני הנגרם על ידי AI ומדגיש את חשיבות השינוי בתהליכים ובתפיסה של העובדים. הוא מציג אסטרטגיות ליישום AI באופן שיכול לשפר את הביצועים של העובדים ואת היעילות של תהליכים ארגוניים.", "sts_angle_hebrew": "המאמר בוחן את הדרכים ליישום AI בארגונים באופן שיכול לשפר את השינוי הארגוני.", "model_level": 2, "model_concept": "Human-AI Teaming", "hr_relevant": true, "resonance": "TRENDING", "tags": ["Hybrid_Intelligence", "HAIT", "HITL", "Augmented_OB", "AI_Change_Management"], "published_date": "", "agent": "strategist", "created_at": "2026-04-17T07:49:44.435306+00:00"}, {"id": "d6e829fb-2249-4799-bf31-2adc3d2da6ce", "run_date": "2026-04-17", "title": "The Human Side of AI Adoption: Lessons From the Field", "url": "https://sloanreview.mit.edu/article/the-human-side-of-ai-adoption-lessons-from-the-field/", "source_type": "article", "source_emoji": "📰", "summary_hebrew": "מאמר זה מדגיש את החשיבות של הגורם האנושי באימוץ בינה מלאכותית (AI) בארגונים. הוא מציע כי הצלחת יוזמות AI תלויה במידה רבה ביכולתן לענות על הצרכים והכאבים של המשתמשים, ובמיוחד ביכולתן ליצור ערך עבורם. המחבר מציע כי נקודות כאב בתוך מערכות שונות יכולות לשמש כנקודות כניסה לאימוץ AI.", "sts_angle_hebrew": "המאמר מתמקד בהיבט החברתי של אימוץ AI, ומדגיש כי ההצלחה של יוזמות AI תלויה במידה רבה ביכולתן להתאים לצורכי המשתמשים וליצור ערך עבורם.", "model_level": 2, "model_concept": "Human-AI Teaming", "hr_relevant": true, "resonance": "CITED", "tags": ["Human-AI_Collaboration", "HAI", "Job_Redesign_AI", "Psychological_Safety"], "published_date": "2023-01-01", "agent": "strategist", "created_at": "2026-04-17T07:49:44.435306+00:00"}, {"id": "1923b7c7-7925-4a43-b5a2-1fd9782044a2", "run_date": "2026-04-17", "title": "New research finds workers are leveraging AI for career mobility as employers struggle to keep pace", "url": "https://www.eurekalert.org/news-releases/1123962", "source_type": "article", "source_emoji": "📰", "summary_hebrew": "מחקר חדש מצא כי עובדים משתמשים בינה מלאכותית (AI) כדי לשפר את הניידות הקריירית שלהם, בעוד שמעסיקים מתקשים לעמוד בקצב. הדו\"ח של הפורום הכלכלי העולמי מצא כי מחצית מהעובדים מאמינים כי AI מעניקה להם ביטחון רב יותר בקריירה שלהם.", "sts_angle_hebrew": "המחקר מדגיש את השינוי ביחסי הכוח בין מעסיקים לעובדים, כאשר העובדים משתמשים ב-AI כדי לשפר את הקריירה שלהם.", "model_level": 2, "model_concept": "Human-AI Teaming", "hr_relevant": true, "resonance": "TRENDING", "tags": ["HAI", "Job_Redesign_AI", "Career_Mobility", "AI_at_Work"], "published_date": "2026-01-01", "agent": "strategist", "created_at": "2026-04-17T07:49:44.435306+00:00"}, {"id": "955c4dbc-dcb2-4834-a4f9-6fd3701b8157", "run_date": "2026-04-17", "title": "How These Companies Are Upskilling Employees To Leverage AI", "url": "https://www.comparably.com/blog/how-these-companies-are-upskilling-employees-to-leverage-ai/", "source_type": "article", "source_emoji": "📰", "summary_hebrew": "מאמר זה מתאר כיצד חברות שונות משדרגות את כישורי העובדים שלהם כדי לנצל את הבינה המלאכותית (AI). החברות מספקות תוכניות הכשרה מיוחדות כדי לעזור לעובדים לרכוש את הכישורים הדרושים כדי לעבוד עם AI.", "sts_angle_hebrew": "המאמר מתמקד בהיבט החברתי של אימוץ AI, ומדגיש כי ההצלחה של יוזמות AI תלויה במידה רבה ביכולתן לשדרג את כישורי העובדים.", "model_level": 2, "model_concept": "Human-AI Teaming", "hr_relevant": true, "resonance": "CITED", "tags": ["HAI", "Job_Redesign_AI", "Upskilling", "AI_Literacy"], "published_date": "2023-01-01", "agent": "strategist", "created_at": "2026-04-17T07:49:44.435306+00:00"}, {"id": "577a1136-e5d7-46d4-8628-e614e55f88c8", "run_date": "2026-04-17", "title": "Industries most exposed to AI are not only seeing productivity gains but jobs and wage growth too", "url": "https://theconversation.com/industries-most-exposed-to-ai-are-not-only-seeing-productivity-gains-but-jobs-and-wage-growth-too-224487", "source_type": "article", "source_emoji": "📰", "summary_hebrew": "מחקר חדש מראה כי תעשיות שנחשפות במיוחד לבינה מלאכותית אינן רואות רק תוספת פרודוקטיביות, אלא גם תוספת מקומות עבודה וצמיחה בשכר. המחקר מצא כי השימוש בבינה מלאכותית גדל מ-12% ל-26% בין 2024 ל-2025, והדבר מתאים לתוספת של 1.4% עד 2.8% בתפוקה.", "sts_angle_hebrew": "המאמר בוחן את השפעת הבינה המלאכותית על שוק העבודה ופרודוקטיביות, ומדגיש כי הטכנולוגיה משנה את הרכב העבודה אך אינה מבטלת את הצורך בהשתתפות אנושית.", "model_level": 2, "model_concept": "Human-AI Teaming", "hr_relevant": true, "resonance": "TRENDING", "tags": ["Hybrid_Intelligence", "HAIT", "Productivity", "Job_Growth"], "published_date": "", "agent": "tactician", "created_at": "2026-04-17T07:49:51.642061+00:00"}, {"id": "6fe842f1-388d-4573-8b7a-530023ec1a85", "run_date": "2026-04-17", "title": "10 Procurement Job Roles Most Impacted by AI (2025 to 2035 Projections) | Suplari", "url": "https://suplari.com/blog/10-procurement-job-roles-most-impacted-by-ai", "source_type": "blog", "source_emoji": "✍️", "summary_hebrew": "הפוסט בוחן את השפעת הבינה המלאכותית על תפקידים שונים ברכש ומדגיש כי תפקידים אסטרטגיים יתפתחו ויהיו פרודוקטיביים יותר.", "sts_angle_hebrew": "הפוסט מתמקד בשינוי בתפקידים ברכש עקב הבינה המלאכותית, ומדגיש כי תפקידים מסוימים יהיו מושפעים יותר מאחרים.", "model_level": 2, "model_concept": "Augmented_OB", "hr_relevant": true, "resonance": "TRENDING", "tags": ["HAIT", "Job_Redesign_AI", "Procurement", "Productivity"], "published_date": "", "agent": "tactician", "created_at": "2026-04-17T07:49:51.642061+00:00"}, {"id": "d61c80f8-3b54-4f57-b3ef-a38c8f5e9e27", "run_date": "2026-04-17", "title": "The AI augmented leader: Why leadership is not replaced, but re-written", "url": "https://www.processexcellencenetwork.com/ai/articles/the-ai-augmented-leader-why-leadership-is-not-replaced-but-re-written/amp", "source_type": "article", "source_emoji": "📰", "summary_hebrew": "המאמר בוחן את השפעת הבינה המלאכותית על תפקידי ניהול ומדגיש כי הבינה המלאכותית לא תחליף את הניהול, אלא תשפר אותו.", "sts_angle_hebrew": "המאמר מתמקד בשינוי בתפקידי ניהול עקב הבינה המלאכותית, ומדגיש כי הניהול יהפוך ליותר יעיל ופחות ביורוקרטי.", "model_level": 2, "model_concept": "Augmented_Intelligence", "hr_relevant": true, "resonance": "TRENDING", "tags": ["HAIT", "Leadership", "Augmented_Intelligence"], "published_date": "", "agent": "tactician", "created_at": "2026-04-17T07:49:51.642061+00:00"}, {"id": "fe12a8ed-2ee0-427e-a64c-373986fd741e", "run_date": "2026-04-17", "title": "Physician Use of Augmented Intelligence has Doubled | RheumNow", "url": "https://rheumnow.com/news/physician-use-augmented-intelligence-has-doubled", "source_type": "article", "source_emoji": "📰", "summary_hebrew": "המאמר מראה כי השימוש בבינה מלאכותית בתחום הרפואה גדל פי שניים, והדבר מוביל לתוספת בפרודוקטיביות וירידה בנטל עבודה.", "sts_angle_hebrew": "המאמר בוחן את השפעת הבינה המלאכותית על תחום הרפואה, ומדגיש כי הבינה המלאכותית משפרת את היעילות והדיוק.", "model_level": 2, "model_concept": "Human-in-the-Loop", "hr_relevant": true, "resonance": "TRENDING", "tags": ["HAIT", "Healthcare", "Productivity"], "published_date": "", "agent": "tactician", "created_at": "2026-04-17T07:49:51.642061+00:00"}, {"id": "d92d0877-66f2-432c-bd70-3b14eb193a90", "run_date": "2026-04-17", "title": "Personality Pairing Improves Human-AI Collaboration - arXiv", "url": "https://arxiv.org/html/2511.13979v2", "source_type": "academic", "source_emoji": "📜", "summary_hebrew": "המחקר בוחן את השפעת ההתאמה בין אישיות האדם לאישיות הבינה המלאכותית על שיתוף הפעולה ביניהם.", "sts_angle_hebrew": "המחקר מתמקד בשינוי בהתאמה בין אישיות האדם לאישיות הבינה המלאכותית, ומדגיש כי התאמה זו משפרת את שיתוף הפעולה.", "model_level": 3, "model_concept": "Hybrid_Intelligence", "hr_relevant": true, "resonance": "CITED", "tags": ["HAIT", "Personality", "Collaboration"], "published_date": "", "agent": "tactician", "created_at": "2026-04-17T07:49:51.642061+00:00"}, {"id": "062b2d6b-3000-4e1f-b48d-f0a660df6c4a", "run_date": "2026-04-17", "title": "Building Trusted Human-Agent Collaboration: A Practical Framework", "url": "https://www.salesforce.com/blog/building-trusted-human-agent-collaboration/", "source_type": "blog", "source_emoji": "✍️", "summary_hebrew": "הפוסט מציג מסגרת לשיתוף פעולה אמין בין אדם לסוכן הבינה המלאכותית, ומדגיש כי שיתוף פעולה זה דורש תכנון ותחזוקה.", "sts_angle_hebrew": "הפוסט מתמקד בשינוי בשיתוף הפעולה בין אדם לסוכן הבינה המלאכותית, ומדגיש כי שיתוף פעולה זה דורש הבנה של נקודות החוזק והחולשה של שני הצדדים.", "model_level": 2, "model_concept": "Human-AI_Teaming", "hr_relevant": true, "resonance": "TRENDING", "tags": ["HAIT", "Collaboration", "Trust"], "published_date": "", "agent": "tactician", "created_at": "2026-04-17T07:49:51.642061+00:00"}, {"id": "470e4423-784d-42dc-a951-e79317fa5ce8", "run_date": "2026-04-17", "title": "Building AI Operations: A Practical Guide - RTInsights", "url": "https://www.rtinsights.com/building-ai-operations-a-practical-guide/", "source_type": "article", "source_emoji": "📰", "summary_hebrew": "המאמר מציג מדריך לבניית תפעול בינה מלאכותית, ומדגיש כי תפעול זה דורש תכנון ותחזוקה.", "sts_angle_hebrew": "המאמר מתמקד בשינוי בתפעול הבינה המלאכותית, ומדגיש כי תפעול זה דורש הבנה של נקודות החוזק והחולשה של הבינה המלאכותית.", "model_level": 2, "model_concept": "Augmented_OB", "hr_relevant": true, "resonance": "TRENDING", "tags": ["HAIT", "AI_Operations", "Productivity"], "published_date": "", "agent": "tactician", "created_at": "2026-04-17T07:49:51.642061+00:00"}, {"id": "5c063ed4-ee14-4f86-a039-d364d211f0c1", "run_date": "2026-04-17", "title": "Human-AI Collaboration Testbed for Safer Systems", "url": "https://cra.com/developing-a-testbed-for-evaluating-human-ai-collaboration-to-enable-safer-smarter-interactions/", "source_type": "article", "source_emoji": "📰", "summary_hebrew": "חוקרים ב-Charles River Analytics מפתחים פלטפורמה בשם HATTER לבדיקת שיתוף פעולה בין אדם ל-AI. הפלטפורמה מאפשרת למדוד ולכמת את הביצועים של שיתוף פעולה זה ולזהות סיכונים פוטנציאליים. המטרה היא ליצור מערכות בטוחות ויעילות יותר.", "sts_angle_hebrew": "הפיתוח של HATTER מתייחס למתח בין השינוי הטכני של פיתוח מערכות AI לבין הצורך להבטיח בטיחות ואמון בשיתוף פעולה בין אדם ל-AI.", "model_level": 2, "model_concept": "Human-AI Teaming", "hr_relevant": true, "resonance": "QUIET", "tags": ["Human-AI_Collaboration", "Trust", "Safety", "Autonomy"], "published_date": "", "agent": "tactician", "created_at": "2026-04-17T07:49:51.642061+00:00"}]}];
+const ALL_ITEMS = [{"id": "a0ab6932-3125-4180-a656-aafb036ab936", "run_date": "2026-04-17", "title": "AI Is Flattening Organizations: What L&D Must Do", "url": "https://trainingindustry.com/articles/workforce-development/the-disappearing-middle-how-ai-is-flattening-organizational-structures/", "source_type": "article", "source_emoji": "📰", "summary_hebrew": "מאמר זה דן בשינויים הארגוניים הנגרמים על ידי AI ומדגיש את הצורך במיומנויות שונות בתקופה של שינוי ארגוני. הוא מדגיש כי עובדים שיכולים להתאים ולהשתמש ב-AI באופן יעיל הם אלו שיהיו מוצלחים בסביבות עבודה חדשות. המאמר גם מדגיש את חשיבות הלמידה והפיתוח של כישורים חדשים.", "sts_angle_hebrew": "המאמר בוחן את ההשפעה של AI על מבנה הארגון והדרישה לשינוי כישורים וגישות של עובדים.", "model_level": 2, "model_concept": "Human-AI Teaming", "hr_relevant": true, "resonance": "TRENDING", "tags": ["Hybrid_Intelligence", "HAIT", "HITL", "Augmented_OB", "Job_Redesign_AI"], "published_date": "", "agent": "strategist", "created_at": "2026-04-17T07:49:44.435306+00:00"}, {"id": "d102fe03-b11c-4b37-a8dd-95c5851ae2d3", "run_date": "2026-04-17", "title": "Organizational Network Transformation Through Grounded GenAI: Evidence-Based Strategies for Managing Human-Machine Collaboration", "url": "https://www.innovativehumancapital.com/article/organizational-network-transformation-through-grounded-genai-evidence-based-strategies-for-managing", "source_type": "article", "source_emoji": "📰", "summary_hebrew": "מאמר זה מציג אסטרטגיות מבוססות ראיות לניהול שיתוף פעולה בין אדם למכונה בארגונים. הוא דן בדרכים ליישום AI באופן שיכול לשפר את הביצועים של העובדים ואת היעילות של תהליכים ארגוניים.", "sts_angle_hebrew": "המאמר בוחן את הדרכים ליישום AI בארגונים באופן שיכול לשפר את השיתוף פעולה בין אדם למכונה.", "model_level": 3, "model_concept": "Human-AI Teaming", "hr_relevant": true, "resonance": "CITED", "tags": ["Hybrid_Intelligence", "HAIT", "HITL", "Augmented_OB", "Generative_AI"], "published_date": "", "agent": "strategist", "created_at": "2026-04-17T07:49:44.435306+00:00"}, {"id": "95d06c95-4dca-41ee-9a05-9d7638807503", "run_date": "2026-04-17", "title": "AI Transformation Change Management in Business Today", "url": "https://imaworldwide.com/ai-change-management-strategy/", "source_type": "article", "source_emoji": "📰", "summary_hebrew": "מאמר זה דן בניהול השינוי הארגוני הנגרם על ידי AI ומדגיש את חשיבות השינוי בתהליכים ובתפיסה של העובדים. הוא מציג אסטרטגיות ליישום AI באופן שיכול לשפר את הביצועים של העובדים ואת היעילות של תהליכים ארגוניים.", "sts_angle_hebrew": "המאמר בוחן את הדרכים ליישום AI בארגונים באופן שיכול לשפר את השינוי הארגוני.", "model_level": 2, "model_concept": "Human-AI Teaming", "hr_relevant": true, "resonance": "TRENDING", "tags": ["Hybrid_Intelligence", "HAIT", "HITL", "Augmented_OB", "AI_Change_Management"], "published_date": "", "agent": "strategist", "created_at": "2026-04-17T07:49:44.435306+00:00"}, {"id": "d6e829fb-2249-4799-bf31-2adc3d2da6ce", "run_date": "2026-04-17", "title": "The Human Side of AI Adoption: Lessons From the Field", "url": "https://sloanreview.mit.edu/article/the-human-side-of-ai-adoption-lessons-from-the-field/", "source_type": "article", "source_emoji": "📰", "summary_hebrew": "מאמר זה מדגיש את החשיבות של הגורם האנושי באימוץ בינה מלאכותית (AI) בארגונים. הוא מציע כי הצלחת יוזמות AI תלויה במידה רבה ביכולתן לענות על הצרכים והכאבים של המשתמשים, ובמיוחד ביכולתן ליצור ערך עבורם. המחבר מציע כי נקודות כאב בתוך מערכות שונות יכולות לשמש כנקודות כניסה לאימוץ AI.", "sts_angle_hebrew": "המאמר מתמקד בהיבט החברתי של אימוץ AI, ומדגיש כי ההצלחה של יוזמות AI תלויה במידה רבה ביכולתן להתאים לצורכי המשתמשים וליצור ערך עבורם.", "model_level": 2, "model_concept": "Human-AI Teaming", "hr_relevant": true, "resonance": "CITED", "tags": ["Human-AI_Collaboration", "HAI", "Job_Redesign_AI", "Psychological_Safety"], "published_date": "2023-01-01", "agent": "strategist", "created_at": "2026-04-17T07:49:44.435306+00:00"}, {"id": "1923b7c7-7925-4a43-b5a2-1fd9782044a2", "run_date": "2026-04-17", "title": "New research finds workers are leveraging AI for career mobility as employers struggle to keep pace", "url": "https://www.eurekalert.org/news-releases/1123962", "source_type": "article", "source_emoji": "📰", "summary_hebrew": "מחקר חדש מצא כי עובדים משתמשים בינה מלאכותית (AI) כדי לשפר את הניידות הקריירית שלהם, בעוד שמעסיקים מתקשים לעמוד בקצב. הדו\"ח של הפורום הכלכלי העולמי מצא כי מחצית מהעובדים מאמינים כי AI מעניקה להם ביטחון רב יותר בקריירה שלהם.", "sts_angle_hebrew": "המחקר מדגיש את השינוי ביחסי הכוח בין מעסיקים לעובדים, כאשר העובדים משתמשים ב-AI כדי לשפר את הקריירה שלהם.", "model_level": 2, "model_concept": "Human-AI Teaming", "hr_relevant": true, "resonance": "TRENDING", "tags": ["HAI", "Job_Redesign_AI", "Career_Mobility", "AI_at_Work"], "published_date": "2026-01-01", "agent": "strategist", "created_at": "2026-04-17T07:49:44.435306+00:00"}, {"id": "955c4dbc-dcb2-4834-a4f9-6fd3701b8157", "run_date": "2026-04-17", "title": "How These Companies Are Upskilling Employees To Leverage AI", "url": "https://www.comparably.com/blog/how-these-companies-are-upskilling-employees-to-leverage-ai/", "source_type": "article", "source_emoji": "📰", "summary_hebrew": "מאמר זה מתאר כיצד חברות שונות משדרגות את כישורי העובדים שלהם כדי לנצל את הבינה המלאכותית (AI). החברות מספקות תוכניות הכשרה מיוחדות כדי לעזור לעובדים לרכוש את הכישורים הדרושים כדי לעבוד עם AI.", "sts_angle_hebrew": "המאמר מתמקד בהיבט החברתי של אימוץ AI, ומדגיש כי ההצלחה של יוזמות AI תלויה במידה רבה ביכולתן לשדרג את כישורי העובדים.", "model_level": 2, "model_concept": "Human-AI Teaming", "hr_relevant": true, "resonance": "CITED", "tags": ["HAI", "Job_Redesign_AI", "Upskilling", "AI_Literacy"], "published_date": "2023-01-01", "agent": "strategist", "created_at": "2026-04-17T07:49:44.435306+00:00"}, {"id": "577a1136-e5d7-46d4-8628-e614e55f88c8", "run_date": "2026-04-17", "title": "Industries most exposed to AI are not only seeing productivity gains but jobs and wage growth too", "url": "https://theconversation.com/industries-most-exposed-to-ai-are-not-only-seeing-productivity-gains-but-jobs-and-wage-growth-too-224487", "source_type": "article", "source_emoji": "📰", "summary_hebrew": "מחקר חדש מראה כי תעשיות שנחשפות במיוחד לבינה מלאכותית אינן רואות רק תוספת פרודוקטיביות, אלא גם תוספת מקומות עבודה וצמיחה בשכר. המחקר מצא כי השימוש בבינה מלאכותית גדל מ-12% ל-26% בין 2024 ל-2025, והדבר מתאים לתוספת של 1.4% עד 2.8% בתפוקה.", "sts_angle_hebrew": "המאמר בוחן את השפעת הבינה המלאכותית על שוק העבודה ופרודוקטיביות, ומדגיש כי הטכנולוגיה משנה את הרכב העבודה אך אינה מבטלת את הצורך בהשתתפות אנושית.", "model_level": 2, "model_concept": "Human-AI Teaming", "hr_relevant": true, "resonance": "TRENDING", "tags": ["Hybrid_Intelligence", "HAIT", "Productivity", "Job_Growth"], "published_date": "", "agent": "tactician", "created_at": "2026-04-17T07:49:51.642061+00:00"}, {"id": "6fe842f1-388d-4573-8b7a-530023ec1a85", "run_date": "2026-04-17", "title": "10 Procurement Job Roles Most Impacted by AI (2025 to 2035 Projections) | Suplari", "url": "https://suplari.com/blog/10-procurement-job-roles-most-impacted-by-ai", "source_type": "blog", "source_emoji": "✍️", "summary_hebrew": "הפוסט בוחן את השפעת הבינה המלאכותית על תפקידים שונים ברכש ומדגיש כי תפקידים אסטרטגיים יתפתחו ויהיו פרודוקטיביים יותר.", "sts_angle_hebrew": "הפוסט מתמקד בשינוי בתפקידים ברכש עקב הבינה המלאכותית, ומדגיש כי תפקידים מסוימים יהיו מושפעים יותר מאחרים.", "model_level": 2, "model_concept": "Augmented_OB", "hr_relevant": true, "resonance": "TRENDING", "tags": ["HAIT", "Job_Redesign_AI", "Procurement", "Productivity"], "published_date": "", "agent": "tactician", "created_at": "2026-04-17T07:49:51.642061+00:00"}, {"id": "d61c80f8-3b54-4f57-b3ef-a38c8f5e9e27", "run_date": "2026-04-17", "title": "The AI augmented leader: Why leadership is not replaced, but re-written", "url": "https://www.processexcellencenetwork.com/ai/articles/the-ai-augmented-leader-why-leadership-is-not-replaced-but-re-written/amp", "source_type": "article", "source_emoji": "📰", "summary_hebrew": "המאמר בוחן את השפעת הבינה המלאכותית על תפקידי ניהול ומדגיש כי הבינה המלאכותית לא תחליף את הניהול, אלא תשפר אותו.", "sts_angle_hebrew": "המאמר מתמקד בשינוי בתפקידי ניהול עקב הבינה המלאכותית, ומדגיש כי הניהול יהפוך ליותר יעיל ופחות ביורוקרטי.", "model_level": 2, "model_concept": "Augmented_Intelligence", "hr_relevant": true, "resonance": "TRENDING", "tags": ["HAIT", "Leadership", "Augmented_Intelligence"], "published_date": "", "agent": "tactician", "created_at": "2026-04-17T07:49:51.642061+00:00"}, {"id": "fe12a8ed-2ee0-427e-a64c-373986fd741e", "run_date": "2026-04-17", "title": "Physician Use of Augmented Intelligence has Doubled | RheumNow", "url": "https://rheumnow.com/news/physician-use-augmented-intelligence-has-doubled", "source_type": "article", "source_emoji": "📰", "summary_hebrew": "המאמר מראה כי השימוש בבינה מלאכותית בתחום הרפואה גדל פי שניים, והדבר מוביל לתוספת בפרודוקטיביות וירידה בנטל עבודה.", "sts_angle_hebrew": "המאמר בוחן את השפעת הבינה המלאכותית על תחום הרפואה, ומדגיש כי הבינה המלאכותית משפרת את היעילות והדיוק.", "model_level": 2, "model_concept": "Human-in-the-Loop", "hr_relevant": true, "resonance": "TRENDING", "tags": ["HAIT", "Healthcare", "Productivity"], "published_date": "", "agent": "tactician", "created_at": "2026-04-17T07:49:51.642061+00:00"}, {"id": "d92d0877-66f2-432c-bd70-3b14eb193a90", "run_date": "2026-04-17", "title": "Personality Pairing Improves Human-AI Collaboration - arXiv", "url": "https://arxiv.org/html/2511.13979v2", "source_type": "academic", "source_emoji": "📜", "summary_hebrew": "המחקר בוחן את השפעת ההתאמה בין אישיות האדם לאישיות הבינה המלאכותית על שיתוף הפעולה ביניהם.", "sts_angle_hebrew": "המחקר מתמקד בשינוי בהתאמה בין אישיות האדם לאישיות הבינה המלאכותית, ומדגיש כי התאמה זו משפרת את שיתוף הפעולה.", "model_level": 3, "model_concept": "Hybrid_Intelligence", "hr_relevant": true, "resonance": "CITED", "tags": ["HAIT", "Personality", "Collaboration"], "published_date": "", "agent": "tactician", "created_at": "2026-04-17T07:49:51.642061+00:00"}, {"id": "062b2d6b-3000-4e1f-b48d-f0a660df6c4a", "run_date": "2026-04-17", "title": "Building Trusted Human-Agent Collaboration: A Practical Framework", "url": "https://www.salesforce.com/blog/building-trusted-human-agent-collaboration/", "source_type": "blog", "source_emoji": "✍️", "summary_hebrew": "הפוסט מציג מסגרת לשיתוף פעולה אמין בין אדם לסוכן הבינה המלאכותית, ומדגיש כי שיתוף פעולה זה דורש תכנון ותחזוקה.", "sts_angle_hebrew": "הפוסט מתמקד בשינוי בשיתוף הפעולה בין אדם לסוכן הבינה המלאכותית, ומדגיש כי שיתוף פעולה זה דורש הבנה של נקודות החוזק והחולשה של שני הצדדים.", "model_level": 2, "model_concept": "Human-AI_Teaming", "hr_relevant": true, "resonance": "TRENDING", "tags": ["HAIT", "Collaboration", "Trust"], "published_date": "", "agent": "tactician", "created_at": "2026-04-17T07:49:51.642061+00:00"}, {"id": "470e4423-784d-42dc-a951-e79317fa5ce8", "run_date": "2026-04-17", "title": "Building AI Operations: A Practical Guide - RTInsights", "url": "https://www.rtinsights.com/building-ai-operations-a-practical-guide/", "source_type": "article", "source_emoji": "📰", "summary_hebrew": "המאמר מציג מדריך לבניית תפעול בינה מלאכותית, ומדגיש כי תפעול זה דורש תכנון ותחזוקה.", "sts_angle_hebrew": "המאמר מתמקד בשינוי בתפעול הבינה המלאכותית, ומדגיש כי תפעול זה דורש הבנה של נקודות החוזק והחולשה של הבינה המלאכותית.", "model_level": 2, "model_concept": "Augmented_OB", "hr_relevant": true, "resonance": "TRENDING", "tags": ["HAIT", "AI_Operations", "Productivity"], "published_date": "", "agent": "tactician", "created_at": "2026-04-17T07:49:51.642061+00:00"}, {"id": "5c063ed4-ee14-4f86-a039-d364d211f0c1", "run_date": "2026-04-17", "title": "Human-AI Collaboration Testbed for Safer Systems", "url": "https://cra.com/developing-a-testbed-for-evaluating-human-ai-collaboration-to-enable-safer-smarter-interactions/", "source_type": "article", "source_emoji": "📰", "summary_hebrew": "חוקרים ב-Charles River Analytics מפתחים פלטפורמה בשם HATTER לבדיקת שיתוף פעולה בין אדם ל-AI. הפלטפורמה מאפשרת למדוד ולכמת את הביצועים של שיתוף פעולה זה ולזהות סיכונים פוטנציאליים. המטרה היא ליצור מערכות בטוחות ויעילות יותר.", "sts_angle_hebrew": "הפיתוח של HATTER מתייחס למתח בין השינוי הטכני של פיתוח מערכות AI לבין הצורך להבטיח בטיחות ואמון בשיתוף פעולה בין אדם ל-AI.", "model_level": 2, "model_concept": "Human-AI Teaming", "hr_relevant": true, "resonance": "QUIET", "tags": ["Human-AI_Collaboration", "Trust", "Safety", "Autonomy"], "published_date": "", "agent": "tactician", "created_at": "2026-04-17T07:49:51.642061+00:00"}];
+const RESONANCE_ICONS = { VIRAL: '🔥', TRENDING: '💬', CITED: '🎓', QUIET: '🔇' };
+
+let currentFilter = 'all';
+let currentTag = null;
+let readingList = new Map();
+
+function toggleReading(url, title, idx) {
+  if (readingList.has(url)) readingList.delete(url);
+  else readingList.set(url, { title, idx });
+  renderReadingList();
+  applyFilters();
+}
+
+function removeReading(url) {
+  readingList.delete(url);
+  renderReadingList();
+  applyFilters();
+}
+
+function scrollToCard(idx) {
+  const el = document.getElementById('card-' + idx);
+  if (!el) {
+    currentFilter = 'all'; currentTag = null;
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    document.querySelector('.filter-btn').classList.add('active');
+    renderTagCloud(); applyFilters();
+    setTimeout(() => scrollToCard(idx), 150);
+    return;
+  }
+  el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  el.classList.add('highlight');
+  setTimeout(() => el.classList.remove('highlight'), 1800);
+}
+
+function renderReadingList() {
+  const el = document.getElementById('reading-list');
+  if (readingList.size === 0) { el.innerHTML = '<span class="reading-list-empty">אין פריטים עדיין</span>'; return; }
+  el.innerHTML = [...readingList.entries()].map(([url, {title, idx}]) => `
+    <div class="reading-item">
+      <button onclick="removeReading('${url}')" title="הסר">✕</button>
+      <a href="#" onclick="scrollToCard(${idx}); return false;">${title}</a>
+    </div>
+  `).join('');
+}
+
+function filterBy(type, e) {
+  currentFilter = type; currentTag = null;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  if (e) e.target.classList.add('active');
+  renderTagCloud(); applyFilters();
+}
+
+function filterByTag(tag) {
+  currentTag = (currentTag === tag) ? null : tag;
+  if (currentTag) { currentFilter = 'all'; document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active')); document.querySelector('.filter-btn').classList.add('active'); }
+  renderTagCloud(); applyFilters();
+}
+
+function itemVisible(item) {
+  if (currentFilter === 'hr' && !item.hr_relevant) return false;
+  if (currentFilter !== 'all' && currentFilter !== 'hr' && item.resonance !== currentFilter) return false;
+  if (currentTag && !(item.tags||[]).includes(currentTag)) return false;
+  return true;
+}
+
+function applyFilters() {
+  DAYS.forEach((day, di) => {
+    let visibleCount = 0;
+    day.items.forEach((item, ii) => {
+      const idx = ALL_ITEMS.findIndex(a => a.url === item.url);
+      const el = document.getElementById('card-' + idx);
+      if (!el) return;
+      if (itemVisible(item)) { el.classList.remove('hidden'); visibleCount++; }
+      else el.classList.add('hidden');
+    });
+    const emptyEl = document.getElementById('day-empty-' + di);
+    if (emptyEl) { emptyEl.classList.toggle('visible', visibleCount === 0); }
+  });
+}
+
+function renderStats() {
+  const viral = ALL_ITEMS.filter(i => i.resonance === 'VIRAL').length;
+  const trending = ALL_ITEMS.filter(i => i.resonance === 'TRENDING').length;
+  const cited = ALL_ITEMS.filter(i => i.resonance === 'CITED').length;
+  const hr = ALL_ITEMS.filter(i => i.hr_relevant).length;
+  const days = DAYS.length;
+  document.getElementById('stats').innerHTML = `
+    <div class="stat"><strong>${ALL_ITEMS.length}</strong>פריטים</div>
+    <div class="stat"><strong>${days}</strong>ימים</div>
+    <div class="stat"><strong>${viral} 🔥 ${trending} 💬 ${cited} 🎓</strong>תהודה</div>
+    <div class="stat"><strong>${hr} 📢</strong>HR</div>
+  `;
+}
+
+function renderTagCloud() {
+  const counts = {};
+  ALL_ITEMS.forEach(item => (item.tags||[]).forEach(t => counts[t] = (counts[t]||0) + 1));
+  const max = Math.max(...Object.values(counts));
+  const min = Math.min(...Object.values(counts));
+  const sorted = Object.entries(counts).sort((a,b) => b[1]-a[1]);
+  document.getElementById('tag-cloud').innerHTML = sorted.map(([tag, count]) => {
+    const size = min===max ? 0.9 : 0.75 + ((count-min)/(max-min))*0.65;
+    return `<span class="cloud-tag ${currentTag===tag?'tag-active':''}" style="font-size:${size.toFixed(2)}rem" onclick="filterByTag('${tag}')">#${tag.replace(/_/g,' ')}</span>`;
+  }).join('');
+}
+
+function renderFeed() {
+  const feed = document.getElementById('feed');
+  feed.innerHTML = DAYS.map((day, di) => {
+    const cardsHtml = day.items.map(item => {
+      const idx = ALL_ITEMS.findIndex(a => a.url === item.url);
+      return `
+      <div class="card" id="card-${idx}">
+        <div class="card-top">
+          <span class="source-emoji">${item.source_emoji||'📰'}</span>
+          <div class="card-title"><a href="${item.url}" target="_blank">${item.title}</a></div>
+        </div>
+        <div class="badges">
+          <span class="badge badge-${item.resonance}">${RESONANCE_ICONS[item.resonance]} ${item.resonance}</span>
+          <span class="badge badge-level">רמה ${item.model_level} · ${item.model_concept}</span>
+          ${item.hr_relevant ? '<span class="badge badge-hr">📢 HR</span>' : ''}
+          ${item.published_date ? `<span class="badge" style="background:#f7fafc;color:#718096;border:1px solid #e2e8f0">${item.published_date}</span>` : ''}
+        </div>
+        <div class="summary">${item.summary_hebrew||''}</div>
+        <div class="sts">⬡ STS — ${item.sts_angle_hebrew||''}</div>
+        <div class="tags">${(item.tags||[]).map(t => `<span class="tag ${currentTag===t?'tag-active':''}" onclick="filterByTag('${t}')">#${t}</span>`).join('')}</div>
+        <label class="card-checkbox">
+          <input type="checkbox" ${readingList.has(item.url)?'checked':''} onchange="toggleReading('${item.url}', \`${item.title.replace(/`/g,"'")}\`, ${idx})">
+          הוסף לרשימת קריאה
+        </label>
+      </div>`;
+    }).join('');
+
+    const pulseHtml = day.pulse ? `
+      <div class="pulse-box">
+        <div class="pulse-label">⚡ דופק השוק</div>
+        <div class="pulse-text">${day.pulse}</div>
+      </div>` : '';
+
+    const topReadHtml = day.top_read_title ? `
+      <div class="top-read-box">
+        <div class="top-read-icon">⭐</div>
+        <div class="top-read-content">
+          <div class="top-read-label">מומלץ לקריאה</div>
+          <div class="top-read-title"><a href="${day.top_read_url}" target="_blank">${day.top_read_title}</a></div>
+          <div class="top-read-reason">${day.top_read_reason}</div>
+        </div>
+      </div>` : '';
+
+    return `
+    <div class="day-section" id="day-${di}">
+      <div class="day-header">
+        <div class="day-title">⚡ <span>${day.date_he}</span> — ${day.items.length} פריטים</div>
+        <div class="day-divider"></div>
+        ${pulseHtml}
+        ${topReadHtml}
+      </div>
+      ${cardsHtml}
+      <div class="day-empty" id="day-empty-${di}">אין פריטים התואמים את הסינון ביום זה</div>
+    </div>`;
+  }).join('');
+}
+
+renderStats();
+renderTagCloud();
+renderReadingList();
+renderFeed();
+applyFilters();
+</script>
+</body>
+</html>
