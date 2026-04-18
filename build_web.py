@@ -505,6 +505,7 @@ applyFilters();
 </body>
 </html>"""
 
+os.makedirs("docs", exist_ok=True)
 with open("docs/index.html", "w", encoding="utf-8") as f:
     f.write(html)
 
