@@ -363,7 +363,7 @@ function renderTagCloud() {
   ALL_ITEMS.forEach(item => (item.tags||[]).forEach(t => counts[t] = (counts[t]||0) + 1));
   const max = Math.max(...Object.values(counts));
   const min = Math.min(...Object.values(counts));
-  const sorted = Object.entries(counts).sort((a,b) => b[1]-a[1]);
+  const sorted = Object.entries(counts).filter(([tag, count]) => count >= 3).sort((a,b) => b[1]-a[1]);
   document.getElementById('tag-cloud').innerHTML = sorted.map(([tag, count]) => {
     const size = min===max ? 0.9 : 0.75 + ((count-min)/(max-min))*0.65;
     return `<span class="cloud-tag ${currentTag===tag?'tag-active':''}" style="font-size:${size.toFixed(2)}rem" onclick="filterByTag('${tag}')">#${tag.replace(/_/g,' ')}</span>`;
