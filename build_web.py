@@ -340,6 +340,12 @@ html = f"""<!DOCTYPE html>
 const DAYS = {days_json};
 const ALL_ITEMS = {items_json};
 const RESONANCE_ICONS = {{ VIRAL: '🔥', TRENDING: '💬', CITED: '🎓', QUIET: '🔇' }};
+const CONCEPT_LEVEL = {{
+  'Hybrid Intelligence': 1,
+  'Human-AI Teaming': 2,
+  'Human-in-the-Loop': 3,
+  'Augmented OB': 4
+}};
 
 let currentFilter = 'all';
 let currentTag = null;
@@ -401,10 +407,10 @@ function filterByTag(tag) {{
 
 function itemVisible(item) {{
   if (currentFilter === 'hr' && !item.hr_relevant) return false;
-  if (currentFilter === 'level_1' && item.model_level !== 1) return false;
-  if (currentFilter === 'level_2' && item.model_level !== 2) return false;
-  if (currentFilter === 'level_3' && item.model_level !== 3) return false;
-  if (currentFilter === 'level_4' && item.model_level !== 4) return false;
+  if (currentFilter === 'level_1' && item.model_concept !== 'Hybrid Intelligence') return false;
+  if (currentFilter === 'level_2' && item.model_concept !== 'Human-AI Teaming') return false;
+  if (currentFilter === 'level_3' && item.model_concept !== 'Human-in-the-Loop') return false;
+  if (currentFilter === 'level_4' && item.model_concept !== 'Augmented OB') return false;
   if (currentFilter !== 'all' && currentFilter !== 'hr' && !currentFilter.startsWith('level_') && item.resonance !== currentFilter) return false;
   if (currentTag && !(item.tags||[]).includes(currentTag)) return false;
   return true;
@@ -477,7 +483,7 @@ function renderFeed() {{
         </div>
         <div class="badges">
           <span class="badge badge-${{item.resonance}}">${{RESONANCE_ICONS[item.resonance]}} ${{item.resonance}}</span>
-          <span class="badge badge-level">רמה ${{item.model_level}} · ${{item.model_concept}}</span>
+          <span class="badge badge-level">רמה ${{CONCEPT_LEVEL[item.model_concept] || item.model_level}} · ${{item.model_concept}}</span>
           ${{item.hr_relevant ? '<span class="badge badge-hr">📢 HR</span>' : ''}}
           ${{item.published_date ? `<span class="badge" style="background:#f7fafc;color:#718096;border:1px solid #e2e8f0">${{item.published_date}}</span>` : ''}}
         </div>
