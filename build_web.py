@@ -198,11 +198,11 @@ html = f"""<!DOCTYPE html>
     }}
 
     .stats-bar {{ display: flex; gap: 16px; margin-bottom: 12px; flex-wrap: wrap; }}
-    .stat {{ background: #fff; border: 1px solid #e2e8f0; border-radius: 0; padding: 10px 16px; font-size: 0.85rem; color: #4a5568; }}
+    .stat {{ background: #fff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 10px 16px; font-size: 0.85rem; color: #4a5568; }}
     .stat strong {{ color: #1a202c; font-size: 1.1rem; display: block; }}
 
     .filters {{ display: flex; gap: 8px; margin-bottom: 6px; flex-wrap: wrap; }}
-    .filter-btn {{ background: #fff; border: 1px solid #e2e8f0; color: #4a5568; padding: 6px 14px; border-radius: 0; font-size: 0.83rem; cursor: pointer; transition: all 0.2s; }}
+    .filter-btn {{ background: #fff; border: 1px solid #e2e8f0; color: #4a5568; padding: 6px 14px; border-radius: 20px; font-size: 0.83rem; cursor: pointer; transition: all 0.2s; }}
     .filter-btn:hover, .filter-btn.active {{ background: #7c3aed; border-color: #7c3aed; color: #fff; }}
 
     /* הפרדה יומית */
