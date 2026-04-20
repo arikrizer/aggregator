@@ -368,9 +368,11 @@ function scrollToCard(idx) {{
     setTimeout(() => scrollToCard(idx), 150);
     return;
   }}
-  el.scrollIntoView({{ behavior: 'smooth', block: 'center' }});
-  el.classList.add('highlight');
-  setTimeout(() => el.classList.remove('highlight'), 1800);
+  const cardEl = document.querySelector(`[data-idx="${{idx}}"]`);
+  if (!cardEl) return;
+  cardEl.scrollIntoView({{ behavior: 'smooth', block: 'center' }});
+  cardEl.classList.add('highlight');
+  setTimeout(() => cardEl.classList.remove('highlight'), 1800);
 }}
 
 function renderReadingList() {{
@@ -422,8 +424,7 @@ function applyFilters() {{
   DAYS.forEach((day, di) => {{
     let visibleCount = 0;
     day.items.forEach((item, ii) => {{
-      const idx = ALL_ITEMS.findIndex(a => a.url === item.url);
-      const el = document.getElementById('card-' + idx);
+      const el = document.getElementById('card-' + di + '-' + ii);
       if (!el) return;
       if (itemVisible(item)) {{ el.classList.remove('hidden'); visibleCount++; }}
       else el.classList.add('hidden');
@@ -466,10 +467,10 @@ function renderTagCloud() {{
 function renderFeed() {{
   const feed = document.getElementById('feed');
   feed.innerHTML = DAYS.map((day, di) => {{
-    const cardsHtml = day.items.map(item => {{
+    const cardsHtml = day.items.map((item, ii) => {{
       const idx = ALL_ITEMS.findIndex(a => a.url === item.url);
       return `
-      <div class="card" id="card-${{idx}}">
+      <div class="card" id="card-${{di}}-${{ii}}" data-idx="${{idx}}">
         <div class="card-top">
           <span class="source-emoji">${{item.source_emoji||'📰'}}</span>
           <div class="card-title"><a href="${{item.url}}" target="_blank">${{item.title}}</a></div>
