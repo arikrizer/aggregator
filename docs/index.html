@@ -226,6 +226,12 @@
       <button class="filter-btn" onclick="filterBy('QUIET', event)">🔇 Quiet</button>
       <button class="filter-btn" onclick="filterBy('hr', event)">📢 HR Relevant</button>
     </div>
+    <div class="filters" style="margin-top:-12px;">
+      <button class="filter-btn filter-level" onclick="filterBy('level_1', event)">1️⃣ Hybrid Intelligence</button>
+      <button class="filter-btn filter-level" onclick="filterBy('level_2', event)">2️⃣ Human-AI Teaming</button>
+      <button class="filter-btn filter-level" onclick="filterBy('level_3', event)">3️⃣ Human-in-the-Loop</button>
+      <button class="filter-btn filter-level" onclick="filterBy('level_4', event)">4️⃣ Augmented OB</button>
+    </div>
 
     <div id="feed"></div>
 
@@ -295,7 +301,11 @@ function filterByTag(tag) {
 
 function itemVisible(item) {
   if (currentFilter === 'hr' && !item.hr_relevant) return false;
-  if (currentFilter !== 'all' && currentFilter !== 'hr' && item.resonance !== currentFilter) return false;
+  if (currentFilter === 'level_1' && item.model_level !== 1) return false;
+  if (currentFilter === 'level_2' && item.model_level !== 2) return false;
+  if (currentFilter === 'level_3' && item.model_level !== 3) return false;
+  if (currentFilter === 'level_4' && item.model_level !== 4) return false;
+  if (currentFilter !== 'all' && currentFilter !== 'hr' && !currentFilter.startsWith('level_') && item.resonance !== currentFilter) return false;
   if (currentTag && !(item.tags||[]).includes(currentTag)) return false;
   return true;
 }
