@@ -388,13 +388,13 @@ function filterBy(type, e) {{
   currentFilter = type; currentTag = null;
   document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
   if (e) e.target.classList.add('active');
-  renderTagCloud(); applyFilters(); updateSummaryVisibility();
+  renderTagCloud(); updateSummaryVisibility(); applyFilters();
 }}
 
 function filterByTag(tag) {{
   currentTag = (currentTag === tag) ? null : tag;
   if (currentTag) {{ currentFilter = 'all'; document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active')); document.querySelector('.filter-btn').classList.add('active'); }}
-  renderTagCloud(); applyFilters(); updateSummaryVisibility();
+  renderTagCloud(); updateSummaryVisibility(); applyFilters();
 }}
 
 function itemVisible(item) {{
@@ -431,7 +431,9 @@ function applyFilters() {{
     const emptyEl = document.getElementById('day-empty-' + di);
     if (emptyEl) {{ emptyEl.classList.toggle('visible', visibleCount === 0); }}
     const dateSimple = document.getElementById('day-date-simple-' + di);
-    if (dateSimple) {{ dateSimple.style.display = (visibleCount > 0 && currentFilter !== 'all' || currentTag) ? '' : 'none'; }}
+    if (dateSimple && dateSimple.style.display !== 'none') {{
+      dateSimple.style.display = visibleCount > 0 ? '' : 'none';
+    }}
   }});
 }}
 
