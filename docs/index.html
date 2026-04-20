@@ -290,13 +290,13 @@ function filterBy(type, e) {
   currentFilter = type; currentTag = null;
   document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
   if (e) e.target.classList.add('active');
-  renderTagCloud(); applyFilters();
+  renderTagCloud(); applyFilters(); updateSummaryVisibility();
 }
 
 function filterByTag(tag) {
   currentTag = (currentTag === tag) ? null : tag;
   if (currentTag) { currentFilter = 'all'; document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active')); document.querySelector('.filter-btn').classList.add('active'); }
-  renderTagCloud(); applyFilters();
+  renderTagCloud(); applyFilters(); updateSummaryVisibility();
 }
 
 function itemVisible(item) {
@@ -308,6 +308,13 @@ function itemVisible(item) {
   if (currentFilter !== 'all' && currentFilter !== 'hr' && !currentFilter.startsWith('level_') && item.resonance !== currentFilter) return false;
   if (currentTag && !(item.tags||[]).includes(currentTag)) return false;
   return true;
+}
+
+function updateSummaryVisibility() {
+  const showSummary = currentFilter === 'all' && !currentTag;
+  document.querySelectorAll('.day-summary').forEach(el => {
+    el.style.display = showSummary ? '' : 'none';
+  });
 }
 
 function applyFilters() {
@@ -399,8 +406,10 @@ function renderFeed() {
       <div class="day-header">
         <div class="day-title">⚡ <span>${day.date_he}</span> — ${day.items.length} פריטים</div>
         <div class="day-divider"></div>
-        ${pulseHtml}
-        ${topReadHtml}
+        <div class="day-summary">
+          ${pulseHtml}
+          ${topReadHtml}
+        </div>
       </div>
       ${cardsHtml}
       <div class="day-empty" id="day-empty-${di}">אין פריטים התואמים את הסינון ביום זה</div>
