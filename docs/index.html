@@ -332,6 +332,8 @@ function applyFilters() {
     });
     const emptyEl = document.getElementById('day-empty-' + di);
     if (emptyEl) { emptyEl.classList.toggle('visible', visibleCount === 0); }
+    const dateSimple = document.getElementById('day-date-simple-' + di);
+    if (dateSimple) { dateSimple.style.display = (visibleCount > 0 && currentFilter !== 'all' || currentTag) ? '' : 'none'; }
   });
 }
 
@@ -406,7 +408,7 @@ function renderFeed() {
 
     return `
     <div class="day-section" id="day-${di}">
-      <div class="day-date-simple" style="display:none; font-size:0.85rem; color:#718096; font-weight:600; margin-bottom:10px; padding: 4px 0;">${day.date_he}</div>
+      <div class="day-date-simple" id="day-date-simple-${di}" style="display:none; font-size:0.85rem; color:#718096; font-weight:600; margin-bottom:10px; padding: 4px 0;">${day.date_he}</div>
       <div class="day-header">
         <div class="day-title">⚡ <span>${day.date_he}</span> — ${day.items.length} פריטים</div>
         <div class="day-divider"></div>
