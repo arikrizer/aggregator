@@ -187,12 +187,22 @@ html = f"""<!DOCTYPE html>
 
     .container {{ flex: 1; min-width: 0; }}
 
-    .stats-bar {{ display: flex; gap: 16px; margin-bottom: 20px; flex-wrap: wrap; }}
-    .stat {{ background: #fff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 10px 16px; font-size: 0.85rem; color: #4a5568; }}
+    .filters-sticky {{
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: #f7f8fc;
+      padding: 12px 0 8px;
+      margin-bottom: 8px;
+      border-bottom: 2px solid #e2e8f0;
+    }}
+
+    .stats-bar {{ display: flex; gap: 16px; margin-bottom: 12px; flex-wrap: wrap; }}
+    .stat {{ background: #fff; border: 1px solid #e2e8f0; border-radius: 0; padding: 10px 16px; font-size: 0.85rem; color: #4a5568; }}
     .stat strong {{ color: #1a202c; font-size: 1.1rem; display: block; }}
 
-    .filters {{ display: flex; gap: 8px; margin-bottom: 24px; flex-wrap: wrap; }}
-    .filter-btn {{ background: #fff; border: 1px solid #e2e8f0; color: #4a5568; padding: 6px 14px; border-radius: 20px; font-size: 0.83rem; cursor: pointer; transition: all 0.2s; }}
+    .filters {{ display: flex; gap: 8px; margin-bottom: 6px; flex-wrap: wrap; }}
+    .filter-btn {{ background: #fff; border: 1px solid #e2e8f0; color: #4a5568; padding: 6px 14px; border-radius: 0; font-size: 0.83rem; cursor: pointer; transition: all 0.2s; }}
     .filter-btn:hover, .filter-btn.active {{ background: #7c3aed; border-color: #7c3aed; color: #fff; }}
 
     /* הפרדה יומית */
@@ -325,21 +335,22 @@ html = f"""<!DOCTYPE html>
 
   <div class="container">
 
-    <div class="stats-bar" id="stats"></div>
-
-    <div class="filters">
-      <button class="filter-btn active" onclick="filterBy('all', event)">הכל</button>
-      <button class="filter-btn" onclick="filterBy('VIRAL', event)">🔥 Viral</button>
-      <button class="filter-btn" onclick="filterBy('TRENDING', event)">💬 Trending</button>
-      <button class="filter-btn" onclick="filterBy('CITED', event)">🎓 Cited</button>
-      <button class="filter-btn" onclick="filterBy('QUIET', event)">🔇 Quiet</button>
-      <button class="filter-btn" onclick="filterBy('hr', event)">📢 HR Relevant</button>
-    </div>
-    <div class="filters" style="margin-top:-12px;">
-      <button class="filter-btn filter-level" onclick="filterBy('level_1', event)">1️⃣ Hybrid Intelligence</button>
-      <button class="filter-btn filter-level" onclick="filterBy('level_2', event)">2️⃣ Human-AI Teaming</button>
-      <button class="filter-btn filter-level" onclick="filterBy('level_3', event)">3️⃣ Human-in-the-Loop</button>
-      <button class="filter-btn filter-level" onclick="filterBy('level_4', event)">4️⃣ Augmented OB</button>
+    <div class="filters-sticky">
+      <div class="stats-bar" id="stats"></div>
+      <div class="filters">
+        <button class="filter-btn active" onclick="filterBy('all', event)">הכל</button>
+        <button class="filter-btn" onclick="filterBy('VIRAL', event)">🔥 Viral</button>
+        <button class="filter-btn" onclick="filterBy('TRENDING', event)">💬 Trending</button>
+        <button class="filter-btn" onclick="filterBy('CITED', event)">🎓 Cited</button>
+        <button class="filter-btn" onclick="filterBy('QUIET', event)">🔇 Quiet</button>
+        <button class="filter-btn" onclick="filterBy('hr', event)">📢 HR Relevant</button>
+      </div>
+      <div class="filters">
+        <button class="filter-btn filter-level" onclick="filterBy('level_1', event)">1️⃣ Hybrid Intelligence</button>
+        <button class="filter-btn filter-level" onclick="filterBy('level_2', event)">2️⃣ Human-AI Teaming</button>
+        <button class="filter-btn filter-level" onclick="filterBy('level_3', event)">3️⃣ Human-in-the-Loop</button>
+        <button class="filter-btn filter-level" onclick="filterBy('level_4', event)">4️⃣ Augmented OB</button>
+      </div>
     </div>
 
     <div id="feed"></div>
