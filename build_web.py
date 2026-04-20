@@ -345,6 +345,7 @@ html = f"""<!DOCTYPE html>
     </div>
 
     <div id="feed"></div>
+    <div id="no-results" style="display:none; text-align:center; color:#a0aec0; padding:40px; font-size:0.95rem;">אין פריטים התואמים את הסינון</div>
 
   </div>
 </div>
@@ -438,21 +439,22 @@ function updateSummaryVisibility() {{
 }}
 
 function applyFilters() {{
+  let totalVisible = 0;
   DAYS.forEach((day, di) => {{
     let visibleCount = 0;
     day.items.forEach((item, ii) => {{
       const el = document.getElementById('card-' + di + '-' + ii);
       if (!el) return;
-      if (itemVisible(item)) {{ el.classList.remove('hidden'); visibleCount++; }}
+      if (itemVisible(item)) {{ el.classList.remove('hidden'); visibleCount++; totalVisible++; }}
       else el.classList.add('hidden');
     }});
-    const emptyEl = document.getElementById('day-empty-' + di);
-    if (emptyEl) {{ emptyEl.classList.toggle('visible', visibleCount === 0); }}
     const dateSimple = document.getElementById('day-date-simple-' + di);
     if (dateSimple && dateSimple.style.display !== 'none') {{
       dateSimple.style.display = visibleCount > 0 ? '' : 'none';
     }}
   }});
+  const noResults = document.getElementById('no-results');
+  if (noResults) {{ noResults.style.display = totalVisible === 0 ? '' : 'none'; }}
 }}
 
 function renderStats() {{
@@ -536,7 +538,6 @@ function renderFeed() {{
         </div>
       </div>
       ${{cardsHtml}}
-      <div class="day-empty" id="day-empty-${{di}}">אין פריטים התואמים את הסינון ביום זה</div>
     </div>`;
   }}).join('');
 }}
