@@ -412,6 +412,10 @@ function renderFeed() {
           <div class="top-read-label">מומלץ לקריאה</div>
           <div class="top-read-title"><a href="${day.top_read_url}" target="_blank">${day.top_read_title}</a></div>
           <div class="top-read-reason">${day.top_read_reason}</div>
+          <label class="card-checkbox" style="margin-top:8px;">
+            <input type="checkbox" ${readingList.has(day.top_read_url)?'checked':''} onchange="toggleReading('${day.top_read_url}', \`${day.top_read_title.replace(/`/g,"'")}\`, -1)">
+            הוסף לרשימת קריאה
+          </label>
         </div>
       </div>` : '';
 
