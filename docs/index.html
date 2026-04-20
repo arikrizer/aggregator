@@ -311,9 +311,12 @@ function itemVisible(item) {
 }
 
 function updateSummaryVisibility() {
-  const showSummary = currentFilter === 'all' && !currentTag;
-  document.querySelectorAll('.day-summary').forEach(el => {
-    el.style.display = showSummary ? '' : 'none';
+  const showFull = currentFilter === 'all' && !currentTag;
+  document.querySelectorAll('.day-header').forEach(el => {
+    el.style.display = showFull ? '' : 'none';
+  });
+  document.querySelectorAll('.day-date-simple').forEach(el => {
+    el.style.display = showFull ? 'none' : '';
   });
 }
 
@@ -403,6 +406,7 @@ function renderFeed() {
 
     return `
     <div class="day-section" id="day-${di}">
+      <div class="day-date-simple" style="display:none; font-size:0.85rem; color:#718096; font-weight:600; margin-bottom:10px; padding: 4px 0;">${day.date_he}</div>
       <div class="day-header">
         <div class="day-title">⚡ <span>${day.date_he}</span> — ${day.items.length} פריטים</div>
         <div class="day-divider"></div>
