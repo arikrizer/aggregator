@@ -63,6 +63,19 @@ else:
             filtered.sort(key=lambda a: url_order.get(a["url"], 999))
             articles_by_date[d] = filtered
 
+# נרמול model_concept — underscore לרווח
+CONCEPT_MAP = {
+    "Hybrid_Intelligence": "Hybrid Intelligence",
+    "Human-AI_Teaming": "Human-AI Teaming",
+    "Human-in-the-Loop": "Human-in-the-Loop",
+    "Augmented_OB": "Augmented OB",
+    "Augmented_Intelligence": "Hybrid Intelligence",
+}
+for d in articles_by_date:
+    for item in articles_by_date[d]:
+        raw = item.get("model_concept", "")
+        item["model_concept"] = CONCEPT_MAP.get(raw, raw)
+
 # תאריכים מסודרים מהחדש לישן
 all_dates = sorted(articles_by_date.keys(), reverse=True)
 all_items_flat = [item for d in all_dates for item in articles_by_date[d]]
@@ -365,17 +378,15 @@ function removeReading(url) {{
 }}
 
 function scrollToCard(idx) {{
-  const el = document.getElementById('card-' + idx);
-  if (!el) {{
+  const cardEl = document.querySelector(`[data-idx="${{idx}}"]`);
+  if (!cardEl) {{
     currentFilter = 'all'; currentTag = null;
     document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
     document.querySelector('.filter-btn').classList.add('active');
-    renderTagCloud(); applyFilters();
+    updateSummaryVisibility(); renderTagCloud(); applyFilters();
     setTimeout(() => scrollToCard(idx), 150);
     return;
   }}
-  const cardEl = document.querySelector(`[data-idx="${{idx}}"]`);
-  if (!cardEl) return;
   cardEl.scrollIntoView({{ behavior: 'smooth', block: 'center' }});
   cardEl.classList.add('highlight');
   setTimeout(() => cardEl.classList.remove('highlight'), 1800);
@@ -489,7 +500,7 @@ function renderFeed() {{
         </div>
         <div class="summary">${{item.summary_hebrew||''}}</div>
         <div class="sts">⬡ STS — ${{item.sts_angle_hebrew||''}}</div>
-        <div class="tags">${{(item.tags||[]).map(t => `<span class="tag ${{currentTag===t?'tag-active':''}}" onclick="filterByTag('${{t}}')">#${{t}}</span>`).join('')}}</div>
+        <div class="tags">${{(item.tags||[]).map(t => `<span class="tag ${{currentTag===t?'tag-active':''}}" onclick="filterByTag('${{t}}')">#${{t.replace(/_/g,' ')}}</span>`).join('')}}</div>
         <label class="card-checkbox">
           <input type="checkbox" ${{readingList.has(item.url)?'checked':''}} onchange="toggleReading('${{item.url}}', \`${{item.title.replace(/`/g,"'")}}\`, ${{idx}})">
           הוסף לרשימת קריאה
