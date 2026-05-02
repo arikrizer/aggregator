@@ -221,6 +221,7 @@ html = f"""<!DOCTYPE html>
   <meta name="twitter:title" content="האגרגטור — Human-AI Augmentation">
   <meta name="twitter:description" content="אגרגטור תוכן יומי בתחום Human-AI Augmentation — Hybrid Intelligence, Human-AI Teaming, Human-in-the-Loop ו-Augmented OB. סקירה, ניתוח וזווית STS מדי יום.">
   <meta name="twitter:image" content="https://arikrizer.github.io/aggregator/assets/og-image.png">
+  <link rel="alternate" type="application/json" title="Aggregator Feed" href="https://arikrizer.github.io/aggregator/feed.json">
   <style>
     * {{ box-sizing: border-box; margin: 0; padding: 0; }}
 
@@ -610,4 +611,61 @@ os.makedirs("docs", exist_ok=True)
 with open("docs/index.html", "w", encoding="utf-8") as f:
     f.write(html)
 
+# --- feed.json ---
+feed_items = []
+for day in days_data:
+    for item in day["items"]:
+        status = []
+        if item.get("resonance"):
+            status.append(item["resonance"])
+        if item.get("hr_relevant"):
+            status.append("HR Relevant")
+        feed_items.append({
+            "title":    item.get("title", ""),
+            "url":      item.get("url", ""),
+            "date":     day["date"],
+            "category": item.get("model_concept", ""),
+            "summary":  item.get("summary_hebrew", ""),
+            "tags":     item.get("tags", []),
+            "status":   status,
+        })
+
+feed_json = json.dumps({
+    "feed_url": "https://arikrizer.github.io/aggregator/feed.json",
+    "home_page_url": "https://arikrizer.github.io/aggregator/",
+    "title": "האגרגטור — Human-AI Augmentation",
+    "description": "אגרגטור תוכן יומי בתחום Human-AI Augmentation",
+    "items": feed_items,
+}, ensure_ascii=False, indent=2)
+
+with open("docs/feed.json", "w", encoding="utf-8") as f:
+    f.write(feed_json)
+
+# --- feed.txt ---
+txt_lines = [
+    "האגרגטור — Human-AI Augmentation",
+    "https://arikrizer.github.io/aggregator/",
+    f"עודכן: {latest_date_he}",
+    "=" * 60,
+    "",
+]
+for item in feed_items:
+    txt_lines.append(f"כותרת: {item['title']}")
+    txt_lines.append(f"קישור: {item['url']}")
+    txt_lines.append(f"תאריך: {item['date']}")
+    txt_lines.append(f"קטגוריה: {item['category']}")
+    if item["status"]:
+        txt_lines.append(f"סטטוס: {', '.join(item['status'])}")
+    if item["summary"]:
+        txt_lines.append(f"תיאור: {item['summary']}")
+    if item["tags"]:
+        txt_lines.append(f"תגיות: {', '.join(item['tags'])}")
+    txt_lines.append("---")
+    txt_lines.append("")
+
+with open("docs/feed.txt", "w", encoding="utf-8") as f:
+    f.write("\n".join(txt_lines))
+
 print(f"✅ דף עודכן — {len(all_dates)} ימים, {total_items} פריטים")
+print(f"✅ feed.json — {len(feed_items)} פריטים")
+print(f"✅ feed.txt — {len(feed_items)} פריטים")
