@@ -109,6 +109,102 @@ total_items = len(all_items_flat)
 items_json = json.dumps(all_items_flat, ensure_ascii=False)
 days_json = json.dumps(days_data, ensure_ascii=False)
 
+# --- Pre-render feed HTML so crawlers & LLMs can read the content ---
+import html as _html
+
+RESONANCE_ICONS = {"VIRAL": "🔥", "TRENDING": "💬", "CITED": "🎓", "QUIET": "🔇"}
+CONCEPT_LEVEL_PY = {
+    "Hybrid Intelligence": 1,
+    "Human-AI Teaming": 2,
+    "Human-in-the-Loop": 3,
+    "Augmented OB": 4,
+}
+
+def _e(s):
+    """Escape HTML special chars."""
+    return _html.escape(str(s or ""), quote=True)
+
+def build_feed_html(days_data, all_items_flat):
+    url_to_idx = {item["url"]: i for i, item in enumerate(all_items_flat)}
+    parts = []
+    for di, day in enumerate(days_data):
+        # day header
+        pulse_html = ""
+        if day["pulse"]:
+            pulse_html = f"""
+      <div class="pulse-box">
+        <div class="pulse-label">⚡ דופק השוק</div>
+        <div class="pulse-text">{_e(day["pulse"])}</div>
+      </div>"""
+
+        top_read_html = ""
+        if day["top_read_title"]:
+            tr_url   = _e(day["top_read_url"])
+            tr_title = _e(day["top_read_title"])
+            tr_reason = _e(day["top_read_reason"])
+            top_read_html = f"""
+      <div class="top-read-box">
+        <div class="top-read-icon">⭐</div>
+        <div class="top-read-content">
+          <div class="top-read-label">מומלץ לקריאה</div>
+          <div class="top-read-title"><a href="{tr_url}" target="_blank">{tr_title}</a></div>
+          <div class="top-read-reason">{tr_reason}</div>
+          <label class="card-checkbox" style="margin-top:8px;">
+            <input type="checkbox" onchange="toggleReading('{tr_url}', '{tr_title}', -1)">
+            הוסף לרשימת קריאה
+          </label>
+        </div>
+      </div>"""
+
+        cards_html = []
+        for ii, item in enumerate(day["items"]):
+            idx = url_to_idx.get(item["url"], -1)
+            concept = item.get("model_concept", "")
+            level   = CONCEPT_LEVEL_PY.get(concept) or item.get("model_level", "")
+            res     = item.get("resonance", "")
+            icon    = RESONANCE_ICONS.get(res, "")
+            hr_badge = '<span class="badge badge-hr">📢 HR</span>' if item.get("hr_relevant") else ""
+            pub = f'<span class="badge" style="background:#f7fafc;color:#718096;border:1px solid #e2e8f0">{_e(item["published_date"])}</span>' if item.get("published_date") else ""
+            tags_html = " ".join(
+                f'<span class="tag" onclick="filterByTag(\'{_e(t)}\'">#{_e(t.replace("_"," "))}</span>'
+                for t in (item.get("tags") or [])
+            )
+            item_url   = _e(item.get("url",""))
+            item_title = _e(item.get("title",""))
+            cards_html.append(f"""
+    <div class="card" id="card-{di}-{ii}" data-idx="{idx}">
+      <div class="card-top">
+        <span class="source-emoji">{item.get("source_emoji","📰")}</span>
+        <div class="card-title"><a href="{item_url}" target="_blank">{item_title}</a></div>
+      </div>
+      <div class="badges">
+        <span class="badge badge-{_e(res)}">{icon} {_e(res)}</span>
+        <span class="badge badge-level">רמה {level} · {_e(concept)}</span>
+        {hr_badge}{pub}
+      </div>
+      <div class="summary">{_e(item.get("summary_hebrew",""))}</div>
+      <div class="sts">⬡ STS — {_e(item.get("sts_angle_hebrew",""))}</div>
+      <div class="tags">{tags_html}</div>
+      <label class="card-checkbox">
+        <input type="checkbox" onchange="toggleReading('{item_url}', '{item_title}', {idx})">
+        הוסף לרשימת קריאה
+      </label>
+    </div>""")
+
+        parts.append(f"""
+  <div class="day-section" id="day-{di}">
+    <div class="day-date-simple" id="day-date-simple-{di}" style="display:none; font-size:0.85rem; color:#718096; font-weight:600; margin-bottom:10px; padding: 4px 0;">{day["date_he"]}</div>
+    <div class="day-header">
+      <div class="day-title">⚡ <span>{day["date_he"]}</span> — {len(day["items"])} פריטים</div>
+      <div class="day-divider"></div>
+      <div class="day-summary">{pulse_html}{top_read_html}</div>
+    </div>
+    {"".join(cards_html)}
+  </div>""")
+    return "\n".join(parts)
+
+feed_html = build_feed_html(days_data, all_items_flat)
+
 html = f"""<!DOCTYPE html>
 <html lang="he" dir="rtl">
 <head>
@@ -353,7 +449,7 @@ html = f"""<!DOCTYPE html>
       </div>
     </div>
 
-    <div id="feed"></div>
+    <div id="feed">{feed_html}</div>
     <div id="no-results" style="display:none; text-align:center; color:#a0aec0; padding:40px; font-size:0.95rem;">אין פריטים התואמים את הסינון</div>
 
   </div>
@@ -492,73 +588,9 @@ function renderTagCloud() {{
   }}).join('');
 }}
 
-function renderFeed() {{
-  const feed = document.getElementById('feed');
-  feed.innerHTML = DAYS.map((day, di) => {{
-    const cardsHtml = day.items.map((item, ii) => {{
-      const idx = ALL_ITEMS.findIndex(a => a.url === item.url);
-      return `
-      <div class="card" id="card-${{di}}-${{ii}}" data-idx="${{idx}}">
-        <div class="card-top">
-          <span class="source-emoji">${{item.source_emoji||'📰'}}</span>
-          <div class="card-title"><a href="${{item.url}}" target="_blank">${{item.title}}</a></div>
-        </div>
-        <div class="badges">
-          <span class="badge badge-${{item.resonance}}">${{RESONANCE_ICONS[item.resonance]}} ${{item.resonance}}</span>
-          <span class="badge badge-level">רמה ${{CONCEPT_LEVEL[item.model_concept] || item.model_level}} · ${{item.model_concept}}</span>
-          ${{item.hr_relevant ? '<span class="badge badge-hr">📢 HR</span>' : ''}}
-          ${{item.published_date ? `<span class="badge" style="background:#f7fafc;color:#718096;border:1px solid #e2e8f0">${{item.published_date}}</span>` : ''}}
-        </div>
-        <div class="summary">${{item.summary_hebrew||''}}</div>
-        <div class="sts">⬡ STS — ${{item.sts_angle_hebrew||''}}</div>
-        <div class="tags">${{(item.tags||[]).map(t => `<span class="tag ${{currentTag===t?'tag-active':''}}" onclick="filterByTag('${{t}}')">#${{t.replace(/_/g,' ')}}</span>`).join('')}}</div>
-        <label class="card-checkbox">
-          <input type="checkbox" ${{readingList.has(item.url)?'checked':''}} onchange="toggleReading('${{item.url}}', \`${{item.title.replace(/`/g,"'")}}\`, ${{idx}})">
-          הוסף לרשימת קריאה
-        </label>
-      </div>`;
-    }}).join('');
-
-    const pulseHtml = day.pulse ? `
-      <div class="pulse-box">
-        <div class="pulse-label">⚡ דופק השוק</div>
-        <div class="pulse-text">${{day.pulse}}</div>
-      </div>` : '';
-
-    const topReadHtml = day.top_read_title ? `
-      <div class="top-read-box">
-        <div class="top-read-icon">⭐</div>
-        <div class="top-read-content">
-          <div class="top-read-label">מומלץ לקריאה</div>
-          <div class="top-read-title"><a href="${{day.top_read_url}}" target="_blank">${{day.top_read_title}}</a></div>
-          <div class="top-read-reason">${{day.top_read_reason}}</div>
-          <label class="card-checkbox" style="margin-top:8px;">
-            <input type="checkbox" ${{readingList.has(day.top_read_url)?'checked':''}} onchange="toggleReading('${{day.top_read_url}}', \`${{day.top_read_title.replace(/`/g,"'")}}\`, -1)">
-            הוסף לרשימת קריאה
-          </label>
-        </div>
-      </div>` : '';
-
-    return `
-    <div class="day-section" id="day-${{di}}">
-      <div class="day-date-simple" id="day-date-simple-${{di}}" style="display:none; font-size:0.85rem; color:#718096; font-weight:600; margin-bottom:10px; padding: 4px 0;">${{day.date_he}}</div>
-      <div class="day-header">
-        <div class="day-title">⚡ <span>${{day.date_he}}</span> — ${{day.items.length}} פריטים</div>
-        <div class="day-divider"></div>
-        <div class="day-summary">
-          ${{pulseHtml}}
-          ${{topReadHtml}}
-        </div>
-      </div>
-      ${{cardsHtml}}
-    </div>`;
-  }}).join('');
-}}
-
 renderStats();
 renderTagCloud();
 renderReadingList();
-renderFeed();
 applyFilters();
 </script>
 </body>
