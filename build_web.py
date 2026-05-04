@@ -429,6 +429,12 @@ html = f"""<!DOCTYPE html>
   <h1>ה<span>אגרגטור</span> — Human-AI Augmentation</h1>
   <span class="date-badge">{latest_date_he}</span>
 </header>
+<div style="background:#faf5ff; border-bottom:1px solid #e9d8fd; padding:6px 32px; font-size:0.8rem; color:#6b46c1; text-align:center;">
+  🤖 לקריאה על ידי AI —
+  <a href="https://arikrizer.github.io/aggregator/feed.txt" style="color:#7c3aed; text-decoration:none; font-weight:600;" target="_blank">feed.txt</a>
+  &nbsp;|&nbsp;
+  <a href="https://arikrizer.github.io/aggregator/feed.json" style="color:#7c3aed; text-decoration:none; font-weight:600;" target="_blank">feed.json</a>
+</div>
 
 <div class="layout">
   <div class="sidebar">
