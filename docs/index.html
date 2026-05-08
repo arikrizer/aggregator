@@ -4200,17 +4200,31 @@ const CONCEPT_LEVEL = {
 
 let currentFilter = 'all';
 let currentTag = null;
-let readingList = new Map();
+
+function loadReadingList() {
+  try {
+    const saved = JSON.parse(localStorage.getItem('aggregator_reading') || '[]');
+    return new Map(saved);
+  } catch { return new Map(); }
+}
+
+function saveReadingList() {
+  localStorage.setItem('aggregator_reading', JSON.stringify([...readingList.entries()]));
+}
+
+let readingList = loadReadingList();
 
 function toggleReading(url, title, idx) {
   if (readingList.has(url)) readingList.delete(url);
   else readingList.set(url, { title, idx });
+  saveReadingList();
   renderReadingList();
   applyFilters();
 }
 
 function removeReading(url) {
   readingList.delete(url);
+  saveReadingList();
   renderReadingList();
   applyFilters();
 }
