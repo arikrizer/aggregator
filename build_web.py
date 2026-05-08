@@ -269,6 +269,8 @@ html = f"""<!DOCTYPE html>
     }}
 
     .tag-cloud {{ display: flex; flex-wrap: wrap; gap: 6px; }}
+    .tag-cloud.expanded {{ max-height: 220px; overflow-y: auto; }}
+    .tag-expand-btn {{ margin-top: 8px; font-size: 0.78rem; color: #7c3aed; cursor: pointer; background: none; border: none; padding: 0; text-decoration: underline; }}
 
     .cloud-tag {{
       cursor: pointer;
@@ -440,6 +442,7 @@ html = f"""<!DOCTYPE html>
   <div class="sidebar">
     <div class="sidebar-title">🏷️ תגיות</div>
     <div class="tag-cloud" id="tag-cloud"></div>
+    <button class="tag-expand-btn" id="tag-expand-btn" onclick="toggleTagCloud()" style="display:none">הצג הכל ▾</button>
     <div class="reading-list">
       <div class="reading-list-title">📌 לקריאה</div>
       <div id="reading-list"><span class="reading-list-empty">אין פריטים עדיין</span></div>
@@ -593,16 +596,31 @@ function renderStats() {{
   `;
 }}
 
+let tagCloudExpanded = false;
+const TAG_PREVIEW = 6;
+
+function toggleTagCloud() {{
+  tagCloudExpanded = !tagCloudExpanded;
+  const cloud = document.getElementById('tag-cloud');
+  const btn = document.getElementById('tag-expand-btn');
+  cloud.classList.toggle('expanded', tagCloudExpanded);
+  btn.textContent = tagCloudExpanded ? 'סגור ▴' : 'הצג הכל ▾';
+  renderTagCloud();
+}}
+
 function renderTagCloud() {{
   const counts = {{}};
   ALL_ITEMS.forEach(item => (item.tags||[]).forEach(t => counts[t] = (counts[t]||0) + 1));
   const max = Math.max(...Object.values(counts));
   const min = Math.min(...Object.values(counts));
   const sorted = Object.entries(counts).filter(([tag, count]) => count >= 3).sort((a,b) => b[1]-a[1]);
-  document.getElementById('tag-cloud').innerHTML = sorted.map(([tag, count]) => {{
+  const visible = tagCloudExpanded ? sorted : sorted.slice(0, TAG_PREVIEW);
+  document.getElementById('tag-cloud').innerHTML = visible.map(([tag, count]) => {{
     const size = min===max ? 0.9 : 0.75 + ((count-min)/(max-min))*0.65;
     return `<span class="cloud-tag ${{currentTag===tag?'tag-active':''}}" style="font-size:${{size.toFixed(2)}}rem" onclick="filterByTag('${{tag}}')">#${{tag.replace(/_/g,' ')}}</span>`;
   }}).join('');
+  const btn = document.getElementById('tag-expand-btn');
+  if (btn) btn.style.display = sorted.length > TAG_PREVIEW ? '' : 'none';
 }}
 
 renderStats();
