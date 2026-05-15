@@ -5,6 +5,55 @@
   "description": "אגרגטור תוכן יומי בתחום Human-AI Augmentation",
   "items": [
     {
+      "title": "Stanford HAI Launches AI and Organizations Lab to Study Science of AI in the Workplace",
+      "url": "https://hai.stanford.edu/news/stanford-hai-launches-ai-and-organizations-lab-to-study-science-of-ai-in-the-workplace",
+      "date": "2026-05-15",
+      "category": "Human-AI Teaming",
+      "summary": "מעבדת AI וארגונים חדשה הושקה על ידי סטנפורד HAI כדי ללמוד את המדע של AI במקום העבודה. המחקר ישלב תיאוריה ארגונית, מדעי התנהגות, מדעי מחשב ושיטות אמפיריות. תחומי מחקר יכללו את השפעות ה- AI על תיאום ארגוני, תהליכי קבלת החלטות, פיתוח כוח אדם, שיתוף פעולה צוותי ועיצוב ארגוני.",
+      "tags": [
+        "Human-AI_Collaboration",
+        "HAI",
+        "Job_Redesign_AI",
+        "Augmented_OB"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Your company already has an AI strategy. You just didn't choose it",
+      "url": "https://fortune.com/2026/05/12/ai-strategy-five-bets-accidental-intentional-leaders/",
+      "date": "2026-05-15",
+      "category": "Hybrid Intelligence",
+      "summary": "מאמר הדן באסטרטגיית AI בחברות. הוא מציג חמש אפשרויות, כולל 'אינטליגנציה מוגברת' שבה AI משמש לשפר את היתרון התחרותי של החברה ולקוחותיה. המאמר מדגיש את חשיבות השקעה בכישורים ובתרבות כדי לנצל את ה- AI.",
+      "tags": [
+        "Hybrid_Intelligence",
+        "HAIT",
+        "Augmented_Intelligence"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "92% of organizations have invested in AI but 78% say projects have either stalled or failed",
+      "url": "https://www.prnewswire.com/news-releases/92-of-organizations-have-invested-in-ai-but-78-say-projects-have-either-stalled-or-failed-302769202.html",
+      "date": "2026-05-15",
+      "category": "Augmented Intelligence",
+      "summary": "מאמר זה דן בהשקעות של ארגונים ב-AI ובאתגרים שהם פוגשים. נתונים מ-1,000 מנהיגים עסקיים הראו כי 92% מהארגונים השקיעו ב-AI, אך 78% מהם אמרו כי הפרויקטים שלהם התעכבו או נכשלו.",
+      "tags": [
+        "AI_Investment",
+        "AI_Implementation",
+        "Business_Outcomes"
+      ],
+      "status": [
+        "VIRAL",
+        "HR Relevant"
+      ]
+    },
+    {
       "title": "The agentic paradox and the case for hybrid AI",
       "url": "https://www.redhat.com/en/blog/agentic-paradox-and-case-hybrid-ai",
       "date": "2026-05-14",
@@ -859,22 +908,6 @@
       ]
     },
     {
-      "title": "What Is AI Organizational Readiness? Why People and Culture Determine Your AI Outcomes",
-      "url": "https://aiassemblylines.com/post/what-is-ai-organizational-readiness",
-      "date": "2026-05-09",
-      "category": "Augmented OB",
-      "summary": "הפוסט דן בחשיבות של מוכנות ארגונית לשימוש ב-AI, תוך שימת דגש על תרבות ומוכנות של העובדים. הוא מדגיש את הצורך בתוכנית שינוי ניהולית שתלווה את השינוי הטכני.",
-      "tags": [
-        "HAI",
-        "Job_Redesign_AI",
-        "Psychological_Safety"
-      ],
-      "status": [
-        "QUIET",
-        "HR Relevant"
-      ]
-    },
-    {
       "title": "What Are the Common Risks of AI in an Organization? And How to Be Ready - Netrix Global",
       "url": "https://netrixglobal.com/blog/cybersecurity/what-are-the-common-risks-of-ai-in-an-organization-and-how-to-be-ready/",
       "date": "2026-05-09",
@@ -1101,6 +1134,22 @@
       ],
       "status": [
         "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "What Is AI Organizational Readiness? Why People and Culture Determine Your AI Outcomes",
+      "url": "https://aiassemblylines.com/post/what-is-ai-organizational-readiness",
+      "date": "2026-05-09",
+      "category": "Augmented OB",
+      "summary": "הפוסט דן בחשיבות של מוכנות ארגונית לשימוש ב-AI, תוך שימת דגש על תרבות ומוכנות של העובדים. הוא מדגיש את הצורך בתוכנית שינוי ניהולית שתלווה את השינוי הטכני.",
+      "tags": [
+        "HAI",
+        "Job_Redesign_AI",
+        "Psychological_Safety"
+      ],
+      "status": [
+        "QUIET",
         "HR Relevant"
       ]
     },
@@ -1531,68 +1580,20 @@
       ]
     },
     {
-      "title": "AI Strategy Implementation: Why Human Collaboration Matters",
-      "url": "https://arkaro.com/ai-strategy-implementation-human-collaboration-2",
-      "date": "2026-05-04",
-      "category": "Hybrid Intelligence",
-      "summary": "דו\"ח זה מדגיש את החשיבות של שיתוף פעולה בין בני אדם ל-AI ביישום אסטרטגיית AI. הוא טוען כי ה-AI צריך לשמש ככלי שמשפר את היכולות של בני אדם, ולא להחליף אותם.",
-      "tags": [
-        "AI_Strategy",
-        "Human-AI_Collaboration",
-        "Organizational_Change"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "The practical guide to AI human collaboration writing",
-      "url": "https://www.eesel.ai/blog/ai-human-collaboration-writing",
+      "title": "Safe skies and smart systems: The DIALOG vision for human-AI teaming",
+      "url": "https://www.innovationnewsnetwork.com/safe-skies-and-smart-systems-the-dialog-vision-for-human-ai-teaming/69123/",
       "date": "2026-05-04",
       "category": "Human-AI Teaming",
-      "summary": "מדריך זה מספק טיפים מעשיים לשיתוף פעולה בין בני אדם ל-AI בכתיבה. הוא מתאר את התהליך הקולבורטיבי ששימש את המחבר כדי להגדיל את התנועה האורגנית לאתר שלו.",
+      "summary": "פרויקט DIALOG ביצע תרגילים אינטנסיביים של אימות מעשי עם בקרי תנועה אווירית (ATCOs) כדי להעריך את הביצועים הטכניים של המערכת ולגבות משוב תפעולי מהמשתמשים. הניסוי בדק את עומס העבודה הקוגניטיבי של הבקרים ואת השפעת המערכת על עבודתם. הממצאים מראים כי המערכת השפיעה על עבודת הבקרים והצריכה משוב תפעולי.",
       "tags": [
         "Human-AI_Collaboration",
-        "Writing",
-        "Workflow"
-      ],
-      "status": [
-        "QUIET",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Generative AI in the Workplace: A Systematic Review of Productivity Effects, Employment Perceptions, and Job Insecurity",
-      "url": "https://rsisinternational.org/journals/ijriss/view/generative-ai-in-the-workplace-a-systematic-review-of-productivity-effects-employment-perceptions-and-job-insecurity",
-      "date": "2026-05-04",
-      "category": "Augmented OB",
-      "summary": "סקירה שיטתית זו בוחנת את השפעת ה-AI הגנרטיבית במקום העבודה על הפרודוקטיביות, תפיסות העבודה, ואי הביטחון בתעסוקה. היא מבוססת על מחקרים שונים ומדגישה את המורכבות של השפעת ה-AI על העבודה.",
-      "tags": [
-        "Generative_AI",
-        "Productivity",
-        "Employment_Perceptions",
-        "Job_Insecurity"
+        "HAIT",
+        "Hybrid_Intelligence",
+        "Autonomy",
+        "Trust"
       ],
       "status": [
         "CITED",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "AI Isn't Augmenting Work — It's Redefining Who (or What) Does It",
-      "url": "https://www.linkedin.com/pulse/ai-isnt-augmenting-work-its-redefining-who-what-does-andre-fxybe",
-      "date": "2026-05-04",
-      "category": "Human-AI Teaming",
-      "summary": "מאמר זה מציג נתונים ממחקר של מיקרוסופט שמצא כי עובדים המשתמשים בכלים של בינה מלאכותית (AI) מבלים 29% פחות זמן במשימות שגרתיות, והזמן הזה מועבר למשימות אנליטיות מורכבות יותר, לחשיבה יצירתית ואסטרטגית, ולשיתוף פעולה ותקשורת. עם זאת, העובדים מדווחים כי עבודתם הפכה למורכבת ודורשת יותר מבחינה רגשית.",
-      "tags": [
-        "Human-AI_Collaboration",
-        "Job_Redesign_AI",
-        "Productivity",
-        "Complexity"
-      ],
-      "status": [
-        "TRENDING",
         "HR Relevant"
       ]
     },
@@ -1781,17 +1782,48 @@
       ]
     },
     {
-      "title": "Safe skies and smart systems: The DIALOG vision for human-AI teaming",
-      "url": "https://www.innovationnewsnetwork.com/safe-skies-and-smart-systems-the-dialog-vision-for-human-ai-teaming/69123/",
+      "title": "AI Strategy Implementation: Why Human Collaboration Matters",
+      "url": "https://arkaro.com/ai-strategy-implementation-human-collaboration-2",
+      "date": "2026-05-04",
+      "category": "Hybrid Intelligence",
+      "summary": "דו\"ח זה מדגיש את החשיבות של שיתוף פעולה בין בני אדם ל-AI ביישום אסטרטגיית AI. הוא טוען כי ה-AI צריך לשמש ככלי שמשפר את היכולות של בני אדם, ולא להחליף אותם.",
+      "tags": [
+        "AI_Strategy",
+        "Human-AI_Collaboration",
+        "Organizational_Change"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "The practical guide to AI human collaboration writing",
+      "url": "https://www.eesel.ai/blog/ai-human-collaboration-writing",
       "date": "2026-05-04",
       "category": "Human-AI Teaming",
-      "summary": "פרויקט DIALOG ביצע תרגילים אינטנסיביים של אימות מעשי עם בקרי תנועה אווירית (ATCOs) כדי להעריך את הביצועים הטכניים של המערכת ולגבות משוב תפעולי מהמשתמשים. הניסוי בדק את עומס העבודה הקוגניטיבי של הבקרים ואת השפעת המערכת על עבודתם. הממצאים מראים כי המערכת השפיעה על עבודת הבקרים והצריכה משוב תפעולי.",
+      "summary": "מדריך זה מספק טיפים מעשיים לשיתוף פעולה בין בני אדם ל-AI בכתיבה. הוא מתאר את התהליך הקולבורטיבי ששימש את המחבר כדי להגדיל את התנועה האורגנית לאתר שלו.",
       "tags": [
         "Human-AI_Collaboration",
-        "HAIT",
-        "Hybrid_Intelligence",
-        "Autonomy",
-        "Trust"
+        "Writing",
+        "Workflow"
+      ],
+      "status": [
+        "QUIET",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Generative AI in the Workplace: A Systematic Review of Productivity Effects, Employment Perceptions, and Job Insecurity",
+      "url": "https://rsisinternational.org/journals/ijriss/view/generative-ai-in-the-workplace-a-systematic-review-of-productivity-effects-employment-perceptions-and-job-insecurity",
+      "date": "2026-05-04",
+      "category": "Augmented OB",
+      "summary": "סקירה שיטתית זו בוחנת את השפעת ה-AI הגנרטיבית במקום העבודה על הפרודוקטיביות, תפיסות העבודה, ואי הביטחון בתעסוקה. היא מבוססת על מחקרים שונים ומדגישה את המורכבות של השפעת ה-AI על העבודה.",
+      "tags": [
+        "Generative_AI",
+        "Productivity",
+        "Employment_Perceptions",
+        "Job_Insecurity"
       ],
       "status": [
         "CITED",
@@ -1799,18 +1831,19 @@
       ]
     },
     {
-      "title": "AI's use in workplace management can impact employees' mental well ...",
-      "url": "https://sustainabilityonline.net/news/ais-use-in-workplace-management-can-impact-workers-mental-well-being-says-ilo/",
+      "title": "AI Isn't Augmenting Work — It's Redefining Who (or What) Does It",
+      "url": "https://www.linkedin.com/pulse/ai-isnt-augmenting-work-its-redefining-who-what-does-andre-fxybe",
       "date": "2026-05-04",
       "category": "Human-AI Teaming",
-      "summary": "המאמר דן בהשפעה של AI על ניהול מקום העבודה ועל הבריאות הנפשית של העובדים. הוא מדגיש את החשיבות של שקיפות ושל ניהול אתי של AI במקום העבודה.",
+      "summary": "מאמר זה מציג נתונים ממחקר של מיקרוסופט שמצא כי עובדים המשתמשים בכלים של בינה מלאכותית (AI) מבלים 29% פחות זמן במשימות שגרתיות, והזמן הזה מועבר למשימות אנליטיות מורכבות יותר, לחשיבה יצירתית ואסטרטגית, ולשיתוף פעולה ותקשורת. עם זאת, העובדים מדווחים כי עבודתם הפכה למורכבת ודורשת יותר מבחינה רגשית.",
       "tags": [
-        "Psychological_Safety",
-        "AI_Ethics",
-        "Workplace_Wellbeing"
+        "Human-AI_Collaboration",
+        "Job_Redesign_AI",
+        "Productivity",
+        "Complexity"
       ],
       "status": [
-        "QUIET",
+        "TRENDING",
         "HR Relevant"
       ]
     },
@@ -1844,6 +1877,22 @@
       ],
       "status": [
         "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "AI's use in workplace management can impact employees' mental well ...",
+      "url": "https://sustainabilityonline.net/news/ais-use-in-workplace-management-can-impact-workers-mental-well-being-says-ilo/",
+      "date": "2026-05-04",
+      "category": "Human-AI Teaming",
+      "summary": "המאמר דן בהשפעה של AI על ניהול מקום העבודה ועל הבריאות הנפשית של העובדים. הוא מדגיש את החשיבות של שקיפות ושל ניהול אתי של AI במקום העבודה.",
+      "tags": [
+        "Psychological_Safety",
+        "AI_Ethics",
+        "Workplace_Wellbeing"
+      ],
+      "status": [
+        "QUIET",
         "HR Relevant"
       ]
     },
