@@ -1,7 +1,52 @@
 האגרגטור — Human-AI Augmentation
 https://arikrizer.github.io/aggregator/
-עודכן: 22 מאי 2026
+עודכן: 23 מאי 2026
 ============================================================
+
+כותרת: Orchestrating human-AI hybrids: Agency formation and re-configuration through conversational AI agents in physical service environments
+קישור: https://link.springer.com/article/10.1007/s12525-026-00900-4
+תאריך: 2026-05-23
+קטגוריה: Hybrid Intelligence
+סטטוס: CITED, HR Relevant
+תיאור: מאמר זה בוחן את השילוב בין בני אדם וסוכנים אוטונומיים בסביבות שירות פיזיות. הוא מדגיש את החשיבות של תיאום בין השניים כדי להשיג תוצאות טובות יותר. המחברים מראים כי תהליכים של עיצוב מחדש של עבודה ושילוב של סוכנים אוטונומיים יכולים להוביל לתוצאות משופרות.
+תגיות: Hybrid_Intelligence, Human-AI_Collaboration, HAIT
+---
+
+כותרת: Human-AI collaboration in information systems research: a systematic literature review and future research directions | Human-Intelligent Systems Integration | Springer Nature Link
+קישור: https://link.springer.com/article/10.1007/s42454-026-00100-7
+תאריך: 2026-05-23
+קטגוריה: Human-AI Teaming
+סטטוס: CITED, HR Relevant
+תיאור: מאמר זה מציג סקירה שיטתית של מחקרים על שיתוף פעולה בין בני אדם ומערכות AI במחקר מערכות מידע. הוא בוחן את האתגרים וההזדמנויות של עבודה משותפת זו.
+תגיות: HAIT, Hybrid_Intelligence, Augmented_OB, Human-AI_Collaboration
+---
+
+כותרת: When AI Meets Command-and-Control: Why Traditional Hierarchies Are Failing the Intelligence Revolution
+קישור: https://www.innovativehumancapital.com/article/when-ai-meets-command-and-control-why-traditional-hierarchies-are-failing-the-intelligence-revoluti
+תאריך: 2026-05-23
+קטגוריה: Human-AI Teaming
+סטטוס: TRENDING, HR Relevant
+תיאור: מאמר זה טוען כי היררכיות מסורתיות אינן מתאימות לעידן של בינה מלאכותית. הוא מציע כי ארגונים זקוקים למבנים חדשים שיאפשרו שילוב של בינה מלאכותית עם יכולות קבלת החלטות של בני אדם.
+תגיות: HAIT, Hybrid_Intelligence, Leadership, Hierarchy_Shift
+---
+
+כותרת: Companies building autonomous ai agents for business operations
+קישור: https://www.facebook.com/groups/1572893699951268/posts/2127200997853866
+תאריך: 2026-05-23
+קטגוריה: Autonomous_Agents
+סטטוס: TRENDING, HR Relevant
+תיאור: פוסט זה דן במערכות AI אוטונומיות שיכולות לנתח מטרות, להסתגל לאסטרטגיות, לתאם משימות ולתקשר עם כלים דיגיטליים שונים עם מעורבות אנושית מינימלית. הוא מדגיש את הפוטנציאל של מערכות אלו להפחית עלויות תפעוליות ולגדילת מהירות בארגונים גדולים.
+תגיות: Autonomous_Agents, Digital_Twin, Multi-Agent_Systems, AI
+---
+
+כותרת: The future of work is not human or AI. It is human and AI ... - Facebook
+קישור: https://www.facebook.com/FranklinCovey/posts/the-future-of-work-is-not-human-or-ai-it-is-human-and-ai-working-together-this-g/1920916841907569
+תאריך: 2026-05-23
+קטגוריה: Human-AI Teaming
+סטטוס: VIRAL, HR Relevant
+תיאור: פוסט זה מדגיש את החשיבות של עבודה משותפת בין בני אדם ומערכות AI. הוא מדגיש כי העתיד של העבודה הוא שילוב של בני אדם ומערכות AI, ולא החלפתן.
+תגיות: Human-AI_Collaboration, HAIT, Hybrid_Intelligence, Augmented_Intelligence
+---
 
 כותרת: Orchestrating human-AI hybrids: Agency formation and re-configuration through conversational AI agents in physical service environments
 קישור: https://link.springer.com/article/10.1007/s12525-026-00900-4
