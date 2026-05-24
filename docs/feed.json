@@ -5,6 +5,196 @@
   "description": "אגרגטור תוכן יומי בתחום Human-AI Augmentation",
   "items": [
     {
+      "title": "The Quiet Path from Seemingly Minor Design Errors to Workplace AI ...",
+      "url": "https://arxiv.org/html/2605.21035v1",
+      "date": "2026-05-24",
+      "category": "Human-AI Teaming",
+      "summary": "מחקר זה בוחן את ההשפעות השליליות של כלי AI במקום העבודה, כגון הטיות באבני הבדיקה של קורות חיים והחלטות שגויות לגבי תמיכה בקרב אוכלוסיות פגיעות. המחקר מציג מקרים שונים בהם כלי AI גרמו לנזקים, גם כאשר המשתמשים לא התכוונו לכך.",
+      "tags": [
+        "Human-AI_Collaboration",
+        "HAI",
+        "Job_Redesign_AI",
+        "Autonomy",
+        "Burnout",
+        "Psychological_Safety"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Human-AI interaction and collaboration in radiology: from conceptual frameworks to responsible implementation.",
+      "url": "https://yesilscience.com/human-ai-interaction-and-collaboration-in-radiology-from-conceptual-frameworks-to-responsible-implementation",
+      "date": "2026-05-24",
+      "category": "Human-in-the-Loop",
+      "summary": "סקירה זו מתמקדת בהתקשרות בין רדיולוגים לבין כלי AI בפרקטיקה הקלינית, ומדגישה את הצורך בהערכת אלגוריתמים לא רק בנפרד אלא גם בהקשר של אינטראקציה עם רדיולוגים. היא מתארת מודלים שונים של שיתוף פעולה בין בני אדם ל-AI ומדגישה את החשיבות של יישום אחראי.",
+      "tags": [
+        "Human-AI_Collaboration",
+        "HAI",
+        "Hybrid_Intelligence",
+        "Trust",
+        "Compliance"
+      ],
+      "status": [
+        "QUIET",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "AI Strategy Implementation: Why Human Collaboration Matters",
+      "url": "https://arkaro.com/ai-strategy-implementation-human-collaboration-2",
+      "date": "2026-05-24",
+      "category": "Human-AI Teaming",
+      "summary": "דו\"ח זה מדגיש את החשיבות של שיתוף פעולה בין בני אדם לבין כלי AI ביישום אסטרטגיית AI בארגונים. הוא טוען כי יישום מוצלח של AI מחייב הבנה של הנוירולוגיה של השינוי ושל חשיבות השיתוף הפעולה.",
+      "tags": [
+        "Human-AI_Collaboration",
+        "HAI",
+        "Hybrid_Intelligence",
+        "Leadership",
+        "Productivity"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Human AI interaction design",
+      "url": "https://deloitte.com/us/en/insights/topics/talent/human-capital-trends/2026/human-ai-interaction-design.html",
+      "date": "2026-05-24",
+      "category": "Human-AI Teaming",
+      "summary": "דו״ח של דלויט אינסייטס על עיצוב אינטראקציה בין אדם ל-AI. הדו״ח מדגיש את החשיבות של עיצוב מכוון של אינטראקציות בין אדם ל-AI, הן ברמת המאקרו והן ברמת המיקרו. הוא גם מציג דוגמאות של ארגונים שמשתמשים במודלים של ממשל בין-תפקודיים כדי לקדם שיתוף פעולה בין טכנולוגיה ואנשים.",
+      "tags": [
+        "Human-AI_Collaboration",
+        "Augmented_Intelligence",
+        "Leadership",
+        "Compliance"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "How to Build a Human-in-the-Loop AI Screening Workflow",
+      "url": "https://www.bizworkhq.com/blog/how-to-build-human-in-the-loop-ai-screening",
+      "date": "2026-05-24",
+      "category": "Human-in-the-Loop",
+      "summary": "מאמר על בניית זרימת עבודה של AI עם התערבות אנושית בתהליך הגיוס. המאמר מציג את הרעיון של שימוש ב-AI לביצוע משימות חוזרות ונשנות של استخراج נתונים ודירוג ראשוני, עם התערבות אנושית בנקודות החלטה קריטיות.",
+      "tags": [
+        "Human-in-the-Loop",
+        "AI",
+        "Recruitment",
+        "Human-Resources"
+      ],
+      "status": [
+        "QUIET",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Human-in-the-Loop AI for Smarter AI Workflow Automation",
+      "url": "https://www.xtract.io/blog/advancing-ai-workflow-automation-with-human-in-the-loop-ai-hitl-ai",
+      "date": "2026-05-24",
+      "category": "Human-in-the-Loop",
+      "summary": "מאמר זה מתאר את גישת ה- Human-in-the-Loop AI, שבה בני אדם משתתפים בתהליכי קבלת החלטות של מערכות AI. הגישה מאפשרת שילוב של פיקוח אנושי בשלבים חשובים, משפרת את החלטות ה- AI ומטפלת במקרים קשים שמערכות AI לא יכולות להתמודד איתם לבד.",
+      "tags": [
+        "Human-in-the-Loop",
+        "AI_Workflow_Automation",
+        "Human-AI_Collaboration"
+      ],
+      "status": [
+        "QUIET",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "The Talent Architecture Imperative for an AI Workforce | Cognizant",
+      "url": "https://www.cognizant.com/us/en/insights/insights-blog/talent-architecture-for-ai-workforce",
+      "date": "2026-05-24",
+      "category": "Augmented OB",
+      "summary": "המאמר דן בחשיבות של תכנון ארכיטקטורה של כישורים עבור כוח עבודה עם בינה מלאכותית. הוא מציע להשקיע במסלולי קריירה עבור עובדים טכניים ולהתאים את עיצוב התפקידים כך שיכללו עבודה ייחודית לאדם. כמו כן, הוא ממליץ על יצירת מסלולי קריירה מקבילים כדי למשוך ולשמר את המוכשרים ביותר.",
+      "tags": [
+        "Augmented_OB",
+        "Job_Redesign_AI",
+        "Talent_Architecture",
+        "HR_Transformation"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Prompt Engineering for HR, Why Human Resource Professionals Need AI",
+      "url": "https://www.blockchain-council.org/ai/prompt-engineering-for-hr",
+      "date": "2026-05-24",
+      "category": "Hybrid Intelligence",
+      "summary": "המאמר דן בחשיבות של הנדסת קידום עבור צוותים של משאבי אנוש, ומראה כיצד היא יכולה לשפר את תהליכי הגיוס, הערכת מועמדים, ביקורות ביצועים ועוד. הוא גם מדגיש את החשיבות של מיומנות זו עבור אנשי משאבי אנוש.",
+      "tags": [
+        "Hybrid_Intelligence",
+        "Prompt_Engineering",
+        "HR_Transformation"
+      ],
+      "status": [
+        "QUIET",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "HR Prompt Engineering: Making AI Work for People Teams",
+      "url": "https://www.marianolazcomasson.com/hr-prompt-engineering-making-ai-work-for-people-teams",
+      "date": "2026-05-24",
+      "category": "Hybrid Intelligence",
+      "summary": "המאמר דן בחשיבות של הנדסת קידום עבור צוותים של משאבי אנוש, ומראה כיצד היא יכולה לשפר את השימוש בבינה מלאכותית לצורך תהליכי משאבי אנוש. הוא גם מדגיש את החשיבות של גישה אחראית ומבנית לשימוש בבינה מלאכותית.",
+      "tags": [
+        "Hybrid_Intelligence",
+        "Prompt_Engineering",
+        "HR_Transformation"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "You, I, and AI: Future scenarios of human-AI teaming - CAIS",
+      "url": "https://www.cais-research.de/ags/you-i-and-ai-future-scenarios-of-human-ai-teaming",
+      "date": "2026-05-24",
+      "category": "Human-AI Teaming",
+      "summary": "המאמר בוחן תרחישים עתידיים של עבודת צוות בין אדם ל-AI במקום העבודה, תוך התמקדות בהתפתחות האמון, הקוהזיה של הצוות והמודלים המשותפים של הצוות. הוא גם דן בוויזיות רצויות ונמצאות של עבודת צוות בין אדם ל-AI בעתיד.",
+      "tags": [
+        "Human-AI_Collaboration",
+        "HAIT",
+        "Hybrid_Intelligence",
+        "Future_Work",
+        "Organizational_Design"
+      ],
+      "status": [
+        "QUIET",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Human-AI Teaming Framework",
+      "url": "https://www.emergentmind.com/topics/human-ai-teaming-framework",
+      "date": "2026-05-24",
+      "category": "Human-AI Teaming",
+      "summary": "המסגרת של עבודת צוות בין אדם ל-AI היא גישה מובנית המשלבת פיקוח אנושי עם אוטונומיה של AI באמצעות מצבי אינטראקציה וזרימות עבודה מוגדרים. היא משתמשת בגורמי התלויות כמו מורכבות המשימה, סיכון תפעולי, אמינות המערכת ומצב האדם כדי לבחור באופן דינמי את מצב הצוות האופטימלי.",
+      "tags": [
+        "Human-AI_Collaboration",
+        "HAIT",
+        "Hybrid_Intelligence",
+        "Organizational_Design",
+        "Workflow_Optimization"
+      ],
+      "status": [
+        "QUIET",
+        "HR Relevant"
+      ]
+    },
+    {
       "title": "Orchestrating human-AI hybrids: Agency formation and re-configuration through conversational AI agents in physical service environments",
       "url": "https://link.springer.com/article/10.1007/s12525-026-00900-4",
       "date": "2026-05-23",
@@ -2239,19 +2429,18 @@
       ]
     },
     {
-      "title": "Designing Organizations for the Future of AI Decision Making",
-      "url": "https://www.linkedin.com/posts/natashaqbuckley_rethinking-operating-models-for-humans-with-activity-7456843144542707713-yPfH",
+      "title": "Toward a Quality Model for Hybrid Intelligence Teams",
+      "url": "https://dare.uva.nl/id/c05980d0-3ea8-4fb5-856a-69db45c6cac0",
       "date": "2026-05-09",
-      "category": "Human-AI Teaming",
-      "summary": "מאמר של נטשה בקלי על לינקדאין דן בשינוי הבעלות על קבלת החלטות בנוגע ל-AI, כאשר 72% מהמנכ\"לים רואים עצמם כקובעי ההחלטות העיקריים בנושא. הוא גם מזכיר כי רק מעט ארגונים מעצבים מחדש את העבודה סביב כלי AI.",
+      "category": "Hybrid Intelligence",
+      "summary": "מחקר זה מתמקד בפיתוח מודל איכות עבור צוותים של אינטליגנציה היברידית (HI). המודל שואף לאפיין ולעמוד על היבטים של שיתוף פעולה בין בני אדם ל-AI. המחקר כלל 50 חוקרים בתחום HI ומציג תובנות לגבי תכונות של צוותים יעילים שיכולים לשמש גם עבור HI.",
       "tags": [
         "Hybrid_Intelligence",
         "HAIT",
-        "Job_Redesign_AI",
-        "Leadership"
+        "HITL"
       ],
       "status": [
-        "TRENDING",
+        "CITED",
         "HR Relevant"
       ]
     },
@@ -2416,6 +2605,23 @@
       ]
     },
     {
+      "title": "Designing Organizations for the Future of AI Decision Making",
+      "url": "https://www.linkedin.com/posts/natashaqbuckley_rethinking-operating-models-for-humans-with-activity-7456843144542707713-yPfH",
+      "date": "2026-05-09",
+      "category": "Human-AI Teaming",
+      "summary": "מאמר של נטשה בקלי על לינקדאין דן בשינוי הבעלות על קבלת החלטות בנוגע ל-AI, כאשר 72% מהמנכ\"לים רואים עצמם כקובעי ההחלטות העיקריים בנושא. הוא גם מזכיר כי רק מעט ארגונים מעצבים מחדש את העבודה סביב כלי AI.",
+      "tags": [
+        "Hybrid_Intelligence",
+        "HAIT",
+        "Job_Redesign_AI",
+        "Leadership"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
       "title": "So your new ‘co-worker’ is an AI agent – here’s how to make the best of your human-machine relationship",
       "url": "https://theconversation.com/so-your-new-co-worker-is-an-ai-agent-heres-how-to-make-the-best-of-your-human-machine-relationship-276011",
       "date": "2026-05-09",
@@ -2497,22 +2703,6 @@
       ],
       "status": [
         "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Toward a Quality Model for Hybrid Intelligence Teams",
-      "url": "https://dare.uva.nl/id/c05980d0-3ea8-4fb5-856a-69db45c6cac0",
-      "date": "2026-05-09",
-      "category": "Hybrid Intelligence",
-      "summary": "מחקר זה מתמקד בפיתוח מודל איכות עבור צוותים של אינטליגנציה היברידית (HI). המודל שואף לאפיין ולעמוד על היבטים של שיתוף פעולה בין בני אדם ל-AI. המחקר כלל 50 חוקרים בתחום HI ומציג תובנות לגבי תכונות של צוותים יעילים שיכולים לשמש גם עבור HI.",
-      "tags": [
-        "Hybrid_Intelligence",
-        "HAIT",
-        "HITL"
-      ],
-      "status": [
-        "CITED",
         "HR Relevant"
       ]
     },
@@ -2911,16 +3101,34 @@
       ]
     },
     {
-      "title": "AI Isn't Augmenting Work — It's Redefining Who (or What) Does It",
-      "url": "https://www.linkedin.com/pulse/ai-isnt-augmenting-work-its-redefining-who-what-does-andre-fxybe",
+      "title": "Safe skies and smart systems: The DIALOG vision for human-AI teaming",
+      "url": "https://www.innovationnewsnetwork.com/safe-skies-and-smart-systems-the-dialog-vision-for-human-ai-teaming/69123/",
       "date": "2026-05-04",
       "category": "Human-AI Teaming",
-      "summary": "מאמר זה מציג נתונים ממחקר של מיקרוסופט שמצא כי עובדים המשתמשים בכלים של בינה מלאכותית (AI) מבלים 29% פחות זמן במשימות שגרתיות, והזמן הזה מועבר למשימות אנליטיות מורכבות יותר, לחשיבה יצירתית ואסטרטגית, ולשיתוף פעולה ותקשורת. עם זאת, העובדים מדווחים כי עבודתם הפכה למורכבת ודורשת יותר מבחינה רגשית.",
+      "summary": "פרויקט DIALOG ביצע תרגילים אינטנסיביים של אימות מעשי עם בקרי תנועה אווירית (ATCOs) כדי להעריך את הביצועים הטכניים של המערכת ולגבות משוב תפעולי מהמשתמשים. הניסוי בדק את עומס העבודה הקוגניטיבי של הבקרים ואת השפעת המערכת על עבודתם. הממצאים מראים כי המערכת השפיעה על עבודת הבקרים והצריכה משוב תפעולי.",
       "tags": [
         "Human-AI_Collaboration",
-        "Job_Redesign_AI",
-        "Productivity",
-        "Complexity"
+        "HAIT",
+        "Hybrid_Intelligence",
+        "Autonomy",
+        "Trust"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Revolutionize HR with Prompt Engineering",
+      "url": "https://www.aicerts.ai/blog/why-prompt-engineering-is-the-superpower-hr-cant-ignore",
+      "date": "2026-05-04",
+      "category": "Human-AI Teaming",
+      "summary": "פוסט זה מדבר על חשיבותה של הנדסת קידום ב-HR, ומדגיש כי מדובר במיומנות קריטית להצלחה של צוותי HR בעידן ה-AI. הוא גם מתאר כיצד ניתן להשתמש בהנדסת קידום כדי לשפר את ניתוח הרגשות של משוב העובדים.",
+      "tags": [
+        "HAIT",
+        "HITL",
+        "Augmented_OB",
+        "HR"
       ],
       "status": [
         "TRENDING",
@@ -2944,30 +3152,12 @@
       ]
     },
     {
-      "title": "Revolutionize HR with Prompt Engineering",
-      "url": "https://www.aicerts.ai/blog/why-prompt-engineering-is-the-superpower-hr-cant-ignore",
+      "title": "Masterclass: AI Prompt Engineering for HR - Instahyre Resources",
+      "url": "https://resources.instahyre.com/events/masterclass-ai-prompt-engineering-for-hr",
       "date": "2026-05-04",
       "category": "Human-AI Teaming",
-      "summary": "פוסט זה מדבר על חשיבותה של הנדסת קידום ב-HR, ומדגיש כי מדובר במיומנות קריטית להצלחה של צוותי HR בעידן ה-AI. הוא גם מתאר כיצד ניתן להשתמש בהנדסת קידום כדי לשפר את ניתוח הרגשות של משוב העובדים.",
+      "summary": "מאמר זה מתאר סדנה על הנדסת קידום עבור HR, שמטרתה ללמד כיצד לתקשר עם AI באופן יעיל. הוא מדגיש כי מטרתה של הנדסת קידום היא לא להחליף שיקול דעת אנושי, אלא להסיר עבודה שחוזרת על עצמה וליצור מקום לחשיבה עמוקה יותר.",
       "tags": [
-        "HAIT",
-        "HITL",
-        "Augmented_OB",
-        "HR"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "HR Prompt Engineering: Making AI Work for People Teams",
-      "url": "https://www.marianolazcomasson.com/hr-prompt-engineering-making-ai-work-for-people-teams",
-      "date": "2026-05-04",
-      "category": "Human-AI Teaming",
-      "summary": "פוסט זה מדבר על חשיבותה של הנדסת קידום (Prompt Engineering) בצוותי HR, כדי לאפשר שימוש אחראי ויעיל ב-AI. הוא מדגיש כי מדובר במיומנות קריטית להצלחה של צוותי HR בעידן ה-AI, ולא רק בטרנד חולף. הפוסט גם מתאר כיצד ניתן לבנות יכולת זו בצוותים, באמצעות תרגול משותף, ממשל ברור והתאמה לאסטרטגיות נתונים ו-AI.",
-      "tags": [
-        "Hybrid_Intelligence",
         "HAIT",
         "HITL",
         "Augmented_OB",
@@ -2992,6 +3182,24 @@
       ],
       "status": [
         "QUIET"
+      ]
+    },
+    {
+      "title": "HR Prompt Engineering: Making AI Work for People Teams",
+      "url": "https://www.marianolazcomasson.com/hr-prompt-engineering-making-ai-work-for-people-teams",
+      "date": "2026-05-04",
+      "category": "Human-AI Teaming",
+      "summary": "פוסט זה מדבר על חשיבותה של הנדסת קידום (Prompt Engineering) בצוותי HR, כדי לאפשר שימוש אחראי ויעיל ב-AI. הוא מדגיש כי מדובר במיומנות קריטית להצלחה של צוותי HR בעידן ה-AI, ולא רק בטרנד חולף. הפוסט גם מתאר כיצד ניתן לבנות יכולת זו בצוותים, באמצעות תרגול משותף, ממשל ברור והתאמה לאסטרטגיות נתונים ו-AI.",
+      "tags": [
+        "Hybrid_Intelligence",
+        "HAIT",
+        "HITL",
+        "Augmented_OB",
+        "HR"
+      ],
+      "status": [
+        "QUIET",
+        "HR Relevant"
       ]
     },
     {
@@ -3095,24 +3303,6 @@
       ]
     },
     {
-      "title": "Safe skies and smart systems: The DIALOG vision for human-AI teaming",
-      "url": "https://www.innovationnewsnetwork.com/safe-skies-and-smart-systems-the-dialog-vision-for-human-ai-teaming/69123/",
-      "date": "2026-05-04",
-      "category": "Human-AI Teaming",
-      "summary": "פרויקט DIALOG ביצע תרגילים אינטנסיביים של אימות מעשי עם בקרי תנועה אווירית (ATCOs) כדי להעריך את הביצועים הטכניים של המערכת ולגבות משוב תפעולי מהמשתמשים. הניסוי בדק את עומס העבודה הקוגניטיבי של הבקרים ואת השפעת המערכת על עבודתם. הממצאים מראים כי המערכת השפיעה על עבודת הבקרים והצריכה משוב תפעולי.",
-      "tags": [
-        "Human-AI_Collaboration",
-        "HAIT",
-        "Hybrid_Intelligence",
-        "Autonomy",
-        "Trust"
-      ],
-      "status": [
-        "CITED",
-        "HR Relevant"
-      ]
-    },
-    {
       "title": "AI Strategy Implementation: Why Human Collaboration Matters",
       "url": "https://arkaro.com/ai-strategy-implementation-human-collaboration-2",
       "date": "2026-05-04",
@@ -3145,23 +3335,6 @@
       ]
     },
     {
-      "title": "Masterclass: AI Prompt Engineering for HR - Instahyre Resources",
-      "url": "https://resources.instahyre.com/events/masterclass-ai-prompt-engineering-for-hr",
-      "date": "2026-05-04",
-      "category": "Human-AI Teaming",
-      "summary": "מאמר זה מתאר סדנה על הנדסת קידום עבור HR, שמטרתה ללמד כיצד לתקשר עם AI באופן יעיל. הוא מדגיש כי מטרתה של הנדסת קידום היא לא להחליף שיקול דעת אנושי, אלא להסיר עבודה שחוזרת על עצמה וליצור מקום לחשיבה עמוקה יותר.",
-      "tags": [
-        "HAIT",
-        "HITL",
-        "Augmented_OB",
-        "HR"
-      ],
-      "status": [
-        "QUIET",
-        "HR Relevant"
-      ]
-    },
-    {
       "title": "Generative AI in the Workplace: A Systematic Review of Productivity Effects, Employment Perceptions, and Job Insecurity",
       "url": "https://rsisinternational.org/journals/ijriss/view/generative-ai-in-the-workplace-a-systematic-review-of-productivity-effects-employment-perceptions-and-job-insecurity",
       "date": "2026-05-04",
@@ -3179,17 +3352,34 @@
       ]
     },
     {
-      "title": "AI as an Organizational Stress Test: What Breaks in Your Operating Model?",
-      "url": "https://www.idc.com/resource-center/blog/ai-as-an-organizational-stress-test-what-will-break-first-in-your-operating-model/",
+      "title": "AI Isn't Augmenting Work — It's Redefining Who (or What) Does It",
+      "url": "https://www.linkedin.com/pulse/ai-isnt-augmenting-work-its-redefining-who-what-does-andre-fxybe",
       "date": "2026-05-04",
-      "category": "Augmented OB",
-      "summary": "המאמר דן בהשפעה של בינה מלאכותית על מודל התפעול של ארגונים. בינה מלאכותית יכולה להדגיש חולשות ק существующие בארגון ולהוביל לכישלון של תהליכים.",
+      "category": "Human-AI Teaming",
+      "summary": "מאמר זה מציג נתונים ממחקר של מיקרוסופט שמצא כי עובדים המשתמשים בכלים של בינה מלאכותית (AI) מבלים 29% פחות זמן במשימות שגרתיות, והזמן הזה מועבר למשימות אנליטיות מורכבות יותר, לחשיבה יצירתית ואסטרטגית, ולשיתוף פעולה ותקשורת. עם זאת, העובדים מדווחים כי עבודתם הפכה למורכבת ודורשת יותר מבחינה רגשית.",
       "tags": [
-        "Augmented_OB",
+        "Human-AI_Collaboration",
+        "Job_Redesign_AI",
+        "Productivity",
+        "Complexity"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Hybrid Expert Network Model: Human + AI Intelligence in 2026",
+      "url": "https://www.astuteconnect.com/blog/hybrid-expert-network-human-ai-intelligence-2026",
+      "date": "2026-05-04",
+      "category": "Hybrid Intelligence",
+      "summary": "המודל ההיברידי של מומחים הוא גישה חדשה המשלבת אינטליגנציה של אדם ובינה מלאכותית. מודל זה משפר את הדיוקנות על ידי הכנסת מערכת של בדיקות ואיזונים בין אינטליגנציה של מכונה ושיפוט אנושי.",
+      "tags": [
+        "Hybrid_Intelligence",
         "HAIT"
       ],
       "status": [
-        "CITED",
+        "TRENDING",
         "HR Relevant"
       ]
     },
@@ -3323,6 +3513,22 @@
       ]
     },
     {
+      "title": "How to build the operating model for the intelligence era",
+      "url": "https://www.weforum.org/stories/2026/04/build-operating-model-ai-intelligence-era/",
+      "date": "2026-05-04",
+      "category": "Hybrid Intelligence",
+      "summary": "המאמר דן במודל התפעול עבור עידן האינטליגנציה. ארגונים שמקודדים צוותים היברידיים של אדם + בינה מלאכותית וזרימות עבודה כמודל תפעול ליבה - עם נתיבי העברה ברורים ובקרות - ממוקמים טוב יותר להרחבה בביטחון. 90% מהארגונים מצפים כי צוותים היברידיים של אדם + בינה מלאכותית יהפכו לסטנדרטי בתוך שלוש שנים.",
+      "tags": [
+        "Hybrid_Intelligence",
+        "HAIT",
+        "Augmented_OB"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
       "title": "Framework grounded in collective intelligence aims to create effective collaboration in human-AI teams",
       "url": "https://www.eurekalert.org/news-releases/1126555",
       "date": "2026-05-04",
@@ -3354,33 +3560,17 @@
       ]
     },
     {
-      "title": "Hybrid Expert Network Model: Human + AI Intelligence in 2026",
-      "url": "https://www.astuteconnect.com/blog/hybrid-expert-network-human-ai-intelligence-2026",
+      "title": "AI as an Organizational Stress Test: What Breaks in Your Operating Model?",
+      "url": "https://www.idc.com/resource-center/blog/ai-as-an-organizational-stress-test-what-will-break-first-in-your-operating-model/",
       "date": "2026-05-04",
-      "category": "Hybrid Intelligence",
-      "summary": "המודל ההיברידי של מומחים הוא גישה חדשה המשלבת אינטליגנציה של אדם ובינה מלאכותית. מודל זה משפר את הדיוקנות על ידי הכנסת מערכת של בדיקות ואיזונים בין אינטליגנציה של מכונה ושיפוט אנושי.",
+      "category": "Augmented OB",
+      "summary": "המאמר דן בהשפעה של בינה מלאכותית על מודל התפעול של ארגונים. בינה מלאכותית יכולה להדגיש חולשות ק существующие בארגון ולהוביל לכישלון של תהליכים.",
       "tags": [
-        "Hybrid_Intelligence",
+        "Augmented_OB",
         "HAIT"
       ],
       "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "How to build the operating model for the intelligence era",
-      "url": "https://www.weforum.org/stories/2026/04/build-operating-model-ai-intelligence-era/",
-      "date": "2026-05-04",
-      "category": "Hybrid Intelligence",
-      "summary": "המאמר דן במודל התפעול עבור עידן האינטליגנציה. ארגונים שמקודדים צוותים היברידיים של אדם + בינה מלאכותית וזרימות עבודה כמודל תפעול ליבה - עם נתיבי העברה ברורים ובקרות - ממוקמים טוב יותר להרחבה בביטחון. 90% מהארגונים מצפים כי צוותים היברידיים של אדם + בינה מלאכותית יהפכו לסטנדרטי בתוך שלוש שנים.",
-      "tags": [
-        "Hybrid_Intelligence",
-        "HAIT",
-        "Augmented_OB"
-      ],
-      "status": [
-        "TRENDING",
+        "CITED",
         "HR Relevant"
       ]
     },
