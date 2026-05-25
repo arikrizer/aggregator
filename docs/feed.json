@@ -5,6 +5,53 @@
   "description": "אגרגטור תוכן יומי בתחום Human-AI Augmentation",
   "items": [
     {
+      "title": "AI and Healthcare: Ethics and Transparency in Augmented Intelligence - Viral Methods",
+      "url": "https://metodoviral.com/en/blog/ai/ai-and-healthcare-ethics-and-transparency-in-augmented-intelligence",
+      "date": "2026-05-25",
+      "category": "Augmented Intelligence",
+      "summary": "הבלוג דן בנושא האתיקה והשקיפות של מודיעין מוגבר בבריאות, ומדגיש את החשיבות של שקיפות וניתוח של נתונים.",
+      "tags": [
+        "Augmented_Intelligence",
+        "AI_in_Healthcare",
+        "Ethics"
+      ],
+      "status": [
+        "QUIET"
+      ]
+    },
+    {
+      "title": "Successful AI adoption hinges on organizational redesign and an ...",
+      "url": "https://www.consultancy-me.com/news/13481/successful-ai-adoption-hinges-on-organizational-redesign-and-an-enabling-culture",
+      "date": "2026-05-25",
+      "category": "Augmented OB",
+      "summary": "הדו'ח דן בדרכים ליישום מוצלח של AI בארגונים. הוא מדגיש את הצורך בשינוי מבני וארגוני כדי לתמוך ביישום ה-AI.",
+      "tags": [
+        "Organizational_Change",
+        "AI_Adoption",
+        "Hybrid_Intelligence"
+      ],
+      "status": [
+        "QUIET",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Why Psychological Safety Matters More In AI-Enabled Teams",
+      "url": "https://www.forbes.com/sites/pauladavis/2026/05/18/why-psychological-safety-matters-more-in-ai-enabled-teams",
+      "date": "2026-05-25",
+      "category": "Human-AI Teaming",
+      "summary": "המאמר דן בחשיבות של בטיחות פסיכולוגית בצוותים שמשתמשים ב-AI. הוא מדגיש את הצורך ביצירת מרחב לשיחה על השפעות ה-AI על הצוות.",
+      "tags": [
+        "Psychological_Safety",
+        "HAIT",
+        "Hybrid_Intelligence"
+      ],
+      "status": [
+        "QUIET",
+        "HR Relevant"
+      ]
+    },
+    {
       "title": "The Quiet Path from Seemingly Minor Design Errors to Workplace AI ...",
       "url": "https://arxiv.org/html/2605.21035v1",
       "date": "2026-05-24",

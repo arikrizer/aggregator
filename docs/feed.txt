@@ -1,7 +1,34 @@
 האגרגטור — Human-AI Augmentation
 https://arikrizer.github.io/aggregator/
-עודכן: 24 מאי 2026
+עודכן: 25 מאי 2026
 ============================================================
+
+כותרת: AI and Healthcare: Ethics and Transparency in Augmented Intelligence - Viral Methods
+קישור: https://metodoviral.com/en/blog/ai/ai-and-healthcare-ethics-and-transparency-in-augmented-intelligence
+תאריך: 2026-05-25
+קטגוריה: Augmented Intelligence
+סטטוס: QUIET
+תיאור: הבלוג דן בנושא האתיקה והשקיפות של מודיעין מוגבר בבריאות, ומדגיש את החשיבות של שקיפות וניתוח של נתונים.
+תגיות: Augmented_Intelligence, AI_in_Healthcare, Ethics
+---
+
+כותרת: Successful AI adoption hinges on organizational redesign and an ...
+קישור: https://www.consultancy-me.com/news/13481/successful-ai-adoption-hinges-on-organizational-redesign-and-an-enabling-culture
+תאריך: 2026-05-25
+קטגוריה: Augmented OB
+סטטוס: QUIET, HR Relevant
+תיאור: הדו'ח דן בדרכים ליישום מוצלח של AI בארגונים. הוא מדגיש את הצורך בשינוי מבני וארגוני כדי לתמוך ביישום ה-AI.
+תגיות: Organizational_Change, AI_Adoption, Hybrid_Intelligence
+---
+
+כותרת: Why Psychological Safety Matters More In AI-Enabled Teams
+קישור: https://www.forbes.com/sites/pauladavis/2026/05/18/why-psychological-safety-matters-more-in-ai-enabled-teams
+תאריך: 2026-05-25
+קטגוריה: Human-AI Teaming
+סטטוס: QUIET, HR Relevant
+תיאור: המאמר דן בחשיבות של בטיחות פסיכולוגית בצוותים שמשתמשים ב-AI. הוא מדגיש את הצורך ביצירת מרחב לשיחה על השפעות ה-AI על הצוות.
+תגיות: Psychological_Safety, HAIT, Hybrid_Intelligence
+---
 
 כותרת: The Quiet Path from Seemingly Minor Design Errors to Workplace AI ...
 קישור: https://arxiv.org/html/2605.21035v1
