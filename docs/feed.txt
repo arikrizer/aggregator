@@ -1,7 +1,79 @@
 האגרגטור — Human-AI Augmentation
 https://arikrizer.github.io/aggregator/
-עודכן: 28 מאי 2026
+עודכן: 29 מאי 2026
 ============================================================
+
+כותרת: AI in the Workplace: The Impact of AI on Perceived Job Decency and Meaningfulness
+קישור: https://arxiv.org/html/2605.28680v1
+תאריך: 2026-05-29
+קטגוריה: Human-AI Teaming
+סטטוס: QUIET, HR Relevant
+תיאור: המחקר בוחן את השפעת AI על תפיסת העובדים את המשמעות והכבוד של עבודتهم. הוא מראה כי תפיסת AI כשותף לעבודה מגבירה את המשמעות והכבוד של העבודה, בעוד ש-AI כמנהל מוריד אותם.
+תגיות: HAIT, HITL, Augmented_OB, Job_Meaningfulness, Job_Decency
+---
+
+כותרת: Organizational AI Readiness
+קישור: https://www.prosci.com/blog/organizational-ai-readiness
+תאריך: 2026-05-29
+קטגוריה: Augmented OB
+סטטוס: QUIET, HR Relevant
+תיאור: מאמר זה דן בנושא של מוכנות ארגונית לשילוב בינה מלאכותית. הוא מציג גישה מובנית להערכת מוכנותו של ארגון לשילוב בינה מלאכותית ומדגיש את חשיבות השינוי הניהולי.
+תגיות: Augmented_OB, HAIT, HITL, Human-AI_Collaboration, Leadership
+---
+
+כותרת: Getting your business ready for AI: what to do before you… - AppDirect
+קישור: https://www.appdirect.com/blog/ai-readiness-the-dos-and-donts-that-determine-success
+תאריך: 2026-05-29
+קטגוריה: Hybrid Intelligence
+סטטוס: TRENDING, HR Relevant
+תיאור: הדו"ח מציג נתונים על אימוץ AI בארגונים ומדגיש כי רק 6% מהארגונים משיגים השפעה ממשית מ-AI. הוא ממליץ על פיתוח יסודי של תשתיות AI ועל שינוי ארגוני כדי להשיג הצלחה עם AI.
+תגיות: AI_Readiness, AI_Adoption, Organizational_Change
+---
+
+כותרת: Updating How You Work So AI Can Actually Deliver
+קישור: https://huntscanlon.com/updating-how-you-work-so-ai-can-actually-deliver
+תאריך: 2026-05-29
+קטגוריה: Human-AI Teaming
+סטטוס: TRENDING, HR Relevant
+תיאור: המאמר דן בשינויים הארגוניים הנדרשים כדי לנצל את היתרונות של AI. הוא מצטט מומחה שטוען כי ארגונים נכשלים בקנה מונית של AI כי הם לא משנים את המערכת הארגונית סביבו. המאמר מדגיש כי שיפור הפרטים לא בהכרח מוביל לשיפור של הארגון כולו.
+תגיות: HAIT, Organizational_Design, AI_Adoption, Productivity
+---
+
+כותרת: Securing the AI Future by Securing AI Leaders
+קישור: https://www.crowdstrike.com/en-us/why-crowdstrike/securing-the-ai-future-by-securing-ai-leaders
+תאריך: 2026-05-29
+קטגוריה: Augmented OB
+סטטוס: TRENDING, HR Relevant
+תיאור: המאמר דן באתגרי אבטחת נתונים וסיכונים הקשורים לאימוץ AI בארגונים. הוא מצטט נתונים על השימוש ב- AI ללא אישור ועל הפערים באבטחת נתונים.
+תגיות: AI_Security, AI_Governance, Data_Risk
+---
+
+כותרת: AI-driven change and the next big thing
+קישור: https://www.strategyand.pwc.com/de/en/functions/digital/ai-driven-change.html
+תאריך: 2026-05-29
+קטגוריה: Hybrid Intelligence
+סטטוס: CITED, HR Relevant
+תיאור: הדו"ח דן בשינויים הארגוניים הנדרשים כדי לנצל את היתרונות של AI. הוא מדגיש כי שיפור נתונים וארגון הם המגבלות העיקריות לאימוץ AI.
+תגיות: AI_Adoption, Organizational_Design, Data_Management
+---
+
+כותרת: Why do employees learn artificial intelligence? The influence of motivation and dynamic capabilities
+קישור: https://www.elsevier.es/es-revista-journal-innovation-knowledge-376-articulo-why-do-employees-learn-artificial-S2444569X26000569
+תאריך: 2026-05-29
+קטגוריה: Human-AI Teaming
+סטטוס: QUIET, HR Relevant
+תיאור: המחקר בוחן את השפעת המוטיבציה ויכולות דינמיות על למידת AI של עובדים. הוא מראה כי מוכנות ארגונית ל-AI היא לא רק אתגר טכנולוגי אלא גם אנושי ומוטיבציוני. המחקר ממליץ על פיתוח יכולות ויוזמות ממוקדות שמטפחות את העניין הפנימי והתמריצים החיצוניים של העובדים ללמוד AI.
+תגיות: HAIT, HITL, Augmented_OB, Motivation, Dynamic_Capabilities
+---
+
+כותרת: Position: Adopting AI in Practice Does Not Guarantee the Productivity Boost
+קישור: https://arxiv.org/html/2605.24688v1
+תאריך: 2026-05-29
+קטגוריה: Hybrid Intelligence
+סטטוס: QUIET, HR Relevant
+תיאור: המחקר מציע פיתוח של מדדים אמפיריים לגורמים אנושיים וסביבתיים כדי לבדוק את השפעתם על הפרודוקטיביות של AI. הוא מזהה חמישה גורמים שדרושים להפעלה עבור בדיקות אמפיריות. המחקר ממליץ על מחקרים אורך שיטריכו ארגונים דרך אימוץ AI ועל פיתוח תיאוריות כלכליות שיטפלו בגורמים אנושיים וסביבתיים כמשתנים פנימיים.
+תגיות: Hybrid_Intelligence, HAIT, HITL, Augmented_OB, Productivity
+---
 
 כותרת: Human–AI Teaming: Designing Hybrid Workforces That Outperform Either Alone
 קישור: https://www.youtube.com/watch?v=hojzuBMd1Jw
@@ -1560,6 +1632,15 @@ https://arikrizer.github.io/aggregator/
 תגיות: HAIT, HR, Upskilling, Career_Growth
 ---
 
+כותרת: Five Crazy Shifts: What AI Can Teach Us about Organizational Design
+קישור: https://www.forbes.com/sites/devpatnaik/2026/05/04/five-crazy-shifts-what-ai-can-teach-us-about-organizational-design/
+תאריך: 2026-05-09
+קטגוריה: Augmented OB
+סטטוס: TRENDING, HR Relevant
+תיאור: מאמר בפורבס דן בחמישה שינויים קיצוניים ש-AI יכול ללמד אותנו על עיצוב ארגוני, כולל שינויים במהירות קבלת ההחלטות ובמבנה העבודה.
+תגיות: Augmented_OB, HAIT, Organizational_Design
+---
+
 כותרת: Toward a Quality Model for Hybrid Intelligence Teams
 קישור: https://dare.uva.nl/id/c05980d0-3ea8-4fb5-856a-69db45c6cac0
 תאריך: 2026-05-09
@@ -1621,15 +1702,6 @@ https://arikrizer.github.io/aggregator/
 סטטוס: TRENDING, HR Relevant
 תיאור: מאמר של נטשה בקלי על לינקדאין דן בשינוי הבעלות על קבלת החלטות בנוגע ל-AI, כאשר 72% מהמנכ"לים רואים עצמם כקובעי ההחלטות העיקריים בנושא. הוא גם מזכיר כי רק מעט ארגונים מעצבים מחדש את העבודה סביב כלי AI.
 תגיות: Hybrid_Intelligence, HAIT, Job_Redesign_AI, Leadership
----
-
-כותרת: Five Crazy Shifts: What AI Can Teach Us about Organizational Design
-קישור: https://www.forbes.com/sites/devpatnaik/2026/05/04/five-crazy-shifts-what-ai-can-teach-us-about-organizational-design/
-תאריך: 2026-05-09
-קטגוריה: Augmented OB
-סטטוס: TRENDING, HR Relevant
-תיאור: מאמר בפורבס דן בחמישה שינויים קיצוניים ש-AI יכול ללמד אותנו על עיצוב ארגוני, כולל שינויים במהירות קבלת ההחלטות ובמבנה העבודה.
-תגיות: Augmented_OB, HAIT, Organizational_Design
 ---
 
 כותרת: AI access is no longer the advantage, work design is, according to Microsoft ‘s 2026 Work Trends Index

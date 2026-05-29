@@ -5,6 +5,143 @@
   "description": "אגרגטור תוכן יומי בתחום Human-AI Augmentation",
   "items": [
     {
+      "title": "AI in the Workplace: The Impact of AI on Perceived Job Decency and Meaningfulness",
+      "url": "https://arxiv.org/html/2605.28680v1",
+      "date": "2026-05-29",
+      "category": "Human-AI Teaming",
+      "summary": "המחקר בוחן את השפעת AI על תפיסת העובדים את המשמעות והכבוד של עבודتهم. הוא מראה כי תפיסת AI כשותף לעבודה מגבירה את המשמעות והכבוד של העבודה, בעוד ש-AI כמנהל מוריד אותם.",
+      "tags": [
+        "HAIT",
+        "HITL",
+        "Augmented_OB",
+        "Job_Meaningfulness",
+        "Job_Decency"
+      ],
+      "status": [
+        "QUIET",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Organizational AI Readiness",
+      "url": "https://www.prosci.com/blog/organizational-ai-readiness",
+      "date": "2026-05-29",
+      "category": "Augmented OB",
+      "summary": "מאמר זה דן בנושא של מוכנות ארגונית לשילוב בינה מלאכותית. הוא מציג גישה מובנית להערכת מוכנותו של ארגון לשילוב בינה מלאכותית ומדגיש את חשיבות השינוי הניהולי.",
+      "tags": [
+        "Augmented_OB",
+        "HAIT",
+        "HITL",
+        "Human-AI_Collaboration",
+        "Leadership"
+      ],
+      "status": [
+        "QUIET",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Getting your business ready for AI: what to do before you… - AppDirect",
+      "url": "https://www.appdirect.com/blog/ai-readiness-the-dos-and-donts-that-determine-success",
+      "date": "2026-05-29",
+      "category": "Hybrid Intelligence",
+      "summary": "הדו\"ח מציג נתונים על אימוץ AI בארגונים ומדגיש כי רק 6% מהארגונים משיגים השפעה ממשית מ-AI. הוא ממליץ על פיתוח יסודי של תשתיות AI ועל שינוי ארגוני כדי להשיג הצלחה עם AI.",
+      "tags": [
+        "AI_Readiness",
+        "AI_Adoption",
+        "Organizational_Change"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Updating How You Work So AI Can Actually Deliver",
+      "url": "https://huntscanlon.com/updating-how-you-work-so-ai-can-actually-deliver",
+      "date": "2026-05-29",
+      "category": "Human-AI Teaming",
+      "summary": "המאמר דן בשינויים הארגוניים הנדרשים כדי לנצל את היתרונות של AI. הוא מצטט מומחה שטוען כי ארגונים נכשלים בקנה מונית של AI כי הם לא משנים את המערכת הארגונית סביבו. המאמר מדגיש כי שיפור הפרטים לא בהכרח מוביל לשיפור של הארגון כולו.",
+      "tags": [
+        "HAIT",
+        "Organizational_Design",
+        "AI_Adoption",
+        "Productivity"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Securing the AI Future by Securing AI Leaders",
+      "url": "https://www.crowdstrike.com/en-us/why-crowdstrike/securing-the-ai-future-by-securing-ai-leaders",
+      "date": "2026-05-29",
+      "category": "Augmented OB",
+      "summary": "המאמר דן באתגרי אבטחת נתונים וסיכונים הקשורים לאימוץ AI בארגונים. הוא מצטט נתונים על השימוש ב- AI ללא אישור ועל הפערים באבטחת נתונים.",
+      "tags": [
+        "AI_Security",
+        "AI_Governance",
+        "Data_Risk"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "AI-driven change and the next big thing",
+      "url": "https://www.strategyand.pwc.com/de/en/functions/digital/ai-driven-change.html",
+      "date": "2026-05-29",
+      "category": "Hybrid Intelligence",
+      "summary": "הדו\"ח דן בשינויים הארגוניים הנדרשים כדי לנצל את היתרונות של AI. הוא מדגיש כי שיפור נתונים וארגון הם המגבלות העיקריות לאימוץ AI.",
+      "tags": [
+        "AI_Adoption",
+        "Organizational_Design",
+        "Data_Management"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Why do employees learn artificial intelligence? The influence of motivation and dynamic capabilities",
+      "url": "https://www.elsevier.es/es-revista-journal-innovation-knowledge-376-articulo-why-do-employees-learn-artificial-S2444569X26000569",
+      "date": "2026-05-29",
+      "category": "Human-AI Teaming",
+      "summary": "המחקר בוחן את השפעת המוטיבציה ויכולות דינמיות על למידת AI של עובדים. הוא מראה כי מוכנות ארגונית ל-AI היא לא רק אתגר טכנולוגי אלא גם אנושי ומוטיבציוני. המחקר ממליץ על פיתוח יכולות ויוזמות ממוקדות שמטפחות את העניין הפנימי והתמריצים החיצוניים של העובדים ללמוד AI.",
+      "tags": [
+        "HAIT",
+        "HITL",
+        "Augmented_OB",
+        "Motivation",
+        "Dynamic_Capabilities"
+      ],
+      "status": [
+        "QUIET",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Position: Adopting AI in Practice Does Not Guarantee the Productivity Boost",
+      "url": "https://arxiv.org/html/2605.24688v1",
+      "date": "2026-05-29",
+      "category": "Hybrid Intelligence",
+      "summary": "המחקר מציע פיתוח של מדדים אמפיריים לגורמים אנושיים וסביבתיים כדי לבדוק את השפעתם על הפרודוקטיביות של AI. הוא מזהה חמישה גורמים שדרושים להפעלה עבור בדיקות אמפיריות. המחקר ממליץ על מחקרים אורך שיטריכו ארגונים דרך אימוץ AI ועל פיתוח תיאוריות כלכליות שיטפלו בגורמים אנושיים וסביבתיים כמשתנים פנימיים.",
+      "tags": [
+        "Hybrid_Intelligence",
+        "HAIT",
+        "HITL",
+        "Augmented_OB",
+        "Productivity"
+      ],
+      "status": [
+        "QUIET",
+        "HR Relevant"
+      ]
+    },
+    {
       "title": "Human–AI Teaming: Designing Hybrid Workforces That Outperform Either Alone",
       "url": "https://www.youtube.com/watch?v=hojzuBMd1Jw",
       "date": "2026-05-28",
@@ -2936,6 +3073,22 @@
       ]
     },
     {
+      "title": "Five Crazy Shifts: What AI Can Teach Us about Organizational Design",
+      "url": "https://www.forbes.com/sites/devpatnaik/2026/05/04/five-crazy-shifts-what-ai-can-teach-us-about-organizational-design/",
+      "date": "2026-05-09",
+      "category": "Augmented OB",
+      "summary": "מאמר בפורבס דן בחמישה שינויים קיצוניים ש-AI יכול ללמד אותנו על עיצוב ארגוני, כולל שינויים במהירות קבלת ההחלטות ובמבנה העבודה.",
+      "tags": [
+        "Augmented_OB",
+        "HAIT",
+        "Organizational_Design"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
       "title": "Toward a Quality Model for Hybrid Intelligence Teams",
       "url": "https://dare.uva.nl/id/c05980d0-3ea8-4fb5-856a-69db45c6cac0",
       "date": "2026-05-09",
@@ -3047,22 +3200,6 @@
         "HAIT",
         "Job_Redesign_AI",
         "Leadership"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Five Crazy Shifts: What AI Can Teach Us about Organizational Design",
-      "url": "https://www.forbes.com/sites/devpatnaik/2026/05/04/five-crazy-shifts-what-ai-can-teach-us-about-organizational-design/",
-      "date": "2026-05-09",
-      "category": "Augmented OB",
-      "summary": "מאמר בפורבס דן בחמישה שינויים קיצוניים ש-AI יכול ללמד אותנו על עיצוב ארגוני, כולל שינויים במהירות קבלת ההחלטות ובמבנה העבודה.",
-      "tags": [
-        "Augmented_OB",
-        "HAIT",
-        "Organizational_Design"
       ],
       "status": [
         "TRENDING",
