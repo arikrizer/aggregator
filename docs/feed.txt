@@ -1,7 +1,61 @@
 האגרגטור — Human-AI Augmentation
 https://arikrizer.github.io/aggregator/
-עודכן: 29 מאי 2026
+עודכן: 30 מאי 2026
 ============================================================
+
+כותרת: Organizational AI Transparency in Hybrid Work: Building Trust
+קישור: https://www.innovativehumancapital.com/article/organizational-ai-transparency-in-hybrid-work-building-trust-empowering-adaptation-and-strengthen
+תאריך: 2026-05-30
+קטגוריה: Human-AI Teaming
+סטטוס: QUIET, HR Relevant
+תיאור: המאמר דן באתגרים של שילוב בינה מלאכותית בעבודה היברידית ובונה אמון. הוא בוחן את ההשפעה של בינה מלאכותית על עבודת צוות והיבטים שונים של ארגונים.
+תגיות: Hybrid_Intelligence, HAIT, HITL, Augmented_OB, Human-AI_Collaboration
+---
+
+כותרת: Future of Human-in-the-Loop AI (2026) - Emerging Trends
+קישור: https://parseur.com/blog/future-of-hitl-ai
+תאריך: 2026-05-30
+קטגוריה: Human-in-the-Loop
+סטטוס: TRENDING, HR Relevant
+תיאור: הפוסט דן במגמות עתידיות של בינה מלאכותית עם התערבות אנושית. הוא בוחן את הצורך במסגרות היברידיות שמשלבות אוטומציה עם פיקוח אנושי.
+תגיות: HITL, Hybrid_Intelligence, HAIT, Augmented_Intelligence, Human-AI_Collaboration
+---
+
+כותרת: Human–AI Teaming: Designing Hybrid Workforces That Outperform Either Alone
+קישור: https://www.youtube.com/watch?v=hojzuBMd1Jw
+תאריך: 2026-05-30
+קטגוריה: Human-AI Teaming
+סטטוס: CITED, HR Relevant
+תיאור: המאמר דן בעיצוב של כוח עבודה היברידי שמשלב בני אדם ובינה מלאכותית. הוא בוחן את האתגרים וההזדמנויות של עבודה משותפת.
+תגיות: HAIT, Hybrid_Intelligence, HITL, Augmented_OB, Human-AI_Collaboration
+---
+
+כותרת: AI in the Workplace: The Impact of AI on Perceived Job Decency and Meaningfulness
+קישור: https://arxiv.org/html/2605.28680v1
+תאריך: 2026-05-30
+קטגוריה: Human-AI Teaming
+סטטוס: CITED, HR Relevant
+תיאור: מחקר זה בוחן את ההשפעה של AI על תפיסת המשמעות והכבוד של העבודה. הוא מצא כי כאשר AI נתפס כשותף לעבודה, הוא מעלה את תחושת המשמעות של העבודה, אך כאשר AI נתפס כעובד העל, הוא מוריד את תחושת המשמעות. המחקר גם מצא כי שימור האוטונומיה והאחריות של העובדים הוא קריטי לתחושת הסיפוק שלהם.
+תגיות: Human-AI_Collaboration, HAIT, Hybrid_Intelligence, Job_Redesign_AI, Autonomy
+---
+
+כותרת: Position: Adopting AI in Practice Does Not Guarantee the Productivity Boost
+קישור: https://arxiv.org/html/2605.24688v1
+תאריך: 2026-05-30
+קטגוריה: Hybrid Intelligence
+סטטוס: CITED, HR Relevant
+תיאור: מחקר זה בוחן את הקשר בין אימוץ AI לבין תוספת הפרודוקטיביות. הוא מצא כי אימוץ AI אינו מבטיח תוספת פרודוקטיביות, וכי הגורם הקריטי הוא גמישות היעדים הארגוניים. כאשר היעדים גמישים, AI יכול לשפר את הפרודוקטיביות, אך כאשר היעדים קבועים, AI אינו מספק תועלת רבה.
+תגיות: AI_Adoption, Productivity, Organizational_Design, Flexible_Goals
+---
+
+כותרת: Your future job will be to keep AI on task
+קישור: https://www.noahpinion.blog/p/your-future-job-will-be-to-keep-ai
+תאריך: 2026-05-30
+קטגוריה: Human-in-the-Loop
+סטטוס: TRENDING, HR Relevant
+תיאור: המאמר טוען כי בעתיד, תפקידם של בני אדם יהיה לוודא כי הבינה המלאכותית תעבוד באופן נכון ולא תפגע במערכות. הוא מתאר את הצורך בבני אדם שיוכלו ליישר את הבינה המלאכותית ולוודא כי היא פועלת באופן אחראי.
+תגיות: HAIT, Hybrid_Intelligence, Autonomous_Agents, Trust, Accountability
+---
 
 כותרת: AI in the Workplace: The Impact of AI on Perceived Job Decency and Meaningfulness
 קישור: https://arxiv.org/html/2605.28680v1
@@ -1632,13 +1686,13 @@ https://arikrizer.github.io/aggregator/
 תגיות: HAIT, HR, Upskilling, Career_Growth
 ---
 
-כותרת: Five Crazy Shifts: What AI Can Teach Us about Organizational Design
-קישור: https://www.forbes.com/sites/devpatnaik/2026/05/04/five-crazy-shifts-what-ai-can-teach-us-about-organizational-design/
+כותרת: Ethical Practices for Organizations - Society for Industrial and ... - SIOP
+קישור: https://www.siop.org/resources-publications/business-resources/ethical-practices-for-organizations/
 תאריך: 2026-05-09
 קטגוריה: Augmented OB
-סטטוס: TRENDING, HR Relevant
-תיאור: מאמר בפורבס דן בחמישה שינויים קיצוניים ש-AI יכול ללמד אותנו על עיצוב ארגוני, כולל שינויים במהירות קבלת ההחלטות ובמבנה העבודה.
-תגיות: Augmented_OB, HAIT, Organizational_Design
+סטטוס: QUIET, HR Relevant
+תיאור: המאמר מספק הנחיות לארגונים בנוגע לשימוש אתי בינה מלאכותית, כולל שיקולים אתיים, משפטיים ותפעוליים. הוא גם מספק שאלות לבחינה כדי להנחות את היישום האחראי של בינה מלאכותית.
+תגיות: Ethical_AI, AI_Governance, Organizational_Culture
 ---
 
 כותרת: Toward a Quality Model for Hybrid Intelligence Teams
@@ -1704,6 +1758,15 @@ https://arikrizer.github.io/aggregator/
 תגיות: Hybrid_Intelligence, HAIT, Job_Redesign_AI, Leadership
 ---
 
+כותרת: Five Crazy Shifts: What AI Can Teach Us about Organizational Design
+קישור: https://www.forbes.com/sites/devpatnaik/2026/05/04/five-crazy-shifts-what-ai-can-teach-us-about-organizational-design/
+תאריך: 2026-05-09
+קטגוריה: Augmented OB
+סטטוס: TRENDING, HR Relevant
+תיאור: מאמר בפורבס דן בחמישה שינויים קיצוניים ש-AI יכול ללמד אותנו על עיצוב ארגוני, כולל שינויים במהירות קבלת ההחלטות ובמבנה העבודה.
+תגיות: Augmented_OB, HAIT, Organizational_Design
+---
+
 כותרת: AI access is no longer the advantage, work design is, according to Microsoft ‘s 2026 Work Trends Index
 קישור: https://www.unleash.ai/organizational-design/ai-access-is-no-longer-the-advantage-work-design-is-according-to-microsoft-s-2026-work-trends-index/
 תאריך: 2026-05-09
@@ -1756,15 +1819,6 @@ https://arikrizer.github.io/aggregator/
 סטטוס: QUIET, HR Relevant
 תיאור: המאמר דן באתגרים של ניהול בינה מלאכותית בארגונים גדולים ומדגיש את הצורך בשינוי גישת הממשל כדי להתמודד עם האתגרים האתיים והמשפטיים של בינה מלאכותית.
 תגיות: AI_Governance, Ethics, Compliance
----
-
-כותרת: Ethical Practices for Organizations - Society for Industrial and ... - SIOP
-קישור: https://www.siop.org/resources-publications/business-resources/ethical-practices-for-organizations/
-תאריך: 2026-05-09
-קטגוריה: Augmented OB
-סטטוס: QUIET, HR Relevant
-תיאור: המאמר מספק הנחיות לארגונים בנוגע לשימוש אתי בינה מלאכותית, כולל שיקולים אתיים, משפטיים ותפעוליים. הוא גם מספק שאלות לבחינה כדי להנחות את היישום האחראי של בינה מלאכותית.
-תגיות: Ethical_AI, AI_Governance, Organizational_Culture
 ---
 
 כותרת: Generative AI ethics: 16 biggest concerns and risks
