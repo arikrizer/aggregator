@@ -1,7 +1,79 @@
 האגרגטור — Human-AI Augmentation
 https://arikrizer.github.io/aggregator/
-עודכן: 31 מאי 2026
+עודכן: 1 יוני 2026
 ============================================================
+
+כותרת: Organizational AI Transparency in Hybrid Work: Building Trust, Empowering Adaptation, and Strengthening Career Confidence
+קישור: https://www.innovativehumancapital.com/article/organizational-ai-transparency-in-hybrid-work-building-trust-empowering-adaptation-and-strengthen
+תאריך: 2026-06-01
+קטגוריה: Hybrid Intelligence
+סטטוס: QUIET, HR Relevant
+תיאור: המאמר דן באתגרים של שילוב בינה מלאכותית בסביבות עבודה היברידיות. הוא מדגיש את החשיבות של שקיפות ושקיפות ארגונית בבניית אמון ויצירת תנאים להתאמה ופיתוח קריירה.
+תגיות: Hybrid_Intelligence, HAIT, HITL, Augmented_OB, Trust
+---
+
+כותרת: AI and the Rise of Distributed Intelligence Teams: A Catalyst That Reinvents Humanity
+קישור: https://www.linkedin.com/pulse/ai-rise-distributed-intelligence-teams-catalyst-andre-uytne
+תאריך: 2026-06-01
+קטגוריה: Human-AI Teaming
+סטטוס: TRENDING, HR Relevant
+תיאור: המאמר דן בשינוי הפרדיגמה של צוותים מבוזרים המונעים על ידי בינה מלאכותית. הוא מתאר שלבים ומדדים להצלחת השינוי הזה.
+תגיות: HAIT, HITL, Augmented_OB, Autonomy, Team_Structure
+---
+
+כותרת: AI in HR: How Human-Centered Leadership Can Close the Influence Gap at Work
+קישור: https://www.adp.com/spark/articles/2026/05/ai-in-hr-how-human-centered-leadership-can-close-the-influence-gap-at-work.aspx
+תאריך: 2026-06-01
+קטגוריה: HAIT
+סטטוס: TRENDING, HR Relevant
+תיאור: המאמר דן בדרכים ליישום בינה מלאכותית ביעילות בתחום משאבי האנוש. הוא מדגיש את החשיבות של מנהיגות ממוקדת באדם.
+תגיות: HAIT, HITL, Augmented_OB, Leadership, HR
+---
+
+כותרת: From Augmentation to Reconstruction: Guiding the AI Disruption to the Good Place
+קישור: https://arxiv.org/html/2605.29207
+תאריך: 2026-06-01
+קטגוריה: Human-AI Teaming
+סטטוס: CITED, HR Relevant
+תיאור: מאמר זה דן בשלבים של אימוץ AI בארגונים, החל מאוגמנטציה של משימות דיסקרטיות ועד לשינויים עמוקים יותר במבנה העבודה. הוא מדגיש כי בעוד שAI יכול לשפר את המהירות והיעילות, הוא אינו משנה בהכרח את מבנה הזרימה של העבודה.
+תגיות: Human-AI_Collaboration, Augmented_Intelligence, Organizational_Change, AI_Adoption
+---
+
+כותרת: AI in the Workplace: The Impact of AI on Perceived Job Decency and Meaningfulness
+קישור: https://arxiv.org/html/2605.28680v1
+תאריך: 2026-06-01
+קטגוריה: Human-AI Teaming
+סטטוס: CITED, HR Relevant
+תיאור: מחקר זה בוחן כיצד AI משפיע על תפיסת המשמעות והכבוד של העבודה. הוא מוצא כי כאשר AI נתפס כשותף, ולא כעובד או מנהל, הוא יכול להגביר את תחושת המשמעות והסיפוק בעבודה.
+תגיות: Human-AI_Collaboration, Job_Satisfaction, AI_Impact
+---
+
+כותרת: Employees Are Relying on AI for Personal Support. That's Risky.
+קישור: https://hbr.org/2026/05/employees-are-relying-on-ai-for-personal-support-thats-risky
+תאריך: 2026-06-01
+קטגוריה: Human-in-the-Loop
+סטטוס: TRENDING, HR Relevant
+תיאור: מאמר זה דן בסיכונים של עובדים שמסתמכים על AI לתמיכה אישית בעבודה. הוא מדגיש כי זה יכול להחליש את הקשרים האנושיים במקום העבודה ולהוביל לתוצאות לא צפויות.
+תגיות: AI_Risks, Human_AI_Collaboration, Employee_Wellbeing
+---
+
+כותרת: Updating How You Work So AI Can Actually Deliver
+קישור: https://huntscanlon.com/updating-how-you-work-so-ai-can-actually-deliver
+תאריך: 2026-06-01
+קטגוריה: Human-AI Teaming
+סטטוס: TRENDING, HR Relevant
+תיאור: המאמר דן בדרכים בהן ארגונים יכולים לעדכן את תהליכיהם כדי לאפשר לאינטליגנציה מלאכותית (AI) להשפיע באופן משמעותי יותר. הוא מדגיש כי ארגונים נכשלים בקנה מונית של AI משום שהם אינם מעצבים מחדש את המערכת סביבו. המאמר גם מדגיש כי התפקיד של הנהגת הארגון משתנה מלהתמקד בהנחיית משימות לבין ניהול מערכות.
+תגיות: Human-AI_Collaboration, HAIT, Job_Redesign_AI, Organizational_Design
+---
+
+כותרת: Your Workforce Is Already in the Future. Your Org Chart Isn’t. - Cyclotron
+קישור: https://cyclotron.com/post/your-workforce-is-already-in-the-future-your-org-chart-isnt
+תאריך: 2026-06-01
+קטגוריה: Human-AI Teaming
+סטטוס: TRENDING, HR Relevant
+תיאור: המאמר דן בדרכים בהן ארגונים יכולים לעדכן את תהליכיהם כדי לאפשר לאינטליגנציה מלאכותית (AI) להשפיע באופן משמעותי יותר. הוא מדגיש כי חברות שמעצבות מחדש את התהליכים סביב AI יזכו לתועלת גדולה יותר.
+תגיות: Human-AI_Collaboration, HAIT, Job_Redesign_AI, Organizational_Design
+---
 
 כותרת: Rethinking organizational design in the age of agentic AI
 קישור: https://hsjchronicle.com/rethinking-organizational-design-in-the-age-of-agentic-ai
@@ -1794,6 +1866,24 @@ https://arikrizer.github.io/aggregator/
 תגיות: HAIT, HR, Upskilling, Career_Growth
 ---
 
+כותרת: THE IMPACT OF ARTIFICIAL INTELLIGENCE TECHNOLOGIES ON MODERN MANAGEMENT PROCESSES AND DEVELOPMENT PROSPECTS: PROBLEMS AND SOLUTIONS
+קישור: https://advancedscienti.com/index.php/AJMB/article/view/4502
+תאריך: 2026-05-09
+קטגוריה: Hybrid Intelligence
+סטטוס: QUIET, HR Relevant
+תיאור: מאמר בכתב עת מדעי דן בהשפעת טכנולוגיות AI על תהליכי ניהול מודרניים ועל הבעיות והפתרונות הקשורים לכך.
+תגיות: Hybrid_Intelligence, HAIT, Management
+---
+
+כותרת: What Are the Common Risks of AI in an Organization? And How to Be Ready - Netrix Global
+קישור: https://netrixglobal.com/blog/cybersecurity/what-are-the-common-risks-of-ai-in-an-organization-and-how-to-be-ready/
+תאריך: 2026-05-09
+קטגוריה: Hybrid Intelligence
+סטטוס: QUIET, HR Relevant
+תיאור: המאמר דן בסיכונים הקשורים לשימוש בינה מלאכותית בארגונים, כולל סיכונים לתדמית ולערכים הארגוניים. הוא גם מספק הנחיות לארגונים כדי להתמודד עם הסיכונים.
+תגיות: AI_Risks, Reputational_Risk, Organizational_Values
+---
+
 כותרת: Generative AI ethics: 16 biggest concerns and risks
 קישור: https://www.techtarget.com/searchenterpriseai/tip/Generative-AI-ethics-8-biggest-concerns
 תאריך: 2026-05-09
@@ -1830,15 +1920,6 @@ https://arikrizer.github.io/aggregator/
 תגיות: Ethical_AI, AI_Governance, Corporate_Culture
 ---
 
-כותרת: THE IMPACT OF ARTIFICIAL INTELLIGENCE TECHNOLOGIES ON MODERN MANAGEMENT PROCESSES AND DEVELOPMENT PROSPECTS: PROBLEMS AND SOLUTIONS
-קישור: https://advancedscienti.com/index.php/AJMB/article/view/4502
-תאריך: 2026-05-09
-קטגוריה: Hybrid Intelligence
-סטטוס: QUIET, HR Relevant
-תיאור: מאמר בכתב עת מדעי דן בהשפעת טכנולוגיות AI על תהליכי ניהול מודרניים ועל הבעיות והפתרונות הקשורים לכך.
-תגיות: Hybrid_Intelligence, HAIT, Management
----
-
 כותרת: IESE redesigns MBA for the age of AI
 קישור: https://www.iese.edu/stories/iese-redesigns-mba-ai/
 תאריך: 2026-05-09
@@ -1873,15 +1954,6 @@ https://arikrizer.github.io/aggregator/
 סטטוס: TRENDING, HR Relevant
 תיאור: מאמר בפורבס דן בחמישה שינויים קיצוניים ש-AI יכול ללמד אותנו על עיצוב ארגוני, כולל שינויים במהירות קבלת ההחלטות ובמבנה העבודה.
 תגיות: Augmented_OB, HAIT, Organizational_Design
----
-
-כותרת: What Are the Common Risks of AI in an Organization? And How to Be Ready - Netrix Global
-קישור: https://netrixglobal.com/blog/cybersecurity/what-are-the-common-risks-of-ai-in-an-organization-and-how-to-be-ready/
-תאריך: 2026-05-09
-קטגוריה: Hybrid Intelligence
-סטטוס: QUIET, HR Relevant
-תיאור: המאמר דן בסיכונים הקשורים לשימוש בינה מלאכותית בארגונים, כולל סיכונים לתדמית ולערכים הארגוניים. הוא גם מספק הנחיות לארגונים כדי להתמודד עם הסיכונים.
-תגיות: AI_Risks, Reputational_Risk, Organizational_Values
 ---
 
 כותרת: Designing Organizations for the Future of AI Decision Making
@@ -2343,15 +2415,6 @@ https://arikrizer.github.io/aggregator/
 תגיות: Leadership, Organizational_Change, AI_Strategy
 ---
 
-כותרת: How to build the operating model for the intelligence era
-קישור: https://www.weforum.org/stories/2026/04/build-operating-model-ai-intelligence-era/
-תאריך: 2026-05-04
-קטגוריה: Hybrid Intelligence
-סטטוס: TRENDING, HR Relevant
-תיאור: המאמר דן במודל התפעול עבור עידן האינטליגנציה. ארגונים שמקודדים צוותים היברידיים של אדם + בינה מלאכותית וזרימות עבודה כמודל תפעול ליבה - עם נתיבי העברה ברורים ובקרות - ממוקמים טוב יותר להרחבה בביטחון. 90% מהארגונים מצפים כי צוותים היברידיים של אדם + בינה מלאכותית יהפכו לסטנדרטי בתוך שלוש שנים.
-תגיות: Hybrid_Intelligence, HAIT, Augmented_OB
----
-
 כותרת: AI joins the organisation chart | KPMG UK
 קישור: https://kpmg.com/uk/en/insights/transformation/ai-joins-the-organisation-chart.html
 תאריך: 2026-05-04
@@ -2379,15 +2442,6 @@ https://arikrizer.github.io/aggregator/
 תגיות: HAIT, Hybrid_Intelligence, Teamwork
 ---
 
-כותרת: Hybrid Expert Network Model: Human + AI Intelligence in 2026
-קישור: https://www.astuteconnect.com/blog/hybrid-expert-network-human-ai-intelligence-2026
-תאריך: 2026-05-04
-קטגוריה: Hybrid Intelligence
-סטטוס: TRENDING, HR Relevant
-תיאור: המודל ההיברידי של מומחים הוא גישה חדשה המשלבת אינטליגנציה של אדם ובינה מלאכותית. מודל זה משפר את הדיוקנות על ידי הכנסת מערכת של בדיקות ואיזונים בין אינטליגנציה של מכונה ושיפוט אנושי.
-תגיות: Hybrid_Intelligence, HAIT
----
-
 כותרת: Professor Launches Blog Focused on Exploring Human Impact of Artificial Intelligence Integration
 קישור: https://www.isu.edu/news/2026-spring/professor-launches-blog-focused-on-exploring-human-impact-of-artificial-intelligence-integration.html
 תאריך: 2026-05-04
@@ -2395,6 +2449,15 @@ https://arikrizer.github.io/aggregator/
 סטטוס: QUIET, HR Relevant
 תיאור: פרופסור מאוניברסיטת איידاهو השיק בלוג שמטרתו לחקור את ההשפעה של שילוב AI על בני אדם. הבלוג יעסוק בנושאים כמו אינטגרציה של AI בעבודה, השפעה על הבריאות הנפשית, וצורך בהכשרת סטודנטים לעבודה עם AI.
 תגיות: Human-AI_Collaboration, HAIT, Augmented_OB
+---
+
+כותרת: Hybrid Expert Network Model: Human + AI Intelligence in 2026
+קישור: https://www.astuteconnect.com/blog/hybrid-expert-network-human-ai-intelligence-2026
+תאריך: 2026-05-04
+קטגוריה: Hybrid Intelligence
+סטטוס: TRENDING, HR Relevant
+תיאור: המודל ההיברידי של מומחים הוא גישה חדשה המשלבת אינטליגנציה של אדם ובינה מלאכותית. מודל זה משפר את הדיוקנות על ידי הכנסת מערכת של בדיקות ואיזונים בין אינטליגנציה של מכונה ושיפוט אנושי.
+תגיות: Hybrid_Intelligence, HAIT
 ---
 
 כותרת: Framework grounded in collective intelligence aims to create effective collaboration in human-AI teams
@@ -2413,6 +2476,15 @@ https://arikrizer.github.io/aggregator/
 סטטוס: CITED, HR Relevant
 תיאור: המאמר דן בשילוב של אדם בתהליכי אימות ובקרה של בינה מלאכותית. ארגונים מובילים עוברים למודל היברידי שבו מומחים בתחום מוגברים בידע של בינה מלאכותית.
 תגיות: Human-in-the-Loop, HAIT
+---
+
+כותרת: How to build the operating model for the intelligence era
+קישור: https://www.weforum.org/stories/2026/04/build-operating-model-ai-intelligence-era/
+תאריך: 2026-05-04
+קטגוריה: Hybrid Intelligence
+סטטוס: TRENDING, HR Relevant
+תיאור: המאמר דן במודל התפעול עבור עידן האינטליגנציה. ארגונים שמקודדים צוותים היברידיים של אדם + בינה מלאכותית וזרימות עבודה כמודל תפעול ליבה - עם נתיבי העברה ברורים ובקרות - ממוקמים טוב יותר להרחבה בביטחון. 90% מהארגונים מצפים כי צוותים היברידיים של אדם + בינה מלאכותית יהפכו לסטנדרטי בתוך שלוש שנים.
+תגיות: Hybrid_Intelligence, HAIT, Augmented_OB
 ---
 
 כותרת: How to build the operating model for the intelligence era
