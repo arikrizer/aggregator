@@ -7,6 +7,78 @@
     {
       "title": "Organizational AI Transparency in Hybrid Work: Building Trust, Empowering Adaptation, and Strengthening Career Confidence",
       "url": "https://www.innovativehumancapital.com/article/organizational-ai-transparency-in-hybrid-work-building-trust-empowering-adaptation-and-strengthen",
+      "date": "2026-06-02",
+      "category": "Hybrid Intelligence",
+      "summary": "המאמר דן באתגרים של שילוב בינה מלאכותית (AI) בעבודה היברידית ובונה אמ信任 בארגונים. הוא בוחן כיצד ארגונים יכולים לפרוס מערכות AI באופן שיבנה אמ信任 ויקדם הסתגלות.",
+      "tags": [
+        "Hybrid_Intelligence",
+        "HAIT",
+        "HITL",
+        "Augmented_OB",
+        "Trust"
+      ],
+      "status": [
+        "QUIET",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "The Rise of Intelligence-Augmented Executives: Leadership in the Age of Cognitive Enhancement",
+      "url": "https://www.linkedin.com/pulse/rise-intelligence-augmented-executives-leadership-age-andre-bhjbe",
+      "date": "2026-06-02",
+      "category": "Hybrid Intelligence",
+      "summary": "המאמר דן בדרכים שבהן מנהיגים יכולים להשתמש בבינה מלאכותית (AI) כדי לשפר את קבלת ההחלטות שלהם. הוא בוחן את האתגרים וההזדמנויות של שילוב AI בקבלת החלטות.",
+      "tags": [
+        "Hybrid_Intelligence",
+        "HAIT",
+        "HITL",
+        "Augmented_OB",
+        "Leadership"
+      ],
+      "status": [
+        "QUIET",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "AI in HR: How Human-Centered Leadership Can Close the ... - ADP",
+      "url": "https://www.adp.com/spark/articles/2026/05/ai-in-hr-how-human-centered-leadership-can-close-the-influence-gap-at-work.aspx",
+      "date": "2026-06-02",
+      "category": "Augmented OB",
+      "summary": "הדו\"ח דן בדרכים ליישום AI אחראי במקום העבודה, כולל הקמת תקנים לממשל, הגנה על נתוני עובדים והבטחת פיקוח אנושי.",
+      "tags": [
+        "HAIT",
+        "Hybrid_Intelligence",
+        "Augmented_Intelligence",
+        "Leadership",
+        "Compliance"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "AI in the Workplace: The Impact of AI on Perceived Job Decency and Meaningfulness",
+      "url": "https://arxiv.org/html/2605.28680v1",
+      "date": "2026-06-02",
+      "category": "Human-AI Teaming",
+      "summary": "המחקר בוחן את השפעת השילוב של AI במקום העבודה על התפיסה של עובדים לגבי המשמעות והכבוד של עבודتهم. המחקר מצא כי תפיסה של AI כשותף לעבודה מגבירה את התחושה של משמעות עבודה, בעוד תפיסה של AI כעובד עליון מורידה אותה.",
+      "tags": [
+        "HAIT",
+        "Hybrid_Intelligence",
+        "Job_Redesign_AI",
+        "Psychological_Safety",
+        "Autonomy"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Organizational AI Transparency in Hybrid Work: Building Trust, Empowering Adaptation, and Strengthening Career Confidence",
+      "url": "https://www.innovativehumancapital.com/article/organizational-ai-transparency-in-hybrid-work-building-trust-empowering-adaptation-and-strengthen",
       "date": "2026-06-01",
       "category": "Hybrid Intelligence",
       "summary": "המאמר דן באתגרים של שילוב בינה מלאכותית בסביבות עבודה היברידיות. הוא מדגיש את החשיבות של שקיפות ושקיפות ארגונית בבניית אמון ויצירת תנאים להתאמה ופיתוח קריירה.",
@@ -6821,42 +6893,6 @@
       ]
     },
     {
-      "title": "AI Is Flattening Organizations: What L&D Must Do",
-      "url": "https://trainingindustry.com/articles/workforce-development/the-disappearing-middle-how-ai-is-flattening-organizational-structures/",
-      "date": "2026-04-17",
-      "category": "Human-AI Teaming",
-      "summary": "מאמר זה דן בשינויים הארגוניים הנגרמים על ידי AI ומדגיש את הצורך במיומנויות שונות בתקופה של שינוי ארגוני. הוא מדגיש כי עובדים שיכולים להתאים ולהשתמש ב-AI באופן יעיל הם אלו שיהיו מוצלחים בסביבות עבודה חדשות. המאמר גם מדגיש את חשיבות הלמידה והפיתוח של כישורים חדשים.",
-      "tags": [
-        "Hybrid_Intelligence",
-        "HAIT",
-        "HITL",
-        "Augmented_OB",
-        "Job_Redesign_AI"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Organizational Network Transformation Through Grounded GenAI: Evidence-Based Strategies for Managing Human-Machine Collaboration",
-      "url": "https://www.innovativehumancapital.com/article/organizational-network-transformation-through-grounded-genai-evidence-based-strategies-for-managing",
-      "date": "2026-04-17",
-      "category": "Human-AI Teaming",
-      "summary": "מאמר זה מציג אסטרטגיות מבוססות ראיות לניהול שיתוף פעולה בין אדם למכונה בארגונים. הוא דן בדרכים ליישום AI באופן שיכול לשפר את הביצועים של העובדים ואת היעילות של תהליכים ארגוניים.",
-      "tags": [
-        "Hybrid_Intelligence",
-        "HAIT",
-        "HITL",
-        "Augmented_OB",
-        "Generative_AI"
-      ],
-      "status": [
-        "CITED",
-        "HR Relevant"
-      ]
-    },
-    {
       "title": "AI-Focused Organizational Changes Underperform Other Reorganizations",
       "url": "https://www.bain.com/insights/ai-focused-organizational-changes-underperform-other-reorganizations-snap-chart/",
       "date": "2026-04-17",
@@ -6920,24 +6956,6 @@
       ],
       "status": [
         "QUIET",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "AI-Induced Overconfidence: The Next Organizational Failure Mode",
-      "url": "https://www.linkedin.com/pulse/ai-induced-overconfidence-next-organizational-failure-andre-m0une",
-      "date": "2026-04-17",
-      "category": "Human-AI Teaming",
-      "summary": "המאמר דן בסכנות של אימוץ טכנולוגיות AI ללא הבנה מלאה של השפעותיהן, ומדגיש כי לחץ תחרותי ולגיטימציה עשויים להוביל לאימוץ טכנולוגיות אלו מבלי שנבדקו היטב. סקר של Deloitte מ-2024 מצא כי 67% מהחברות ברשימת Fortune 500 ציינו כי הלחץ התחרותי הוא הסיבה העיקרית לאימוץ AI, בעוד שרק 23% יכלו לציין שיפורים ספציפיים בביצועים.",
-      "tags": [
-        "Hybrid_Intelligence",
-        "HAIT",
-        "HITL",
-        "Augmented_OB",
-        "Generative_AI"
-      ],
-      "status": [
-        "TRENDING",
         "HR Relevant"
       ]
     }
