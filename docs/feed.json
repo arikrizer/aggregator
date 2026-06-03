@@ -5,6 +5,54 @@
   "description": "אגרגטור תוכן יומי בתחום Human-AI Augmentation",
   "items": [
     {
+      "title": "Calibrating Human–AI Teams: A Knowledge Management Framework for Optimizing Collective Intelligence",
+      "url": "https://www.innovativehumancapital.com/article/calibrating-human-ai-teams-a-knowledge-management-framework-for-optimizing-collective-intelligence",
+      "date": "2026-06-03",
+      "category": "Hybrid Intelligence",
+      "summary": "מאמר זה מציג מסגרת לניהול ידע עבור צוותים היברידיים של בני אדם ו-AI. הוא מדגיש את החשיבות של שילוב בין יכולות אנושיות ו-AI כדי להשיג יתרון תחרותי בתעשיות עתירות ידע. המאמר דן בדרכים לייעול שיתוף פעולה בין בני אדם ו-AI.",
+      "tags": [
+        "Hybrid_Intelligence",
+        "HAIT",
+        "Knowledge_Management"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "The Rise of Intelligence-Augmented Executives: Leadership in the Age of Cognitive Enhancement",
+      "url": "https://www.linkedin.com/pulse/rise-intelligence-augmented-executives-leadership-age-andre-bhjbe",
+      "date": "2026-06-03",
+      "category": "Augmented OB",
+      "summary": "מאמר זה דן בהשפעה של שילוב AI על תפקידי הנהגה. הוא מדגיש את החשיבות של שילוב בין יכולות אנושיות ו-AI כדי להשיג החלטות טובות יותר.",
+      "tags": [
+        "Augmented_OB",
+        "Leadership",
+        "Cognitive_Enhancement"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "How Purpose-Specific AI Use Builds Organizational Resilience: A Dynamic Capability Perspective",
+      "url": "https://www.innovativehumancapital.com/article/how-purpose-specific-ai-use-builds-organizational-resilience-a-dynamic-capability-perspective",
+      "date": "2026-06-03",
+      "category": "Hybrid Intelligence",
+      "summary": "מאמר זה דן בדרכים שבהן שילוב AI יכול לשפר את החוסן הארגוני. הוא מדגיש את החשיבות של שילוב בין יכולות אנושיות ו-AI כדי להשיג החלטות טובות יותר.",
+      "tags": [
+        "Hybrid_Intelligence",
+        "Organizational_Resilience",
+        "Dynamic_Capability"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
       "title": "Organizational AI Transparency in Hybrid Work: Building Trust, Empowering Adaptation, and Strengthening Career Confidence",
       "url": "https://www.innovativehumancapital.com/article/organizational-ai-transparency-in-hybrid-work-building-trust-empowering-adaptation-and-strengthen",
       "date": "2026-06-02",
@@ -6907,55 +6955,6 @@
       ],
       "status": [
         "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Building Trusted Human-Agent Collaboration: A Practical Framework",
-      "url": "https://www.salesforce.com/blog/building-trusted-human-agent-collaboration/",
-      "date": "2026-04-17",
-      "category": "Human-AI Teaming",
-      "summary": "הפוסט מציג מסגרת לשיתוף פעולה אמין בין אדם לסוכן הבינה המלאכותית, ומדגיש כי שיתוף פעולה זה דורש תכנון ותחזוקה.",
-      "tags": [
-        "HAIT",
-        "Collaboration",
-        "Trust"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Personality Pairing Improves Human-AI Collaboration - arXiv",
-      "url": "https://arxiv.org/html/2511.13979v2",
-      "date": "2026-04-17",
-      "category": "Hybrid Intelligence",
-      "summary": "המחקר בוחן את השפעת ההתאמה בין אישיות האדם לאישיות הבינה המלאכותית על שיתוף הפעולה ביניהם.",
-      "tags": [
-        "HAIT",
-        "Personality",
-        "Collaboration"
-      ],
-      "status": [
-        "CITED",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Human-AI Collaboration Testbed for Safer Systems",
-      "url": "https://cra.com/developing-a-testbed-for-evaluating-human-ai-collaboration-to-enable-safer-smarter-interactions/",
-      "date": "2026-04-17",
-      "category": "Human-AI Teaming",
-      "summary": "חוקרים ב-Charles River Analytics מפתחים פלטפורמה בשם HATTER לבדיקת שיתוף פעולה בין אדם ל-AI. הפלטפורמה מאפשרת למדוד ולכמת את הביצועים של שיתוף פעולה זה ולזהות סיכונים פוטנציאליים. המטרה היא ליצור מערכות בטוחות ויעילות יותר.",
-      "tags": [
-        "Human-AI_Collaboration",
-        "Trust",
-        "Safety",
-        "Autonomy"
-      ],
-      "status": [
-        "QUIET",
         "HR Relevant"
       ]
     }
