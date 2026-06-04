@@ -5,6 +5,110 @@
   "description": "אגרגטור תוכן יומי בתחום Human-AI Augmentation",
   "items": [
     {
+      "title": "The Effects of Generative AI Usage on Employee Knowledge Behavior: A Perspective Based on the Automation–Augmentation Paradox",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1847724/full",
+      "date": "2026-06-04",
+      "category": "Human-AI Teaming",
+      "summary": "המחקר בוחן את השפעת השימוש ב-AI גנרטיבי על התנהגות הידע של העובדים. הוא מציע מודל שיכול להסביר כיצד השימוש ב-AI גנרטיבי משפיע על השיתוף והסתרת ידע.",
+      "tags": [
+        "Generative_AI",
+        "HAIT",
+        "HITL",
+        "Augmented_OB"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "AI at Work: Why Strategy Matters More Than Tools",
+      "url": "https://www.bcg.com/publications/2026/ai-at-work-why-strategy-matters-more-than-tools",
+      "date": "2026-06-04",
+      "category": "Human-AI Teaming",
+      "summary": "המאמר מ-BCG מציג נתונים על השימוש ב-AI בעבודה ומדגיש כי האסטרטגיה חשובה יותר מכלי ה-AI עצמם. הוא מראה כי ארגונים המשתמשים ב-AI לשינוי תהליכים או יצירת מודלים עסקיים חדשים מראים תוצאות טובות יותר ויצירת ערך רב יותר.",
+      "tags": [
+        "Hybrid_Intelligence",
+        "HAIT",
+        "Augmented_OB",
+        "Productivity",
+        "Hierarchy_Shift"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "The 5 faces of human readiness for AI adoption – and how to work with them",
+      "url": "https://www.weforum.org/stories/2026/06/ai-workplace-adoption-readiness",
+      "date": "2026-06-04",
+      "category": "Human-in-the-Loop",
+      "summary": "המאמר מ-WeForum דן בקשיים של עובדים להתאים את עצמם לשימוש ב-AI בעבודה ומדגיש כי יש צורך בהבנת המוכנות של העובדים לאמץ את הטכנולוגיה.",
+      "tags": [
+        "HAIT",
+        "HITL",
+        "Augmented_OB",
+        "Autonomy",
+        "Burnout"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Your Workforce Is Already in the Future. Your Org Chart Isn’t.",
+      "url": "https://cyclotron.com/post/your-workforce-is-already-in-the-future-your-org-chart-isnt",
+      "date": "2026-06-04",
+      "category": "Human-AI Teaming",
+      "summary": "המאמר דן בשינוי הארגוני הנדרש כדי להטמיע בינה מלאכותית בעבודה. הוא מציג גישה של עיצוב מחדש של תהליכים עבודה סביב מודל אנושי-מוביל ואינטליגנטי-מואפשר, תוך שינוי מדדים וממשל. הגישה הזו מומחשת באמצעות דוחות ומחקרים של חברות כמו מיקרוסופט ומקינזי.",
+      "tags": [
+        "Hybrid_Intelligence",
+        "HAIT",
+        "Augmented_OB",
+        "Job_Redesign_AI",
+        "Generative_AI"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "AI in HR: How Human-Centered Leadership Can Close the ... - ADP",
+      "url": "https://www.adp.com/spark/articles/2026/05/ai-in-hr-how-human-centered-leadership-can-close-the-influence-gap-at-work.aspx",
+      "date": "2026-06-04",
+      "category": "Human-AI Teaming",
+      "summary": "המאמר מ-ADP דן בחשיבות של מנהיגות מרכזית באדם בעת השימוש ב-AI בעבודה ומדגיש כי יש צורך בהבטחת השימוש ב-AI באופן אחראי.",
+      "tags": [
+        "HAIT",
+        "HITL",
+        "Augmented_OB",
+        "Leadership",
+        "Compliance"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Managing the Complexities of AI Adoption",
+      "url": "https://www.sei.cmu.edu/blog/managing-the-complexities-of-ai-adoption",
+      "date": "2026-06-04",
+      "category": "Human-in-the-Loop",
+      "summary": "הפוסט דן בניהול המורכבויות של אימוץ בינה מלאכותית, כולל נושאים כמו חוב טכני, חינוך הנדסת תוכנה ובדיקות תקנים. הוא מציג המלצות לארגונים לנהל את האתגרים הטכניים והחברתיים של הטמעת בינה מלאכותית.",
+      "tags": [
+        "AI-Augmented Software Engineering",
+        "Technical Debt",
+        "Software Standards"
+      ],
+      "status": [
+        "QUIET"
+      ]
+    },
+    {
       "title": "Calibrating Human–AI Teams: A Knowledge Management Framework for Optimizing Collective Intelligence",
       "url": "https://www.innovativehumancapital.com/article/calibrating-human-ai-teams-a-knowledge-management-framework-for-optimizing-collective-intelligence",
       "date": "2026-06-03",
@@ -6937,24 +7041,6 @@
       ],
       "status": [
         "CITED",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "AI-Focused Organizational Changes Underperform Other Reorganizations",
-      "url": "https://www.bain.com/insights/ai-focused-organizational-changes-underperform-other-reorganizations-snap-chart/",
-      "date": "2026-04-17",
-      "category": "Human-AI Teaming",
-      "summary": "מאמר זה מדגיש כי שינויים ארגוניים המתמקדים ב-AI אינם מצליחים כמו שינויים אחרים. כדי להצליח, יש צורך בגישה שמתמקדת באנשים ובזרימות עבודה. המאמר מציג את גישת ה-20/200/2,000 כדרך ליישם שינויים כאלה.",
-      "tags": [
-        "Hybrid_Intelligence",
-        "HAIT",
-        "Augmented_OB",
-        "Leadership",
-        "Productivity"
-      ],
-      "status": [
-        "TRENDING",
         "HR Relevant"
       ]
     }
