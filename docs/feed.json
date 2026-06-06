@@ -5,6 +5,88 @@
   "description": "אגרגטור תוכן יומי בתחום Human-AI Augmentation",
   "items": [
     {
+      "title": "Designing Human–AI Collaboration for Hybrid Intelligence in Immersive Learning Environments: A Conceptual Framework",
+      "url": "https://www.mdpi.com/2079-8954/14/6/639",
+      "date": "2026-06-06",
+      "category": "Hybrid Intelligence",
+      "summary": "המאמר מציג מסגרת מושגית לשילוב בינה מלאכותית ולמידה סוחפת. הוא מגדיר היברידיות של בינה ודן בדרכים לשילוב אדם ובינה מלאכותית בסביבות למידה סוחפות. המאמר מתמקד בהיבטים הטכניים והחברתיים של תכנון שיתוף פעולה בין אדם ל-AI.",
+      "tags": [
+        "Hybrid_Intelligence",
+        "HAIT",
+        "HITL",
+        "Augmented_OB"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "The More Powerful AI Becomes, the More Leadership Matters",
+      "url": "https://www.masterteacher.com/blogs/blog/the-more-powerful-ai-becomes-the-more-leadership-matters",
+      "date": "2026-06-06",
+      "category": "Human-AI Teaming",
+      "summary": "המאמר דן בחשיבות ההובלה בארגונים בעידן הבינה המלאכותית. הוא מדגיש כי ככל ש-AI הופך לחזק יותר, כך הובלה וקשרים אנושיים הופכים לחשובים יותר. המאמר מתמקד בהתמודדות עם שינויים ופחדים הנגרמים על ידי AI.",
+      "tags": [
+        "HAIT",
+        "Leadership",
+        "Change_Management"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Why Psychological Safety Matters More in AI-Enabled Teams",
+      "url": "https://www.psychologytoday.com/us/blog/pressure-proof/202605/why-psychological-safety-matters-more-in-ai-enabled-teams",
+      "date": "2026-06-06",
+      "category": "Human-AI Teaming",
+      "summary": "מאמר זה מדגיש את החשיבות של בטיחות פסיכולוגית בצוותים שמשתמשים ב-AI. כאשר AI מטפל במשימות שגרתיות, צוותים צריכים ליצור מרחב לדiscuss אתגרי אינטגרציה של AI ולשמור על קשרים אנושיים. מחקר אחד מצא כי 90% מהעובדים רואים ב-AI כעובד משותף, 67% בוטחים ב-AI יותר מבעובדים אחרים, ו-64% אומרים שיש להם קשר טוב יותר עם AI מאשר עם עמיתיהם.",
+      "tags": [
+        "Human-AI_Collaboration",
+        "Psychological_Safety",
+        "Teamwork",
+        "AI-Enabled_Teams"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Long Island banks build workforces around emotional intelligence, community connection",
+      "url": "https://libn.com/2026/06/04/long-island-banks-emotional-intelligence-workforce-development",
+      "date": "2026-06-06",
+      "category": "Human-AI Teaming",
+      "summary": "המאמר דן בדרכים בהן בנקים באי לונג משלבים מודיעין רגשי וקשרים קהילתיים בכוח העבודה שלהם. הוא מתמקד בחשיבות של מיומנויות אנושיות בעידן ה-AI.",
+      "tags": [
+        "Emotional_Intelligence",
+        "Community_Connection",
+        "HAIT"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "AI at Work: Why Strategy Matters More Than Tools",
+      "url": "https://www.bcg.com/publications/2026/ai-at-work-why-strategy-matters-more-than-tools",
+      "date": "2026-06-06",
+      "category": "Hybrid Intelligence",
+      "summary": "דוח זה מראה כי ארגונים שמשתמשים ב-AI באופן יעיל יותר הם אלו שמיישמים אסטרטגיה מקיפה יותר. הם משתמשים ב-AI כדי לשנות את תהליכי העבודה שלהם וליצור מודלים עסקיים חדשים.",
+      "tags": [
+        "AI_Strategy",
+        "Human-AI_Collaboration",
+        "Organizational_Change"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
       "title": "AI and Human Collaboration: Redefining Work in the Modern Economy",
       "url": "https://joannrolle.com/ai-and-human-collaboration-redefining-work-in-the-modern-economy",
       "date": "2026-06-05",
@@ -6939,73 +7021,6 @@
       ]
     },
     {
-      "title": "How HR Tech Is Redefining “Productivity” in AI-Augmented Organizations?",
-      "url": "https://techrseries.com/featured/how-hr-tech-is-redefining-productivity-in-ai-augmented-organizations/",
-      "date": "2026-04-20",
-      "category": "Human-AI Teaming",
-      "summary": "המאמר דן בדרכים שבהן הטכנולוגיה של משאבי אנוש מגדירה מחדש את הפרודוקטיביות בארגונים מוגברי בינה מלאכותית. הוא טוען כי השילוב של אינטליגנציה אנושית ובינה מלאכותית מאפשר לארגונים להשיג תוצאות טובות יותר.",
-      "tags": [
-        "HR_Tech",
-        "Productivity",
-        "AI-Augmented",
-        "Human-AI_Teaming"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "AI Change Management: How to Lead Your Organization Through the AI Transition",
-      "url": "https://www.joinleland.com/library/a/ai-change-management",
-      "date": "2026-04-20",
-      "category": "Human-AI Teaming",
-      "summary": "המאמר דן בניהול השינוי של בינה מלאכותית ומספק הדרכה כיצד להוביל את הארגון דרך המעבר. הוא טוען כי ניהול השינוי הוא תהליך מתמשך שדורש למידה ופיתוח של כישורים חדשים.",
-      "tags": [
-        "AI_Change_Management",
-        "Organizational_Change",
-        "Human-AI_Teaming",
-        "Leadership"
-      ],
-      "status": [
-        "CITED",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Beyond the Linear Perspective: Unpacking the Inverted U-shaped Relationship between Employee-AI Collaboration and Perceptions of GenAI",
-      "url": "https://link.springer.com/article/10.1007/s10726-026-09983-y",
-      "date": "2026-04-20",
-      "category": "Human-AI Teaming",
-      "summary": "מחקר זה בוחן את הקשר בין שיתוף פעולה בין בני אדם ל-AI לבין תפיסות של GenAI. הנתונים מראים כי שיתוף פעולה מוגזם יכול להוביל לתוצאות שליליות. המחקר מציע כי מורכבות המשימה ותמיכת הניהול משפיעים על הקשר הזה.",
-      "tags": [
-        "Human-AI_Collaboration",
-        "GenAI",
-        "Organizational_Change",
-        "Employee_Perceptions"
-      ],
-      "status": [
-        "CITED",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "The Impact of Human-AI Collaboration on Organisational Productivity",
-      "url": "https://oxford-review.com/the-impact-of-human-ai-collaboration-on-organisational-productivity/",
-      "date": "2026-04-20",
-      "category": "Human-AI Teaming",
-      "summary": "דוח זה בוחן את ההשפעה של שיתוף פעולה בין בני אדם ל-AI על הפרודוקטיביות של הארגון. הנתונים מראים כי ישנם שלושה מצבי שיתוף פעולה עיקריים: AI-מרכזי, אנושי-מרכזי ושיתוף פעולה סימביוטי.",
-      "tags": [
-        "Human-AI_Collaboration",
-        "Organizational_Productivity",
-        "AI_Adoption"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
       "title": "AI-Focused Organizational Changes Underperform Other Reorganizations",
       "url": "https://www.bain.com/insights/ai-focused-organizational-changes-underperform-other-reorganizations-snap-chart/",
       "date": "2026-04-20",
@@ -7018,42 +7033,6 @@
       ],
       "status": [
         "CITED",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "AI-Induced Overconfidence: The Next Organizational Failure Mode",
-      "url": "https://www.linkedin.com/pulse/ai-induced-overconfidence-next-organizational-failure-andre-m0une",
-      "date": "2026-04-20",
-      "category": "Human-AI Teaming",
-      "summary": "המאמר דן בסיכונים של בינה מלאכותית (AI) בארגונים, וטוען כי הבעיה העיקרית היא היחס בין משאבים המוקצים לפיתוח AI לבין משאבים המוקצים לניהול סיכונים.",
-      "tags": [
-        "HAIT",
-        "HITL",
-        "Augmented_OB",
-        "Trust",
-        "Risk_Management"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "AI Literacy for the C-Suite: What Corporate Leaders Should Know",
-      "url": "https://www.haldren.com/insight/ai-literacy-for-the-c-suite-what-corporate-leaders-should-know/",
-      "date": "2026-04-19",
-      "category": "Human-AI Teaming",
-      "summary": "מדריך למנהיגים ארגוניים בנושא הבנת בינה מלאכותית, תוך שימת דגש על חשיבות הניהול של סיכונים ואתיקה בשימוש בבינה מלאכותית.",
-      "tags": [
-        "HAIT",
-        "AI Literacy",
-        "Leadership",
-        "Risk Management",
-        "Ethics"
-      ],
-      "status": [
-        "QUIET",
         "HR Relevant"
       ]
     }

@@ -1,7 +1,52 @@
 האגרגטור — Human-AI Augmentation
 https://arikrizer.github.io/aggregator/
-עודכן: 5 יוני 2026
+עודכן: 6 יוני 2026
 ============================================================
+
+כותרת: Designing Human–AI Collaboration for Hybrid Intelligence in Immersive Learning Environments: A Conceptual Framework
+קישור: https://www.mdpi.com/2079-8954/14/6/639
+תאריך: 2026-06-06
+קטגוריה: Hybrid Intelligence
+סטטוס: CITED, HR Relevant
+תיאור: המאמר מציג מסגרת מושגית לשילוב בינה מלאכותית ולמידה סוחפת. הוא מגדיר היברידיות של בינה ודן בדרכים לשילוב אדם ובינה מלאכותית בסביבות למידה סוחפות. המאמר מתמקד בהיבטים הטכניים והחברתיים של תכנון שיתוף פעולה בין אדם ל-AI.
+תגיות: Hybrid_Intelligence, HAIT, HITL, Augmented_OB
+---
+
+כותרת: The More Powerful AI Becomes, the More Leadership Matters
+קישור: https://www.masterteacher.com/blogs/blog/the-more-powerful-ai-becomes-the-more-leadership-matters
+תאריך: 2026-06-06
+קטגוריה: Human-AI Teaming
+סטטוס: TRENDING, HR Relevant
+תיאור: המאמר דן בחשיבות ההובלה בארגונים בעידן הבינה המלאכותית. הוא מדגיש כי ככל ש-AI הופך לחזק יותר, כך הובלה וקשרים אנושיים הופכים לחשובים יותר. המאמר מתמקד בהתמודדות עם שינויים ופחדים הנגרמים על ידי AI.
+תגיות: HAIT, Leadership, Change_Management
+---
+
+כותרת: Why Psychological Safety Matters More in AI-Enabled Teams
+קישור: https://www.psychologytoday.com/us/blog/pressure-proof/202605/why-psychological-safety-matters-more-in-ai-enabled-teams
+תאריך: 2026-06-06
+קטגוריה: Human-AI Teaming
+סטטוס: CITED, HR Relevant
+תיאור: מאמר זה מדגיש את החשיבות של בטיחות פסיכולוגית בצוותים שמשתמשים ב-AI. כאשר AI מטפל במשימות שגרתיות, צוותים צריכים ליצור מרחב לדiscuss אתגרי אינטגרציה של AI ולשמור על קשרים אנושיים. מחקר אחד מצא כי 90% מהעובדים רואים ב-AI כעובד משותף, 67% בוטחים ב-AI יותר מבעובדים אחרים, ו-64% אומרים שיש להם קשר טוב יותר עם AI מאשר עם עמיתיהם.
+תגיות: Human-AI_Collaboration, Psychological_Safety, Teamwork, AI-Enabled_Teams
+---
+
+כותרת: Long Island banks build workforces around emotional intelligence, community connection
+קישור: https://libn.com/2026/06/04/long-island-banks-emotional-intelligence-workforce-development
+תאריך: 2026-06-06
+קטגוריה: Human-AI Teaming
+סטטוס: TRENDING, HR Relevant
+תיאור: המאמר דן בדרכים בהן בנקים באי לונג משלבים מודיעין רגשי וקשרים קהילתיים בכוח העבודה שלהם. הוא מתמקד בחשיבות של מיומנויות אנושיות בעידן ה-AI.
+תגיות: Emotional_Intelligence, Community_Connection, HAIT
+---
+
+כותרת: AI at Work: Why Strategy Matters More Than Tools
+קישור: https://www.bcg.com/publications/2026/ai-at-work-why-strategy-matters-more-than-tools
+תאריך: 2026-06-06
+קטגוריה: Hybrid Intelligence
+סטטוס: TRENDING, HR Relevant
+תיאור: דוח זה מראה כי ארגונים שמשתמשים ב-AI באופן יעיל יותר הם אלו שמיישמים אסטרטגיה מקיפה יותר. הם משתמשים ב-AI כדי לשנות את תהליכי העבודה שלהם וליצור מודלים עסקיים חדשים.
+תגיות: AI_Strategy, Human-AI_Collaboration, Organizational_Change
+---
 
 כותרת: AI and Human Collaboration: Redefining Work in the Modern Economy
 קישור: https://joannrolle.com/ai-and-human-collaboration-redefining-work-in-the-modern-economy
@@ -3693,42 +3738,6 @@ https://arikrizer.github.io/aggregator/
 תגיות: Hybrid_Intelligence, ProSocial_AI, Collective_Well-being, Human_Development
 ---
 
-כותרת: How HR Tech Is Redefining “Productivity” in AI-Augmented Organizations?
-קישור: https://techrseries.com/featured/how-hr-tech-is-redefining-productivity-in-ai-augmented-organizations/
-תאריך: 2026-04-20
-קטגוריה: Human-AI Teaming
-סטטוס: TRENDING, HR Relevant
-תיאור: המאמר דן בדרכים שבהן הטכנולוגיה של משאבי אנוש מגדירה מחדש את הפרודוקטיביות בארגונים מוגברי בינה מלאכותית. הוא טוען כי השילוב של אינטליגנציה אנושית ובינה מלאכותית מאפשר לארגונים להשיג תוצאות טובות יותר.
-תגיות: HR_Tech, Productivity, AI-Augmented, Human-AI_Teaming
----
-
-כותרת: AI Change Management: How to Lead Your Organization Through the AI Transition
-קישור: https://www.joinleland.com/library/a/ai-change-management
-תאריך: 2026-04-20
-קטגוריה: Human-AI Teaming
-סטטוס: CITED, HR Relevant
-תיאור: המאמר דן בניהול השינוי של בינה מלאכותית ומספק הדרכה כיצד להוביל את הארגון דרך המעבר. הוא טוען כי ניהול השינוי הוא תהליך מתמשך שדורש למידה ופיתוח של כישורים חדשים.
-תגיות: AI_Change_Management, Organizational_Change, Human-AI_Teaming, Leadership
----
-
-כותרת: Beyond the Linear Perspective: Unpacking the Inverted U-shaped Relationship between Employee-AI Collaboration and Perceptions of GenAI
-קישור: https://link.springer.com/article/10.1007/s10726-026-09983-y
-תאריך: 2026-04-20
-קטגוריה: Human-AI Teaming
-סטטוס: CITED, HR Relevant
-תיאור: מחקר זה בוחן את הקשר בין שיתוף פעולה בין בני אדם ל-AI לבין תפיסות של GenAI. הנתונים מראים כי שיתוף פעולה מוגזם יכול להוביל לתוצאות שליליות. המחקר מציע כי מורכבות המשימה ותמיכת הניהול משפיעים על הקשר הזה.
-תגיות: Human-AI_Collaboration, GenAI, Organizational_Change, Employee_Perceptions
----
-
-כותרת: The Impact of Human-AI Collaboration on Organisational Productivity
-קישור: https://oxford-review.com/the-impact-of-human-ai-collaboration-on-organisational-productivity/
-תאריך: 2026-04-20
-קטגוריה: Human-AI Teaming
-סטטוס: TRENDING, HR Relevant
-תיאור: דוח זה בוחן את ההשפעה של שיתוף פעולה בין בני אדם ל-AI על הפרודוקטיביות של הארגון. הנתונים מראים כי ישנם שלושה מצבי שיתוף פעולה עיקריים: AI-מרכזי, אנושי-מרכזי ושיתוף פעולה סימביוטי.
-תגיות: Human-AI_Collaboration, Organizational_Productivity, AI_Adoption
----
-
 כותרת: AI-Focused Organizational Changes Underperform Other Reorganizations
 קישור: https://www.bain.com/insights/ai-focused-organizational-changes-underperform-other-reorganizations-snap-chart/
 תאריך: 2026-04-20
@@ -3736,22 +3745,4 @@ https://arikrizer.github.io/aggregator/
 סטטוס: CITED, HR Relevant
 תיאור: דוח זה בוחן את הביצועים של שינויים ארגוניים המתמקדים ב-AI בהשוואה לשינויים אחרים. הנתונים מראים כי שינויים המתמקדים ב-AI אינם בהכרח מובילים לתוצאות טובות יותר.
 תגיות: AI_Adoption, Organizational_Change, Leadership
----
-
-כותרת: AI-Induced Overconfidence: The Next Organizational Failure Mode
-קישור: https://www.linkedin.com/pulse/ai-induced-overconfidence-next-organizational-failure-andre-m0une
-תאריך: 2026-04-20
-קטגוריה: Human-AI Teaming
-סטטוס: TRENDING, HR Relevant
-תיאור: המאמר דן בסיכונים של בינה מלאכותית (AI) בארגונים, וטוען כי הבעיה העיקרית היא היחס בין משאבים המוקצים לפיתוח AI לבין משאבים המוקצים לניהול סיכונים.
-תגיות: HAIT, HITL, Augmented_OB, Trust, Risk_Management
----
-
-כותרת: AI Literacy for the C-Suite: What Corporate Leaders Should Know
-קישור: https://www.haldren.com/insight/ai-literacy-for-the-c-suite-what-corporate-leaders-should-know/
-תאריך: 2026-04-19
-קטגוריה: Human-AI Teaming
-סטטוס: QUIET, HR Relevant
-תיאור: מדריך למנהיגים ארגוניים בנושא הבנת בינה מלאכותית, תוך שימת דגש על חשיבות הניהול של סיכונים ואתיקה בשימוש בבינה מלאכותית.
-תגיות: HAIT, AI Literacy, Leadership, Risk Management, Ethics
 ---
