@@ -1,7 +1,79 @@
 האגרגטור — Human-AI Augmentation
 https://arikrizer.github.io/aggregator/
-עודכן: 6 יוני 2026
+עודכן: 7 יוני 2026
 ============================================================
+
+כותרת: The More Powerful AI Becomes, the More Leadership Matters
+קישור: https://www.masterteacher.com/blogs/blog/the-more-powerful-ai-becomes-the-more-leadership-matters
+תאריך: 2026-06-07
+קטגוריה: Augmented OB
+סטטוס: TRENDING, HR Relevant
+תיאור: מאמר זה מדגיש את החשיבות של מנהיגות בארגונים עם שילוב הולך וגדל של AI. הוא טוען כי ככל ש-AI הופך להיות יותר חזק, כך מנהיגות אנושית הופכת להיות יותר חשובה כדי לנווט את השינויים והאתגרים הנובעים מכך.
+תגיות: Leadership, AI_and_Leadership, Organizational_Change, Human_Centered_AI, Future_of_Work
+---
+
+כותרת: Calibrating Human–AI Teams: A Knowledge Management Framework for Optimizing Collective Intelligence
+קישור: https://www.innovativehumancapital.com/article/calibrating-human-ai-teams-a-knowledge-management-framework-for-optimizing-collective-intelligence
+תאריך: 2026-06-07
+קטגוריה: Human-AI Teaming
+סטטוס: CITED, HR Relevant
+תיאור: מאמר זה מציג מסגרת לניהול ידע לצורך אופטימיזציה של צוותים היברידיים של בני אדם ו-AI. הוא מדגיש את החשיבות של שילוב בין יכולות אנושיות ו-AI כדי להשיג יתרון תחרותי בתעשיות עתירות ידע. המחברים מציעים גישה שמטרתה לאפשר לארגונים להשתמש ב-AI באופן יעיל יותר.
+תגיות: Human-AI_Collaboration, Hybrid_Intelligence, Knowledge_Management, Collective_Intelligence, Organizational_Resilience
+---
+
+כותרת: AI at Work: Why Strategy Matters More Than Tools | BCG
+קישור: https://www.bcg.com/publications/2026/ai-at-work-why-strategy-matters-more-than-tools
+תאריך: 2026-06-07
+קטגוריה: Human-AI Teaming
+סטטוס: CITED, HR Relevant
+תיאור: דו"ח זה מ-BCG מדגיש כי האתגר העיקרי של ארגונים עם שילוב AI הוא לא הטכנולוגיה עצמה אלא האסטרטגיה והמבנה הארגוני. הוא טוען כי 72% מהאנשים אומרים כי AI שינה את הציפיות שלהם למיומנויות ו-67% אומרים כי AI תפס את המשימות הפשוטות יותר.
+תגיות: AI_Strategy, Organizational_Change, Future_of_Work, Human-AI_Collaboration, Skills_Gap
+---
+
+כותרת: From AI-Powered Tasks to AI-Centric Organizational Design — Rewriting the 2,000-Year-Old Common Sense of Organizational Charts
+קישור: https://note.com/ktknd/n/n362c35f32346?hl=en
+תאריך: 2026-06-07
+קטגוריה: Human-AI Teaming
+סטטוס: TRENDING, HR Relevant
+תיאור: המאמר דן בשוני שבין הוספת AI למשימות ק существующими לבין עיצוב ארגוני שמרכזו AI. הוא מתאר כיצד חברות שמשתמשות ב-AI באופן יעיל יותר משנות את מבנה הארגון שלהן.
+תגיות: Hybrid_Intelligence, HAIT, Augmented_OB, Job_Redesign_AI, Generative_AI
+---
+
+כותרת: FLATTENING ORGANIZATIONAL STRUCTURES THROUGH AI INTEGRATION: IMPACTS ON MANAGERIAL EFFECTIVENESS
+קישור: https://languar.net/index.php/INJOSEDU/article/view/841
+תאריך: 2026-06-07
+קטגוריה: Augmented OB
+סטטוס: CITED, HR Relevant
+תיאור: המחקר בוחן את השפעת האינטגרציה של AI על מבנה הארגון והיעילות של ניהול.
+תגיות: HAIT, Augmented_OB, Job_Redesign_AI, Autonomy
+---
+
+כותרת: The Future of Workforce Management: Adapting to the Age of Agentic AI
+קישור: https://www.aspect.com/resources/the-future-of-workforce-management-adapting-to-the-age-of-agentic-ai
+תאריך: 2026-06-07
+קטגוריה: Human-AI Teaming
+סטטוס: TRENDING, HR Relevant
+תיאור: המאמר דן בשינויים ש-AI מביא לניהול כוח עבודה, כולל השפעה על ביצועים ומדדים.
+תגיות: HAIT, Augmented_Intelligence, Job_Redesign_AI, Agentic_AI
+---
+
+כותרת: Building trust-based AI-powered platforms for businesses
+קישור: https://www.weforum.org/stories/2026/06/companies-ai-workflows-not-simple-tasks
+תאריך: 2026-06-07
+קטגוריה: Hybrid Intelligence
+סטטוס: CITED, HR Relevant
+תיאור: הדו"ח דן בצורך במערכות AI מונחות אמון כדי ליצור ערך עסקי.
+תגיות: HAIT, Hybrid_Intelligence, Trust, Autonomy
+---
+
+כותרת: How Purpose-Specific AI Use Builds Organizational Resilience: A Dynamic Capability Perspective
+קישור: https://www.innovativehumancapital.com/article/how-purpose-specific-ai-use-builds-organizational-resilience-a-dynamic-capability-perspective
+תאריך: 2026-06-07
+קטגוריה: Augmented OB
+סטטוס: QUIET, HR Relevant
+תיאור: מאמר זה בוחן כיצד השימוש ב-AI למטרות ספציפיות יכול לבנות את החוסן הארגוני. הוא טוען כי AI יכול לשפר את היכולת של ארגונים להגיב לשינויים ולמשברים.
+תגיות: Organizational_Resilience, Dynamic_Capabilities, Purpose-Specific_AI_Use, Human-AI_Collaboration, Future_of_Work
+---
 
 כותרת: Designing Human–AI Collaboration for Hybrid Intelligence in Immersive Learning Environments: A Conceptual Framework
 קישור: https://www.mdpi.com/2079-8954/14/6/639
@@ -3718,31 +3790,4 @@ https://arikrizer.github.io/aggregator/
 סטטוס: VIRAL, HR Relevant
 תיאור: דו"ח זה טוען כי רק 10% מהתפקידים יושפעו ישירות מבינה מלאכותית. הוא מדגיש את הצורך בשינוי מבני של תפקידים.
 תגיות: Job_Redesign_AI, AI_and_Employment, Human-AI_Collaboration, Augmented_Intelligence, Productivity
----
-
-כותרת: AI-enabled Accessibility Requires Hybrid Intelligence
-קישור: https://aijourn.com/ai-enabled-accessibility-requires-hybrid-intelligence/
-תאריך: 2026-04-20
-קטגוריה: Hybrid Intelligence
-סטטוס: QUIET, HR Relevant
-תיאור: המאמר דן בדרישה לאינטליגנציה היברידית כדי לאפשר נגישות לאנשים עם מוגבלויות. הוא מציג ארבע גישות מרכזיות: הוכחה מתמשכת, גידול יכולות אורגני, שיפור מתמיד של תהליכים והתאמה לצורכי המשתמש. המאמר טוען כי גישה זו מאפשרת לארגונים להראות התקדמות ו-ROI באופן שוטף.
-תגיות: Hybrid_Intelligence, Accessibility, AI-enabled, Organizational_Change
----
-
-כותרת: Why Hybrid Sovereignty Starts Inside
-קישור: https://www.psychologytoday.com/us/blog/harnessing-hybrid-intelligence/202604/why-hybrid-sovereignty-starts-inside
-תאריך: 2026-04-20
-קטגוריה: Hybrid Intelligence
-סטטוס: QUIET, HR Relevant
-תיאור: המאמר דן במושג של ריבונות היברידית וטוען כי היא מתחילה מבפנים. הוא מדבר על השימוש באינטליגנציה היברידית כדי לשפר את הרווחה הקולקטיבית ואת הפיתוח האנושי. המאמר גם מדגיש את החשיבות של השקעה באינטליגנציה היברידית כדי ליצור בריתות אפקטיביות בין אינטליגנציה טבעית ומלאכותית.
-תגיות: Hybrid_Intelligence, ProSocial_AI, Collective_Well-being, Human_Development
----
-
-כותרת: AI-Focused Organizational Changes Underperform Other Reorganizations
-קישור: https://www.bain.com/insights/ai-focused-organizational-changes-underperform-other-reorganizations-snap-chart/
-תאריך: 2026-04-20
-קטגוריה: Augmented OB
-סטטוס: CITED, HR Relevant
-תיאור: דוח זה בוחן את הביצועים של שינויים ארגוניים המתמקדים ב-AI בהשוואה לשינויים אחרים. הנתונים מראים כי שינויים המתמקדים ב-AI אינם בהכרח מובילים לתוצאות טובות יותר.
-תגיות: AI_Adoption, Organizational_Change, Leadership
 ---

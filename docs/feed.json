@@ -5,6 +5,147 @@
   "description": "אגרגטור תוכן יומי בתחום Human-AI Augmentation",
   "items": [
     {
+      "title": "The More Powerful AI Becomes, the More Leadership Matters",
+      "url": "https://www.masterteacher.com/blogs/blog/the-more-powerful-ai-becomes-the-more-leadership-matters",
+      "date": "2026-06-07",
+      "category": "Augmented OB",
+      "summary": "מאמר זה מדגיש את החשיבות של מנהיגות בארגונים עם שילוב הולך וגדל של AI. הוא טוען כי ככל ש-AI הופך להיות יותר חזק, כך מנהיגות אנושית הופכת להיות יותר חשובה כדי לנווט את השינויים והאתגרים הנובעים מכך.",
+      "tags": [
+        "Leadership",
+        "AI_and_Leadership",
+        "Organizational_Change",
+        "Human_Centered_AI",
+        "Future_of_Work"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Calibrating Human–AI Teams: A Knowledge Management Framework for Optimizing Collective Intelligence",
+      "url": "https://www.innovativehumancapital.com/article/calibrating-human-ai-teams-a-knowledge-management-framework-for-optimizing-collective-intelligence",
+      "date": "2026-06-07",
+      "category": "Human-AI Teaming",
+      "summary": "מאמר זה מציג מסגרת לניהול ידע לצורך אופטימיזציה של צוותים היברידיים של בני אדם ו-AI. הוא מדגיש את החשיבות של שילוב בין יכולות אנושיות ו-AI כדי להשיג יתרון תחרותי בתעשיות עתירות ידע. המחברים מציעים גישה שמטרתה לאפשר לארגונים להשתמש ב-AI באופן יעיל יותר.",
+      "tags": [
+        "Human-AI_Collaboration",
+        "Hybrid_Intelligence",
+        "Knowledge_Management",
+        "Collective_Intelligence",
+        "Organizational_Resilience"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "AI at Work: Why Strategy Matters More Than Tools | BCG",
+      "url": "https://www.bcg.com/publications/2026/ai-at-work-why-strategy-matters-more-than-tools",
+      "date": "2026-06-07",
+      "category": "Human-AI Teaming",
+      "summary": "דו\"ח זה מ-BCG מדגיש כי האתגר העיקרי של ארגונים עם שילוב AI הוא לא הטכנולוגיה עצמה אלא האסטרטגיה והמבנה הארגוני. הוא טוען כי 72% מהאנשים אומרים כי AI שינה את הציפיות שלהם למיומנויות ו-67% אומרים כי AI תפס את המשימות הפשוטות יותר.",
+      "tags": [
+        "AI_Strategy",
+        "Organizational_Change",
+        "Future_of_Work",
+        "Human-AI_Collaboration",
+        "Skills_Gap"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "From AI-Powered Tasks to AI-Centric Organizational Design — Rewriting the 2,000-Year-Old Common Sense of Organizational Charts",
+      "url": "https://note.com/ktknd/n/n362c35f32346?hl=en",
+      "date": "2026-06-07",
+      "category": "Human-AI Teaming",
+      "summary": "המאמר דן בשוני שבין הוספת AI למשימות ק существующими לבין עיצוב ארגוני שמרכזו AI. הוא מתאר כיצד חברות שמשתמשות ב-AI באופן יעיל יותר משנות את מבנה הארגון שלהן.",
+      "tags": [
+        "Hybrid_Intelligence",
+        "HAIT",
+        "Augmented_OB",
+        "Job_Redesign_AI",
+        "Generative_AI"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "FLATTENING ORGANIZATIONAL STRUCTURES THROUGH AI INTEGRATION: IMPACTS ON MANAGERIAL EFFECTIVENESS",
+      "url": "https://languar.net/index.php/INJOSEDU/article/view/841",
+      "date": "2026-06-07",
+      "category": "Augmented OB",
+      "summary": "המחקר בוחן את השפעת האינטגרציה של AI על מבנה הארגון והיעילות של ניהול.",
+      "tags": [
+        "HAIT",
+        "Augmented_OB",
+        "Job_Redesign_AI",
+        "Autonomy"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "The Future of Workforce Management: Adapting to the Age of Agentic AI",
+      "url": "https://www.aspect.com/resources/the-future-of-workforce-management-adapting-to-the-age-of-agentic-ai",
+      "date": "2026-06-07",
+      "category": "Human-AI Teaming",
+      "summary": "המאמר דן בשינויים ש-AI מביא לניהול כוח עבודה, כולל השפעה על ביצועים ומדדים.",
+      "tags": [
+        "HAIT",
+        "Augmented_Intelligence",
+        "Job_Redesign_AI",
+        "Agentic_AI"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Building trust-based AI-powered platforms for businesses",
+      "url": "https://www.weforum.org/stories/2026/06/companies-ai-workflows-not-simple-tasks",
+      "date": "2026-06-07",
+      "category": "Hybrid Intelligence",
+      "summary": "הדו\"ח דן בצורך במערכות AI מונחות אמון כדי ליצור ערך עסקי.",
+      "tags": [
+        "HAIT",
+        "Hybrid_Intelligence",
+        "Trust",
+        "Autonomy"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "How Purpose-Specific AI Use Builds Organizational Resilience: A Dynamic Capability Perspective",
+      "url": "https://www.innovativehumancapital.com/article/how-purpose-specific-ai-use-builds-organizational-resilience-a-dynamic-capability-perspective",
+      "date": "2026-06-07",
+      "category": "Augmented OB",
+      "summary": "מאמר זה בוחן כיצד השימוש ב-AI למטרות ספציפיות יכול לבנות את החוסן הארגוני. הוא טוען כי AI יכול לשפר את היכולת של ארגונים להגיב לשינויים ולמשברים.",
+      "tags": [
+        "Organizational_Resilience",
+        "Dynamic_Capabilities",
+        "Purpose-Specific_AI_Use",
+        "Human-AI_Collaboration",
+        "Future_of_Work"
+      ],
+      "status": [
+        "QUIET",
+        "HR Relevant"
+      ]
+    },
+    {
       "title": "Designing Human–AI Collaboration for Hybrid Intelligence in Immersive Learning Environments: A Conceptual Framework",
       "url": "https://www.mdpi.com/2079-8954/14/6/639",
       "date": "2026-06-06",
@@ -6983,56 +7124,6 @@
       ],
       "status": [
         "VIRAL",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "AI-enabled Accessibility Requires Hybrid Intelligence",
-      "url": "https://aijourn.com/ai-enabled-accessibility-requires-hybrid-intelligence/",
-      "date": "2026-04-20",
-      "category": "Hybrid Intelligence",
-      "summary": "המאמר דן בדרישה לאינטליגנציה היברידית כדי לאפשר נגישות לאנשים עם מוגבלויות. הוא מציג ארבע גישות מרכזיות: הוכחה מתמשכת, גידול יכולות אורגני, שיפור מתמיד של תהליכים והתאמה לצורכי המשתמש. המאמר טוען כי גישה זו מאפשרת לארגונים להראות התקדמות ו-ROI באופן שוטף.",
-      "tags": [
-        "Hybrid_Intelligence",
-        "Accessibility",
-        "AI-enabled",
-        "Organizational_Change"
-      ],
-      "status": [
-        "QUIET",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Why Hybrid Sovereignty Starts Inside",
-      "url": "https://www.psychologytoday.com/us/blog/harnessing-hybrid-intelligence/202604/why-hybrid-sovereignty-starts-inside",
-      "date": "2026-04-20",
-      "category": "Hybrid Intelligence",
-      "summary": "המאמר דן במושג של ריבונות היברידית וטוען כי היא מתחילה מבפנים. הוא מדבר על השימוש באינטליגנציה היברידית כדי לשפר את הרווחה הקולקטיבית ואת הפיתוח האנושי. המאמר גם מדגיש את החשיבות של השקעה באינטליגנציה היברידית כדי ליצור בריתות אפקטיביות בין אינטליגנציה טבעית ומלאכותית.",
-      "tags": [
-        "Hybrid_Intelligence",
-        "ProSocial_AI",
-        "Collective_Well-being",
-        "Human_Development"
-      ],
-      "status": [
-        "QUIET",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "AI-Focused Organizational Changes Underperform Other Reorganizations",
-      "url": "https://www.bain.com/insights/ai-focused-organizational-changes-underperform-other-reorganizations-snap-chart/",
-      "date": "2026-04-20",
-      "category": "Augmented OB",
-      "summary": "דוח זה בוחן את הביצועים של שינויים ארגוניים המתמקדים ב-AI בהשוואה לשינויים אחרים. הנתונים מראים כי שינויים המתמקדים ב-AI אינם בהכרח מובילים לתוצאות טובות יותר.",
-      "tags": [
-        "AI_Adoption",
-        "Organizational_Change",
-        "Leadership"
-      ],
-      "status": [
-        "CITED",
         "HR Relevant"
       ]
     }
