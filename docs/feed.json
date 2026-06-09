@@ -5,6 +5,94 @@
   "description": "אגרגטור תוכן יומי בתחום Human-AI Augmentation",
   "items": [
     {
+      "title": "Strategic Integration of Artificial Intelligence in the C-Suite",
+      "url": "https://arxiv.org/html/2407.10247v3",
+      "date": "2026-06-09",
+      "category": "Hybrid Intelligence",
+      "summary": "המאמר בוחן את השילוב של בינה מלאכותית (AI) בתפקידים בכירים בארגונים. הוא מציג מסגרת להבנת תהליך עיצוב התפקידים הניהוליים בתגובה לאימוץ AI. המחברים מציעים כי ארגונים מגיבים ל-AI תחילה על ידי הרחבת תפקידים קיימים לפני יצירת תפקידים ייעודיים חדשים.",
+      "tags": [
+        "Hybrid_Intelligence",
+        "HAIT",
+        "HITL",
+        "Augmented_OB",
+        "Leadership"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "The More Powerful AI Becomes, the More Leadership Matters",
+      "url": "https://www.masterteacher.com/blogs/blog/the-more-powerful-ai-becomes-the-more-leadership-matters",
+      "date": "2026-06-09",
+      "category": "Human-AI Teaming",
+      "summary": "המאמר טוען כי ככל ש-AI הופך חזק יותר, כך מנהיגות חשובה יותר. הוא מדגיש כי מנהיגים יכולים לספק יציבות והבטחה על ידי הצגת רוגע, עקביות ושקיפות בתקופות של שינוי מהיר.",
+      "tags": [
+        "HAIT",
+        "HITL",
+        "Leadership",
+        "Psychological_Safety"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Implementing Human Augmented AI in Customer Support",
+      "url": "https://www.startek.com/insights/blog/human-augmented-ai-in-customer-support",
+      "date": "2026-06-09",
+      "category": "Human-in-the-Loop",
+      "summary": "הפוסט בבלוג דן ביישום של AI משופר אנושי (Human Augmented AI) בתמיכת לקוחות. הוא מציג כיצד AI יכול לשפר את היעילות ואת איכות האינטראקציות עם הלקוחות.",
+      "tags": [
+        "HAIT",
+        "HITL",
+        "Customer_Support",
+        "Productivity"
+      ],
+      "status": [
+        "QUIET",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "AI in the workforce: A planning guide for employers.",
+      "url": "https://www.kellyservices.com/impact-insights/ai-in-the-workforce",
+      "date": "2026-06-09",
+      "category": "Human-AI Teaming",
+      "summary": "מדריך זה מספק תובנות כיצד לתכנן את השילוב של AI בכוח העבודה. הוא מדגיש כי יוזמות AI רבות נכשלות כי הן מתווספות לזרימות עבודה פגומות במקום לתכנן מחדש את הזרימות הללו. כמו כן, הוא מציין כי עבודה שמוביל בני אדם אינה אקראית אלא קשורה להחלטות הדורשות אחריות, נתונים רגישים, שיקול דעת הקשרי וקשר אנושי.",
+      "tags": [
+        "HAIT",
+        "HITL",
+        "Augmented_OB",
+        "Human-AI_Collaboration",
+        "Workforce_Planning"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "How Generative AI Transforms Employee Training & Learning?",
+      "url": "https://www.gsdcouncil.org/blogs/how-generative-ai-transforms-employee-training",
+      "date": "2026-06-09",
+      "category": "Hybrid Intelligence",
+      "summary": "מאמר זה בוחן כיצד AI גנרטיבי משנה את ההדרכה והלמידה של עובדים. הוא מדגיש את היתרונות של שילוב יכולות AI עם מומחיות אנושית כדי ליצור תוכניות הדרכה מותאמות, ניתנות להרחבה ומיושרות עם צורכי עבודה אמיתיים.",
+      "tags": [
+        "Generative_AI",
+        "HAIT",
+        "HITL",
+        "Augmented_OB",
+        "Employee_Development"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
       "title": "The Effects of Generative AI Usage on Employee Knowledge Behavior: A Perspective Based on the Automation–Augmentation Paradox",
       "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1847724/full",
       "date": "2026-06-08",
@@ -4205,18 +4293,18 @@
       ]
     },
     {
-      "title": "Rethinking AI Governance: Insights for Ethics and Compliance Leaders in Large Corporations",
-      "url": "https://ethisphere.com/insights/rethinking-ai-governance/",
+      "title": "Managers Are Now in Charge of Making You Use AI",
+      "url": "https://www.businessinsider.com/managers-are-in-charge-of-making-you-use-ai-2026-5",
       "date": "2026-05-09",
       "category": "Human-AI Teaming",
-      "summary": "המאמר דן באתגרים של ניהול בינה מלאכותית בארגונים גדולים ומדגיש את הצורך בשינוי גישת הממשל כדי להתמודד עם האתגרים האתיים והמשפטיים של בינה מלאכותית.",
+      "summary": "מאמר ב-Business Insider דן בתפקידם של מנהלים בקידום השימוש ב-AI בקרב עובדים.",
       "tags": [
-        "AI_Governance",
-        "Ethics",
-        "Compliance"
+        "HAIT",
+        "Hybrid_Intelligence",
+        "Leadership"
       ],
       "status": [
-        "QUIET",
+        "TRENDING",
         "HR Relevant"
       ]
     },
@@ -4371,22 +4459,6 @@
       ]
     },
     {
-      "title": "Managers Are Now in Charge of Making You Use AI",
-      "url": "https://www.businessinsider.com/managers-are-in-charge-of-making-you-use-ai-2026-5",
-      "date": "2026-05-09",
-      "category": "Human-AI Teaming",
-      "summary": "מאמר ב-Business Insider דן בתפקידם של מנהלים בקידום השימוש ב-AI בקרב עובדים.",
-      "tags": [
-        "HAIT",
-        "Hybrid_Intelligence",
-        "Leadership"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
       "title": "IESE redesigns MBA for the age of AI",
       "url": "https://www.iese.edu/stories/iese-redesigns-mba-ai/",
       "date": "2026-05-09",
@@ -4428,6 +4500,22 @@
         "Ethical_AI",
         "AI_Governance",
         "Corporate_Culture"
+      ],
+      "status": [
+        "QUIET",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Rethinking AI Governance: Insights for Ethics and Compliance Leaders in Large Corporations",
+      "url": "https://ethisphere.com/insights/rethinking-ai-governance/",
+      "date": "2026-05-09",
+      "category": "Human-AI Teaming",
+      "summary": "המאמר דן באתגרים של ניהול בינה מלאכותית בארגונים גדולים ומדגיש את הצורך בשינוי גישת הממשל כדי להתמודד עם האתגרים האתיים והמשפטיים של בינה מלאכותית.",
+      "tags": [
+        "AI_Governance",
+        "Ethics",
+        "Compliance"
       ],
       "status": [
         "QUIET",
@@ -7025,76 +7113,6 @@
       ],
       "status": [
         "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Why Companies That Choose AI Augmentation Over Automation ...",
-      "url": "https://hbr.org/2026/04/why-companies-that-choose-ai-augmentation-over-automation-may-win-in-the-long-run",
-      "date": "2026-04-21",
-      "category": "Human-AI Teaming",
-      "summary": "מאמר זה בוחן את ההבדלים בין אוטומציה של בינה מלאכותית (AI) לבין הגברת יכולות אנושיות באמצעות AI. הוא טוען כי חברות שבוחרות בהגדלת יכולות אנושיות ייהנו מיתרונות ארוכי טווח, כגון שיפור הפרודוקטיביות וגמישות רבה יותר. המאמר מתאר את תהליך השינוי הארגוני הנדרש להטמעת יכולות AI ומדגיש את החשיבות של עיצוב מחדש של תפקידים ושיפור שיתוף הפעולה בין בני אדם ל-AI.",
-      "tags": [
-        "Human-AI_Collaboration",
-        "HAI",
-        "Job_Redesign_AI",
-        "Productivity",
-        "Hybrid_Intelligence"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Industries Most Exposed to AI Are Not Only Seeing Productivity Gains but Jobs and Wage Growth Too",
-      "url": "https://singularityhub.com/2026/04/16/industries-most-exposed-to-ai-are-not-only-seeing-productivity-gains-but-jobs-and-wage-growth-too/",
-      "date": "2026-04-21",
-      "category": "Human-AI Teaming",
-      "summary": "מאמר זה דן בהשפעת הבינה המלאכותית (AI) על התעסוקה והפרודוקטיביות. על פי המחקר, ענפים שנחשפים יותר ל-AI אינם רק רואים תוספת פרודוקטיביות אלא גם תוספת מקומות עבודה וצמיחה בשכר. המחקר מצא כי השימוש ב-AI עלה מ-12% במחצית 2024 ל-26% בסוף 2025, והתוצר הלאומי גדל ב-1.4% עד 2.8%.",
-      "tags": [
-        "Hybrid_Intelligence",
-        "HAIT",
-        "Productivity",
-        "Job_Growth",
-        "Wage_Growth"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "The Jagged Frontier: Why Human-AI Collaboration Fails and What Enterprise Leaders Can Do About It",
-      "url": "https://www.aipoweredwomen.com/blog/jagged-frontier-human-ai-collaboration",
-      "date": "2026-04-21",
-      "category": "Human-AI Teaming",
-      "summary": "מאמר זה דן בבעיות של שיתוף פעולה בין בני אדם ל-AI בארגונים. הוא מציג את המושג של \"התאמת התלות\" ומדגיש את החשיבות של הכשרה מובנית להכרת מצבי כשל של AI ומסגרות הערכה שיטתיות להערכת איכות התפוקות של AI.",
-      "tags": [
-        "Human-AI_Collaboration",
-        "HAIT",
-        "Augmented_OB",
-        "Trust",
-        "Autonomy"
-      ],
-      "status": [
-        "CITED",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "From HITL to HILA: A new standard for human-AI collaboration - ASAPP",
-      "url": "https://www.asapp.com/blog/from-hitl-to-hila-a-new-standard-for-human-ai-collaboration",
-      "date": "2026-04-21",
-      "category": "Human-in-the-Loop",
-      "summary": "פוסט זה דן בדרכים בהן ניתן לשפר את שיתוף הפעולה בין בני אדם ל-AI. על פי הפוסט, רוב היישומים של HITL נכשלים בשילוב האנושי וה-AI באופן אפקטיבי.",
-      "tags": [
-        "HITL",
-        "Human-AI_Collaboration",
-        "AI_Design"
-      ],
-      "status": [
-        "CITED",
         "HR Relevant"
       ]
     },

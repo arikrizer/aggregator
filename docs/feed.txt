@@ -1,7 +1,52 @@
 האגרגטור — Human-AI Augmentation
 https://arikrizer.github.io/aggregator/
-עודכן: 8 יוני 2026
+עודכן: 9 יוני 2026
 ============================================================
+
+כותרת: Strategic Integration of Artificial Intelligence in the C-Suite
+קישור: https://arxiv.org/html/2407.10247v3
+תאריך: 2026-06-09
+קטגוריה: Hybrid Intelligence
+סטטוס: CITED, HR Relevant
+תיאור: המאמר בוחן את השילוב של בינה מלאכותית (AI) בתפקידים בכירים בארגונים. הוא מציג מסגרת להבנת תהליך עיצוב התפקידים הניהוליים בתגובה לאימוץ AI. המחברים מציעים כי ארגונים מגיבים ל-AI תחילה על ידי הרחבת תפקידים קיימים לפני יצירת תפקידים ייעודיים חדשים.
+תגיות: Hybrid_Intelligence, HAIT, HITL, Augmented_OB, Leadership
+---
+
+כותרת: The More Powerful AI Becomes, the More Leadership Matters
+קישור: https://www.masterteacher.com/blogs/blog/the-more-powerful-ai-becomes-the-more-leadership-matters
+תאריך: 2026-06-09
+קטגוריה: Human-AI Teaming
+סטטוס: TRENDING, HR Relevant
+תיאור: המאמר טוען כי ככל ש-AI הופך חזק יותר, כך מנהיגות חשובה יותר. הוא מדגיש כי מנהיגים יכולים לספק יציבות והבטחה על ידי הצגת רוגע, עקביות ושקיפות בתקופות של שינוי מהיר.
+תגיות: HAIT, HITL, Leadership, Psychological_Safety
+---
+
+כותרת: Implementing Human Augmented AI in Customer Support
+קישור: https://www.startek.com/insights/blog/human-augmented-ai-in-customer-support
+תאריך: 2026-06-09
+קטגוריה: Human-in-the-Loop
+סטטוס: QUIET, HR Relevant
+תיאור: הפוסט בבלוג דן ביישום של AI משופר אנושי (Human Augmented AI) בתמיכת לקוחות. הוא מציג כיצד AI יכול לשפר את היעילות ואת איכות האינטראקציות עם הלקוחות.
+תגיות: HAIT, HITL, Customer_Support, Productivity
+---
+
+כותרת: AI in the workforce: A planning guide for employers.
+קישור: https://www.kellyservices.com/impact-insights/ai-in-the-workforce
+תאריך: 2026-06-09
+קטגוריה: Human-AI Teaming
+סטטוס: CITED, HR Relevant
+תיאור: מדריך זה מספק תובנות כיצד לתכנן את השילוב של AI בכוח העבודה. הוא מדגיש כי יוזמות AI רבות נכשלות כי הן מתווספות לזרימות עבודה פגומות במקום לתכנן מחדש את הזרימות הללו. כמו כן, הוא מציין כי עבודה שמוביל בני אדם אינה אקראית אלא קשורה להחלטות הדורשות אחריות, נתונים רגישים, שיקול דעת הקשרי וקשר אנושי.
+תגיות: HAIT, HITL, Augmented_OB, Human-AI_Collaboration, Workforce_Planning
+---
+
+כותרת: How Generative AI Transforms Employee Training & Learning?
+קישור: https://www.gsdcouncil.org/blogs/how-generative-ai-transforms-employee-training
+תאריך: 2026-06-09
+קטגוריה: Hybrid Intelligence
+סטטוס: CITED, HR Relevant
+תיאור: מאמר זה בוחן כיצד AI גנרטיבי משנה את ההדרכה והלמידה של עובדים. הוא מדגיש את היתרונות של שילוב יכולות AI עם מומחיות אנושית כדי ליצור תוכניות הדרכה מותאמות, ניתנות להרחבה ומיושרות עם צורכי עבודה אמיתיים.
+תגיות: Generative_AI, HAIT, HITL, Augmented_OB, Employee_Development
+---
 
 כותרת: The Effects of Generative AI Usage on Employee Knowledge Behavior: A Perspective Based on the Automation–Augmentation Paradox
 קישור: https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1847724/full
@@ -2226,13 +2271,13 @@ https://arikrizer.github.io/aggregator/
 תגיות: HAIT, HR, Upskilling, Career_Growth
 ---
 
-כותרת: Rethinking AI Governance: Insights for Ethics and Compliance Leaders in Large Corporations
-קישור: https://ethisphere.com/insights/rethinking-ai-governance/
+כותרת: Managers Are Now in Charge of Making You Use AI
+קישור: https://www.businessinsider.com/managers-are-in-charge-of-making-you-use-ai-2026-5
 תאריך: 2026-05-09
 קטגוריה: Human-AI Teaming
-סטטוס: QUIET, HR Relevant
-תיאור: המאמר דן באתגרים של ניהול בינה מלאכותית בארגונים גדולים ומדגיש את הצורך בשינוי גישת הממשל כדי להתמודד עם האתגרים האתיים והמשפטיים של בינה מלאכותית.
-תגיות: AI_Governance, Ethics, Compliance
+סטטוס: TRENDING, HR Relevant
+תיאור: מאמר ב-Business Insider דן בתפקידם של מנהלים בקידום השימוש ב-AI בקרב עובדים.
+תגיות: HAIT, Hybrid_Intelligence, Leadership
 ---
 
 כותרת: Toward a Quality Model for Hybrid Intelligence Teams
@@ -2316,15 +2361,6 @@ https://arikrizer.github.io/aggregator/
 תגיות: HAIT, Hybrid_Intelligence, Work_Design
 ---
 
-כותרת: Managers Are Now in Charge of Making You Use AI
-קישור: https://www.businessinsider.com/managers-are-in-charge-of-making-you-use-ai-2026-5
-תאריך: 2026-05-09
-קטגוריה: Human-AI Teaming
-סטטוס: TRENDING, HR Relevant
-תיאור: מאמר ב-Business Insider דן בתפקידם של מנהלים בקידום השימוש ב-AI בקרב עובדים.
-תגיות: HAIT, Hybrid_Intelligence, Leadership
----
-
 כותרת: IESE redesigns MBA for the age of AI
 קישור: https://www.iese.edu/stories/iese-redesigns-mba-ai/
 תאריך: 2026-05-09
@@ -2350,6 +2386,15 @@ https://arikrizer.github.io/aggregator/
 סטטוס: QUIET, HR Relevant
 תיאור: המאמר דן בחשיבות של מנהיגות אתית בינה מלאכותית בארגונים. הוא מדגיש כי על הנהגת הארגון להוביל את השימוש האתי בינה מלאכותית ולהכשיר את כלל העובדים בנושא זה. המאמר גם מציג מספר אתגרים הקשורים לשימוש בינה מלאכותית, כגון הימנעות מביקורת ודאגה לשקיפות.
 תגיות: Ethical_AI, AI_Governance, Corporate_Culture
+---
+
+כותרת: Rethinking AI Governance: Insights for Ethics and Compliance Leaders in Large Corporations
+קישור: https://ethisphere.com/insights/rethinking-ai-governance/
+תאריך: 2026-05-09
+קטגוריה: Human-AI Teaming
+סטטוס: QUIET, HR Relevant
+תיאור: המאמר דן באתגרים של ניהול בינה מלאכותית בארגונים גדולים ומדגיש את הצורך בשינוי גישת הממשל כדי להתמודד עם האתגרים האתיים והמשפטיים של בינה מלאכותית.
+תגיות: AI_Governance, Ethics, Compliance
 ---
 
 כותרת: Ethical Practices for Organizations - Society for Industrial and ... - SIOP
@@ -3736,42 +3781,6 @@ https://arikrizer.github.io/aggregator/
 סטטוס: TRENDING, HR Relevant
 תיאור: המאמר דן במושג של אינטליגנציה היברידית ובתפקידה בקידום רווחה קולקטיבית. הוא מציג את האינטליגנציה ההיברידית כגישה אסטרטגית לשיפור תפקוד ארגוני ורווחה של עובדים. המאמר מדגיש את החשיבות של שיתוף פעולה בין אינטליגנציה טבעית ומלאכותית.
 תגיות: Hybrid_Intelligence, HAIT, Augmented_Intelligence, Human-AI_Collaboration, Psychological_Safety
----
-
-כותרת: Why Companies That Choose AI Augmentation Over Automation ...
-קישור: https://hbr.org/2026/04/why-companies-that-choose-ai-augmentation-over-automation-may-win-in-the-long-run
-תאריך: 2026-04-21
-קטגוריה: Human-AI Teaming
-סטטוס: TRENDING, HR Relevant
-תיאור: מאמר זה בוחן את ההבדלים בין אוטומציה של בינה מלאכותית (AI) לבין הגברת יכולות אנושיות באמצעות AI. הוא טוען כי חברות שבוחרות בהגדלת יכולות אנושיות ייהנו מיתרונות ארוכי טווח, כגון שיפור הפרודוקטיביות וגמישות רבה יותר. המאמר מתאר את תהליך השינוי הארגוני הנדרש להטמעת יכולות AI ומדגיש את החשיבות של עיצוב מחדש של תפקידים ושיפור שיתוף הפעולה בין בני אדם ל-AI.
-תגיות: Human-AI_Collaboration, HAI, Job_Redesign_AI, Productivity, Hybrid_Intelligence
----
-
-כותרת: Industries Most Exposed to AI Are Not Only Seeing Productivity Gains but Jobs and Wage Growth Too
-קישור: https://singularityhub.com/2026/04/16/industries-most-exposed-to-ai-are-not-only-seeing-productivity-gains-but-jobs-and-wage-growth-too/
-תאריך: 2026-04-21
-קטגוריה: Human-AI Teaming
-סטטוס: TRENDING, HR Relevant
-תיאור: מאמר זה דן בהשפעת הבינה המלאכותית (AI) על התעסוקה והפרודוקטיביות. על פי המחקר, ענפים שנחשפים יותר ל-AI אינם רק רואים תוספת פרודוקטיביות אלא גם תוספת מקומות עבודה וצמיחה בשכר. המחקר מצא כי השימוש ב-AI עלה מ-12% במחצית 2024 ל-26% בסוף 2025, והתוצר הלאומי גדל ב-1.4% עד 2.8%.
-תגיות: Hybrid_Intelligence, HAIT, Productivity, Job_Growth, Wage_Growth
----
-
-כותרת: The Jagged Frontier: Why Human-AI Collaboration Fails and What Enterprise Leaders Can Do About It
-קישור: https://www.aipoweredwomen.com/blog/jagged-frontier-human-ai-collaboration
-תאריך: 2026-04-21
-קטגוריה: Human-AI Teaming
-סטטוס: CITED, HR Relevant
-תיאור: מאמר זה דן בבעיות של שיתוף פעולה בין בני אדם ל-AI בארגונים. הוא מציג את המושג של "התאמת התלות" ומדגיש את החשיבות של הכשרה מובנית להכרת מצבי כשל של AI ומסגרות הערכה שיטתיות להערכת איכות התפוקות של AI.
-תגיות: Human-AI_Collaboration, HAIT, Augmented_OB, Trust, Autonomy
----
-
-כותרת: From HITL to HILA: A new standard for human-AI collaboration - ASAPP
-קישור: https://www.asapp.com/blog/from-hitl-to-hila-a-new-standard-for-human-ai-collaboration
-תאריך: 2026-04-21
-קטגוריה: Human-in-the-Loop
-סטטוס: CITED, HR Relevant
-תיאור: פוסט זה דן בדרכים בהן ניתן לשפר את שיתוף הפעולה בין בני אדם ל-AI. על פי הפוסט, רוב היישומים של HITL נכשלים בשילוב האנושי וה-AI באופן אפקטיבי.
-תגיות: HITL, Human-AI_Collaboration, AI_Design
 ---
 
 כותרת: AI Will Eliminate Only 10% of Jobs, Report Finds
