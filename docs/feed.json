@@ -5,6 +5,95 @@
   "description": "אגרגטור תוכן יומי בתחום Human-AI Augmentation",
   "items": [
     {
+      "title": "Learning to lead in a hybrid human-AI enterprise",
+      "url": "https://www.technologyreview.com/2026/06/09/1137830/learning-to-lead-in-a-hybrid-human-ai-enterprise",
+      "date": "2026-06-10",
+      "category": "Human-AI Teaming",
+      "summary": "המאמר דן בנושא של הובלת ארגונים היברידיים המשלבים בני אדם ו-AI. הוא מדגיש את החשיבות של בני אדם בתהליכים של קבלת החלטות כאשר משתמשים ב-AI אגנטי בארגונים. כמו כן, הוא מציע הקמת מועצות AI וכללים מחמירים לשמירה על פרטיות הנתונים.",
+      "tags": [
+        "Human-AI_Collaboration",
+        "HAI",
+        "Job_Redesign_AI",
+        "Autonomy",
+        "Leadership"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "AI at Work: Why Strategy Matters More Than Tools | BCG",
+      "url": "https://www.bcg.com/publications/2026/ai-at-work-why-strategy-matters-more-than-tools",
+      "date": "2026-06-10",
+      "category": "Human-AI Teaming",
+      "summary": "הדו\"ח של BCG מראה כי ארגונים המשתמשים בבינה מלאכותית לשינוי תהליכים או יצירת מודלים עסקיים חדשים הם אלו שיוצרים ערך רב יותר וחווית עובד טובה יותר. המחקר מצא כי 42% מהארגונים חסכו 8 שעות לעובד בשבוע. הדו\"ח גם מדגיש כי האסטרטגיה של AI חשובה יותר מכלי ה- AI עצמם.",
+      "tags": [
+        "Hybrid_Intelligence",
+        "HAIT",
+        "Augmented_OB",
+        "Productivity",
+        "Hierarchy_Shift"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Davos 2026 Insights: Redesigning Work with Human-AI Collaboration",
+      "url": "https://www.tcs.com/who-we-are/worldwide/europe/davos/article/davos-2026-insights-redesigning-work-with-human-ai-collaboration",
+      "date": "2026-06-10",
+      "category": "Human-AI Teaming",
+      "summary": "הדו\"ח דן בדרכים לשילוב בינה מלאכותית ומשתמשים אנושיים בעבודה, תוך שימת דגש על בניית אמון ושינוי תרבות ארגונית. הוא מדגיש את הצורך בשינוי מדדי ביצוע ובהגדרת תפקידים חדשים בעבודה המשולבת בינה מלאכותית.",
+      "tags": [
+        "HAIT",
+        "HITL",
+        "Augmented_OB",
+        "Leadership",
+        "Compliance"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "How AI Affects Imposter Syndrome at Work",
+      "url": "https://online.ewu.edu/degrees/business/ms-organizational-leadership/ai-leadership/imposter-syndrome-at-work",
+      "date": "2026-06-10",
+      "category": "Hybrid Intelligence",
+      "summary": "המאמר בוחן את ההשפעה של כלים של AI על תסמונת המתחזה בעבודה. הוא מגלה שכלים אלו יכולים לשמש כמגברי ביטחון וגם כעזר, תלוי באיזו מידה העובדים סומכים עליהם.",
+      "tags": [
+        "Hybrid_Intelligence",
+        "HAIT",
+        "Psychological_Safety",
+        "Burnout"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "When AI builds itself - Anthropic",
+      "url": "https://www.anthropic.com/institute/recursive-self-improvement",
+      "date": "2026-06-10",
+      "category": "Hybrid Intelligence",
+      "summary": "המאמר דן בתרחישים בהם בינה מלאכותית יכולה לבנות את עצמה, ולהוביל לשינויים משמעותיים בדרך העבודה של ארגונים. הוא מזכיר כי התפתחות כזו יכולה להביא ליעילות רבה יותר, אך גם לעורר חששות אתיים וביטחוניים. המאמר מציג תרחישים שונים של שילוב בינה מלאכותית בעבודה, ומדגיש את הצורך בהתאמת תפקידם של בני אדם בארגונים שמשתמשים בבינה מלאכותית.",
+      "tags": [
+        "Hybrid_Intelligence",
+        "HAIT",
+        "HITL",
+        "Augmented_OB",
+        "Autonomous_Agents"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
       "title": "Strategic Integration of Artificial Intelligence in the C-Suite",
       "url": "https://arxiv.org/html/2407.10247v3",
       "date": "2026-06-09",
@@ -4293,18 +4382,18 @@
       ]
     },
     {
-      "title": "Managers Are Now in Charge of Making You Use AI",
-      "url": "https://www.businessinsider.com/managers-are-in-charge-of-making-you-use-ai-2026-5",
+      "title": "Generative AI ethics: 16 biggest concerns and risks",
+      "url": "https://www.techtarget.com/searchenterpriseai/tip/Generative-AI-ethics-8-biggest-concerns",
       "date": "2026-05-09",
       "category": "Human-AI Teaming",
-      "summary": "מאמר ב-Business Insider דן בתפקידם של מנהלים בקידום השימוש ב-AI בקרב עובדים.",
+      "summary": "המאמר דן באתגרים וסיכונים הקשורים לשימוש בינה מלאכותית יוצרת, כולל השפעה על העובדים והארגון. הוא גם מדגיש את הצורך בהשקעה בהכשרת העובדים כדי להתמודד עם השינויים.",
       "tags": [
-        "HAIT",
-        "Hybrid_Intelligence",
-        "Leadership"
+        "Generative_AI",
+        "AI_Ethics",
+        "Workforce_Development"
       ],
       "status": [
-        "TRENDING",
+        "QUIET",
         "HR Relevant"
       ]
     },
@@ -4459,6 +4548,22 @@
       ]
     },
     {
+      "title": "Managers Are Now in Charge of Making You Use AI",
+      "url": "https://www.businessinsider.com/managers-are-in-charge-of-making-you-use-ai-2026-5",
+      "date": "2026-05-09",
+      "category": "Human-AI Teaming",
+      "summary": "מאמר ב-Business Insider דן בתפקידם של מנהלים בקידום השימוש ב-AI בקרב עובדים.",
+      "tags": [
+        "HAIT",
+        "Hybrid_Intelligence",
+        "Leadership"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
       "title": "IESE redesigns MBA for the age of AI",
       "url": "https://www.iese.edu/stories/iese-redesigns-mba-ai/",
       "date": "2026-05-09",
@@ -4532,22 +4637,6 @@
         "Ethical_AI",
         "AI_Governance",
         "Organizational_Culture"
-      ],
-      "status": [
-        "QUIET",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Generative AI ethics: 16 biggest concerns and risks",
-      "url": "https://www.techtarget.com/searchenterpriseai/tip/Generative-AI-ethics-8-biggest-concerns",
-      "date": "2026-05-09",
-      "category": "Human-AI Teaming",
-      "summary": "המאמר דן באתגרים וסיכונים הקשורים לשימוש בינה מלאכותית יוצרת, כולל השפעה על העובדים והארגון. הוא גם מדגיש את הצורך בהשקעה בהכשרת העובדים כדי להתמודד עם השינויים.",
-      "tags": [
-        "Generative_AI",
-        "AI_Ethics",
-        "Workforce_Development"
       ],
       "status": [
         "QUIET",
@@ -7113,24 +7202,6 @@
       ],
       "status": [
         "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "AI Will Eliminate Only 10% of Jobs, Report Finds",
-      "url": "https://en.sedaily.com/society/2026/04/21/ai-will-eliminate-only-10-percent-of-jobs-report-finds",
-      "date": "2026-04-21",
-      "category": "Job_Redesign_AI",
-      "summary": "דו\"ח זה טוען כי רק 10% מהתפקידים יושפעו ישירות מבינה מלאכותית. הוא מדגיש את הצורך בשינוי מבני של תפקידים.",
-      "tags": [
-        "Job_Redesign_AI",
-        "AI_and_Employment",
-        "Human-AI_Collaboration",
-        "Augmented_Intelligence",
-        "Productivity"
-      ],
-      "status": [
-        "VIRAL",
         "HR Relevant"
       ]
     }
