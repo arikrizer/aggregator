@@ -7,6 +7,94 @@
     {
       "title": "Learning to lead in a hybrid human-AI enterprise",
       "url": "https://www.technologyreview.com/2026/06/09/1137830/learning-to-lead-in-a-hybrid-human-ai-enterprise",
+      "date": "2026-06-14",
+      "category": "Human-AI Teaming",
+      "summary": "המאמר דן באתגרים של הובלת ארגונים היברידיים המשלבים בני אדם ו-AI. הוא מדגיש את החשיבות של בני אדם בתהליכי קבלת החלטות, ואת הצורך בקביעת כללי ממשל ופרטיות נתונים מחמירים בעת שילוב של AI אגנטי במערכות ארגוניות.",
+      "tags": [
+        "Human-AI_Collaboration",
+        "HAIT",
+        "Hybrid_Intelligence",
+        "Leadership",
+        "Governance"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "How to Turn AI Skills Into Better Performance | BCG",
+      "url": "https://www.bcg.com/publications/2026/from-ai-skills-to-business-performance",
+      "date": "2026-06-14",
+      "category": "Augmented OB",
+      "summary": "הדו\"ח דן בדרכים לשילוב מיומנויות AI בשיפור הביצועים הארגוניים. הוא מדגיש את החשיבות של פיתוח יכולות התנהגותיות וטכניות כאחד.",
+      "tags": [
+        "Augmented_Intelligence",
+        "HAIT",
+        "Hybrid_Intelligence",
+        "Leadership",
+        "Productivity"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "AI and the Future of Work by 2030: What to Expect and How to Prepare",
+      "url": "https://ptrtraining.com/ai-future-of-work-2030",
+      "date": "2026-06-14",
+      "category": "Human-AI Teaming",
+      "summary": "הדו\"ח דן בדרכים שבהן AI ישפיע על העבודה בעתיד, ומדגיש את הצורך בשותפות בין בני אדם ל-AI. הוא גם מדבר על הצורך במסגרות ממשל ומנגנוני פיקוח כדי להבטיח את השימוש הראוי ב-AI.",
+      "tags": [
+        "AI_Future_Work",
+        "Human-AI_Collaboration",
+        "HAIT"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Myths and reality: AI workforce dynamics across the Fortune 500 | Orgvue",
+      "url": "https://www.orgvue.com/resources/articles/myths-and-reality-ai-workforce-dynamics-across-the-fortune-500",
+      "date": "2026-06-14",
+      "category": "Human-AI Teaming",
+      "summary": "המאמר בוחן את הדינמיקה של כוח העבודה עם בינה מלאכותית (AI) בחברות Fortune 500. הוא מציג נתונים על השינויים בארגונים ובמבנה העבודה עם השימוש ב-AI, ומדגיש כי הסיכונים של השימוש ב-AI עולים על היתרונות. המאמר גם מדגיש את החשיבות של הבנת העבודה והכוח העבודה כדי לתכנן את עתיד העבודה.",
+      "tags": [
+        "Hybrid_Intelligence",
+        "HAIT",
+        "Job_Redesign_AI",
+        "Autonomy",
+        "Productivity"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Operationalizing human–AI collaboration in city intelligence systems",
+      "url": "https://link.springer.com/article/10.1007/s44327-026-00295-z",
+      "date": "2026-06-14",
+      "category": "Hybrid Intelligence",
+      "summary": "המאמר דן באתגרים של שילוב בני אדם ו-AI במערכות מודיעין עירוניות. הוא מדגיש את החשיבות של תכנון ממשל ותהליכי קבלת החלטות היברידיים.",
+      "tags": [
+        "Hybrid_Intelligence",
+        "HAIT",
+        "Human-AI_Collaboration",
+        "Governance",
+        "Public_Sector"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Learning to lead in a hybrid human-AI enterprise",
+      "url": "https://www.technologyreview.com/2026/06/09/1137830/learning-to-lead-in-a-hybrid-human-ai-enterprise",
       "date": "2026-06-13",
       "category": "Human-AI Teaming",
       "summary": "המאמר דן בדרכים בהן ארגונים יכולים ללמוד להוביל צוותים היברידיים של בני אדם ו-AI. הוא מדגיש את החשיבות של בני אדם שנמצאים בלולאה בעת שילוב של AI אגנטי במערכות ארגוניות, ומציע הקמת מועצות AI וכללי פרטיות נתונים חזקים.",
@@ -7270,23 +7358,6 @@
         "AI",
         "Organizational_Change",
         "Future_of_Work"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "AI Raises Workplace Standards, Reshaping Human Productivity",
-      "url": "https://letsdatascience.com/news/ai-raises-workplace-standards-reshaping-human-productivity-1dc294fc",
-      "date": "2026-04-25",
-      "category": "Hybrid Intelligence",
-      "summary": "המאמר דן בדרישה הגוברת לאנשים לעמוד בסטנדרטים של AI במקום העבודה, מה שעלול להוביל ל'הנחה של האנושיות' שבה תפוקתם של בני אדם מושווה לזו של מכונות. המחבר מציע כי הדבר עלול לגרום ללחץ מוגבר על העובדים ולקשיים בקבלת החלטות.",
-      "tags": [
-        "Productivity",
-        "Human-AI_Collaboration",
-        "Workplace_Standards",
-        "AI_Impact"
       ],
       "status": [
         "TRENDING",

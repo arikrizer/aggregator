@@ -1,7 +1,52 @@
 האגרגטור — Human-AI Augmentation
 https://arikrizer.github.io/aggregator/
-עודכן: 13 יוני 2026
+עודכן: 14 יוני 2026
 ============================================================
+
+כותרת: Learning to lead in a hybrid human-AI enterprise
+קישור: https://www.technologyreview.com/2026/06/09/1137830/learning-to-lead-in-a-hybrid-human-ai-enterprise
+תאריך: 2026-06-14
+קטגוריה: Human-AI Teaming
+סטטוס: TRENDING, HR Relevant
+תיאור: המאמר דן באתגרים של הובלת ארגונים היברידיים המשלבים בני אדם ו-AI. הוא מדגיש את החשיבות של בני אדם בתהליכי קבלת החלטות, ואת הצורך בקביעת כללי ממשל ופרטיות נתונים מחמירים בעת שילוב של AI אגנטי במערכות ארגוניות.
+תגיות: Human-AI_Collaboration, HAIT, Hybrid_Intelligence, Leadership, Governance
+---
+
+כותרת: How to Turn AI Skills Into Better Performance | BCG
+קישור: https://www.bcg.com/publications/2026/from-ai-skills-to-business-performance
+תאריך: 2026-06-14
+קטגוריה: Augmented OB
+סטטוס: TRENDING, HR Relevant
+תיאור: הדו"ח דן בדרכים לשילוב מיומנויות AI בשיפור הביצועים הארגוניים. הוא מדגיש את החשיבות של פיתוח יכולות התנהגותיות וטכניות כאחד.
+תגיות: Augmented_Intelligence, HAIT, Hybrid_Intelligence, Leadership, Productivity
+---
+
+כותרת: AI and the Future of Work by 2030: What to Expect and How to Prepare
+קישור: https://ptrtraining.com/ai-future-of-work-2030
+תאריך: 2026-06-14
+קטגוריה: Human-AI Teaming
+סטטוס: TRENDING, HR Relevant
+תיאור: הדו"ח דן בדרכים שבהן AI ישפיע על העבודה בעתיד, ומדגיש את הצורך בשותפות בין בני אדם ל-AI. הוא גם מדבר על הצורך במסגרות ממשל ומנגנוני פיקוח כדי להבטיח את השימוש הראוי ב-AI.
+תגיות: AI_Future_Work, Human-AI_Collaboration, HAIT
+---
+
+כותרת: Myths and reality: AI workforce dynamics across the Fortune 500 | Orgvue
+קישור: https://www.orgvue.com/resources/articles/myths-and-reality-ai-workforce-dynamics-across-the-fortune-500
+תאריך: 2026-06-14
+קטגוריה: Human-AI Teaming
+סטטוס: TRENDING, HR Relevant
+תיאור: המאמר בוחן את הדינמיקה של כוח העבודה עם בינה מלאכותית (AI) בחברות Fortune 500. הוא מציג נתונים על השינויים בארגונים ובמבנה העבודה עם השימוש ב-AI, ומדגיש כי הסיכונים של השימוש ב-AI עולים על היתרונות. המאמר גם מדגיש את החשיבות של הבנת העבודה והכוח העבודה כדי לתכנן את עתיד העבודה.
+תגיות: Hybrid_Intelligence, HAIT, Job_Redesign_AI, Autonomy, Productivity
+---
+
+כותרת: Operationalizing human–AI collaboration in city intelligence systems
+קישור: https://link.springer.com/article/10.1007/s44327-026-00295-z
+תאריך: 2026-06-14
+קטגוריה: Hybrid Intelligence
+סטטוס: CITED, HR Relevant
+תיאור: המאמר דן באתגרים של שילוב בני אדם ו-AI במערכות מודיעין עירוניות. הוא מדגיש את החשיבות של תכנון ממשל ותהליכי קבלת החלטות היברידיים.
+תגיות: Hybrid_Intelligence, HAIT, Human-AI_Collaboration, Governance, Public_Sector
+---
 
 כותרת: Learning to lead in a hybrid human-AI enterprise
 קישור: https://www.technologyreview.com/2026/06/09/1137830/learning-to-lead-in-a-hybrid-human-ai-enterprise
@@ -3862,15 +3907,6 @@ https://arikrizer.github.io/aggregator/
 סטטוס: TRENDING, HR Relevant
 תיאור: מאמר זה דן בשלוש משימות אתגריות למנהיגים בעידן הבינה המלאכותית. הוא מתאר כיצד AI משנה את מקום העבודה ודורש שינויים בארגון, בניהול ובתרבות. המחבר מציג מחקר של מקינזי מ-2025 שמדגיש כי האתגר של AI במקום העבודה הוא בעיקר אתגר עסקי ולא טכנולוגי.
 תגיות: Leadership, AI, Organizational_Change, Future_of_Work
----
-
-כותרת: AI Raises Workplace Standards, Reshaping Human Productivity
-קישור: https://letsdatascience.com/news/ai-raises-workplace-standards-reshaping-human-productivity-1dc294fc
-תאריך: 2026-04-25
-קטגוריה: Hybrid Intelligence
-סטטוס: TRENDING, HR Relevant
-תיאור: המאמר דן בדרישה הגוברת לאנשים לעמוד בסטנדרטים של AI במקום העבודה, מה שעלול להוביל ל'הנחה של האנושיות' שבה תפוקתם של בני אדם מושווה לזו של מכונות. המחבר מציע כי הדבר עלול לגרום ללחץ מוגבר על העובדים ולקשיים בקבלת החלטות.
-תגיות: Productivity, Human-AI_Collaboration, Workplace_Standards, AI_Impact
 ---
 
 כותרת: What HR Gets Wrong About AI Human Collaboration at Work
