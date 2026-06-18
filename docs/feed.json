@@ -5,6 +5,78 @@
   "description": "אגרגטור תוכן יומי בתחום Human-AI Augmentation",
   "items": [
     {
+      "title": "Beyond the AI Hype: How Hybrid Intelligence is Reshaping Clinical Data",
+      "url": "https://briefglance.com/articles/beyond-the-ai-hype-how-hybrid-intelligence-is-reshaping-clinical-data",
+      "date": "2026-06-18",
+      "category": "Hybrid Intelligence",
+      "summary": "המאמר דן במודל של אינטליגנציה היברידית שפותח על ידי Carta Healthcare, אשר משתמש ב-AI כדי לסייע לאנשים בנתח נתונים קליניים. המודל נועד להגביר את יכולותיהם של אנשי מקצוע בתחום הבריאות, ולא להחליף אותם. המאמר מתאר את הבעיות הקשורות בנתונים קליניים ואת הדרך בה המודל ההיברידי יכול לסייע בפתרונן.",
+      "tags": [
+        "Hybrid_Intelligence",
+        "HAIT",
+        "HITL",
+        "Augmented_OB",
+        "Healthcare"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "When Human Judgment Must Lead: Strategic Boundaries for AI in Management",
+      "url": "https://www.innovativehumancapital.com/article/when-human-judgment-must-lead-strategic-boundaries-for-ai-in-management",
+      "date": "2026-06-18",
+      "category": "Human-AI Teaming",
+      "summary": "המאמר דן בגבולות השימוש ב-AI בניהול, ומתאר את התנאים שבהם השימוש ב-AI יכול לשפר את קבלת ההחלטות, ומתי הוא עלול לערער את השיפוט האנושי. המאמר מזהה שלושה תחומים שבהם AI יכול לתרום: סינתזה של מידע, האצת תהליכים והגוון של פרספקטיבות.",
+      "tags": [
+        "HAIT",
+        "HITL",
+        "Augmented_OB",
+        "Leadership",
+        "Management"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Navigating AI in the Workplace: 2026",
+      "url": "https://www.shrm.org/mena/topics-tools/research/navigating-ai-in-the-workplace/full-report",
+      "date": "2026-06-18",
+      "category": "Human-AI Teaming",
+      "summary": "הדו\"ח דן בשימוש ב-AI במקום העבודה ובהשפעתו על התרבות והערכים הארגוניים. הדו\"ח מציג ממצאים על הקשר בין השימוש ב-AI לבין המעורבות והמחויבות של העובדים לארגון.",
+      "tags": [
+        "HAIT",
+        "HITL",
+        "Augmented_OB",
+        "Workplace_Culture",
+        "AI_Use"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Designing Human-Machine Collaboration: Strategic Imperatives for ...",
+      "url": "https://www.innovativehumancapital.com/article/designing-human-machine-collaboration-strategic-imperatives-for-the-ai-powered-workplace",
+      "date": "2026-06-18",
+      "category": "Human-AI Teaming",
+      "summary": "דו\"ח זה מציג אתגרים אסטרטגיים עבור ארגונים המשתמשים בשיתוף פעולה בין בני אדם למכונות. הוא מדגיש את החשיבות של הבנת תפקידים, הבנת תהליכים והבנת תוצאות, וכן הצורך בקיום טקסים ופרוטוקולים לשיתוף פעולה יעיל.",
+      "tags": [
+        "Human-AI_Collaboration",
+        "HAI",
+        "Job_Redesign_AI",
+        "Leadership",
+        "Productivity"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
       "title": "Frontiers | Social and familial implications of algorithmic conflict management in hybrid work environments “a study of AI-driven fairness and trust in UAE organizations”",
       "url": "https://www.frontiersin.org/journals/sociology/articles/10.3389/fsoc.2026.1754294/full",
       "date": "2026-06-17",
@@ -5462,18 +5534,18 @@
       ]
     },
     {
-      "title": "AI-augmented teams: Training for human-machine collaboration",
-      "url": "https://www.techtarget.com/searchcio/tip/AI-augmented-teams-Training-for-human-machine-collaboration",
+      "title": "THE IMPACT OF ARTIFICIAL INTELLIGENCE TECHNOLOGIES ON MODERN MANAGEMENT PROCESSES AND DEVELOPMENT PROSPECTS: PROBLEMS AND SOLUTIONS",
+      "url": "https://advancedscienti.com/index.php/AJMB/article/view/4502",
       "date": "2026-05-09",
-      "category": "Human-AI Teaming",
-      "summary": "המאמר דן בחשיבות של הכשרה ושדרוג מיומנויות של צוותים המשתמשים ב-AI. הוא מציג מסגרת של התפתחות הדרגתית של שיתוף פעולה בין בני אדם ל-AI ומדגיש את הצורך בהשקעה בהכשרת עובדים לצורך עבודה משותפת עם AI.",
+      "category": "Hybrid Intelligence",
+      "summary": "מאמר בכתב עת מדעי דן בהשפעת טכנולוגיות AI על תהליכי ניהול מודרניים ועל הבעיות והפתרונות הקשורים לכך.",
       "tags": [
+        "Hybrid_Intelligence",
         "HAIT",
-        "HITL",
-        "Augmented_OB"
+        "Management"
       ],
       "status": [
-        "TRENDING",
+        "QUIET",
         "HR Relevant"
       ]
     },
@@ -5558,22 +5630,6 @@
       ]
     },
     {
-      "title": "THE IMPACT OF ARTIFICIAL INTELLIGENCE TECHNOLOGIES ON MODERN MANAGEMENT PROCESSES AND DEVELOPMENT PROSPECTS: PROBLEMS AND SOLUTIONS",
-      "url": "https://advancedscienti.com/index.php/AJMB/article/view/4502",
-      "date": "2026-05-09",
-      "category": "Hybrid Intelligence",
-      "summary": "מאמר בכתב עת מדעי דן בהשפעת טכנולוגיות AI על תהליכי ניהול מודרניים ועל הבעיות והפתרונות הקשורים לכך.",
-      "tags": [
-        "Hybrid_Intelligence",
-        "HAIT",
-        "Management"
-      ],
-      "status": [
-        "QUIET",
-        "HR Relevant"
-      ]
-    },
-    {
       "title": "IESE redesigns MBA for the age of AI",
       "url": "https://www.iese.edu/stories/iese-redesigns-mba-ai/",
       "date": "2026-05-09",
@@ -5638,33 +5694,33 @@
       ]
     },
     {
-      "title": "What Is AI Organizational Readiness? Why People and Culture Determine Your AI Outcomes",
-      "url": "https://aiassemblylines.com/post/what-is-ai-organizational-readiness",
+      "title": "Designing Organizations for the Future of AI Decision Making",
+      "url": "https://www.linkedin.com/posts/natashaqbuckley_rethinking-operating-models-for-humans-with-activity-7456843144542707713-yPfH",
       "date": "2026-05-09",
-      "category": "Augmented OB",
-      "summary": "הפוסט דן בחשיבות של מוכנות ארגונית לשימוש ב-AI, תוך שימת דגש על תרבות ומוכנות של העובדים. הוא מדגיש את הצורך בתוכנית שינוי ניהולית שתלווה את השינוי הטכני.",
+      "category": "Human-AI Teaming",
+      "summary": "מאמר של נטשה בקלי על לינקדאין דן בשינוי הבעלות על קבלת החלטות בנוגע ל-AI, כאשר 72% מהמנכ\"לים רואים עצמם כקובעי ההחלטות העיקריים בנושא. הוא גם מזכיר כי רק מעט ארגונים מעצבים מחדש את העבודה סביב כלי AI.",
       "tags": [
-        "HAI",
+        "Hybrid_Intelligence",
+        "HAIT",
         "Job_Redesign_AI",
-        "Psychological_Safety"
+        "Leadership"
       ],
       "status": [
-        "QUIET",
+        "TRENDING",
         "HR Relevant"
       ]
     },
     {
-      "title": "Frontiers | AI usage and employee creativity: the mediating role of work engagement and the moderating role of technology acceptance",
-      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1807038/full",
+      "title": "So your new ‘co-worker’ is an AI agent – here’s how to make the best of your human-machine relationship",
+      "url": "https://theconversation.com/so-your-new-co-worker-is-an-ai-agent-heres-how-to-make-the-best-of-your-human-machine-relationship-276011",
       "date": "2026-05-09",
-      "category": "Human-AI Teaming",
-      "summary": "מחקר זה בוחן כיצד השימוש בבינה מלאכותית משפיע על היצירתיות של עובדים. המחקר מצא כי השימוש בבינה מלאכותית משפיע על היצירתיות של עובדים באמצעות השתתפות בעבודה. בנוסף, המחקר מצא כי הקבלה של טכנולוגיה מתווכת את הקשר בין השימוש בבינה מלאכותית לבין השתתפות בעבודה והיצירתיות של עובדים.",
+      "category": "Hybrid Intelligence",
+      "summary": "מאמר זה בוחן את הדרכים להפוך את היחסים בין בני אדם לבינה מלאכותית ליותר יעילים. המאמר מציע כי בני אדם צריכים להתמקד ביכולות שלהם שאינן יכולות להתבצע על ידי בינה מלאכותית.",
       "tags": [
         "Human-AI_Collaboration",
         "HAI",
         "Job_Redesign_AI",
-        "Productivity",
-        "Hierarchy_Shift"
+        "Productivity"
       ],
       "status": [
         "CITED",
@@ -5690,19 +5746,52 @@
       ]
     },
     {
-      "title": "So your new ‘co-worker’ is an AI agent – here’s how to make the best of your human-machine relationship",
-      "url": "https://theconversation.com/so-your-new-co-worker-is-an-ai-agent-heres-how-to-make-the-best-of-your-human-machine-relationship-276011",
+      "title": "Frontiers | AI usage and employee creativity: the mediating role of work engagement and the moderating role of technology acceptance",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1807038/full",
       "date": "2026-05-09",
-      "category": "Hybrid Intelligence",
-      "summary": "מאמר זה בוחן את הדרכים להפוך את היחסים בין בני אדם לבינה מלאכותית ליותר יעילים. המאמר מציע כי בני אדם צריכים להתמקד ביכולות שלהם שאינן יכולות להתבצע על ידי בינה מלאכותית.",
+      "category": "Human-AI Teaming",
+      "summary": "מחקר זה בוחן כיצד השימוש בבינה מלאכותית משפיע על היצירתיות של עובדים. המחקר מצא כי השימוש בבינה מלאכותית משפיע על היצירתיות של עובדים באמצעות השתתפות בעבודה. בנוסף, המחקר מצא כי הקבלה של טכנולוגיה מתווכת את הקשר בין השימוש בבינה מלאכותית לבין השתתפות בעבודה והיצירתיות של עובדים.",
       "tags": [
         "Human-AI_Collaboration",
         "HAI",
         "Job_Redesign_AI",
-        "Productivity"
+        "Productivity",
+        "Hierarchy_Shift"
       ],
       "status": [
         "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "What Is AI Organizational Readiness? Why People and Culture Determine Your AI Outcomes",
+      "url": "https://aiassemblylines.com/post/what-is-ai-organizational-readiness",
+      "date": "2026-05-09",
+      "category": "Augmented OB",
+      "summary": "הפוסט דן בחשיבות של מוכנות ארגונית לשימוש ב-AI, תוך שימת דגש על תרבות ומוכנות של העובדים. הוא מדגיש את הצורך בתוכנית שינוי ניהולית שתלווה את השינוי הטכני.",
+      "tags": [
+        "HAI",
+        "Job_Redesign_AI",
+        "Psychological_Safety"
+      ],
+      "status": [
+        "QUIET",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "AI-augmented teams: Training for human-machine collaboration",
+      "url": "https://www.techtarget.com/searchcio/tip/AI-augmented-teams-Training-for-human-machine-collaboration",
+      "date": "2026-05-09",
+      "category": "Human-AI Teaming",
+      "summary": "המאמר דן בחשיבות של הכשרה ושדרוג מיומנויות של צוותים המשתמשים ב-AI. הוא מציג מסגרת של התפתחות הדרגתית של שיתוף פעולה בין בני אדם ל-AI ומדגיש את הצורך בהשקעה בהכשרת עובדים לצורך עבודה משותפת עם AI.",
+      "tags": [
+        "HAIT",
+        "HITL",
+        "Augmented_OB"
+      ],
+      "status": [
+        "TRENDING",
         "HR Relevant"
       ]
     },
@@ -5719,23 +5808,6 @@
       ],
       "status": [
         "CITED",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Designing Organizations for the Future of AI Decision Making",
-      "url": "https://www.linkedin.com/posts/natashaqbuckley_rethinking-operating-models-for-humans-with-activity-7456843144542707713-yPfH",
-      "date": "2026-05-09",
-      "category": "Human-AI Teaming",
-      "summary": "מאמר של נטשה בקלי על לינקדאין דן בשינוי הבעלות על קבלת החלטות בנוגע ל-AI, כאשר 72% מהמנכ\"לים רואים עצמם כקובעי ההחלטות העיקריים בנושא. הוא גם מזכיר כי רק מעט ארגונים מעצבים מחדש את העבודה סביב כלי AI.",
-      "tags": [
-        "Hybrid_Intelligence",
-        "HAIT",
-        "Job_Redesign_AI",
-        "Leadership"
-      ],
-      "status": [
-        "TRENDING",
         "HR Relevant"
       ]
     },
@@ -6134,19 +6206,21 @@
       ]
     },
     {
-      "title": "Prompt Engineering For Business Teams: Best Practices That Actually Improve AI Output",
-      "url": "https://visionstratai.com/ai-technologies/prompt-engineering-for-business-teams-best-practices-that-actually-improve-ai-output/",
+      "title": "Safe skies and smart systems: The DIALOG vision for human-AI teaming",
+      "url": "https://www.innovationnewsnetwork.com/safe-skies-and-smart-systems-the-dialog-vision-for-human-ai-teaming/69123/",
       "date": "2026-05-04",
-      "category": "Hybrid Intelligence",
-      "summary": "פוסט זה מספק הנחיות מעשיות להנדסת קידום עבור צוותים עסקיים, כולל פיתוח תבניות קידום מרכזיות והגדרת כללי אבטחה. הוא מדגיש כי צוותים עסקיים יכולים להשיג דיוק גבוה יותר כאשר הם מקצים תפקיד ספציפי, מגדירים קהל יעד ומציינים פורמט רצוי.",
+      "category": "Human-AI Teaming",
+      "summary": "פרויקט DIALOG ביצע תרגילים אינטנסיביים של אימות מעשי עם בקרי תנועה אווירית (ATCOs) כדי להעריך את הביצועים הטכניים של המערכת ולגבות משוב תפעולי מהמשתמשים. הניסוי בדק את עומס העבודה הקוגניטיבי של הבקרים ואת השפעת המערכת על עבודתם. הממצאים מראים כי המערכת השפיעה על עבודת הבקרים והצריכה משוב תפעולי.",
       "tags": [
-        "Hybrid_Intelligence",
+        "Human-AI_Collaboration",
         "HAIT",
-        "HITL",
-        "Augmented_Intelligence"
+        "Hybrid_Intelligence",
+        "Autonomy",
+        "Trust"
       ],
       "status": [
-        "QUIET"
+        "CITED",
+        "HR Relevant"
       ]
     },
     {
@@ -6197,6 +6271,22 @@
       "status": [
         "QUIET",
         "HR Relevant"
+      ]
+    },
+    {
+      "title": "Prompt Engineering For Business Teams: Best Practices That Actually Improve AI Output",
+      "url": "https://visionstratai.com/ai-technologies/prompt-engineering-for-business-teams-best-practices-that-actually-improve-ai-output/",
+      "date": "2026-05-04",
+      "category": "Hybrid Intelligence",
+      "summary": "פוסט זה מספק הנחיות מעשיות להנדסת קידום עבור צוותים עסקיים, כולל פיתוח תבניות קידום מרכזיות והגדרת כללי אבטחה. הוא מדגיש כי צוותים עסקיים יכולים להשיג דיוק גבוה יותר כאשר הם מקצים תפקיד ספציפי, מגדירים קהל יעד ומציינים פורמט רצוי.",
+      "tags": [
+        "Hybrid_Intelligence",
+        "HAIT",
+        "HITL",
+        "Augmented_Intelligence"
+      ],
+      "status": [
+        "QUIET"
       ]
     },
     {
@@ -6318,24 +6408,6 @@
       ]
     },
     {
-      "title": "Safe skies and smart systems: The DIALOG vision for human-AI teaming",
-      "url": "https://www.innovationnewsnetwork.com/safe-skies-and-smart-systems-the-dialog-vision-for-human-ai-teaming/69123/",
-      "date": "2026-05-04",
-      "category": "Human-AI Teaming",
-      "summary": "פרויקט DIALOG ביצע תרגילים אינטנסיביים של אימות מעשי עם בקרי תנועה אווירית (ATCOs) כדי להעריך את הביצועים הטכניים של המערכת ולגבות משוב תפעולי מהמשתמשים. הניסוי בדק את עומס העבודה הקוגניטיבי של הבקרים ואת השפעת המערכת על עבודתם. הממצאים מראים כי המערכת השפיעה על עבודת הבקרים והצריכה משוב תפעולי.",
-      "tags": [
-        "Human-AI_Collaboration",
-        "HAIT",
-        "Hybrid_Intelligence",
-        "Autonomy",
-        "Trust"
-      ],
-      "status": [
-        "CITED",
-        "HR Relevant"
-      ]
-    },
-    {
       "title": "AI Strategy Implementation: Why Human Collaboration Matters",
       "url": "https://arkaro.com/ai-strategy-implementation-human-collaboration-2",
       "date": "2026-05-04",
@@ -6395,6 +6467,54 @@
         "Job_Redesign_AI",
         "Productivity",
         "Complexity"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "AI as an Organizational Stress Test: What Breaks in Your Operating Model?",
+      "url": "https://www.idc.com/resource-center/blog/ai-as-an-organizational-stress-test-what-will-break-first-in-your-operating-model/",
+      "date": "2026-05-04",
+      "category": "Augmented OB",
+      "summary": "המאמר דן בהשפעה של בינה מלאכותית על מודל התפעול של ארגונים. בינה מלאכותית יכולה להדגיש חולשות ק существующие בארגון ולהוביל לכישלון של תהליכים.",
+      "tags": [
+        "Augmented_OB",
+        "HAIT"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Decoupling in AI ethics: Learning how to walk the talk",
+      "url": "https://link.springer.com/article/10.1007/s10664-026-10861-z",
+      "date": "2026-05-04",
+      "category": "Human-AI Teaming",
+      "summary": "המאמר בוחן אתגרים שבהם צוותים המופקדים על ניהול האתיקה של AI עומדים מול ארגונים עם רמת מחויבות נמוכה לאתיקה של AI. הוא מגלה כי אנשי אתיקה הם גמישים ויכולים ליצור רק גרסה מינימלית של אתיקה של AI בגלל היעדר סמכות ואתגרים אחרים.",
+      "tags": [
+        "AI_Ethics",
+        "Organizational_Culture",
+        "Human-AI_Collaboration",
+        "Responsible_AI"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "The New Management Practices AI Demands From Tech Leaders",
+      "url": "https://www.forbes.com/councils/forbestechcouncil/2026/04/27/the-new-management-practices-ai-demands-from-tech-leaders/",
+      "date": "2026-05-04",
+      "category": "Human-AI Teaming",
+      "summary": "המאמר דן בשינויים בדרך שבה מנהיגים טכניים מובילים צוותים בעידן ה-AI. הוא מדגיש את החשיבות של ניהול צוותים ושל קבלת החלטות בעידן ה-AI.",
+      "tags": [
+        "Leadership",
+        "Management_Practices",
+        "AI_Strategy"
       ],
       "status": [
         "TRENDING",
@@ -6498,6 +6618,21 @@
       ]
     },
     {
+      "title": "Hybrid Expert Network Model: Human + AI Intelligence in 2026",
+      "url": "https://www.astuteconnect.com/blog/hybrid-expert-network-human-ai-intelligence-2026",
+      "date": "2026-05-04",
+      "category": "Hybrid Intelligence",
+      "summary": "המודל ההיברידי של מומחים הוא גישה חדשה המשלבת אינטליגנציה של אדם ובינה מלאכותית. מודל זה משפר את הדיוקנות על ידי הכנסת מערכת של בדיקות ואיזונים בין אינטליגנציה של מכונה ושיפוט אנושי.",
+      "tags": [
+        "Hybrid_Intelligence",
+        "HAIT"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
       "title": "Framework grounded in collective intelligence aims to create effective collaboration in human-AI teams",
       "url": "https://www.eurekalert.org/news-releases/1126555",
       "date": "2026-05-04",
@@ -6529,36 +6664,6 @@
       ]
     },
     {
-      "title": "AI as an Organizational Stress Test: What Breaks in Your Operating Model?",
-      "url": "https://www.idc.com/resource-center/blog/ai-as-an-organizational-stress-test-what-will-break-first-in-your-operating-model/",
-      "date": "2026-05-04",
-      "category": "Augmented OB",
-      "summary": "המאמר דן בהשפעה של בינה מלאכותית על מודל התפעול של ארגונים. בינה מלאכותית יכולה להדגיש חולשות ק существующие בארגון ולהוביל לכישלון של תהליכים.",
-      "tags": [
-        "Augmented_OB",
-        "HAIT"
-      ],
-      "status": [
-        "CITED",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Hybrid Expert Network Model: Human + AI Intelligence in 2026",
-      "url": "https://www.astuteconnect.com/blog/hybrid-expert-network-human-ai-intelligence-2026",
-      "date": "2026-05-04",
-      "category": "Hybrid Intelligence",
-      "summary": "המודל ההיברידי של מומחים הוא גישה חדשה המשלבת אינטליגנציה של אדם ובינה מלאכותית. מודל זה משפר את הדיוקנות על ידי הכנסת מערכת של בדיקות ואיזונים בין אינטליגנציה של מכונה ושיפוט אנושי.",
-      "tags": [
-        "Hybrid_Intelligence",
-        "HAIT"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
       "title": "How to build the operating model for the intelligence era",
       "url": "https://www.weforum.org/stories/2026/04/build-operating-model-ai-intelligence-era/",
       "date": "2026-05-04",
@@ -6568,39 +6673,6 @@
         "Hybrid_Intelligence",
         "HAIT",
         "Augmented_OB"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Decoupling in AI ethics: Learning how to walk the talk",
-      "url": "https://link.springer.com/article/10.1007/s10664-026-10861-z",
-      "date": "2026-05-04",
-      "category": "Human-AI Teaming",
-      "summary": "המאמר בוחן אתגרים שבהם צוותים המופקדים על ניהול האתיקה של AI עומדים מול ארגונים עם רמת מחויבות נמוכה לאתיקה של AI. הוא מגלה כי אנשי אתיקה הם גמישים ויכולים ליצור רק גרסה מינימלית של אתיקה של AI בגלל היעדר סמכות ואתגרים אחרים.",
-      "tags": [
-        "AI_Ethics",
-        "Organizational_Culture",
-        "Human-AI_Collaboration",
-        "Responsible_AI"
-      ],
-      "status": [
-        "CITED",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "The New Management Practices AI Demands From Tech Leaders",
-      "url": "https://www.forbes.com/councils/forbestechcouncil/2026/04/27/the-new-management-practices-ai-demands-from-tech-leaders/",
-      "date": "2026-05-04",
-      "category": "Human-AI Teaming",
-      "summary": "המאמר דן בשינויים בדרך שבה מנהיגים טכניים מובילים צוותים בעידן ה-AI. הוא מדגיש את החשיבות של ניהול צוותים ושל קבלת החלטות בעידן ה-AI.",
-      "tags": [
-        "Leadership",
-        "Management_Practices",
-        "AI_Strategy"
       ],
       "status": [
         "TRENDING",
@@ -7446,42 +7518,6 @@
       ]
     },
     {
-      "title": "AI-Focused Organizational Changes Underperform Other Reorganizations | Bain & Company",
-      "url": "https://www.bain.com/insights/ai-focused-organizational-changes-underperform-other-reorganizations-snap-chart/",
-      "date": "2026-04-27",
-      "category": "Human-AI Teaming",
-      "summary": "המאמר מ-Bain & Company מציג מחקר שמצא כי שינויים ארגוניים המתמקדים ב-AI אינם מצליחים כמו שינויים ארגוניים אחרים. המאמר טוען כי גישת טרנספורמציה של AI צריכה להיות מונעת על ידי אסטרטגיה, טכנולוגיה ומרכזיות אנושית. הוא מציג את גישת ה-20/200/2,000 כדרך מעשית לביצוע שינויים אלה.",
-      "tags": [
-        "HAIT",
-        "Augmented_OB",
-        "Hybrid_Intelligence",
-        "Job_Redesign_AI",
-        "Leadership"
-      ],
-      "status": [
-        "CITED",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "AI Is Creating Culture Debt In Organizations",
-      "url": "https://niritcohen.substack.com/p/ai-is-creating-culture-debt-in-organizations",
-      "date": "2026-04-27",
-      "category": "Augmented OB",
-      "summary": "המאמר טוען כי אימוץ AI מואץ יותר מהמוכנות הארגונית, וכתוצאה מכך נוצרת 'חוב תרבותי' בארגונים. המאמר מתבסס על נתונים מ-Deloitte וטוען כי רוב המנהיגים מאמינים כי התרבות הארגונית שלהם צריכה להשתנות בגלל AI, אך מעטים מדווחים על התקדמות משמעותית.",
-      "tags": [
-        "HAIT",
-        "Augmented_OB",
-        "Hybrid_Intelligence",
-        "Job_Redesign_AI",
-        "Psychological_Safety"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
       "title": "The impact of artificial intelligence on organizational design",
       "url": "https://vorecol.com/blogs/blog-the-impact-of-artificial-intelligence-on-organizational-design-8892",
       "date": "2026-04-27",
@@ -7649,24 +7685,6 @@
       ],
       "status": [
         "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "5 Ways Generative AI in HR Is Transforming Talent Management",
-      "url": "https://www.gsdcouncil.org/blogs/ways-generative-ai-in-hr-transforming-talent-management",
-      "date": "2026-04-26",
-      "category": "Human-AI Teaming",
-      "summary": "המאמר מספק דוגמאות של שימוש ב-AI ב-HR, כולל הנדסת קידום ושיפור תהליכים.",
-      "tags": [
-        "Hybrid_Intelligence",
-        "HAIT",
-        "HITL",
-        "Augmented_OB",
-        "Job_Redesign_AI"
-      ],
-      "status": [
-        "QUIET",
         "HR Relevant"
       ]
     }
