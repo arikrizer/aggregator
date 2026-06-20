@@ -1,7 +1,43 @@
 האגרגטור — Human-AI Augmentation
 https://arikrizer.github.io/aggregator/
-עודכן: 19 יוני 2026
+עודכן: 20 יוני 2026
 ============================================================
+
+כותרת: What AI Disrupts and How Leaders Can Restore It
+קישור: https://www.reworked.co/leadership/the-human-advantage-mapi-what-ai-disrupts-and-how-to-restore-it
+תאריך: 2026-06-20
+קטגוריה: Human-AI Teaming
+סטטוס: CITED, HR Relevant
+תיאור: המאמר דן בהשפעת ה-AI על תפקידי הניהול ומדגיש כי תפקיד האדם בארגון מוגבר בינה מלאכותית הוא לא ביצוע אלא שיפוט, ניהול וקבלת החלטות. הוא מדגיש כי על מנהגים להגן על תפקידים אלו ולבנות אותם במודע.
+תגיות: Human-AI_Collaboration, HAI, Leadership, Job_Redesign_AI
+---
+
+כותרת: When Human Judgment Must Lead: Strategic Boundaries for AI in Management
+קישור: https://www.innovativehumancapital.com/article/when-human-judgment-must-lead-strategic-boundaries-for-ai-in-management
+תאריך: 2026-06-20
+קטגוריה: Human-AI Teaming
+סטטוס: CITED, HR Relevant
+תיאור: המאמר בוחן את התנאים לשימוש ב-AI בניהול ומזהה תחומים בהם AI יכול לתמוך בקבלת החלטות, אך גם מדגיש את החשיבות של שיפוט אנושי בהקשרים מסוימים.
+תגיות: Human-AI_Collaboration, HAI, Leadership, Job_Redesign_AI
+---
+
+כותרת: Navigating AI in the Workplace: 2026 - SHRM
+קישור: https://www.shrm.org/mena/topics-tools/research/navigating-ai-in-the-workplace/full-report
+תאריך: 2026-06-20
+קטגוריה: Human-AI Teaming
+סטטוס: TRENDING, HR Relevant
+תיאור: הדו"ח של SHRM מ-2026 מצא כי עובדים עם מחויבות ארגונית חזקה דיווחו על ערך רב יותר לחשיבה ביקורתית בעת השימוש ב-AI, אמון גבוה יותר בארגון שלהם, פתיחות רבה יותר לאימוץ AI במקום העבודה שלהם, ופחות תלות ב-AI בעבודתם. כמו כן, נמצא כי גישה ניסויית ופרואקטיבית יותר לשימוש ב-AI קשורה למחויבות ארגונית חזקה יותר, אך לא בהכרח קשורה למעורבות בעבודה.
+תגיות: Human-AI_Collaboration, HAI, Job_Redesign_AI, Productivity, Hierarchy_Shift
+---
+
+כותרת: Designing Human-Machine Collaboration: Strategic Imperatives for the AI-Powered Workplace
+קישור: https://www.innovativehumancapital.com/article/designing-human-machine-collaboration-strategic-imperatives-for-the-ai-powered-workplace
+תאריך: 2026-06-20
+קטגוריה: Human-AI Teaming
+סטטוס: TRENDING, HR Relevant
+תיאור: דו"ח זה בוחן את האסטרטגיות לעיצוב שיתוף פעולה בין בני אדם למכונות במקום העבודה המופעל על ידי AI. הנמצאים מראים כי ארגונים מובילים משנים את המבנה שלהם כדי להתאים לשיתוף פעולה בין בני אדם ל-AI.
+תגיות: Human-AI_Collaboration, HAI, Job_Redesign_AI, Productivity, Hierarchy_Shift
+---
 
 כותרת: Agentic AI in Staff Augmentation - Smart Team Management
 קישור: https://www.esparkinfo.com/blog/agentic-ai-in-staff-augmentation
@@ -3972,42 +4008,6 @@ https://arikrizer.github.io/aggregator/
 תגיות: AI_Organizations, Human-AI_Collaboration, Ethics
 ---
 
-כותרת: Hybrid AI for SaaS Companies: The New Software Scaling Model
-קישור: https://outsourcedstaff.com.au/blog/hybrid-ai-for-saas-companies/
-תאריך: 2026-04-28
-קטגוריה: Hybrid Intelligence
-סטטוס: QUIET, HR Relevant
-תיאור: הפוסט דן במודל היברידי של בינה מלאכותית (AI) עבור חברות SaaS. הוא מתאר כיצד מודלים של AI יכולים לחזות התנהגות משתמש, סיכון נטישה וערך חיים של לקוח, וכיצד בני אדם יכולים לפרש תובנות אלו ולפעול על סמךן. כמו כן, הוא דן באוטומציה של תהליכים באמצעות כלי SaaS ובתפקידם של מומחים אנושיים בהתערבות כאשר מתעוררות חריגות.
-תגיות: Hybrid_Intelligence, HAIT, HITL
----
-
-כותרת: Impact of Artificial Intelligence on Organizational Behavior
-קישור: https://www.biyanicolleges.org/impact-of-artificial-intelligence-on-organizational-behavior/
-תאריך: 2026-04-28
-קטגוריה: Augmented OB
-סטטוס: QUIET, HR Relevant
-תיאור: המאמר דן בהשפעת הבינה המלאכותית (AI) על התנהגות ארגונית. הוא מתאר את החששות האתיים הקשורים להגנת נתוני עובדים והוגנות בהערכת ביצועים, ומדגיש את הצורך במדיניות ברורה ושקופה בשימוש ב-AI.
-תגיות: Augmented_OB, HAIT, HITL
----
-
-כותרת: AI Is Creating Culture Debt In Organizations
-קישור: https://niritcohen.substack.com/p/ai-is-creating-culture-debt-in-organizations
-תאריך: 2026-04-28
-קטגוריה: Augmented OB
-סטטוס: TRENDING, HR Relevant
-תיאור: הפוסט דן ב'חוב תרבותי' שנוצר על ידי יישום בינה מלאכותית (AI) בארגונים. הוא מתאר כיצד אימוץ AI מואץ יותר מהמוכנות הארגונית, וכיצד הדבר יכול ליצור חוב תרבותי אם לא ינוהל כראוי.
-תגיות: Augmented_OB, HAIT, HITL
----
-
-כותרת: The 3 trials of leadership in the age of AI
-קישור: https://hrexecutive.com/the-3-trials-of-leadership-in-the-age-of-ai/
-תאריך: 2026-04-28
-קטגוריה: Augmented OB
-סטטוס: TRENDING, HR Relevant
-תיאור: המאמר דן באתגרים של הנהגה בעידן ה-AI. הוא מציין כי אחד האתגרים הוא השינוי במבנה העבודה והעיצוב הארגוני, כאשר חלק מהארגונים שוקלים מבנה כוח אדם בצורת 'I' גדול, עם שכבה גדולה יותר של עובדים בכירים, שכבה דקה של עובדים ביניים, ושכבה גדולה יותר של עובדים זוטרים.
-תגיות: Leadership, Job_Redesign_AI, Organizational_Design, AI_Adoption
----
-
 כותרת: What AI's impact on engineering tells us about where org design is headed
 קישור: https://www.charterworks.com/what-ais-impact-on-engineering-tells-us-about-where-org-design-is-headed/
 תאריך: 2026-04-28
@@ -4017,15 +4017,6 @@ https://arikrizer.github.io/aggregator/
 תגיות: Hybrid_Intelligence, HAIT, Job_Redesign_AI, Organizational_Structure
 ---
 
-כותרת: How AI is Reshaping the Future of Work
-קישור: https://www.gsb.stanford.edu/exec-ed/difference/how-ai-reshaping-future-work
-תאריך: 2026-04-28
-קטגוריה: Human-AI Teaming
-סטטוס: TRENDING, HR Relevant
-תיאור: המאמר דן בדרכים שבהן AI משנה את עתיד העבודה. הוא מדגיש את הצורך בשינוי התנהגותי בעת הכנסת AI לארגון, ומציין כי שיתוף פעולה יעיל בין בני אדם ל-AI תלוי בתפקידים ברורים ובנקודות ביקורת מוגדרות.
-תגיות: Human-AI_Collaboration, HAI, Job_Redesign_AI, Autonomous_Agents, Productivity
----
-
 כותרת: AI and Leadership: Navigating Strategy, Ethics, and Opportunity
 קישור: https://executive.mit.edu/ai-leadership-navigating-strategy-ethics-and-opportunity.html
 תאריך: 2026-04-28
@@ -4033,31 +4024,4 @@ https://arikrizer.github.io/aggregator/
 סטטוס: TRENDING, HR Relevant
 תיאור: דו"ח זה דן בנושא הבינה המלאכותית והמנהיגות. הוא מדגיש כי ניהול הבינה המלאכותית דורש קישור בין יישומי הבינה המלאכותית למטרות העסקיות.
 תגיות: Leadership, Strategy, Human-AI_Collaboration
----
-
-כותרת: The HR skills that survive AI (and the ones that don't)
-קישור: https://events.humanitix.com/the-hr-skills-that-survive-ai-and-the-ones-that-don-t
-תאריך: 2026-04-27
-קטגוריה: Human-AI Teaming
-סטטוס: CITED, HR Relevant
-תיאור: המאמר מציג ניתוח של 100 תפקידים ב-HR ו-1800 משימות כדי להבין אילו כישורים נדרשים ומה משתנה עם יישום AI.
-תגיות: HAIT, HITL, Augmented_OB, Job_Redesign_AI
----
-
-כותרת: 10 AI Recruiting Prompts Every Frontline Hiring Team Should Try - Fountain
-קישור: https://www.fountain.com/posts/ai-recruiting
-תאריך: 2026-04-27
-קטגוריה: Human-AI Teaming
-סטטוס: TRENDING, HR Relevant
-תיאור: המאמר מספק דוגמאות של פקודות AI לשימוש ברכש כוח אדם, ומדגיש את החשיבות של שילוב AI בתהליכים ארגוניים.
-תגיות: HAIT, HITL, Augmented_OB, Job_Redesign_AI
----
-
-כותרת: AI in HR: The Missing Step to Success | Vikas Tambde posted on the topic | LinkedIn
-קישור: https://www.linkedin.com/posts/vikastambde_i-spent-the-last-few-months-collaborating-activity-7452223352724918272-6Ar-
-תאריך: 2026-04-27
-קטגוריה: Hybrid Intelligence
-סטטוס: TRENDING, HR Relevant
-תיאור: הפוסט מדגיש את החשיבות של התחלה עם כלי AI פשוטים ומעשיים ב-HR, כמו ChatGPT, כדי לשפר את הפרודוקטיביות והיעילות של צוותים.
-תגיות: Hybrid_Intelligence, HAIT, HITL, Augmented_Intelligence
 ---

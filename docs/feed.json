@@ -5,6 +5,76 @@
   "description": "אגרגטור תוכן יומי בתחום Human-AI Augmentation",
   "items": [
     {
+      "title": "What AI Disrupts and How Leaders Can Restore It",
+      "url": "https://www.reworked.co/leadership/the-human-advantage-mapi-what-ai-disrupts-and-how-to-restore-it",
+      "date": "2026-06-20",
+      "category": "Human-AI Teaming",
+      "summary": "המאמר דן בהשפעת ה-AI על תפקידי הניהול ומדגיש כי תפקיד האדם בארגון מוגבר בינה מלאכותית הוא לא ביצוע אלא שיפוט, ניהול וקבלת החלטות. הוא מדגיש כי על מנהגים להגן על תפקידים אלו ולבנות אותם במודע.",
+      "tags": [
+        "Human-AI_Collaboration",
+        "HAI",
+        "Leadership",
+        "Job_Redesign_AI"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "When Human Judgment Must Lead: Strategic Boundaries for AI in Management",
+      "url": "https://www.innovativehumancapital.com/article/when-human-judgment-must-lead-strategic-boundaries-for-ai-in-management",
+      "date": "2026-06-20",
+      "category": "Human-AI Teaming",
+      "summary": "המאמר בוחן את התנאים לשימוש ב-AI בניהול ומזהה תחומים בהם AI יכול לתמוך בקבלת החלטות, אך גם מדגיש את החשיבות של שיפוט אנושי בהקשרים מסוימים.",
+      "tags": [
+        "Human-AI_Collaboration",
+        "HAI",
+        "Leadership",
+        "Job_Redesign_AI"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Navigating AI in the Workplace: 2026 - SHRM",
+      "url": "https://www.shrm.org/mena/topics-tools/research/navigating-ai-in-the-workplace/full-report",
+      "date": "2026-06-20",
+      "category": "Human-AI Teaming",
+      "summary": "הדו\"ח של SHRM מ-2026 מצא כי עובדים עם מחויבות ארגונית חזקה דיווחו על ערך רב יותר לחשיבה ביקורתית בעת השימוש ב-AI, אמון גבוה יותר בארגון שלהם, פתיחות רבה יותר לאימוץ AI במקום העבודה שלהם, ופחות תלות ב-AI בעבודתם. כמו כן, נמצא כי גישה ניסויית ופרואקטיבית יותר לשימוש ב-AI קשורה למחויבות ארגונית חזקה יותר, אך לא בהכרח קשורה למעורבות בעבודה.",
+      "tags": [
+        "Human-AI_Collaboration",
+        "HAI",
+        "Job_Redesign_AI",
+        "Productivity",
+        "Hierarchy_Shift"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Designing Human-Machine Collaboration: Strategic Imperatives for the AI-Powered Workplace",
+      "url": "https://www.innovativehumancapital.com/article/designing-human-machine-collaboration-strategic-imperatives-for-the-ai-powered-workplace",
+      "date": "2026-06-20",
+      "category": "Human-AI Teaming",
+      "summary": "דו\"ח זה בוחן את האסטרטגיות לעיצוב שיתוף פעולה בין בני אדם למכונות במקום העבודה המופעל על ידי AI. הנמצאים מראים כי ארגונים מובילים משנים את המבנה שלהם כדי להתאים לשיתוף פעולה בין בני אדם ל-AI.",
+      "tags": [
+        "Human-AI_Collaboration",
+        "HAI",
+        "Job_Redesign_AI",
+        "Productivity",
+        "Hierarchy_Shift"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
       "title": "Agentic AI in Staff Augmentation - Smart Team Management",
       "url": "https://www.esparkinfo.com/blog/agentic-ai-in-staff-augmentation",
       "date": "2026-06-19",
@@ -7489,71 +7559,6 @@
       ]
     },
     {
-      "title": "Hybrid AI for SaaS Companies: The New Software Scaling Model",
-      "url": "https://outsourcedstaff.com.au/blog/hybrid-ai-for-saas-companies/",
-      "date": "2026-04-28",
-      "category": "Hybrid Intelligence",
-      "summary": "הפוסט דן במודל היברידי של בינה מלאכותית (AI) עבור חברות SaaS. הוא מתאר כיצד מודלים של AI יכולים לחזות התנהגות משתמש, סיכון נטישה וערך חיים של לקוח, וכיצד בני אדם יכולים לפרש תובנות אלו ולפעול על סמךן. כמו כן, הוא דן באוטומציה של תהליכים באמצעות כלי SaaS ובתפקידם של מומחים אנושיים בהתערבות כאשר מתעוררות חריגות.",
-      "tags": [
-        "Hybrid_Intelligence",
-        "HAIT",
-        "HITL"
-      ],
-      "status": [
-        "QUIET",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Impact of Artificial Intelligence on Organizational Behavior",
-      "url": "https://www.biyanicolleges.org/impact-of-artificial-intelligence-on-organizational-behavior/",
-      "date": "2026-04-28",
-      "category": "Augmented OB",
-      "summary": "המאמר דן בהשפעת הבינה המלאכותית (AI) על התנהגות ארגונית. הוא מתאר את החששות האתיים הקשורים להגנת נתוני עובדים והוגנות בהערכת ביצועים, ומדגיש את הצורך במדיניות ברורה ושקופה בשימוש ב-AI.",
-      "tags": [
-        "Augmented_OB",
-        "HAIT",
-        "HITL"
-      ],
-      "status": [
-        "QUIET",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "AI Is Creating Culture Debt In Organizations",
-      "url": "https://niritcohen.substack.com/p/ai-is-creating-culture-debt-in-organizations",
-      "date": "2026-04-28",
-      "category": "Augmented OB",
-      "summary": "הפוסט דן ב'חוב תרבותי' שנוצר על ידי יישום בינה מלאכותית (AI) בארגונים. הוא מתאר כיצד אימוץ AI מואץ יותר מהמוכנות הארגונית, וכיצד הדבר יכול ליצור חוב תרבותי אם לא ינוהל כראוי.",
-      "tags": [
-        "Augmented_OB",
-        "HAIT",
-        "HITL"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "The 3 trials of leadership in the age of AI",
-      "url": "https://hrexecutive.com/the-3-trials-of-leadership-in-the-age-of-ai/",
-      "date": "2026-04-28",
-      "category": "Augmented OB",
-      "summary": "המאמר דן באתגרים של הנהגה בעידן ה-AI. הוא מציין כי אחד האתגרים הוא השינוי במבנה העבודה והעיצוב הארגוני, כאשר חלק מהארגונים שוקלים מבנה כוח אדם בצורת 'I' גדול, עם שכבה גדולה יותר של עובדים בכירים, שכבה דקה של עובדים ביניים, ושכבה גדולה יותר של עובדים זוטרים.",
-      "tags": [
-        "Leadership",
-        "Job_Redesign_AI",
-        "Organizational_Design",
-        "AI_Adoption"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
       "title": "What AI's impact on engineering tells us about where org design is headed",
       "url": "https://www.charterworks.com/what-ais-impact-on-engineering-tells-us-about-where-org-design-is-headed/",
       "date": "2026-04-28",
@@ -7571,24 +7576,6 @@
       ]
     },
     {
-      "title": "How AI is Reshaping the Future of Work",
-      "url": "https://www.gsb.stanford.edu/exec-ed/difference/how-ai-reshaping-future-work",
-      "date": "2026-04-28",
-      "category": "Human-AI Teaming",
-      "summary": "המאמר דן בדרכים שבהן AI משנה את עתיד העבודה. הוא מדגיש את הצורך בשינוי התנהגותי בעת הכנסת AI לארגון, ומציין כי שיתוף פעולה יעיל בין בני אדם ל-AI תלוי בתפקידים ברורים ובנקודות ביקורת מוגדרות.",
-      "tags": [
-        "Human-AI_Collaboration",
-        "HAI",
-        "Job_Redesign_AI",
-        "Autonomous_Agents",
-        "Productivity"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
       "title": "AI and Leadership: Navigating Strategy, Ethics, and Opportunity",
       "url": "https://executive.mit.edu/ai-leadership-navigating-strategy-ethics-and-opportunity.html",
       "date": "2026-04-28",
@@ -7598,57 +7585,6 @@
         "Leadership",
         "Strategy",
         "Human-AI_Collaboration"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "The HR skills that survive AI (and the ones that don't)",
-      "url": "https://events.humanitix.com/the-hr-skills-that-survive-ai-and-the-ones-that-don-t",
-      "date": "2026-04-27",
-      "category": "Human-AI Teaming",
-      "summary": "המאמר מציג ניתוח של 100 תפקידים ב-HR ו-1800 משימות כדי להבין אילו כישורים נדרשים ומה משתנה עם יישום AI.",
-      "tags": [
-        "HAIT",
-        "HITL",
-        "Augmented_OB",
-        "Job_Redesign_AI"
-      ],
-      "status": [
-        "CITED",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "10 AI Recruiting Prompts Every Frontline Hiring Team Should Try - Fountain",
-      "url": "https://www.fountain.com/posts/ai-recruiting",
-      "date": "2026-04-27",
-      "category": "Human-AI Teaming",
-      "summary": "המאמר מספק דוגמאות של פקודות AI לשימוש ברכש כוח אדם, ומדגיש את החשיבות של שילוב AI בתהליכים ארגוניים.",
-      "tags": [
-        "HAIT",
-        "HITL",
-        "Augmented_OB",
-        "Job_Redesign_AI"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "AI in HR: The Missing Step to Success | Vikas Tambde posted on the topic | LinkedIn",
-      "url": "https://www.linkedin.com/posts/vikastambde_i-spent-the-last-few-months-collaborating-activity-7452223352724918272-6Ar-",
-      "date": "2026-04-27",
-      "category": "Hybrid Intelligence",
-      "summary": "הפוסט מדגיש את החשיבות של התחלה עם כלי AI פשוטים ומעשיים ב-HR, כמו ChatGPT, כדי לשפר את הפרודוקטיביות והיעילות של צוותים.",
-      "tags": [
-        "Hybrid_Intelligence",
-        "HAIT",
-        "HITL",
-        "Augmented_Intelligence"
       ],
       "status": [
         "TRENDING",
