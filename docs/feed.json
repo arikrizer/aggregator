@@ -5,6 +5,92 @@
   "description": "אגרגטור תוכן יומי בתחום Human-AI Augmentation",
   "items": [
     {
+      "title": "Growing Up with AI: How Human-AI Interaction Is Shaping the Future Workforce",
+      "url": "https://widigital.eu/growing-up-with-ai-how-human-ai-interaction-is-shaping-the-future-workforce",
+      "date": "2026-07-01",
+      "category": "Human-in-the-Loop",
+      "summary": "המאמר דן בדרכים בהן האינטראקציה בין בני אדם למערכות בינה מלאכותית משפיעה על כוח העבודה העתידי. הוא מציע שלושה סוגים של פעולות שיכולות לסייע בהתמודדות עם השינויים האלה.",
+      "tags": [
+        "Human-AI_Collaboration",
+        "HAI",
+        "Job_Redesign_AI",
+        "Leadership"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Preparing the Workforce for AI Integration: Evidence-Based Strategies for Organizations and Workers",
+      "url": "https://www.innovativehumancapital.com/article/preparing-the-workforce-for-ai-integration-evidence-based-strategies-for-organizations-and-workers",
+      "date": "2026-07-01",
+      "category": "Augmented OB",
+      "summary": "הדו\"ח מציע אסטרטגיות מבוססות ראיות לארגונים ולעובדים להתמודדות עם השילוב של בינה מלאכותית. הוא מדגיש את הצורך בעיצוב מחדש של עבודה ושיתוף פעולה בין בני אדם למערכות בינה מלאכותית.",
+      "tags": [
+        "HAI",
+        "Job_Redesign_AI",
+        "Hybrid_Intelligence",
+        "Productivity"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Beyond Automation: Measuring the Real Value of AI at Work",
+      "url": "https://seniorexecutive.com/kpi-human-ai-synergy-enterprise-measurement",
+      "date": "2026-07-01",
+      "category": "Human-AI Teaming",
+      "summary": "המאמר דן בחשיבות של מדידת הערך האמיתי של בינה מלאכותית במקום העבודה, מעבר לאוטומציה. הוא מציג מסגרות למדידת הפרודוקטיביות והאיכות של שילוב בין בני אדם למערכות בינה מלאכותית, ומדגיש את הצורך במדדי KPI איכותיים ומותאמים לתוצאות.",
+      "tags": [
+        "HAIT",
+        "Productivity",
+        "Quality_Metrics",
+        "Leadership"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Navigating AI in the Workplace: 2026",
+      "url": "https://www.shrm.org/topics-tools/research/navigating-ai-in-the-workplace/full-report",
+      "date": "2026-07-01",
+      "category": "Human-in-the-Loop",
+      "summary": "הדו\"ח דן באתגרים ובתועלות של בינה מלאכותית במקום העבודה, ומדגיש את הצורך בניהול השינויים הטכנולוגיים והשפעתם על מבנה הארגון והיחסים בין בני אדם למערכות בינה מלאכותית.",
+      "tags": [
+        "HAIT",
+        "HITL",
+        "Augmented_OB",
+        "Leadership",
+        "Compliance"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "AI Will Transform Careers, Not Eliminate Them, Say 124 Future Business Leaders",
+      "url": "https://www.rhsmith.umd.edu/news/ai-will-transform-careers-not-eliminate-them-say-124-future-business-leaders",
+      "date": "2026-07-01",
+      "category": "Augmented Intelligence",
+      "summary": "המחקר דן בהשפעת בינה מלאכותית על הקריירות והעבודה, ומדגיש את הצורך בהסתגלות לשינויים הטכנולוגיים והשפעתם על מקום העבודה.",
+      "tags": [
+        "HAI",
+        "Job_Redesign_AI",
+        "Skills_Gap",
+        "Leadership"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
       "title": "Perspective Chapter: Redefining Work in the Agentic Era – Building Hybrid Human - AI Organizations",
       "url": "https://www.intechopen.com/online-first/1240059",
       "date": "2026-06-30",
@@ -7886,111 +7972,6 @@
       "tags": [
         "Hybrid_Intelligence",
         "HAIT"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "How to build the operating model for the intelligence era",
-      "url": "https://www.weforum.org/stories/2026/04/build-operating-model-ai-intelligence-era/",
-      "date": "2026-05-04",
-      "category": "Hybrid Intelligence",
-      "summary": "המאמר דן במודל התפעול עבור עידן האינטליגנציה. ארגונים שמקודדים צוותים היברידיים של אדם + בינה מלאכותית וזרימות עבודה כמודל תפעול ליבה - עם נתיבי העברה ברורים ובקרות - ממוקמים טוב יותר להרחבה בביטחון. 90% מהארגונים מצפים כי צוותים היברידיים של אדם + בינה מלאכותית יהפכו לסטנדרטי בתוך שלוש שנים.",
-      "tags": [
-        "Hybrid_Intelligence",
-        "HAIT",
-        "Augmented_OB"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Decoupling in AI ethics: Learning how to walk the talk",
-      "url": "https://link.springer.com/article/10.1007/s10664-026-10861-z",
-      "date": "2026-05-04",
-      "category": "Human-AI Teaming",
-      "summary": "המאמר בוחן אתגרים שבהם צוותים המופקדים על ניהול האתיקה של AI עומדים מול ארגונים עם רמת מחויבות נמוכה לאתיקה של AI. הוא מגלה כי אנשי אתיקה הם גמישים ויכולים ליצור רק גרסה מינימלית של אתיקה של AI בגלל היעדר סמכות ואתגרים אחרים.",
-      "tags": [
-        "AI_Ethics",
-        "Organizational_Culture",
-        "Human-AI_Collaboration",
-        "Responsible_AI"
-      ],
-      "status": [
-        "CITED",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "How to build the operating model for the intelligence era",
-      "url": "https://www.weforum.org/stories/2026/04/build-operating-model-ai-intelligence-era/",
-      "date": "2026-05-03",
-      "category": "Hybrid Intelligence",
-      "summary": "המאמר דן במודל התפעול עבור עידן האינטליגנציה. ארגונים שמקודדים צוותים היברידיים של אדם + בינה מלאכותית וזרימות עבודה כמודל תפעול ליבה - עם נתיבי העברה ופקדים ברורים - ממוקמים טוב יותר להרחבה בביטחון. הדו\"ח מראה כי 90% מהארגונים מצפים כי צוותים היברידיים של אדם + בינה מלאכותית יהפכו לסטנדרטיים בתוך שלוש שנים.",
-      "tags": [
-        "Hybrid_Intelligence",
-        "HAIT",
-        "HITL",
-        "Augmented_OB",
-        "Productivity"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Hybrid Expert Network Model: Human + AI Intelligence in 2026",
-      "url": "https://www.astuteconnect.com/blog/hybrid-expert-network-human-ai-intelligence-2026",
-      "date": "2026-05-03",
-      "category": "Hybrid Intelligence",
-      "summary": "המודל של רשת מומחים היברידית משלב בין בינה מלאכותית למומחים אנושיים כדי לספק תובנות עסקיות. המודל מאפשר קבלת החלטות מהירה יותר ומדויקת יותר.",
-      "tags": [
-        "Hybrid_Intelligence",
-        "HAIT",
-        "HITL",
-        "Augmented_OB",
-        "Productivity"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "AI Adoption Is a Challenge. Here’s a Solution. - Knowledge at Wharton",
-      "url": "https://knowledge.wharton.upenn.edu/article/ai-adoption-is-a-challenge-heres-a-solution/",
-      "date": "2026-05-03",
-      "category": "Human-AI Teaming",
-      "summary": "המאמר דן באתגרים של אימוץ בינה מלאכותית בארגונים. הוא מציג את המסגרת AWARE להתמודדות עם האתגרים האנושיים של אינטגרציה של בינה מלאכותית.",
-      "tags": [
-        "HAIT",
-        "HITL",
-        "Augmented_OB",
-        "Psychological_Safety",
-        "Leadership"
-      ],
-      "status": [
-        "CITED",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "The New Management Practices AI Demands From Tech Leaders",
-      "url": "https://www.forbes.com/councils/forbestechcouncil/2026/04/27/the-new-management-practices-ai-demands-from-tech-leaders/",
-      "date": "2026-05-03",
-      "category": "Human-AI Teaming",
-      "summary": "המאמר דן בשינויים הנדרשים בפרקטיקות הניהול של מנהיגים טכניים בעקבות השילוב של בינה מלאכותית (AI). הוא מדגיש כי מנהיגים טכניים צריכים להתמקד יותר בקבלת החלטות, בכיוון ובהכוונה, ולא במשימות פיקוח ומדידה של הפרודוקטיביות.",
-      "tags": [
-        "HAIT",
-        "Augmented_OB",
-        "Leadership",
-        "Productivity",
-        "Skills_Gap"
       ],
       "status": [
         "TRENDING",
