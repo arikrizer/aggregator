@@ -5,6 +5,130 @@
   "description": "אגרגטור תוכן יומי בתחום Human-AI Augmentation",
   "items": [
     {
+      "title": "The Organizational Behavior of Agentic AI: Context, Boundaries, and Collective Intelligence in Human-Agent Workflows",
+      "url": "https://arxiv.org/html/2606.30986v1",
+      "date": "2026-07-02",
+      "category": "Hybrid Intelligence",
+      "summary": "מאמר זה מפתח תיאוריה על התנהגות ארגונית של אינטליגנציה מלאכותית אוטונומית, ומגדיר את התנהגות זו כדפוסים של התנהגות של קבוצות של סוכנים מלאכותיים.",
+      "tags": [
+        "Hybrid_Intelligence",
+        "HAIT",
+        "HITL",
+        "Augmented_OB",
+        "Autonomous_Agents"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Preparing the Workforce for AI Integration: Evidence-Based Strategies for Organizations and Workers",
+      "url": "https://www.innovativehumancapital.com/article/preparing-the-workforce-for-ai-integration-evidence-based-strategies-for-organizations-and-workers",
+      "date": "2026-07-02",
+      "category": "Human-AI Teaming",
+      "summary": "הדו\"ח מציג אסטרטגיות מבוססות ראיות לארגונים ולעובדים להתמודדות עם השילוב של אינטליגנציה מלאכותית בעבודה.",
+      "tags": [
+        "HAIT",
+        "HITL",
+        "Augmented_OB",
+        "Job_Redesign_AI",
+        "Productivity"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "AI-Augmented Decision-Making Agility in Supplier Evaluation: Insights from a Qualitative Procurement Case Study",
+      "url": "https://www.mdpi.com/2305-6290/10/7/148",
+      "date": "2026-07-02",
+      "category": "Human-AI Teaming",
+      "summary": "מחקר מקרה איכותי בתחום הרכשנות מראה כי AI יכול לשמש ככלי לתמיכה בקבלת החלטות, ולא כמחליף לאנשים. המחקר מצא כי השילוב של AI עם שיקול דעת אנושי יכול להוביל לתוצאות טובות יותר.",
+      "tags": [
+        "Human-AI_Collaboration",
+        "HAIT",
+        "Augmented_Intelligence",
+        "Job_Redesign_AI",
+        "Productivity"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Navigating AI in the Workplace: 2026 - SHRM",
+      "url": "https://www.shrm.org/topics-tools/research/navigating-ai-in-the-workplace/full-report",
+      "date": "2026-07-02",
+      "category": "Human-AI Teaming",
+      "summary": "דוח של SHRM מראה כי מנהלים רואים ב- AI כלי שיכול לתמוך בעבודה היומיומית שלהם, אך גם מודאגים מהשפעתו על מבנה הניהול והעבודה.",
+      "tags": [
+        "AI",
+        "Workplace",
+        "Management",
+        "HR",
+        "Future_of_Work"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Top 10 Generative AI Trends: Latest Advancements & Developments",
+      "url": "https://masterofcode.com/blog/generative-ai-trends",
+      "date": "2026-07-02",
+      "category": "Hybrid Intelligence",
+      "summary": "מאמר שמתאר את המגמות האחרונות ב- AI גנרטיבי, כולל התפתחות של AI אגנטי ומערכות מרובות סוכנים.",
+      "tags": [
+        "Generative_AI",
+        "Agentic_AI",
+        "Multi-Agent_Systems",
+        "Future_of_Work"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "AI Will Transform Careers, Not Eliminate Them, Say 124 Future Business Leaders | Robert H. Smith School of Business",
+      "url": "https://www.rhsmith.umd.edu/news/ai-will-transform-careers-not-eliminate-them-say-124-future-business-leaders",
+      "date": "2026-07-02",
+      "category": "Human-AI Teaming",
+      "summary": "מחקר של בית הספר לעסקים של אוניברסיטת מרילנד מראה כי סטודנטים לעסקים מאמינים כי AI ישנה את הקריירות שלהם, אך לא יבטל אותן.",
+      "tags": [
+        "AI",
+        "Careers",
+        "Future_of_Work",
+        "Business"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "The Role of AI in Organizational Agility: 2026 Guide",
+      "url": "https://www.hymalaia.com/blog/the-role-of-ai-in-organizational-agility-2026-guide-en",
+      "date": "2026-07-02",
+      "category": "Human-AI Teaming",
+      "summary": "המאמר מציג את התפקיד של אינטליגנציה מלאכותית ביצירת גמישות ארגונית, ומדגיש את השינויים במבנה הארגוני ובקבלת החלטות.",
+      "tags": [
+        "HAIT",
+        "HITL",
+        "Augmented_OB",
+        "Organizational_Agility",
+        "Decision_Making"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
       "title": "Growing Up with AI: How Human-AI Interaction Is Shaping the Future Workforce",
       "url": "https://widigital.eu/growing-up-with-ai-how-human-ai-interaction-is-shaping-the-future-workforce",
       "date": "2026-07-01",
@@ -7847,131 +7971,6 @@
         "Leadership",
         "Organizational_Change",
         "AI_Strategy"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "AI joins the organisation chart | KPMG UK",
-      "url": "https://kpmg.com/uk/en/insights/transformation/ai-joins-the-organisation-chart.html",
-      "date": "2026-05-04",
-      "category": "Human-AI Teaming",
-      "summary": "המאמר דן בשינויים בארגונים הנגרמים על ידי AI, כולל שינויים במבנה הארגוני ובתהליכי קבלת ההחלטות. הוא מדגיש את החשיבות של תכנון מחדש של תהליכים וארגון מחדש של מבנה הארגון כדי לנצל את היתרונות של AI. המאמר גם מזכיר את הפוטנציאל לרווחה טובה יותר של העובדים כאשר AI משחרר אותם ממשימות שגרתיות.",
-      "tags": [
-        "Human-AI_Collaboration",
-        "Job_Redesign_AI",
-        "Augmented_OB"
-      ],
-      "status": [
-        "QUIET",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "The Perils of Using AI to Replace Entry-Level Jobs",
-      "url": "https://www.physicianleaders.org/articles/the-perils-of-using-ai-to-replace-entry-level-jobs",
-      "date": "2026-05-04",
-      "category": "Job_Redesign_AI",
-      "summary": "מאמר שדן בסכנות של שימוש ב-AI כדי להחליף משרות ברמת כניסה. המאמר מציע כי AI יכול לשפר את היעילות של עבודה, אך גם יכול לגרום לאובדן של משרות. המאמר מציע פתרונות לבעיה זו, כמו פיתוח של כישורים חדשים.",
-      "tags": [
-        "AI_Ethics",
-        "Job_Displacement",
-        "HR"
-      ],
-      "status": [
-        "CITED",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "The “Bug-Free” Workforce: How AI Efficiency Is Subtly Disrupting The Interactions That Build Strong Teams",
-      "url": "https://www.smashingmagazine.com/2026/04/bug-free-workforce-ai-disrupting-teams/",
-      "date": "2026-05-04",
-      "category": "Augmented OB",
-      "summary": "מאמר שדן בהשפעה של AI על צוותים בעבודה. המאמר מציע כי AI יכול לשפר את היעילות של צוותים, אך גם יכול לגרום לבידוד בין חברי הצוות. המאמר מציע פתרונות לבעיה זו, כמו תוכניות להחלפת חברי צוות.",
-      "tags": [
-        "HAIT",
-        "Hybrid_Intelligence",
-        "Teamwork"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Professor Launches Blog Focused on Exploring Human Impact of Artificial Intelligence Integration",
-      "url": "https://www.isu.edu/news/2026-spring/professor-launches-blog-focused-on-exploring-human-impact-of-artificial-intelligence-integration.html",
-      "date": "2026-05-04",
-      "category": "Human-in-the-Loop",
-      "summary": "פרופסור מאוניברסיטת איידاهو השיק בלוג שמטרתו לחקור את ההשפעה של שילוב AI על בני אדם. הבלוג יעסוק בנושאים כמו אינטגרציה של AI בעבודה, השפעה על הבריאות הנפשית, וצורך בהכשרת סטודנטים לעבודה עם AI.",
-      "tags": [
-        "Human-AI_Collaboration",
-        "HAIT",
-        "Augmented_OB"
-      ],
-      "status": [
-        "QUIET",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Framework grounded in collective intelligence aims to create effective collaboration in human-AI teams",
-      "url": "https://www.eurekalert.org/news-releases/1126555",
-      "date": "2026-05-04",
-      "category": "Human-AI Teaming",
-      "summary": "מסגרת עבודה חדשה שמטרתה ליצור שיתוף פעולה יעיל בין בני אדם ל-AI. צוות מחקר רב-תחומי מאוניברסיטאות שונות הציע גישה שבה AI משמש ככלי להרחבת יכולות בני אדם, ולא כתחליף להם. הגישה מדגישה את חשיבות ההקשר, השיפוט והאחריות של בני אדם.",
-      "tags": [
-        "Human-AI_Collaboration",
-        "Hybrid_Intelligence",
-        "HAIT"
-      ],
-      "status": [
-        "CITED",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Human-In-The-Loop In AI Validation And Control From Principle To Practice",
-      "url": "https://www.clinicalleader.com/doc/human-in-the-loop-in-ai-validation-and-control-from-principle-to-practice-0001",
-      "date": "2026-05-04",
-      "category": "Human-in-the-Loop",
-      "summary": "המאמר דן בשילוב של אדם בתהליכי אימות ובקרה של בינה מלאכותית. ארגונים מובילים עוברים למודל היברידי שבו מומחים בתחום מוגברים בידע של בינה מלאכותית.",
-      "tags": [
-        "Human-in-the-Loop",
-        "HAIT"
-      ],
-      "status": [
-        "CITED",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "AI as an Organizational Stress Test: What Breaks in Your Operating Model?",
-      "url": "https://www.idc.com/resource-center/blog/ai-as-an-organizational-stress-test-what-will-break-first-in-your-operating-model/",
-      "date": "2026-05-04",
-      "category": "Augmented OB",
-      "summary": "המאמר דן בהשפעה של בינה מלאכותית על מודל התפעול של ארגונים. בינה מלאכותית יכולה להדגיש חולשות ק существующие בארגון ולהוביל לכישלון של תהליכים.",
-      "tags": [
-        "Augmented_OB",
-        "HAIT"
-      ],
-      "status": [
-        "CITED",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Hybrid Expert Network Model: Human + AI Intelligence in 2026",
-      "url": "https://www.astuteconnect.com/blog/hybrid-expert-network-human-ai-intelligence-2026",
-      "date": "2026-05-04",
-      "category": "Hybrid Intelligence",
-      "summary": "המודל ההיברידי של מומחים הוא גישה חדשה המשלבת אינטליגנציה של אדם ובינה מלאכותית. מודל זה משפר את הדיוקנות על ידי הכנסת מערכת של בדיקות ואיזונים בין אינטליגנציה של מכונה ושיפוט אנושי.",
-      "tags": [
-        "Hybrid_Intelligence",
-        "HAIT"
       ],
       "status": [
         "TRENDING",
