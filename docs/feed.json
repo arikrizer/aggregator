@@ -5,6 +5,92 @@
   "description": "אגרגטור תוכן יומי בתחום Human-AI Augmentation",
   "items": [
     {
+      "title": "The Organizational Behavior of Agentic AI: Context, Boundaries, and Collective Intelligence in Human-Agent Workflows",
+      "url": "https://arxiv.org/html/2606.30986v1",
+      "date": "2026-07-05",
+      "category": "Hybrid Intelligence",
+      "summary": "מאמר זה מפתח תיאוריה חדשה להתנהגות ארגונית של בינה מלאכותית אגנטית. הוא מגדיר התנהגות זו כדפוסים של התנהגות של קולקטיבים של סוכנים מלאכותיים, אשר מבדילים עבודה, מתאמים תלות הדדית, מעבדים ושומרים הקשר משימתי, ומתקשרים עם זרימות עבודה ארגוניות אנושיות. המאמר טוען כי קולקטיבים אלה יכולים להציג דפוסים מאורגנים של פעולה המשפיעים על תוצאות ארגוניות.",
+      "tags": [
+        "Hybrid_Intelligence",
+        "HAIT",
+        "HITL",
+        "Augmented_OB",
+        "Autonomous_Agents"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "AI Agents and the Future of Work: How Early Adopters Are Building Competitive Moats Through Intelligent Collaboration",
+      "url": "https://www.innovativehumancapital.com/article/ai-agents-and-the-future-of-work-how-early-adopters-are-building-competitive-moats-through-intellig",
+      "date": "2026-07-05",
+      "category": "Human-AI Teaming",
+      "summary": "המאמר בוחן כיצד ארגונים מובילים מאמצים בינה מלאכותית אגנטית כדי לבנות יתרונות תחרותיים באמצעות שיתוף פעולה מודיעיני. הוא מתמקד בשינוי החוזה הפסיכולוגי בין ארגונים לעובדים, ומדגיש את הצורך בארגונים להתאים את הציפיות וההצעות שלהם לעובדים בתקופה של אוטומציה מוגברת.",
+      "tags": [
+        "HAIT",
+        "HITL",
+        "Augmented_OB",
+        "Job_Redesign_AI",
+        "Psychological_Safety"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "How AI is reshaping human skills and thinking",
+      "url": "https://www.apa.org/monitor/2026/07-08/ai-job-skills-thinking",
+      "date": "2026-07-05",
+      "category": "Hybrid Intelligence",
+      "summary": "המאמר בוחן כיצד בינה מלאכותית משפיעה על מיומנויות אנושיות ותהליכי חשיבה. הוא טוען כי ההשפעה של בינה מלאכותית על מיומנויות תלויה במבנה התמריצים בארגונים ובנורמות החברתיות.",
+      "tags": [
+        "HAIT",
+        "HITL",
+        "Augmented_OB",
+        "Skills_Gap",
+        "Psychological_Safety"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "AI-Augmented Decision-Making Agility in Supplier Evaluation: Insights from a Qualitative Procurement Case Study",
+      "url": "https://www.mdpi.com/2305-6290/10/7/148",
+      "date": "2026-07-05",
+      "category": "Human-AI Teaming",
+      "summary": "מחקר איכותני על שימוש ב-AI בקבלת החלטות בנוגע להערכת ספקים. הנתונים מראים כי AI משמש ככלי לתמיכה בהחלטות, לא להחלפתן. המחקר מדגיש את חשיבות האמון ב-AI ובניית קשרים בין-אישיים בין בני אדם ל-AI.",
+      "tags": [
+        "Human-AI_Collaboration",
+        "HAIT",
+        "Hybrid_Intelligence"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Enmasse | Workplace behaviour change, training and consulting",
+      "url": "https://enmasse2.com/news/making-ai-adoption-stick-the-human-ai-system",
+      "date": "2026-07-05",
+      "category": "Human-in-the-Loop",
+      "summary": "דו\"ח של חברת Enmasse על השינויים בארגונים עם הכנסת AI. הדו\"ח מדגיש את האתגרים של ניהול בכיר וקושי באימוץ AI בקרב עובדים.",
+      "tags": [
+        "HAIT",
+        "Hybrid_Intelligence",
+        "Organizational_Change"
+      ],
+      "status": [
+        "QUIET",
+        "HR Relevant"
+      ]
+    },
+    {
       "title": "Human Capital, Not Model Benchmarks, Predicts Hybrid Intelligence in Forecasting",
       "url": "https://arxiv.org/abs/2607.02467",
       "date": "2026-07-04",
@@ -7842,23 +7928,6 @@
       ]
     },
     {
-      "title": "AI as an Organizational Stress Test: What Breaks in Your Operating Model?",
-      "url": "https://www.idc.com/resource-center/blog/ai-as-an-organizational-stress-test-what-will-break-first-in-your-operating-model/",
-      "date": "2026-05-07",
-      "category": "Augmented OB",
-      "summary": "מאמר זה בוחן את ההשפעה של בינה מלאכותית על מודלים תפעוליים של ארגונים. הוא טוען כי יישום בינה מלאכותית יכול להדגיש חולשות ק существующие בארגון, ולהוביל להאצה של תהליכים גרועים ותקלות. המחבר מציע כי על מנה לרתום את הבינה המלאכותית באופן יעיל, יש צורך בשינוי הוליסטי של המודל התפעולי, הכולל שינויים באוטונומיה, עיצוב מחדש של תהליכים, והפחתת תלות בפתרונות נקודתיים.",
-      "tags": [
-        "Augmented_OB",
-        "Organizational_Change",
-        "AI_Impact",
-        "Operational_Model"
-      ],
-      "status": [
-        "CITED",
-        "HR Relevant"
-      ]
-    },
-    {
       "title": "Impact of Artificial Intelligence on Organizational Behavior",
       "url": "https://www.biyanicolleges.org/impact-of-artificial-intelligence-on-organizational-behavior/",
       "date": "2026-05-07",
@@ -7916,23 +7985,6 @@
         "AI_Impact",
         "Organizational_Resilience",
         "Risk_Management"
-      ],
-      "status": [
-        "CITED",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "AI as an Organizational Stress Test: What Breaks in Your Operating Model?",
-      "url": "https://www.idc.com/resource-center/blog/ai-as-an-organizational-stress-test-what-will-break-first-in-your-operating-model/",
-      "date": "2026-05-06",
-      "category": "Human-AI Teaming",
-      "summary": "מאמר זה מציג את האתגרים של יישום בינה מלאכותית (AI) בארגונים, ומדגיש כי AI יכולה להחמיר בעיות ק существующие בארגון אם לא תטופל כראוי. הוא טוען כי AI יכולה לשמש כמבחן למודל התפעול של הארגון, וחשוב לתכנן את השינויים הנדרשים כדי לנצל את היתרונות של AI באופן מלא.",
-      "tags": [
-        "Human-AI_Collaboration",
-        "HAIT",
-        "Augmented_OB",
-        "Organizational_Change"
       ],
       "status": [
         "CITED",

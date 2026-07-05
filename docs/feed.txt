@@ -1,7 +1,52 @@
 האגרגטור — Human-AI Augmentation
 https://arikrizer.github.io/aggregator/
-עודכן: 4 יולי 2026
+עודכן: 5 יולי 2026
 ============================================================
+
+כותרת: The Organizational Behavior of Agentic AI: Context, Boundaries, and Collective Intelligence in Human-Agent Workflows
+קישור: https://arxiv.org/html/2606.30986v1
+תאריך: 2026-07-05
+קטגוריה: Hybrid Intelligence
+סטטוס: CITED, HR Relevant
+תיאור: מאמר זה מפתח תיאוריה חדשה להתנהגות ארגונית של בינה מלאכותית אגנטית. הוא מגדיר התנהגות זו כדפוסים של התנהגות של קולקטיבים של סוכנים מלאכותיים, אשר מבדילים עבודה, מתאמים תלות הדדית, מעבדים ושומרים הקשר משימתי, ומתקשרים עם זרימות עבודה ארגוניות אנושיות. המאמר טוען כי קולקטיבים אלה יכולים להציג דפוסים מאורגנים של פעולה המשפיעים על תוצאות ארגוניות.
+תגיות: Hybrid_Intelligence, HAIT, HITL, Augmented_OB, Autonomous_Agents
+---
+
+כותרת: AI Agents and the Future of Work: How Early Adopters Are Building Competitive Moats Through Intelligent Collaboration
+קישור: https://www.innovativehumancapital.com/article/ai-agents-and-the-future-of-work-how-early-adopters-are-building-competitive-moats-through-intellig
+תאריך: 2026-07-05
+קטגוריה: Human-AI Teaming
+סטטוס: TRENDING, HR Relevant
+תיאור: המאמר בוחן כיצד ארגונים מובילים מאמצים בינה מלאכותית אגנטית כדי לבנות יתרונות תחרותיים באמצעות שיתוף פעולה מודיעיני. הוא מתמקד בשינוי החוזה הפסיכולוגי בין ארגונים לעובדים, ומדגיש את הצורך בארגונים להתאים את הציפיות וההצעות שלהם לעובדים בתקופה של אוטומציה מוגברת.
+תגיות: HAIT, HITL, Augmented_OB, Job_Redesign_AI, Psychological_Safety
+---
+
+כותרת: How AI is reshaping human skills and thinking
+קישור: https://www.apa.org/monitor/2026/07-08/ai-job-skills-thinking
+תאריך: 2026-07-05
+קטגוריה: Hybrid Intelligence
+סטטוס: CITED, HR Relevant
+תיאור: המאמר בוחן כיצד בינה מלאכותית משפיעה על מיומנויות אנושיות ותהליכי חשיבה. הוא טוען כי ההשפעה של בינה מלאכותית על מיומנויות תלויה במבנה התמריצים בארגונים ובנורמות החברתיות.
+תגיות: HAIT, HITL, Augmented_OB, Skills_Gap, Psychological_Safety
+---
+
+כותרת: AI-Augmented Decision-Making Agility in Supplier Evaluation: Insights from a Qualitative Procurement Case Study
+קישור: https://www.mdpi.com/2305-6290/10/7/148
+תאריך: 2026-07-05
+קטגוריה: Human-AI Teaming
+סטטוס: CITED, HR Relevant
+תיאור: מחקר איכותני על שימוש ב-AI בקבלת החלטות בנוגע להערכת ספקים. הנתונים מראים כי AI משמש ככלי לתמיכה בהחלטות, לא להחלפתן. המחקר מדגיש את חשיבות האמון ב-AI ובניית קשרים בין-אישיים בין בני אדם ל-AI.
+תגיות: Human-AI_Collaboration, HAIT, Hybrid_Intelligence
+---
+
+כותרת: Enmasse | Workplace behaviour change, training and consulting
+קישור: https://enmasse2.com/news/making-ai-adoption-stick-the-human-ai-system
+תאריך: 2026-07-05
+קטגוריה: Human-in-the-Loop
+סטטוס: QUIET, HR Relevant
+תיאור: דו"ח של חברת Enmasse על השינויים בארגונים עם הכנסת AI. הדו"ח מדגיש את האתגרים של ניהול בכיר וקושי באימוץ AI בקרב עובדים.
+תגיות: HAIT, Hybrid_Intelligence, Organizational_Change
+---
 
 כותרת: Human Capital, Not Model Benchmarks, Predicts Hybrid Intelligence in Forecasting
 קישור: https://arxiv.org/abs/2607.02467
@@ -4134,15 +4179,6 @@ https://arikrizer.github.io/aggregator/
 תגיות: Augmented_Intelligence, Organizational_Design, Workplace, Productivity
 ---
 
-כותרת: AI as an Organizational Stress Test: What Breaks in Your Operating Model?
-קישור: https://www.idc.com/resource-center/blog/ai-as-an-organizational-stress-test-what-will-break-first-in-your-operating-model/
-תאריך: 2026-05-07
-קטגוריה: Augmented OB
-סטטוס: CITED, HR Relevant
-תיאור: מאמר זה בוחן את ההשפעה של בינה מלאכותית על מודלים תפעוליים של ארגונים. הוא טוען כי יישום בינה מלאכותית יכול להדגיש חולשות ק существующие בארגון, ולהוביל להאצה של תהליכים גרועים ותקלות. המחבר מציע כי על מנה לרתום את הבינה המלאכותית באופן יעיל, יש צורך בשינוי הוליסטי של המודל התפעולי, הכולל שינויים באוטונומיה, עיצוב מחדש של תהליכים, והפחתת תלות בפתרונות נקודתיים.
-תגיות: Augmented_OB, Organizational_Change, AI_Impact, Operational_Model
----
-
 כותרת: Impact of Artificial Intelligence on Organizational Behavior
 קישור: https://www.biyanicolleges.org/impact-of-artificial-intelligence-on-organizational-behavior/
 תאריך: 2026-05-07
@@ -4177,13 +4213,4 @@ https://arikrizer.github.io/aggregator/
 סטטוס: CITED, HR Relevant
 תיאור: בינה מלאכותית הופכת לחלק קריטי בתשתית העסקית, ודורשת הערכה מחדש של הסיכונים וההשפעה על החוסן הארגוני. המערכות המונעות בינה מלאכותית יוצרות תלות קריטית ודורשות ניהול סיכונים.
 תגיות: AI_Impact, Organizational_Resilience, Risk_Management
----
-
-כותרת: AI as an Organizational Stress Test: What Breaks in Your Operating Model?
-קישור: https://www.idc.com/resource-center/blog/ai-as-an-organizational-stress-test-what-will-break-first-in-your-operating-model/
-תאריך: 2026-05-06
-קטגוריה: Human-AI Teaming
-סטטוס: CITED, HR Relevant
-תיאור: מאמר זה מציג את האתגרים של יישום בינה מלאכותית (AI) בארגונים, ומדגיש כי AI יכולה להחמיר בעיות ק существующие בארגון אם לא תטופל כראוי. הוא טוען כי AI יכולה לשמש כמבחן למודל התפעול של הארגון, וחשוב לתכנן את השינויים הנדרשים כדי לנצל את היתרונות של AI באופן מלא.
-תגיות: Human-AI_Collaboration, HAIT, Augmented_OB, Organizational_Change
 ---
