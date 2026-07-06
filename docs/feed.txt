@@ -1,7 +1,61 @@
 האגרגטור — Human-AI Augmentation
 https://arikrizer.github.io/aggregator/
-עודכן: 5 יולי 2026
+עודכן: 6 יולי 2026
 ============================================================
+
+כותרת: Beyond Human-AI Collaboration: Co-Generation - The World Financial Review
+קישור: https://worldfinancialreview.com/human-ai-collaboration-is-not-enough-from-hybrid-intelligence-to-co-generation
+תאריך: 2026-07-06
+קטגוריה: Hybrid Intelligence
+סטטוס: TRENDING, HR Relevant
+תיאור: המאמר דן בשינוי עמוק יותר שמתרחש כעת, שמאתגר לא רק את הדרך שבה ארגונים יוצרים ערך, אלא גם את הדרך שבה אנו מבינים את המודיעין עצמו. הוא מציע כי שיתוף פעולה בין אדם ל-AI אינו מספיק ושהגישה החדשה היא קו-גנרציה.
+תגיות: Hybrid_Intelligence, Human-AI_Collaboration, HAI, Job_Redesign_AI, Generative_AI
+---
+
+כותרת: AI Changes the Division of Labor Before It Changes the Boundaries of the Firm!
+קישור: https://nicolaijfoss.substack.com/p/ai-changes-the-division-of-labor
+תאריך: 2026-07-06
+קטגוריה: Human-AI Teaming
+סטטוס: CITED, HR Relevant
+תיאור: הפוסט דן בדרך שבה AI משנה את חלוקת העבודה בתוך ארגונים ומדגיש כי AI צריך להיות מובן דרך עדשת כלכלת העסקאות.
+תגיות: AI, Organizational_Economics, Division_of_Labor
+---
+
+כותרת: Managers as Mediators: How Organizational Leadership Shapes Workers' Fear of AI Displacement
+קישור: https://www.innovativehumancapital.com/article/managers-as-mediators-how-organizational-leadership-shapes-workers-fear-of-ai-displacement
+תאריך: 2026-07-06
+קטגוריה: Human-in-the-Loop
+סטטוס: QUIET, HR Relevant
+תיאור: המאמר דן בדרך שבה מנהיגים ארגוניים יכולים להשפיע על הפחד של העובדים מפני הוחלפות על ידי AI ומדגיש כי על ארגונים לעזור לעובדים להבין כי יכולותיהם הן ערך מוסף.
+תגיות: AI, Organizational_Leadership, Worker_Fear
+---
+
+כותרת: How AI is reshaping human skills and thinking
+קישור: https://www.apa.org/monitor/2026/07-08/ai-job-skills-thinking
+תאריך: 2026-07-06
+קטגוריה: Augmented OB
+סטטוס: TRENDING, HR Relevant
+תיאור: המאמר דן בדרך שבה AI משנה את כישורי העובדים ואת חשיבתם ומדגיש כי ההשפעה של AI על כישורים תלויה במבנה התמריצים בארגון.
+תגיות: AI, Job_Skills, Organizational_Context
+---
+
+כותרת: The Rise of AI-Native Organizations: What It Means for Workforce Strategy and IT Operations
+קישור: https://myticas.com/the-rise-of-ai-native-organizations
+תאריך: 2026-07-06
+קטגוריה: Human-AI Teaming
+סטטוס: TRENDING, HR Relevant
+תיאור: המאמר דן בארגונים מוכנים לבינה מלאכותית (AI-native organizations) ומתאר כיצד הם משנים את תהליכיהם, תפקידיהם וטכנולוגיותיהם עם AI כطبقة ביצוע והחלטה. הוא מציג ארבעה מאפיינים מרכזיים של ארגונים אלו, כולל צוותים היברידיים של אדם ו-AI, מדדי ביצוע המותאמים לתוצאות, ו- AI משולב בזרימות עבודה עיקריות.
+תגיות: Hybrid_Intelligence, HAIT, Augmented_Intelligence, Job_Redesign_AI, Autonomous_Agents
+---
+
+כותרת: Navigating The AI-Augmented Workplace: How Digital Leadership and The AMO Framework Impact Job Insecurity and Human-Algorithm Symbiosis
+קישור: https://journal.globresco.com/index.php/FAMJ/article/view/788
+תאריך: 2026-07-06
+קטגוריה: Human-in-the-Loop
+סטטוס: CITED, HR Relevant
+תיאור: המחקר בוחן כיצד מנהיגות דיגיטלית ומסגרת AMO משפיעים על אי ודאות תעסוקתית ועל שיתוף פעולה בין אדם ל- AI. הוא מוצא כי גורמים אלו יכולים להפחית את האי ודאות התעסוקתית ולשפר את שיתוף הפעולה.
+תגיות: HAIT, HITL, Augmented_OB, Digital_Leadership, AMO_Framework
+---
 
 כותרת: The Organizational Behavior of Agentic AI: Context, Boundaries, and Collective Intelligence in Human-Agent Workflows
 קישור: https://arxiv.org/html/2606.30986v1
@@ -3981,15 +4035,6 @@ https://arikrizer.github.io/aggregator/
 תגיות: HAIT, HR, Upskilling, Career_Growth
 ---
 
-כותרת: Agents, human agency, and the opportunity for organizations
-קישור: https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization
-תאריך: 2026-05-09
-קטגוריה: Human-AI Teaming
-סטטוס: TRENDING, HR Relevant
-תיאור: דוח זה בוחן את ההזדמנויות והאתגרים של השימוש בבינה מלאכותית במקום העבודה. הדוח מצא כי 81% מהמנהיגים דיווחו כי הם מרגישים בטוחים בנוגע להצעת דרכים חדשות לעבודה עם בינה מלאכותית.
-תגיות: Human-AI_Collaboration, HAI, Job_Redesign_AI, Leadership, Compliance
----
-
 כותרת: What Are the Common Risks of AI in an Organization? And How to Be Ready - Netrix Global
 קישור: https://netrixglobal.com/blog/cybersecurity/what-are-the-common-risks-of-ai-in-an-organization-and-how-to-be-ready/
 תאריך: 2026-05-09
@@ -4098,6 +4143,15 @@ https://arikrizer.github.io/aggregator/
 תגיות: Human-AI_Collaboration, HAI, Job_Redesign_AI, Productivity
 ---
 
+כותרת: Agents, human agency, and the opportunity for organizations
+קישור: https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization
+תאריך: 2026-05-09
+קטגוריה: Human-AI Teaming
+סטטוס: TRENDING, HR Relevant
+תיאור: דוח זה בוחן את ההזדמנויות והאתגרים של השימוש בבינה מלאכותית במקום העבודה. הדוח מצא כי 81% מהמנהיגים דיווחו כי הם מרגישים בטוחים בנוגע להצעת דרכים חדשות לעבודה עם בינה מלאכותית.
+תגיות: Human-AI_Collaboration, HAI, Job_Redesign_AI, Leadership, Compliance
+---
+
 כותרת: Frontiers | AI usage and employee creativity: the mediating role of work engagement and the moderating role of technology acceptance
 קישור: https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1807038/full
 תאריך: 2026-05-09
@@ -4134,15 +4188,6 @@ https://arikrizer.github.io/aggregator/
 תגיות: Hybrid_Intelligence, HAIT, HITL
 ---
 
-כותרת: AI-augmented teams: Training for human-machine collaboration | TechTarget
-קישור: https://www.techtarget.com/searchcio/tip/AI-augmented-teams-Training-for-human-machine-collaboration
-תאריך: 2026-05-08
-קטגוריה: Human-AI Teaming
-סטטוס: TRENDING, HR Relevant
-תיאור: המאמר דן באימון צוותים מוגברים בינה מלאכותית לשיתוף פעולה בין אדם למכונה. המאמר מציע כי ארגונים צריכים להשקיע בפיתוח כישורים ויכולות של עובדים כדי להצליח בשיתוף פעולה עם בינה מלאכותית.
-תגיות: HAIT, Human-AI_Collaboration, Job_Redesign_AI
----
-
 כותרת: Agents, human agency, and the opportunity for organizations
 קישור: https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization
 תאריך: 2026-05-08
@@ -4177,40 +4222,4 @@ https://arikrizer.github.io/aggregator/
 סטטוס: TRENDING, HR Relevant
 תיאור: המאמר דן בשינויים שיכולים לקרות בארגונים בעקבות השימוש ב- AI. הוא מציג דוגמאות של חברות שש采用ים AI כדי לשפר את תהליכי העבודה שלהם.
 תגיות: Augmented_Intelligence, Organizational_Design, Workplace, Productivity
----
-
-כותרת: Impact of Artificial Intelligence on Organizational Behavior
-קישור: https://www.biyanicolleges.org/impact-of-artificial-intelligence-on-organizational-behavior/
-תאריך: 2026-05-07
-קטגוריה: Human-AI Teaming
-סטטוס: QUIET, HR Relevant
-תיאור: מאמר זה בוחן את ההשפעה של בינה מלאכותית על התנהגות ארגונית. הוא טוען כי בינה מלאכותית יכולה להוביל לשינויים בהתנהגות ובגישות של עובדים, כולל הפחתת עומס עבודה והגדלת הזדמנויות לפעילויות חדשניות. עם זאת, הוא גם מדגיש את הצורך באימון והכשרה של עובדים כדי להשתמש בבינה מלאכותית באופן יעיל.
-תגיות: Human-AI_Collaboration, Organizational_Behavior, AI_Impact
----
-
-כותרת: AI-augmented teams: Training for human-machine collaboration | TechTarget
-קישור: https://www.techtarget.com/searchcio/tip/AI-augmented-teams-Training-for-human-machine-collaboration
-תאריך: 2026-05-07
-קטגוריה: Human-AI Teaming
-סטטוס: TRENDING, HR Relevant
-תיאור: מאמר זה דן באימון צוותים מוגדלים בבינה מלאכותית לשיתוף פעולה בין אדם למכונה. הוא מציע מסגרת אימון המורכבת ממספר שכבות, המותאמת לתפקידים שונים ומותאמת לתוצאות עסקיות ספציפיות.
-תגיות: Human-AI_Collaboration, AI_Training, Teamwork
----
-
-כותרת: AI Is No Longer Optional: What the 2026 Data Means for Managers ...
-קישור: https://www.beautiful.ai/blog/ai-is-no-longer-optional-what-the-2026-data-means-for-managers-and-the-future-of-work
-תאריך: 2026-05-07
-קטגוריה: Augmented OB
-סטטוס: TRENDING, HR Relevant
-תיאור: נתוני 2026 מראים כי בינה מלאכותית הפכה לחלק בלתי נפרד מהפעילות העסקית. היא כבר לא כלי שיכול להיות מוחלף, אלא חלק מהותי מהזרימה העבודה. מנהלים צריכים לתכנן זרימות עבודה מונעות בינה מלאכותית.
-תגיות: AI_Adoption, Future_of_Work, Managerial_Impact
----
-
-כותרת: Managing the AI impact on organizational resilience
-קישור: https://kpmg.com/xx/en/our-insights/risk-and-regulation/managing-the-ai-impact-on-organizational-resilience.html
-תאריך: 2026-05-07
-קטגוריה: Hybrid Intelligence
-סטטוס: CITED, HR Relevant
-תיאור: בינה מלאכותית הופכת לחלק קריטי בתשתית העסקית, ודורשת הערכה מחדש של הסיכונים וההשפעה על החוסן הארגוני. המערכות המונעות בינה מלאכותית יוצרות תלות קריטית ודורשות ניהול סיכונים.
-תגיות: AI_Impact, Organizational_Resilience, Risk_Management
 ---
