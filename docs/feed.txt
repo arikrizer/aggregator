@@ -1,7 +1,115 @@
 האגרגטור — Human-AI Augmentation
 https://arikrizer.github.io/aggregator/
-עודכן: 6 יולי 2026
+עודכן: 7 יולי 2026
 ============================================================
+
+כותרת: AI as a colleague: Why hybrid intelligence won't steal our jobs
+קישור: https://xpert.digital/en/hybrid-intelligence?amp=1
+תאריך: 2026-07-07
+קטגוריה: Hybrid Intelligence
+סטטוס: QUIET, HR Relevant
+תיאור: המאמר דן במושג האינטליגנציה ההיברידית, המתאר את השילוב בין בני אדם ומכונות. הוא מדגיש כי אינטליגנציה זו אינה רק תוספת טכנולוגית, אלא תופעה ארגונית-תיאורטית שיכולה לשנות את אופן העבודה ואת מבנה הארגון.
+תגיות: Hybrid_Intelligence, Human-AI_Collaboration, HAI
+---
+
+כותרת: AI Changes the Division of Labor Before It Changes the Boundaries of the Firm!
+קישור: https://nicolaijfoss.substack.com/p/ai-changes-the-division-of-labor
+תאריך: 2026-07-07
+קטגוריה: Hybrid Intelligence
+סטטוס: QUIET, HR Relevant
+תיאור: הפוסט דן בשינויים שAI מביא לעולמות העבודה ולמבנה הארגוני. הוא מציע כי AI ישפיע תחילה על חלוקת העבודה ולאחר מכן על גבולות החברה.
+תגיות: Hybrid_Intelligence, HAI, Job_Redesign_AI
+---
+
+כותרת: AI Cuts Costs, Until It Doesn’t: Why Accountability Still Belongs to Senior Leadership | California Management Review
+קישור: https://cmr.berkeley.edu/2026/07/ai-cuts-costs-until-it-doesn-t-why-accountability-still-belongs-to-senior-leadership
+תאריך: 2026-07-07
+קטגוריה: Human-AI Teaming
+סטטוס: CITED, HR Relevant
+תיאור: מאמר זה דן באחריות של מנהיגים בכירים לניהול סיכונים הקשורים ל- AI. הוא מדגיש את החשיבות של ניהול אחראי של AI ומבנה ארגוני תומך.
+תגיות: HAI, Accountability, Leadership
+---
+
+כותרת: What is AI Governance? The Ultimate Guide
+קישור: https://thetalake.com/blog/what-is-ai-governance
+תאריך: 2026-07-07
+קטגוריה: Augmented Intelligence
+סטטוס: QUIET, HR Relevant
+תיאור: מדריך מקיף לשלטון AI, המדגיש את החשיבות של קוד אתיקה עבור מערכות AI. הקוד אתיקה מתרגם עקרונות מופשטים לשמישים, מבטיח הוגנות ושקיפות. הוא מאפשר לארגונים לקדם חדשנות ב-AI באופן אחראי, תוך שימת לב לסיכונים ורווחת האדם.
+תגיות: AI_Governance, Ethics, Fairness, Transparency, Human_Well-being
+---
+
+כותרת: How AI is reshaping human skills and thinking
+קישור: https://www.apa.org/monitor/2026/07-08/ai-job-skills-thinking
+תאריך: 2026-07-07
+קטגוריה: Human-AI Teaming
+סטטוס: CITED, HR Relevant
+תיאור: מחקר חדש מצא כי עובדים עם גישה ל-ChatGPT קיבלו דירוג גבוה יותר של יצירתיות על ידי מפקחים ומבקרים חיצוניים, במיוחד כאשר עובדים אלו גם קיבלו ציון גבוה במיומנויות מטא-קוגניטיביות. המחקר מציע כי עובדים עם מיומנויות מטא-קוגניטיביות גבוהות יותר מסוגלים להשתמש ב-AI באופן יזום יותר ולא באופן פסיבי.
+תגיות: Hybrid_Intelligence, HAIT, HITL, Augmented_Intelligence, Human-AI_Collaboration
+---
+
+כותרת: Designing Human-in-the-Loop Workflows for AI Products
+קישור: https://velt.dev/blog/designing-human-in-the-loop-workflows-ai-products
+תאריך: 2026-07-07
+קטגוריה: Human-in-the-Loop
+סטטוס: TRENDING, HR Relevant
+תיאור: מאמר הדן בעיצוב זרימות עבודה של Human-in-the-Loop (HITL) עבור מוצרי AI. הוא מתאר את החשיבות של שילוב בני אדם בתהליכים של AI כדי להבטיח דיוק ואמינות. המאמר מציג גישות שונות לתכנון זרימות עבודה של HITL ומדגיש את הצורך בהתאמת רמת האוטומציה לרמת הסיכון והאמינות הנדרשת.
+תגיות: Human-in-the-Loop, AI Workflows, Human-AI Collaboration, Augmented Intelligence
+---
+
+כותרת: Human-in-the-Loop Checkpoints for AI Agents: Why Full Autonomy Is the Wrong Goal
+קישור: https://www.mindstudio.ai/blog/human-in-the-loop-checkpoints-ai-agents-2
+תאריך: 2026-07-07
+קטגוריה: Human-in-the-Loop
+סטטוס: TRENDING, HR Relevant
+תיאור: פוסט בבלוג הדן בנקודות ביקורת של Human-in-the-Loop (HITL) עבור סוכני AI. הוא מציג את החשיבות של שילוב בני אדם בתהליכים של AI כדי להבטיח דיוק ואמינות, ומדגיש את הצורך בהתאמת רמת האוטומציה לרמת הסיכון והאמינות הנדרשת.
+תגיות: Human-in-the-Loop, AI Agents, Human-AI Collaboration, Augmented Intelligence
+---
+
+כותרת: Roles at Risk from AI Automation: How to Identify Them
+קישור: https://www.imocha.io/blog/roles-at-risk-from-ai-automation
+תאריך: 2026-07-07
+קטגוריה: Human-AI Teaming
+סטטוס: TRENDING, HR Relevant
+תיאור: המאמר דן בדרכים לזהות תפקידים שעלולים להיות מושפעים מאוטומציה של בינה מלאכותית. הוא מציע גישה מעשית לזהות תפקידים בסיכון ולהבין כי האיום של אוטומציה הוא הזדמנות לתכנון מחדש של כוח העבודה. המאמר מדגיש את חשיבות השקיפות וגישה מבוססת נתונים כדי להעריך את הסיכון לאוטומציה.
+תגיות: Hybrid_Intelligence, HAIT, Job_Redesign_AI, Autonomy, Productivity
+---
+
+כותרת: Future of Work in the Age of Automation, Augmentation, and Agentic AI | Harvard Kennedy School
+קישור: https://www.hks.harvard.edu/centers/mrcbg/publications/future-work-age-automation-augmentation-and-agentic-ai
+תאריך: 2026-07-07
+קטגוריה: Augmented OB
+סטטוס: CITED, HR Relevant
+תיאור: הדו"ח של בית הספר הרקנדי של אוניברסיטת הרווארד דן במערכת עבודה בעידן של אוטומציה, הגברה ובינה מלאכותית אגנטית. הוא מציג מסגרות חדשות לתכנון מחדש של ארגונים כדי לשמר יכולות אנושיות תוך ניצול היתרונות של בינה מלאכותית.
+תגיות: Hybrid_Intelligence, HAIT, Augmented_OB, Autonomous_Agents, Organizational_Resilience
+---
+
+כותרת: How Many Jobs Is AI Really Replacing? What the Data Actually Says About the Future of Work – DAVRON
+קישור: https://www.davron.net/how-many-jobs-is-ai-really-replacing
+תאריך: 2026-07-07
+קטגוריה: Human-AI Teaming
+סטטוס: TRENDING, HR Relevant
+תיאור: המאמר דן בהשפעת הבינה המלאכותית על שוק העבודה ומציג נתונים וממצאים לגבי השינויים בתפקידים ובתהליכים. הוא מדגיש כי הבינה המלאכותית משנה את אופן העבודה אך לא בהכרח מחליפה את העובדים.
+תגיות: HAIT, Job_Redesign_AI, Productivity, Workforce_Adaptability
+---
+
+כותרת: Five Steps to True Human-AI Collaboration | Flame Centre
+קישור: https://www.flamecentre.com/smarter-human-ai-collaboration
+תאריך: 2026-07-07
+קטגוריה: Human-AI Teaming
+סטטוס: QUIET, HR Relevant
+תיאור: מאמר חדש מציג מסגרת עבודה ליצירת שיתוף פעולה אפקטיבי בין בני אדם ל-AI. המסגרת, הנקראת BRAIN, מציעה גישה מורכבת ומדורגת לשותפות עם AI.
+תגיות: HAIT, HITL, Hybrid_Intelligence, Leadership
+---
+
+כותרת: Simran Kaur - The colleague I mentioned in this week's...
+קישור: https://www.facebook.com/simran.kaur.355176/posts/the-colleague-i-mentioned-in-this-weeks-video-is-now-formally-on-her-organizatio/10164790299830659
+תאריך: 2026-07-07
+קטגוריה: Human-AI Teaming
+סטטוס: QUIET, HR Relevant
+תיאור: סימרן קאור משתפת סיפור על עמיתת עבודה שהציעה ויזמה הקמת ועדת אתיקה בינה מלאכותית בארגון שלה. הוועדה ביקרה מערכות AI לפני אימוץ, והשפיעה על שינויים במערכות. סימרן קאור הדגישה את החשיבות של מבנה תומך לקידום שאלות קשות.
+תגיות: AI_Ethics, Organizational_Change, Autonomy, Human-AI_Collaboration
+---
 
 כותרת: Beyond Human-AI Collaboration: Co-Generation - The World Financial Review
 קישור: https://worldfinancialreview.com/human-ai-collaboration-is-not-enough-from-hybrid-intelligence-to-co-generation
@@ -4114,112 +4222,4 @@ https://arikrizer.github.io/aggregator/
 סטטוס: TRENDING, HR Relevant
 תיאור: מאמר ב-Unleash.ai דן בממצאים של דו"ח מגמות העבודה של מיקרוסופט לשנת 2026, לפיהם עובדים מאמצים AI, אך ארגונים תקועים במערכות ישנות שצריך לעצב מחדש.
 תגיות: HAIT, Hybrid_Intelligence, Work_Design
----
-
-כותרת: Five Crazy Shifts: What AI Can Teach Us about Organizational Design
-קישור: https://www.forbes.com/sites/devpatnaik/2026/05/04/five-crazy-shifts-what-ai-can-teach-us-about-organizational-design/
-תאריך: 2026-05-09
-קטגוריה: Augmented OB
-סטטוס: TRENDING, HR Relevant
-תיאור: מאמר בפורבס דן בחמישה שינויים קיצוניים ש-AI יכול ללמד אותנו על עיצוב ארגוני, כולל שינויים במהירות קבלת ההחלטות ובמבנה העבודה.
-תגיות: Augmented_OB, HAIT, Organizational_Design
----
-
-כותרת: Designing Organizations for the Future of AI Decision Making
-קישור: https://www.linkedin.com/posts/natashaqbuckley_rethinking-operating-models-for-humans-with-activity-7456843144542707713-yPfH
-תאריך: 2026-05-09
-קטגוריה: Human-AI Teaming
-סטטוס: TRENDING, HR Relevant
-תיאור: מאמר של נטשה בקלי על לינקדאין דן בשינוי הבעלות על קבלת החלטות בנוגע ל-AI, כאשר 72% מהמנכ"לים רואים עצמם כקובעי ההחלטות העיקריים בנושא. הוא גם מזכיר כי רק מעט ארגונים מעצבים מחדש את העבודה סביב כלי AI.
-תגיות: Hybrid_Intelligence, HAIT, Job_Redesign_AI, Leadership
----
-
-כותרת: So your new ‘co-worker’ is an AI agent – here’s how to make the best of your human-machine relationship
-קישור: https://theconversation.com/so-your-new-co-worker-is-an-ai-agent-heres-how-to-make-the-best-of-your-human-machine-relationship-276011
-תאריך: 2026-05-09
-קטגוריה: Hybrid Intelligence
-סטטוס: CITED, HR Relevant
-תיאור: מאמר זה בוחן את הדרכים להפוך את היחסים בין בני אדם לבינה מלאכותית ליותר יעילים. המאמר מציע כי בני אדם צריכים להתמקד ביכולות שלהם שאינן יכולות להתבצע על ידי בינה מלאכותית.
-תגיות: Human-AI_Collaboration, HAI, Job_Redesign_AI, Productivity
----
-
-כותרת: Agents, human agency, and the opportunity for organizations
-קישור: https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization
-תאריך: 2026-05-09
-קטגוריה: Human-AI Teaming
-סטטוס: TRENDING, HR Relevant
-תיאור: דוח זה בוחן את ההזדמנויות והאתגרים של השימוש בבינה מלאכותית במקום העבודה. הדוח מצא כי 81% מהמנהיגים דיווחו כי הם מרגישים בטוחים בנוגע להצעת דרכים חדשות לעבודה עם בינה מלאכותית.
-תגיות: Human-AI_Collaboration, HAI, Job_Redesign_AI, Leadership, Compliance
----
-
-כותרת: Frontiers | AI usage and employee creativity: the mediating role of work engagement and the moderating role of technology acceptance
-קישור: https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1807038/full
-תאריך: 2026-05-09
-קטגוריה: Human-AI Teaming
-סטטוס: CITED, HR Relevant
-תיאור: מחקר זה בוחן כיצד השימוש בבינה מלאכותית משפיע על היצירתיות של עובדים. המחקר מצא כי השימוש בבינה מלאכותית משפיע על היצירתיות של עובדים באמצעות השתתפות בעבודה. בנוסף, המחקר מצא כי הקבלה של טכנולוגיה מתווכת את הקשר בין השימוש בבינה מלאכותית לבין השתתפות בעבודה והיצירתיות של עובדים.
-תגיות: Human-AI_Collaboration, HAI, Job_Redesign_AI, Productivity, Hierarchy_Shift
----
-
-כותרת: What Is AI Organizational Readiness? Why People and Culture Determine Your AI Outcomes
-קישור: https://aiassemblylines.com/post/what-is-ai-organizational-readiness
-תאריך: 2026-05-09
-קטגוריה: Augmented OB
-סטטוס: QUIET, HR Relevant
-תיאור: הפוסט דן בחשיבות של מוכנות ארגונית לשימוש ב-AI, תוך שימת דגש על תרבות ומוכנות של העובדים. הוא מדגיש את הצורך בתוכנית שינוי ניהולית שתלווה את השינוי הטכני.
-תגיות: HAI, Job_Redesign_AI, Psychological_Safety
----
-
-כותרת: AI-augmented teams: Training for human-machine collaboration
-קישור: https://www.techtarget.com/searchcio/tip/AI-augmented-teams-Training-for-human-machine-collaboration
-תאריך: 2026-05-09
-קטגוריה: Human-AI Teaming
-סטטוס: TRENDING, HR Relevant
-תיאור: המאמר דן בחשיבות של הכשרה ושדרוג מיומנויות של צוותים המשתמשים ב-AI. הוא מציג מסגרת של התפתחות הדרגתית של שיתוף פעולה בין בני אדם ל-AI ומדגיש את הצורך בהשקעה בהכשרת עובדים לצורך עבודה משותפת עם AI.
-תגיות: HAIT, HITL, Augmented_OB
----
-
-כותרת: Toward a Quality Model for Hybrid Intelligence Teams
-קישור: https://dare.uva.nl/id/c05980d0-3ea8-4fb5-856a-69db45c6cac0
-תאריך: 2026-05-09
-קטגוריה: Hybrid Intelligence
-סטטוס: CITED, HR Relevant
-תיאור: מחקר זה מתמקד בפיתוח מודל איכות עבור צוותים של אינטליגנציה היברידית (HI). המודל שואף לאפיין ולעמוד על היבטים של שיתוף פעולה בין בני אדם ל-AI. המחקר כלל 50 חוקרים בתחום HI ומציג תובנות לגבי תכונות של צוותים יעילים שיכולים לשמש גם עבור HI.
-תגיות: Hybrid_Intelligence, HAIT, HITL
----
-
-כותרת: Agents, human agency, and the opportunity for organizations
-קישור: https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization
-תאריך: 2026-05-08
-קטגוריה: Autonomous_Agents
-סטטוס: TRENDING, HR Relevant
-תיאור: המאמר דן בקשר בין סוכנים מלאכותיים לבין האגencja של בני אדם בארגונים. המאמר מציע כי ארגונים צריכים לעצב מחדש את המודל העסקי שלהם כדי לתמוך בשיתוף פעולה בין בני אדם לסוכנים מלאכותיים.
-תגיות: Autonomous_Agents, Human-AI_Collaboration, Organizational_Change
----
-
-כותרת: So your new ‘co-worker’ is an AI agent – here’s how to make the best of your human-machine relationship
-קישור: https://theconversation.com/so-your-new-co-worker-is-an-ai-agent-heres-how-to-make-the-best-of-your-human-machine-relationship-276011
-תאריך: 2026-05-08
-קטגוריה: Human-AI Teaming
-סטטוס: TRENDING, HR Relevant
-תיאור: המאמר דן בקשר בין בני אדם לסוכנים אוטונומיים במקום העבודה. הוא מציג דוגמאות של חברות שמשתמשות בסוכנים אוטונומיים כדי לשפר את תהליכי העבודה שלהם. כמו כן, הוא מציג מחקר שמצא כי 88% מהארגונים שש采用ים סוכנים אוטונומיים דו"חות על החזר השקעה חיובי.
-תגיות: Human-AI_Collaboration, Autonomous_Agents, Productivity, Workplace
----
-
-כותרת: Research: Why You Shouldn’t Treat AI Agents Like Employees
-קישור: https://hbr.org/2026/05/research-why-you-shouldnt-treat-ai-agents-like-employees
-תאריך: 2026-05-08
-קטגוריה: Hybrid Intelligence
-סטטוס: CITED, HR Relevant
-תיאור: המחקר מציע כי ארגונים צריכים לעצב מחדש את עבודתם של בני אדם וסוכנים אוטונומיים כדי לנצל את היתרונות של שניהם. הוא מציג חמישה שינויים מרכזיים שיכולים לעזור לארגונים להשיג זאת.
-תגיות: Hybrid_Intelligence, Human-AI_Collaboration, Organizational_Design, Workplace
----
-
-כותרת: Five Crazy Shifts: What AI Can Teach Us about Organizational Design
-קישור: https://www.forbes.com/sites/devpatnaik/2026/05/04/five-crazy-shifts-what-ai-can-teach-us-about-organizational-design/
-תאריך: 2026-05-08
-קטגוריה: Augmented OB
-סטטוס: TRENDING, HR Relevant
-תיאור: המאמר דן בשינויים שיכולים לקרות בארגונים בעקבות השימוש ב- AI. הוא מציג דוגמאות של חברות שש采用ים AI כדי לשפר את תהליכי העבודה שלהם.
-תגיות: Augmented_Intelligence, Organizational_Design, Workplace, Productivity
 ---
