@@ -1,7 +1,79 @@
 האגרגטור — Human-AI Augmentation
 https://arikrizer.github.io/aggregator/
-עודכן: 7 יולי 2026
+עודכן: 8 יולי 2026
 ============================================================
+
+כותרת: Managers as Mediators: How Organizational Leadership Shapes Workers' Fear of AI Displacement
+קישור: https://www.innovativehumancapital.com/article/managers-as-mediators-how-organizational-leadership-shapes-workers-fear-of-ai-displacement
+תאריך: 2026-07-08
+קטגוריה: Human-AI Teaming
+סטטוס: QUIET, HR Relevant
+תיאור: המאמר בוחן כיצד מנהיגות ארגונית משפיעה על הפחד של עובדים מפני תזוזת עבודה עקב AI. הוא מציע מספר אסטרטגיות למנהיגים כדי להפחית את הפחד הזה, כגון הגדרת מחדש של יכולת, הדגשת עבודה תלוית-יחסים, ועוד.
+תגיות: Human-AI_Collaboration, HAIT, Leadership, Psychological_Safety
+---
+
+כותרת: AI-Augmented Decision-Making Agility in Supplier Evaluation: Insights from a Qualitative Procurement Case Study
+קישור: https://www.mdpi.com/2305-6290/10/7/148
+תאריך: 2026-07-08
+קטגוריה: Human-AI Teaming
+סטטוס: CITED, HR Relevant
+תיאור: מחקר איכותני על שימוש בינה מלאכותית בתהליכי הערכה של ספקים. הניתוח מראה כי תוספת בינה מלאכותית משפרת את קבלת ההחלטות בתהליכי רכש, אך דורשת שילוב עם ידע אנושי. המחקר מדגיש את חשיבות האמון בבינה מלאכותית ובניית תהליכים היברידיים.
+תגיות: Human-AI_Collaboration, HAIT, Hybrid_Intelligence, Augmented_OB
+---
+
+כותרת: Why Employees Resist AI—and How Companies Can Win Them Over
+קישור: https://www.library.hbs.edu/working-knowledge/why-employees-resist-ai-and-how-companies-can-win-them-over
+תאריך: 2026-07-08
+קטגוריה: Human-in-the-Loop
+סטטוס: TRENDING, HR Relevant
+תיאור: מחקר על התנגדות עובדים לאימוץ בינה מלאכותית במקום העבודה. הניתוח מראה כי עובדים מתנגדים לשינויים שעלולים לפגוע בערך העצמי שלהם ובמשמעות עבודתם. החברות צריכות לתקשר את היתרונות של הבינה המלאכותית ולבנות אמון עם העובדים.
+תגיות: EmployeeResistance, AI_Adoption, Organizational_Change, Human-AI_Collaboration
+---
+
+כותרת: Navigating AI in the Workplace: 2026 - SHRM
+קישור: https://www.shrm.org/topics-tools/research/navigating-ai-in-the-workplace/full-report
+תאריך: 2026-07-08
+קטגוריה: Hybrid Intelligence
+סטטוס: CITED, HR Relevant
+תיאור: דו"ח של SHRM על ניווט בינה מלאכותית במקום העבודה. הניתוח מראה כי אימוץ הבינה המלאכותית הוא תהליך שצריך להיות מלווה בהכשרות ובהבנת השינויים הארגוניים.
+תגיות: AI_Adoption, Workplace_Change, HR_Strategy
+---
+
+כותרת: Leadership Development in the AI Era: What Global Organizations Are Getting Wrong
+קישור: https://www.countrynavigator.com/blog/leadership-development-ai-era?hs_amp=true
+תאריך: 2026-07-08
+קטגוריה: Human-AI Teaming
+סטטוס: TRENDING, HR Relevant
+תיאור: המאמר דן בפיתוח מנהיגות בתקופת הבינה המלאכותית וטוען שארגונים רבים מתמקדים יותר מדי בהיבטים הטכניים של יישום הבינה המלאכותית ופחות בהשפעות האנושיות. הוא מציג שלושה אתגרים מרכזיים למנהיגות בתקופה זו: ניהול השינוי הארגוני, פיתוח כישורי מנהיגות מתאימים והתמודדות עם השפעות הבינה המלאכותית על התרבות הארגונית.
+תגיות: HAIT, Leadership, Organizational_Change, AI_Implementation
+---
+
+כותרת: AI in Workforce Management - WFM Labs
+קישור: https://wiki.wfmlabs.org/wiki/AI_in_Workforce_Management
+תאריך: 2026-07-08
+קטגוריה: Augmented OB
+סטטוס: QUIET, HR Relevant
+תיאור: הדף בוחן את השפעת ה-AI על ניהול כוח עבודה, תוך התמקדות בשיעור ההכלה של AI ובהשפעתו על תכנון כוח עבודה. הוא גם מציג ממצאים על הפרודוקטיביות של עובדים עם כלים של AI.
+תגיות: Augmented_Intelligence, Productivity, Workforce_Management
+---
+
+כותרת: Beyond Productivity: The Performance-Wellbeing Paradox in AI-Enabled Work
+קישור: https://www.emeraldgrouppublishing.com/calls-for-papers/beyond-productivity-performance-wellbeing-paradox-ai-enabled-work
+תאריך: 2026-07-08
+קטגוריה: Augmented OB
+סטטוס: CITED, HR Relevant
+תיאור: המאמר דן בפרדוקס שבין הפרודוקטיביות לבין הרווחה בעבודה מואצת על ידי בינה מלאכותית. הוא מציג מחקרים שונים שמדגימים את ההשפעות השונות של הבינה המלאכותית על ביצועי העובדים ורווחתם.
+תגיות: HAI, Productivity, Wellbeing, AI-enabled_Work
+---
+
+כותרת: AI Cuts Costs, Until It Doesn't: Why Accountability Still Belongs to ...
+קישור: https://cmr.berkeley.edu/2026/07/ai-cuts-costs-until-it-doesn-t-why-accountability-still-belongs-to-senior-leadership
+תאריך: 2026-07-08
+קטגוריה: Human-in-the-Loop
+סטטוס: TRENDING, HR Relevant
+תיאור: המאמר דן במקרה של חברת התעופה אייר קנדה, שבוטלה על ידי מערכת צ'אטבוט שלה. הוא מדגיש כי למרות היתרונות של הבינה המלאכותית, האחריות עדיין שייכת למנהיגים ולא ניתן להעבירה לאלגוריתמים.
+תגיות: HAI, Accountability, Leadership, AI_Failures
+---
 
 כותרת: AI as a colleague: Why hybrid intelligence won't steal our jobs
 קישור: https://xpert.digital/en/hybrid-intelligence?amp=1
@@ -4141,85 +4213,4 @@ https://arikrizer.github.io/aggregator/
 סטטוס: CITED, HR Relevant
 תיאור: המאמר דן בשאלה האם תעודה ב-AI ל-HR שווה את ההשקעה לצמיחת הקריירה. הוא מציג מספר תוכניות הכשרה ומדגיש את חשיבותן.
 תגיות: HAIT, HR, Upskilling, Career_Growth
----
-
-כותרת: What Are the Common Risks of AI in an Organization? And How to Be Ready - Netrix Global
-קישור: https://netrixglobal.com/blog/cybersecurity/what-are-the-common-risks-of-ai-in-an-organization-and-how-to-be-ready/
-תאריך: 2026-05-09
-קטגוריה: Hybrid Intelligence
-סטטוס: QUIET, HR Relevant
-תיאור: המאמר דן בסיכונים הקשורים לשימוש בינה מלאכותית בארגונים, כולל סיכונים לתדמית ולערכים הארגוניים. הוא גם מספק הנחיות לארגונים כדי להתמודד עם הסיכונים.
-תגיות: AI_Risks, Reputational_Risk, Organizational_Values
----
-
-כותרת: Generative AI ethics: 16 biggest concerns and risks
-קישור: https://www.techtarget.com/searchenterpriseai/tip/Generative-AI-ethics-8-biggest-concerns
-תאריך: 2026-05-09
-קטגוריה: Human-AI Teaming
-סטטוס: QUIET, HR Relevant
-תיאור: המאמר דן באתגרים וסיכונים הקשורים לשימוש בינה מלאכותית יוצרת, כולל השפעה על העובדים והארגון. הוא גם מדגיש את הצורך בהשקעה בהכשרת העובדים כדי להתמודד עם השינויים.
-תגיות: Generative_AI, AI_Ethics, Workforce_Development
----
-
-כותרת: Ethical Practices for Organizations - Society for Industrial and ... - SIOP
-קישור: https://www.siop.org/resources-publications/business-resources/ethical-practices-for-organizations/
-תאריך: 2026-05-09
-קטגוריה: Augmented OB
-סטטוס: QUIET, HR Relevant
-תיאור: המאמר מספק הנחיות לארגונים בנוגע לשימוש אתי בינה מלאכותית, כולל שיקולים אתיים, משפטיים ותפעוליים. הוא גם מספק שאלות לבחינה כדי להנחות את היישום האחראי של בינה מלאכותית.
-תגיות: Ethical_AI, AI_Governance, Organizational_Culture
----
-
-כותרת: Rethinking AI Governance: Insights for Ethics and Compliance Leaders in Large Corporations
-קישור: https://ethisphere.com/insights/rethinking-ai-governance/
-תאריך: 2026-05-09
-קטגוריה: Human-AI Teaming
-סטטוס: QUIET, HR Relevant
-תיאור: המאמר דן באתגרים של ניהול בינה מלאכותית בארגונים גדולים ומדגיש את הצורך בשינוי גישת הממשל כדי להתמודד עם האתגרים האתיים והמשפטיים של בינה מלאכותית.
-תגיות: AI_Governance, Ethics, Compliance
----
-
-כותרת: Ethical AI Leadership - the next frontier in corporate governance
-קישור: https://www.expresscomputer.in/guest-blogs/ethical-ai-leadership-the-next-frontier-in-corporate-governance/134732/
-תאריך: 2026-05-09
-קטגוריה: Hybrid Intelligence
-סטטוס: QUIET, HR Relevant
-תיאור: המאמר דן בחשיבות של מנהיגות אתית בינה מלאכותית בארגונים. הוא מדגיש כי על הנהגת הארגון להוביל את השימוש האתי בינה מלאכותית ולהכשיר את כלל העובדים בנושא זה. המאמר גם מציג מספר אתגרים הקשורים לשימוש בינה מלאכותית, כגון הימנעות מביקורת ודאגה לשקיפות.
-תגיות: Ethical_AI, AI_Governance, Corporate_Culture
----
-
-כותרת: THE IMPACT OF ARTIFICIAL INTELLIGENCE TECHNOLOGIES ON MODERN MANAGEMENT PROCESSES AND DEVELOPMENT PROSPECTS: PROBLEMS AND SOLUTIONS
-קישור: https://advancedscienti.com/index.php/AJMB/article/view/4502
-תאריך: 2026-05-09
-קטגוריה: Hybrid Intelligence
-סטטוס: QUIET, HR Relevant
-תיאור: מאמר בכתב עת מדעי דן בהשפעת טכנולוגיות AI על תהליכי ניהול מודרניים ועל הבעיות והפתרונות הקשורים לכך.
-תגיות: Hybrid_Intelligence, HAIT, Management
----
-
-כותרת: IESE redesigns MBA for the age of AI
-קישור: https://www.iese.edu/stories/iese-redesigns-mba-ai/
-תאריך: 2026-05-09
-קטגוריה: Augmented OB
-סטטוס: CITED, HR Relevant
-תיאור: מאמר ב-IESE דן בשינויים בתוכנית ה-MBA של בית הספר כדי להכין סטודנטים לעידן ה-AI.
-תגיות: Augmented_OB, HAIT, Leadership
----
-
-כותרת: Managers Are Now in Charge of Making You Use AI
-קישור: https://www.businessinsider.com/managers-are-in-charge-of-making-you-use-ai-2026-5
-תאריך: 2026-05-09
-קטגוריה: Human-AI Teaming
-סטטוס: TRENDING, HR Relevant
-תיאור: מאמר ב-Business Insider דן בתפקידם של מנהלים בקידום השימוש ב-AI בקרב עובדים.
-תגיות: HAIT, Hybrid_Intelligence, Leadership
----
-
-כותרת: AI access is no longer the advantage, work design is, according to Microsoft ‘s 2026 Work Trends Index
-קישור: https://www.unleash.ai/organizational-design/ai-access-is-no-longer-the-advantage-work-design-is-according-to-microsoft-s-2026-work-trends-index/
-תאריך: 2026-05-09
-קטגוריה: Human-AI Teaming
-סטטוס: TRENDING, HR Relevant
-תיאור: מאמר ב-Unleash.ai דן בממצאים של דו"ח מגמות העבודה של מיקרוסופט לשנת 2026, לפיהם עובדים מאמצים AI, אך ארגונים תקועים במערכות ישנות שצריך לעצב מחדש.
-תגיות: HAIT, Hybrid_Intelligence, Work_Design
 ---

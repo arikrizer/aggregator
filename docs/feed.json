@@ -5,6 +5,140 @@
   "description": "אגרגטור תוכן יומי בתחום Human-AI Augmentation",
   "items": [
     {
+      "title": "Managers as Mediators: How Organizational Leadership Shapes Workers' Fear of AI Displacement",
+      "url": "https://www.innovativehumancapital.com/article/managers-as-mediators-how-organizational-leadership-shapes-workers-fear-of-ai-displacement",
+      "date": "2026-07-08",
+      "category": "Human-AI Teaming",
+      "summary": "המאמר בוחן כיצד מנהיגות ארגונית משפיעה על הפחד של עובדים מפני תזוזת עבודה עקב AI. הוא מציע מספר אסטרטגיות למנהיגים כדי להפחית את הפחד הזה, כגון הגדרת מחדש של יכולת, הדגשת עבודה תלוית-יחסים, ועוד.",
+      "tags": [
+        "Human-AI_Collaboration",
+        "HAIT",
+        "Leadership",
+        "Psychological_Safety"
+      ],
+      "status": [
+        "QUIET",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "AI-Augmented Decision-Making Agility in Supplier Evaluation: Insights from a Qualitative Procurement Case Study",
+      "url": "https://www.mdpi.com/2305-6290/10/7/148",
+      "date": "2026-07-08",
+      "category": "Human-AI Teaming",
+      "summary": "מחקר איכותני על שימוש בינה מלאכותית בתהליכי הערכה של ספקים. הניתוח מראה כי תוספת בינה מלאכותית משפרת את קבלת ההחלטות בתהליכי רכש, אך דורשת שילוב עם ידע אנושי. המחקר מדגיש את חשיבות האמון בבינה מלאכותית ובניית תהליכים היברידיים.",
+      "tags": [
+        "Human-AI_Collaboration",
+        "HAIT",
+        "Hybrid_Intelligence",
+        "Augmented_OB"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Why Employees Resist AI—and How Companies Can Win Them Over",
+      "url": "https://www.library.hbs.edu/working-knowledge/why-employees-resist-ai-and-how-companies-can-win-them-over",
+      "date": "2026-07-08",
+      "category": "Human-in-the-Loop",
+      "summary": "מחקר על התנגדות עובדים לאימוץ בינה מלאכותית במקום העבודה. הניתוח מראה כי עובדים מתנגדים לשינויים שעלולים לפגוע בערך העצמי שלהם ובמשמעות עבודתם. החברות צריכות לתקשר את היתרונות של הבינה המלאכותית ולבנות אמון עם העובדים.",
+      "tags": [
+        "EmployeeResistance",
+        "AI_Adoption",
+        "Organizational_Change",
+        "Human-AI_Collaboration"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Navigating AI in the Workplace: 2026 - SHRM",
+      "url": "https://www.shrm.org/topics-tools/research/navigating-ai-in-the-workplace/full-report",
+      "date": "2026-07-08",
+      "category": "Hybrid Intelligence",
+      "summary": "דו\"ח של SHRM על ניווט בינה מלאכותית במקום העבודה. הניתוח מראה כי אימוץ הבינה המלאכותית הוא תהליך שצריך להיות מלווה בהכשרות ובהבנת השינויים הארגוניים.",
+      "tags": [
+        "AI_Adoption",
+        "Workplace_Change",
+        "HR_Strategy"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Leadership Development in the AI Era: What Global Organizations Are Getting Wrong",
+      "url": "https://www.countrynavigator.com/blog/leadership-development-ai-era?hs_amp=true",
+      "date": "2026-07-08",
+      "category": "Human-AI Teaming",
+      "summary": "המאמר דן בפיתוח מנהיגות בתקופת הבינה המלאכותית וטוען שארגונים רבים מתמקדים יותר מדי בהיבטים הטכניים של יישום הבינה המלאכותית ופחות בהשפעות האנושיות. הוא מציג שלושה אתגרים מרכזיים למנהיגות בתקופה זו: ניהול השינוי הארגוני, פיתוח כישורי מנהיגות מתאימים והתמודדות עם השפעות הבינה המלאכותית על התרבות הארגונית.",
+      "tags": [
+        "HAIT",
+        "Leadership",
+        "Organizational_Change",
+        "AI_Implementation"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "AI in Workforce Management - WFM Labs",
+      "url": "https://wiki.wfmlabs.org/wiki/AI_in_Workforce_Management",
+      "date": "2026-07-08",
+      "category": "Augmented OB",
+      "summary": "הדף בוחן את השפעת ה-AI על ניהול כוח עבודה, תוך התמקדות בשיעור ההכלה של AI ובהשפעתו על תכנון כוח עבודה. הוא גם מציג ממצאים על הפרודוקטיביות של עובדים עם כלים של AI.",
+      "tags": [
+        "Augmented_Intelligence",
+        "Productivity",
+        "Workforce_Management"
+      ],
+      "status": [
+        "QUIET",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Beyond Productivity: The Performance-Wellbeing Paradox in AI-Enabled Work",
+      "url": "https://www.emeraldgrouppublishing.com/calls-for-papers/beyond-productivity-performance-wellbeing-paradox-ai-enabled-work",
+      "date": "2026-07-08",
+      "category": "Augmented OB",
+      "summary": "המאמר דן בפרדוקס שבין הפרודוקטיביות לבין הרווחה בעבודה מואצת על ידי בינה מלאכותית. הוא מציג מחקרים שונים שמדגימים את ההשפעות השונות של הבינה המלאכותית על ביצועי העובדים ורווחתם.",
+      "tags": [
+        "HAI",
+        "Productivity",
+        "Wellbeing",
+        "AI-enabled_Work"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "AI Cuts Costs, Until It Doesn't: Why Accountability Still Belongs to ...",
+      "url": "https://cmr.berkeley.edu/2026/07/ai-cuts-costs-until-it-doesn-t-why-accountability-still-belongs-to-senior-leadership",
+      "date": "2026-07-08",
+      "category": "Human-in-the-Loop",
+      "summary": "המאמר דן במקרה של חברת התעופה אייר קנדה, שבוטלה על ידי מערכת צ'אטבוט שלה. הוא מדגיש כי למרות היתרונות של הבינה המלאכותית, האחריות עדיין שייכת למנהיגים ולא ניתן להעבירה לאלגוריתמים.",
+      "tags": [
+        "HAI",
+        "Accountability",
+        "Leadership",
+        "AI_Failures"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
       "title": "AI as a colleague: Why hybrid intelligence won't steal our jobs",
       "url": "https://xpert.digital/en/hybrid-intelligence?amp=1",
       "date": "2026-07-07",
@@ -7870,150 +8004,6 @@
       ],
       "status": [
         "CITED",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "What Are the Common Risks of AI in an Organization? And How to Be Ready - Netrix Global",
-      "url": "https://netrixglobal.com/blog/cybersecurity/what-are-the-common-risks-of-ai-in-an-organization-and-how-to-be-ready/",
-      "date": "2026-05-09",
-      "category": "Hybrid Intelligence",
-      "summary": "המאמר דן בסיכונים הקשורים לשימוש בינה מלאכותית בארגונים, כולל סיכונים לתדמית ולערכים הארגוניים. הוא גם מספק הנחיות לארגונים כדי להתמודד עם הסיכונים.",
-      "tags": [
-        "AI_Risks",
-        "Reputational_Risk",
-        "Organizational_Values"
-      ],
-      "status": [
-        "QUIET",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Generative AI ethics: 16 biggest concerns and risks",
-      "url": "https://www.techtarget.com/searchenterpriseai/tip/Generative-AI-ethics-8-biggest-concerns",
-      "date": "2026-05-09",
-      "category": "Human-AI Teaming",
-      "summary": "המאמר דן באתגרים וסיכונים הקשורים לשימוש בינה מלאכותית יוצרת, כולל השפעה על העובדים והארגון. הוא גם מדגיש את הצורך בהשקעה בהכשרת העובדים כדי להתמודד עם השינויים.",
-      "tags": [
-        "Generative_AI",
-        "AI_Ethics",
-        "Workforce_Development"
-      ],
-      "status": [
-        "QUIET",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Ethical Practices for Organizations - Society for Industrial and ... - SIOP",
-      "url": "https://www.siop.org/resources-publications/business-resources/ethical-practices-for-organizations/",
-      "date": "2026-05-09",
-      "category": "Augmented OB",
-      "summary": "המאמר מספק הנחיות לארגונים בנוגע לשימוש אתי בינה מלאכותית, כולל שיקולים אתיים, משפטיים ותפעוליים. הוא גם מספק שאלות לבחינה כדי להנחות את היישום האחראי של בינה מלאכותית.",
-      "tags": [
-        "Ethical_AI",
-        "AI_Governance",
-        "Organizational_Culture"
-      ],
-      "status": [
-        "QUIET",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Rethinking AI Governance: Insights for Ethics and Compliance Leaders in Large Corporations",
-      "url": "https://ethisphere.com/insights/rethinking-ai-governance/",
-      "date": "2026-05-09",
-      "category": "Human-AI Teaming",
-      "summary": "המאמר דן באתגרים של ניהול בינה מלאכותית בארגונים גדולים ומדגיש את הצורך בשינוי גישת הממשל כדי להתמודד עם האתגרים האתיים והמשפטיים של בינה מלאכותית.",
-      "tags": [
-        "AI_Governance",
-        "Ethics",
-        "Compliance"
-      ],
-      "status": [
-        "QUIET",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Ethical AI Leadership - the next frontier in corporate governance",
-      "url": "https://www.expresscomputer.in/guest-blogs/ethical-ai-leadership-the-next-frontier-in-corporate-governance/134732/",
-      "date": "2026-05-09",
-      "category": "Hybrid Intelligence",
-      "summary": "המאמר דן בחשיבות של מנהיגות אתית בינה מלאכותית בארגונים. הוא מדגיש כי על הנהגת הארגון להוביל את השימוש האתי בינה מלאכותית ולהכשיר את כלל העובדים בנושא זה. המאמר גם מציג מספר אתגרים הקשורים לשימוש בינה מלאכותית, כגון הימנעות מביקורת ודאגה לשקיפות.",
-      "tags": [
-        "Ethical_AI",
-        "AI_Governance",
-        "Corporate_Culture"
-      ],
-      "status": [
-        "QUIET",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "THE IMPACT OF ARTIFICIAL INTELLIGENCE TECHNOLOGIES ON MODERN MANAGEMENT PROCESSES AND DEVELOPMENT PROSPECTS: PROBLEMS AND SOLUTIONS",
-      "url": "https://advancedscienti.com/index.php/AJMB/article/view/4502",
-      "date": "2026-05-09",
-      "category": "Hybrid Intelligence",
-      "summary": "מאמר בכתב עת מדעי דן בהשפעת טכנולוגיות AI על תהליכי ניהול מודרניים ועל הבעיות והפתרונות הקשורים לכך.",
-      "tags": [
-        "Hybrid_Intelligence",
-        "HAIT",
-        "Management"
-      ],
-      "status": [
-        "QUIET",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "IESE redesigns MBA for the age of AI",
-      "url": "https://www.iese.edu/stories/iese-redesigns-mba-ai/",
-      "date": "2026-05-09",
-      "category": "Augmented OB",
-      "summary": "מאמר ב-IESE דן בשינויים בתוכנית ה-MBA של בית הספר כדי להכין סטודנטים לעידן ה-AI.",
-      "tags": [
-        "Augmented_OB",
-        "HAIT",
-        "Leadership"
-      ],
-      "status": [
-        "CITED",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Managers Are Now in Charge of Making You Use AI",
-      "url": "https://www.businessinsider.com/managers-are-in-charge-of-making-you-use-ai-2026-5",
-      "date": "2026-05-09",
-      "category": "Human-AI Teaming",
-      "summary": "מאמר ב-Business Insider דן בתפקידם של מנהלים בקידום השימוש ב-AI בקרב עובדים.",
-      "tags": [
-        "HAIT",
-        "Hybrid_Intelligence",
-        "Leadership"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "AI access is no longer the advantage, work design is, according to Microsoft ‘s 2026 Work Trends Index",
-      "url": "https://www.unleash.ai/organizational-design/ai-access-is-no-longer-the-advantage-work-design-is-according-to-microsoft-s-2026-work-trends-index/",
-      "date": "2026-05-09",
-      "category": "Human-AI Teaming",
-      "summary": "מאמר ב-Unleash.ai דן בממצאים של דו\"ח מגמות העבודה של מיקרוסופט לשנת 2026, לפיהם עובדים מאמצים AI, אך ארגונים תקועים במערכות ישנות שצריך לעצב מחדש.",
-      "tags": [
-        "HAIT",
-        "Hybrid_Intelligence",
-        "Work_Design"
-      ],
-      "status": [
-        "TRENDING",
         "HR Relevant"
       ]
     }
