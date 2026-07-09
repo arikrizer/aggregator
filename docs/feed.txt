@@ -1,7 +1,61 @@
 האגרגטור — Human-AI Augmentation
 https://arikrizer.github.io/aggregator/
-עודכן: 8 יולי 2026
+עודכן: 9 יולי 2026
 ============================================================
+
+כותרת: The Future of Software in the AI Era | SAP
+קישור: https://www.sap.com/blogs/software-after-software-ai-transformation
+תאריך: 2026-07-09
+קטגוריה: Augmented OB
+סטטוס: TRENDING, HR Relevant
+תיאור: המאמר דן בשינויים שיביא עידן הבינה המלאכותית לתעשיית התוכנה. הוא מדבר על המעבר מצוותים המאורגנים סביב פונקציות למודלים היברידיים יותר שמביאים יחד פרופילים טכניים, תפעוליים ועסקיים.
+תגיות: Augmented_OB, HAIT, HITL
+---
+
+כותרת: AI Usage and Employee Performance: The Dual Roles of AI Self-Efficacy and AI-Enabled HRM
+קישור: https://www.mdpi.com/2079-8954/14/7/786
+תאריך: 2026-07-09
+קטגוריה: HAIT
+סטטוס: CITED, HR Relevant
+תיאור: מחקר זה בוחן את השפעת השימוש בבינה מלאכותית על ביצועי העובדים והדואליות של היעילות העצמית של בינה מלאכותית ושל ניהול משאבי אנוש מופעל בינה מלאכותית.
+תגיות: HAIT, HITL, Hybrid_Intelligence
+---
+
+כותרת: Managers as Mediators: How Organizational Leadership Shapes Workers' Fear of AI Displacement
+קישור: https://www.innovativehumancapital.com/article/managers-as-mediators-how-organizational-leadership-shapes-workers-fear-of-ai-displacement
+תאריך: 2026-07-09
+קטגוריה: HAIT
+סטטוס: TRENDING, HR Relevant
+תיאור: המאמר דן בדרכים בהן מנהיגות ארגונית יכולה להשפיע על הפחד של העובדים מפני הוחלפות על ידי בינה מלאכותית. הוא מציע מספר אסטרטגיות למנהיגים כדי להפחית את הפחד הזה.
+תגיות: HAIT, HITL, Hybrid_Intelligence
+---
+
+כותרת: Why Employees Resist AI—and How Companies Can Win Them Over
+קישור: https://www.library.hbs.edu/working-knowledge/why-employees-resist-ai-and-how-companies-can-win-them-over
+תאריך: 2026-07-09
+קטגוריה: Human-AI Teaming
+סטטוס: CITED, HR Relevant
+תיאור: מאמר זה בוחן את ההתנגדות של עובדים לנוכחות הבינה המלאכותית במקום העבודה. הוא מציג את הסיבות להתנגדות, כגון חשש מפני אובדן ערך ומשמעות בעבודה, ומדגיש את הצורך של החברות להראות לעובדים כיצד הם יכולים להרוויח מהשימוש בבינה המלאכותית. המאמר גם מדגיש את חשיבות ההבנה והתקשורת בין עובדים לבינה המלאכותית.
+תגיות: Human-AI_Collaboration, HAI, Job_Redesign_AI, Psychological_Safety, Leadership
+---
+
+כותרת: AI Cuts Costs, Until It Doesn’t: Why Accountability Still Belongs to Senior Leadership
+קישור: https://cmr.berkeley.edu/2026/07/ai-cuts-costs-until-it-doesn-t-why-accountability-still-belongs-to-senior-leadership
+תאריך: 2026-07-09
+קטגוריה: Augmented OB
+סטטוס: CITED, HR Relevant
+תיאור: מאמר זה דן בנושא האחריות בשימוש בבינה מלאכותית. הוא מציג מקרה שבו חברת תעופה הפסידה בתביעה עקב תשובות שגויות של צ'אטבוט מבוסס בינה מלאכותית. המאמר מדגיש כי האחריות לתוצאות השימוש בבינה מלאכותית עדיין שייכת להנהגת החברה ולא ניתן להעבירה לאלגוריתמים.
+תגיות: Accountability, Leadership, AI_Governance, Human-AI_Collaboration
+---
+
+כותרת: Leadership’s Blind Spot in the Age of AI
+קישור: https://sloanreview.mit.edu/article/leaderships-blind-spot-in-the-age-of-ai
+תאריך: 2026-07-09
+קטגוריה: Augmented OB
+סטטוס: CITED, HR Relevant
+תיאור: המאמר דן בנקודה עיוורת של מנהיגות בעידן הבינה המלאכותית, ומציע כי ההנחה שרק בינה מלאכותית היא חשובה מובילה ל"תרבות מונו-אינטליגנציה" שעלולה לקרוס. המחבר מציע לפתח תשתית ניהולית שתרבה יכולות קולקטיביות כדי להשלים את התשתית הקיימת של בינה מלאכותית.
+תגיות: Leadership, AI, Organizational_Change, Intelligence_Monoculture
+---
 
 כותרת: Managers as Mediators: How Organizational Leadership Shapes Workers' Fear of AI Displacement
 קישור: https://www.innovativehumancapital.com/article/managers-as-mediators-how-organizational-leadership-shapes-workers-fear-of-ai-displacement
@@ -4125,33 +4179,6 @@ https://arikrizer.github.io/aggregator/
 תגיות: Human-AI_Collaboration, Trust, Governance, Organizational_Communication
 ---
 
-כותרת: An Operating Model for the Age of AI
-קישור: https://www.bain.com/insights/an-operating-model-for-the-age-of-ai/
-תאריך: 2026-05-10
-קטגוריה: Human-AI Teaming
-סטטוס: TRENDING, HR Relevant
-תיאור: המאמר דן בשינוי המודל התפעולי של ארגונים בעידן הבינה המלאכותית. הוא מדגיש את הצורך לעצב מחדש את עבודת האדם כדי לנצל את היתרונות של AI, תוך שימת דגש על שיתוף פעולה, פתרון בעיות ובניית אמון. המאמר גם מציג דוגמאות לארגונים שמתאימים את עצמם לשינויים אלו.
-תגיות: Hybrid_Intelligence, HAIT, Augmented_OB, Leadership, Productivity
----
-
-כותרת: When Adopting AI, Tech Leaders Must Think About Organizational Design
-קישור: https://www.forbes.com/councils/forbeshumanresourcescouncil/2026/05/04/when-adopting-ai-tech-leaders-must-think-about-organizational-design/
-תאריך: 2026-05-10
-קטגוריה: Human-AI Teaming
-סטטוס: TRENDING, HR Relevant
-תיאור: מנהיגי טכנולוגיה חייבים לשקול את עיצוב הארגון בעת אימוץ בינה מלאכותית. הם צריכים אנשים עם אוטונומיה גבוהה, חשיבה בונה ויכולת לעבוד ולנהל סוכנים. אך אנשים אלו אינם מופצים באופן שווה בשוק העבודה, והם יקרים, ולכן הצעה חייבת להיות נכונה מההתחלה.
-תגיות: Hybrid_Intelligence, HAIT, Job_Redesign_AI, Autonomy, Leadership
----
-
-כותרת: Five Crazy Shifts: What AI Can Teach Us about Organizational Design
-קישור: https://www.forbes.com/sites/devpatnaik/2026/05/04/five-crazy-shifts-what-ai-can-teach-us-about-organizational-design/
-תאריך: 2026-05-10
-קטגוריה: Human-AI Teaming
-סטטוס: TRENDING, HR Relevant
-תיאור: אימוץ בינה מלאכותית מחייב שינויים קיצוניים בעיצוב הארגון, כולל שינויים במהירות העבודה ובמבנה הצוותים.
-תגיות: Hybrid_Intelligence, HAIT, Job_Redesign_AI, Autonomy, Leadership
----
-
 כותרת: AI Efficiency Can Undermine Accountability Even With Humans in the Loop | TechPolicy.Press
 קישור: https://www.techpolicy.press/ai-efficiency-can-undermine-accountability-even-with-humans-in-the-loop/
 תאריך: 2026-05-10
@@ -4168,15 +4195,6 @@ https://arikrizer.github.io/aggregator/
 סטטוס: TRENDING, HR Relevant
 תיאור: מאמר זה מדגיש את חשיבות השילוב של כלים של בינה מלאכותית בעבודה היומיומית. ניתוח של הרווארד ביזנס ריוויו מ-2025 מראה כי עובדים שמשפרים את המשימות שלהם בעזרת בינה מלאכותית, ולא רק מוסיפים אותה ככלי נוסף, הם אלו שמקבלים יתרון מתמשך. המאמר ממליץ על גישה DIY שבה אנשי מקצוע מודדים את המשימות שלהם וקובעים היכן ניתן להשתמש בבינה מלאכותית כדי לחסוך זמן או להרחיב את הידע.
 תגיות: Hybrid_Intelligence, HAIT, HITL, Augmented_Intelligence, Job_Redesign_AI
----
-
-כותרת: Understanding the Mismatch Between Organizational Goals ...
-קישור: https://arxiv.org/html/2605.03078v1
-תאריך: 2026-05-10
-קטגוריה: Human-AI Teaming
-סטטוס: CITED, HR Relevant
-תיאור: המחקר בוחן את הפער בין מטרות ארגוניות לבין חוויות העובדים בעבודה משולבת בינה מלאכותית. הוא חושף כי למרות שיפור ביכולות עיבוד נתונים וקבלת החלטות, קיימים פערים ברמות מבנית, משימה ועובד שמערערים את השילוב החלק של זרימת העבודה.
-תגיות: HAIT, Augmented_OB, Autonomy, Burnout, Psychological_Safety
 ---
 
 כותרת: The Real Job Destruction from AI Is Hitting Before Careers Can Start

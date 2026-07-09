@@ -5,6 +5,106 @@
   "description": "אגרגטור תוכן יומי בתחום Human-AI Augmentation",
   "items": [
     {
+      "title": "The Future of Software in the AI Era | SAP",
+      "url": "https://www.sap.com/blogs/software-after-software-ai-transformation",
+      "date": "2026-07-09",
+      "category": "Augmented OB",
+      "summary": "המאמר דן בשינויים שיביא עידן הבינה המלאכותית לתעשיית התוכנה. הוא מדבר על המעבר מצוותים המאורגנים סביב פונקציות למודלים היברידיים יותר שמביאים יחד פרופילים טכניים, תפעוליים ועסקיים.",
+      "tags": [
+        "Augmented_OB",
+        "HAIT",
+        "HITL"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "AI Usage and Employee Performance: The Dual Roles of AI Self-Efficacy and AI-Enabled HRM",
+      "url": "https://www.mdpi.com/2079-8954/14/7/786",
+      "date": "2026-07-09",
+      "category": "HAIT",
+      "summary": "מחקר זה בוחן את השפעת השימוש בבינה מלאכותית על ביצועי העובדים והדואליות של היעילות העצמית של בינה מלאכותית ושל ניהול משאבי אנוש מופעל בינה מלאכותית.",
+      "tags": [
+        "HAIT",
+        "HITL",
+        "Hybrid_Intelligence"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Managers as Mediators: How Organizational Leadership Shapes Workers' Fear of AI Displacement",
+      "url": "https://www.innovativehumancapital.com/article/managers-as-mediators-how-organizational-leadership-shapes-workers-fear-of-ai-displacement",
+      "date": "2026-07-09",
+      "category": "HAIT",
+      "summary": "המאמר דן בדרכים בהן מנהיגות ארגונית יכולה להשפיע על הפחד של העובדים מפני הוחלפות על ידי בינה מלאכותית. הוא מציע מספר אסטרטגיות למנהיגים כדי להפחית את הפחד הזה.",
+      "tags": [
+        "HAIT",
+        "HITL",
+        "Hybrid_Intelligence"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Why Employees Resist AI—and How Companies Can Win Them Over",
+      "url": "https://www.library.hbs.edu/working-knowledge/why-employees-resist-ai-and-how-companies-can-win-them-over",
+      "date": "2026-07-09",
+      "category": "Human-AI Teaming",
+      "summary": "מאמר זה בוחן את ההתנגדות של עובדים לנוכחות הבינה המלאכותית במקום העבודה. הוא מציג את הסיבות להתנגדות, כגון חשש מפני אובדן ערך ומשמעות בעבודה, ומדגיש את הצורך של החברות להראות לעובדים כיצד הם יכולים להרוויח מהשימוש בבינה המלאכותית. המאמר גם מדגיש את חשיבות ההבנה והתקשורת בין עובדים לבינה המלאכותית.",
+      "tags": [
+        "Human-AI_Collaboration",
+        "HAI",
+        "Job_Redesign_AI",
+        "Psychological_Safety",
+        "Leadership"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "AI Cuts Costs, Until It Doesn’t: Why Accountability Still Belongs to Senior Leadership",
+      "url": "https://cmr.berkeley.edu/2026/07/ai-cuts-costs-until-it-doesn-t-why-accountability-still-belongs-to-senior-leadership",
+      "date": "2026-07-09",
+      "category": "Augmented OB",
+      "summary": "מאמר זה דן בנושא האחריות בשימוש בבינה מלאכותית. הוא מציג מקרה שבו חברת תעופה הפסידה בתביעה עקב תשובות שגויות של צ'אטבוט מבוסס בינה מלאכותית. המאמר מדגיש כי האחריות לתוצאות השימוש בבינה מלאכותית עדיין שייכת להנהגת החברה ולא ניתן להעבירה לאלגוריתמים.",
+      "tags": [
+        "Accountability",
+        "Leadership",
+        "AI_Governance",
+        "Human-AI_Collaboration"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Leadership’s Blind Spot in the Age of AI",
+      "url": "https://sloanreview.mit.edu/article/leaderships-blind-spot-in-the-age-of-ai",
+      "date": "2026-07-09",
+      "category": "Augmented OB",
+      "summary": "המאמר דן בנקודה עיוורת של מנהיגות בעידן הבינה המלאכותית, ומציע כי ההנחה שרק בינה מלאכותית היא חשובה מובילה ל\"תרבות מונו-אינטליגנציה\" שעלולה לקרוס. המחבר מציע לפתח תשתית ניהולית שתרבה יכולות קולקטיביות כדי להשלים את התשתית הקיימת של בינה מלאכותית.",
+      "tags": [
+        "Leadership",
+        "AI",
+        "Organizational_Change",
+        "Intelligence_Monoculture"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
       "title": "Managers as Mediators: How Organizational Leadership Shapes Workers' Fear of AI Displacement",
       "url": "https://www.innovativehumancapital.com/article/managers-as-mediators-how-organizational-leadership-shapes-workers-fear-of-ai-displacement",
       "date": "2026-07-08",
@@ -7834,60 +7934,6 @@
       ]
     },
     {
-      "title": "An Operating Model for the Age of AI",
-      "url": "https://www.bain.com/insights/an-operating-model-for-the-age-of-ai/",
-      "date": "2026-05-10",
-      "category": "Human-AI Teaming",
-      "summary": "המאמר דן בשינוי המודל התפעולי של ארגונים בעידן הבינה המלאכותית. הוא מדגיש את הצורך לעצב מחדש את עבודת האדם כדי לנצל את היתרונות של AI, תוך שימת דגש על שיתוף פעולה, פתרון בעיות ובניית אמון. המאמר גם מציג דוגמאות לארגונים שמתאימים את עצמם לשינויים אלו.",
-      "tags": [
-        "Hybrid_Intelligence",
-        "HAIT",
-        "Augmented_OB",
-        "Leadership",
-        "Productivity"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "When Adopting AI, Tech Leaders Must Think About Organizational Design",
-      "url": "https://www.forbes.com/councils/forbeshumanresourcescouncil/2026/05/04/when-adopting-ai-tech-leaders-must-think-about-organizational-design/",
-      "date": "2026-05-10",
-      "category": "Human-AI Teaming",
-      "summary": "מנהיגי טכנולוגיה חייבים לשקול את עיצוב הארגון בעת אימוץ בינה מלאכותית. הם צריכים אנשים עם אוטונומיה גבוהה, חשיבה בונה ויכולת לעבוד ולנהל סוכנים. אך אנשים אלו אינם מופצים באופן שווה בשוק העבודה, והם יקרים, ולכן הצעה חייבת להיות נכונה מההתחלה.",
-      "tags": [
-        "Hybrid_Intelligence",
-        "HAIT",
-        "Job_Redesign_AI",
-        "Autonomy",
-        "Leadership"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Five Crazy Shifts: What AI Can Teach Us about Organizational Design",
-      "url": "https://www.forbes.com/sites/devpatnaik/2026/05/04/five-crazy-shifts-what-ai-can-teach-us-about-organizational-design/",
-      "date": "2026-05-10",
-      "category": "Human-AI Teaming",
-      "summary": "אימוץ בינה מלאכותית מחייב שינויים קיצוניים בעיצוב הארגון, כולל שינויים במהירות העבודה ובמבנה הצוותים.",
-      "tags": [
-        "Hybrid_Intelligence",
-        "HAIT",
-        "Job_Redesign_AI",
-        "Autonomy",
-        "Leadership"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
       "title": "AI Efficiency Can Undermine Accountability Even With Humans in the Loop | TechPolicy.Press",
       "url": "https://www.techpolicy.press/ai-efficiency-can-undermine-accountability-even-with-humans-in-the-loop/",
       "date": "2026-05-10",
@@ -7918,24 +7964,6 @@
       ],
       "status": [
         "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Understanding the Mismatch Between Organizational Goals ...",
-      "url": "https://arxiv.org/html/2605.03078v1",
-      "date": "2026-05-10",
-      "category": "Human-AI Teaming",
-      "summary": "המחקר בוחן את הפער בין מטרות ארגוניות לבין חוויות העובדים בעבודה משולבת בינה מלאכותית. הוא חושף כי למרות שיפור ביכולות עיבוד נתונים וקבלת החלטות, קיימים פערים ברמות מבנית, משימה ועובד שמערערים את השילוב החלק של זרימת העבודה.",
-      "tags": [
-        "HAIT",
-        "Augmented_OB",
-        "Autonomy",
-        "Burnout",
-        "Psychological_Safety"
-      ],
-      "status": [
-        "CITED",
         "HR Relevant"
       ]
     },
