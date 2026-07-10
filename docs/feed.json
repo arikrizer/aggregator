@@ -5,6 +5,123 @@
   "description": "אגרגטור תוכן יומי בתחום Human-AI Augmentation",
   "items": [
     {
+      "title": "Beyond Human-AI Collaboration: Co-Generation - The World Financial Review",
+      "url": "https://worldfinancialreview.com/human-ai-collaboration-is-not-enough-from-hybrid-intelligence-to-co-generation",
+      "date": "2026-07-10",
+      "category": "Hybrid Intelligence",
+      "summary": "המאמר דן בקונספט של שיתוף פעולה בין אדם ל-AI ומציג את הרעיון של 'קו-גנרציה' כדור חדש של עבודה משותפת. הוא טוען כי הדגמים הקיימים של שיתוף פעולה בין אדם ל-AI אינם מספיקים ושהגיע הזמן לחשוב על דרכים חדשות של עבודה משותפת.",
+      "tags": [
+        "Hybrid_Intelligence",
+        "Human-AI_Collaboration",
+        "HAI"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "AI Cuts Costs, Until It Doesn't: Why Accountability Still Belongs to ...",
+      "url": "https://cmr.berkeley.edu/2026/07/ai-cuts-costs-until-it-doesn-t-why-accountability-still-belongs-to-senior-leadership",
+      "date": "2026-07-10",
+      "category": "Augmented OB",
+      "summary": "המאמר דן בקושי של ארגונים לאמץ AI ובוחן את השפעתו על מבנה הארגון והאחריות. הוא טוען כי AI אינו רק כלי לחיסכון בעלויות אלא גם כלי שיכול לשנות את מבנה הארגון.",
+      "tags": [
+        "AI",
+        "Accountability",
+        "Organizational_Structure"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "How AI is changing EMS leadership and why emotional intelligence matters",
+      "url": "https://www.ems1.com/artificial-intelligence/the-paradox-of-progress",
+      "date": "2026-07-10",
+      "category": "Augmented OB",
+      "summary": "המאמר דן בקושי של מנהיגים לאמץ AI ובוחן את השפעתו על מנהיגות ורגשות. הוא טוען כי מנהיגים עם אינטליגנציה רגשית גבוהה הם קריטיים להצלחת ארגונים עם AI.",
+      "tags": [
+        "AI",
+        "Emotional_Intelligence",
+        "Leadership"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "The New Architecture of Work: AI-Driven Roles Reshaping HR and Corporate Leadership in 2026",
+      "url": "https://www.linkedin.com/pulse/new-architecture-work-ai-driven-roles-reshaping-hr-2026-mustafa-5bwif",
+      "date": "2026-07-10",
+      "category": "Human-AI Teaming",
+      "summary": "המאמר דן בתפקידים חדשים שיופיעו ב-2026 עם השימוש הגובר ב-AI, במיוחד בתחומי משאבי אנוש וניהול ארגוני. הוא מדגיש את הצורך באינטגרציה של HR ו-IT כדי ליצור תפקידים חדשים שמשלבים טכנולוגיה, ממשל וتصميم ארגוני. המאמר מזכיר את התפקיד של 'אסטרטג HR ב-AI' שפועל בנקודת החיבור בין משאבי אנוש ו-IT.",
+      "tags": [
+        "Hybrid_Intelligence",
+        "HAIT",
+        "Augmented_OB",
+        "Job_Redesign_AI",
+        "Generative_AI"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Responsible AI: Definition, Principles, and Examples",
+      "url": "https://monday.com/blog/ai-agents/responsible-ai",
+      "date": "2026-07-10",
+      "category": "Human-in-the-Loop",
+      "summary": "המאמר דן במושג של AI אחראי, המוגדר כמדיניות, תוכניות הכשרה, בדיקות תאימות ומערכות ניטור להבטחת השימוש ב-AI באופן אחראי.",
+      "tags": [
+        "Responsible_AI",
+        "AI_Ethics",
+        "Governance",
+        "Compliance"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "AI Governance Best Practices: Guide for Enterprise Leaders",
+      "url": "https://www.adaptivesecurity.com/blog/ai-governance-best-practices-a-complete-guide-for-enterprise-leaders",
+      "date": "2026-07-10",
+      "category": "Hybrid Intelligence",
+      "summary": "המדריך דן במערכות ממשל עבור AI בארגונים, כולל מדיניות, בקרות, תפקידים ומנגנוני אחריות.",
+      "tags": [
+        "AI_Governance",
+        "Governance",
+        "Risk_Management",
+        "Compliance"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Data Privacy and Ethics in AI for HR: Risks & 10 Best Practices - AIHR",
+      "url": "https://www.aihr.com/blog/data-privacy-and-ethics-in-ai-for-hr",
+      "date": "2026-07-10",
+      "category": "Human-AI Teaming",
+      "summary": "המאמר דן בסיכונים ובשיטות העבודה המומלצות לשמירה על פרטיות נתונים ועל אתיקה בשימוש ב-AI בתחום משאבי אנוש.",
+      "tags": [
+        "Data_Privacy",
+        "AI_Ethics",
+        "HR",
+        "Responsible_AI"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
       "title": "The Future of Software in the AI Era | SAP",
       "url": "https://www.sap.com/blogs/software-after-software-ai-transformation",
       "date": "2026-07-09",
@@ -7930,22 +8047,6 @@
       ],
       "status": [
         "CITED",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "AI Efficiency Can Undermine Accountability Even With Humans in the Loop | TechPolicy.Press",
-      "url": "https://www.techpolicy.press/ai-efficiency-can-undermine-accountability-even-with-humans-in-the-loop/",
-      "date": "2026-05-10",
-      "category": "Human-in-the-Loop",
-      "summary": "המאמר טוען כי השימוש ב- AI יכול לערער את האחריות, גם כאשר יש אדם בתהליך קבלת ההחלטות. יש צורך לבחון את התהליכים שבהם משתמשים ב- AI כדי לוודא כי הם משמרים את התנאים של קבלת ההחלטות האנושית.",
-      "tags": [
-        "Human-AI_Collaboration",
-        "Accountability",
-        "Efficiency"
-      ],
-      "status": [
-        "QUIET",
         "HR Relevant"
       ]
     },

@@ -1,7 +1,70 @@
 האגרגטור — Human-AI Augmentation
 https://arikrizer.github.io/aggregator/
-עודכן: 9 יולי 2026
+עודכן: 10 יולי 2026
 ============================================================
+
+כותרת: Beyond Human-AI Collaboration: Co-Generation - The World Financial Review
+קישור: https://worldfinancialreview.com/human-ai-collaboration-is-not-enough-from-hybrid-intelligence-to-co-generation
+תאריך: 2026-07-10
+קטגוריה: Hybrid Intelligence
+סטטוס: TRENDING, HR Relevant
+תיאור: המאמר דן בקונספט של שיתוף פעולה בין אדם ל-AI ומציג את הרעיון של 'קו-גנרציה' כדור חדש של עבודה משותפת. הוא טוען כי הדגמים הקיימים של שיתוף פעולה בין אדם ל-AI אינם מספיקים ושהגיע הזמן לחשוב על דרכים חדשות של עבודה משותפת.
+תגיות: Hybrid_Intelligence, Human-AI_Collaboration, HAI
+---
+
+כותרת: AI Cuts Costs, Until It Doesn't: Why Accountability Still Belongs to ...
+קישור: https://cmr.berkeley.edu/2026/07/ai-cuts-costs-until-it-doesn-t-why-accountability-still-belongs-to-senior-leadership
+תאריך: 2026-07-10
+קטגוריה: Augmented OB
+סטטוס: TRENDING, HR Relevant
+תיאור: המאמר דן בקושי של ארגונים לאמץ AI ובוחן את השפעתו על מבנה הארגון והאחריות. הוא טוען כי AI אינו רק כלי לחיסכון בעלויות אלא גם כלי שיכול לשנות את מבנה הארגון.
+תגיות: AI, Accountability, Organizational_Structure
+---
+
+כותרת: How AI is changing EMS leadership and why emotional intelligence matters
+קישור: https://www.ems1.com/artificial-intelligence/the-paradox-of-progress
+תאריך: 2026-07-10
+קטגוריה: Augmented OB
+סטטוס: TRENDING, HR Relevant
+תיאור: המאמר דן בקושי של מנהיגים לאמץ AI ובוחן את השפעתו על מנהיגות ורגשות. הוא טוען כי מנהיגים עם אינטליגנציה רגשית גבוהה הם קריטיים להצלחת ארגונים עם AI.
+תגיות: AI, Emotional_Intelligence, Leadership
+---
+
+כותרת: The New Architecture of Work: AI-Driven Roles Reshaping HR and Corporate Leadership in 2026
+קישור: https://www.linkedin.com/pulse/new-architecture-work-ai-driven-roles-reshaping-hr-2026-mustafa-5bwif
+תאריך: 2026-07-10
+קטגוריה: Human-AI Teaming
+סטטוס: TRENDING, HR Relevant
+תיאור: המאמר דן בתפקידים חדשים שיופיעו ב-2026 עם השימוש הגובר ב-AI, במיוחד בתחומי משאבי אנוש וניהול ארגוני. הוא מדגיש את הצורך באינטגרציה של HR ו-IT כדי ליצור תפקידים חדשים שמשלבים טכנולוגיה, ממשל וتصميم ארגוני. המאמר מזכיר את התפקיד של 'אסטרטג HR ב-AI' שפועל בנקודת החיבור בין משאבי אנוש ו-IT.
+תגיות: Hybrid_Intelligence, HAIT, Augmented_OB, Job_Redesign_AI, Generative_AI
+---
+
+כותרת: Responsible AI: Definition, Principles, and Examples
+קישור: https://monday.com/blog/ai-agents/responsible-ai
+תאריך: 2026-07-10
+קטגוריה: Human-in-the-Loop
+סטטוס: TRENDING, HR Relevant
+תיאור: המאמר דן במושג של AI אחראי, המוגדר כמדיניות, תוכניות הכשרה, בדיקות תאימות ומערכות ניטור להבטחת השימוש ב-AI באופן אחראי.
+תגיות: Responsible_AI, AI_Ethics, Governance, Compliance
+---
+
+כותרת: AI Governance Best Practices: Guide for Enterprise Leaders
+קישור: https://www.adaptivesecurity.com/blog/ai-governance-best-practices-a-complete-guide-for-enterprise-leaders
+תאריך: 2026-07-10
+קטגוריה: Hybrid Intelligence
+סטטוס: CITED, HR Relevant
+תיאור: המדריך דן במערכות ממשל עבור AI בארגונים, כולל מדיניות, בקרות, תפקידים ומנגנוני אחריות.
+תגיות: AI_Governance, Governance, Risk_Management, Compliance
+---
+
+כותרת: Data Privacy and Ethics in AI for HR: Risks & 10 Best Practices - AIHR
+קישור: https://www.aihr.com/blog/data-privacy-and-ethics-in-ai-for-hr
+תאריך: 2026-07-10
+קטגוריה: Human-AI Teaming
+סטטוס: TRENDING, HR Relevant
+תיאור: המאמר דן בסיכונים ובשיטות העבודה המומלצות לשמירה על פרטיות נתונים ועל אתיקה בשימוש ב-AI בתחום משאבי אנוש.
+תגיות: Data_Privacy, AI_Ethics, HR, Responsible_AI
+---
 
 כותרת: The Future of Software in the AI Era | SAP
 קישור: https://www.sap.com/blogs/software-after-software-ai-transformation
@@ -4177,15 +4240,6 @@ https://arikrizer.github.io/aggregator/
 סטטוס: CITED, HR Relevant
 תיאור: המאמר בוחן כיצד כלים של בינה מלאכותית משנים את האמון והממשל בארגונים. כאשר כלים של בינה מלאכותית משמשים לניסוח הודעות פנימיות, סיכום עדכוני מדיניות או יצירת תוכן חיצוני, ארגונים אינם רק מגדילים את היעילות, אלא גם מעבירים היבטים של עשיית משמעות למערכות שמשחזרות שיח קודם. לכן, ממשל צריך להתרחב מעבר לדיוק טכני כדי לכלול פיקוח דיסקורסיבי.
 תגיות: Human-AI_Collaboration, Trust, Governance, Organizational_Communication
----
-
-כותרת: AI Efficiency Can Undermine Accountability Even With Humans in the Loop | TechPolicy.Press
-קישור: https://www.techpolicy.press/ai-efficiency-can-undermine-accountability-even-with-humans-in-the-loop/
-תאריך: 2026-05-10
-קטגוריה: Human-in-the-Loop
-סטטוס: QUIET, HR Relevant
-תיאור: המאמר טוען כי השימוש ב- AI יכול לערער את האחריות, גם כאשר יש אדם בתהליך קבלת ההחלטות. יש צורך לבחון את התהליכים שבהם משתמשים ב- AI כדי לוודא כי הם משמרים את התנאים של קבלת ההחלטות האנושית.
-תגיות: Human-AI_Collaboration, Accountability, Efficiency
 ---
 
 כותרת: Mid-Career DIY Pathway to Continuously Upgrade AI Skills
