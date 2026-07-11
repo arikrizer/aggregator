@@ -5,6 +5,188 @@
   "description": "אגרגטור תוכן יומי בתחום Human-AI Augmentation",
   "items": [
     {
+      "title": "AI Will Not Adopt Itself: Why Change Management Matters More ...",
+      "url": "https://www.oxfordcorp.com/insights/blog/ai-will-not-adopt-itself-why-change-management-matters-more-than-ever",
+      "date": "2026-07-11",
+      "category": "Hybrid Intelligence",
+      "summary": "מאמר זה מדגיש את חשיבות ניהול השינוי באימוץ AI במקום העבודה. הוא מציג נתונים על אימוץ AI בארגונים ומדגיש את הצורך בניהול שינוי יעיל כדי להבטיח שימוש יעיל ב-AI.",
+      "tags": [
+        "AI_Adoption",
+        "Change_Management",
+        "Organizational_Change"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Why Employees Resist AI—and How Companies Can Win Them Over",
+      "url": "https://www.library.hbs.edu/working-knowledge/why-employees-resist-ai-and-how-companies-can-win-them-over",
+      "date": "2026-07-11",
+      "category": "Human-AI Teaming",
+      "summary": "מאמר זה עוסק בהתנגדות של עובדים לאימוץ בינה מלאכותית (AI) במקום העבודה. הוא מציג את הפחדים והדאגות של העובדים, כגון אובדן מקום עבודה, שינוי בתפקיד וירידה בערך המקצועי. המאמר גם מציע דרכים לחברות להתמודד עם התנגדות זו, כגון הסבר על היתרונות של AI לעובדים והכשרה מתאימה.",
+      "tags": [
+        "Human-AI_Collaboration",
+        "HAI",
+        "Job_Redesign_AI",
+        "Autonomy",
+        "Burnout"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "As organizations redesign jobs, automate workflows, introduce AI into people systems, and rethink how employees interact with technology, new HR capabilities will be needed. Some will look like… | Jacob Morgan",
+      "url": "https://www.linkedin.com/posts/jacobmorgan8_as-organizations-redesign-jobs-automate-activity-7481362566477414400-hh8c",
+      "date": "2026-07-11",
+      "category": "Augmented OB",
+      "summary": "פוסט זה של ג'ייקוב מורגן דן בצורך ביכולות חדשות של משאבי אנוש כדי לתמוך בשינויים ארגוניים מונעי בינה מלאכותית.",
+      "tags": [
+        "HR_capabilities",
+        "AI_adoption",
+        "Augmented_OB"
+      ],
+      "status": [
+        "VIRAL",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Redesign Work Before You Add More AI Agents | Towards Data Science",
+      "url": "https://towardsdatascience.com/redesign-work-before-you-add-more-ai-agents",
+      "date": "2026-07-11",
+      "category": "Human-AI Teaming",
+      "summary": "מאמר זה דן בצורך בשינוי תהליכים עבודה לפני הוספת סוכנים אוטונומיים נוספים. הוא מדגיש את החשיבות של שינוי תהליכים עבודה כדי לתמוך ביישום של טכנולוגיות בינה מלאכותית.",
+      "tags": [
+        "Work_redesign",
+        "AI_agents",
+        "Human-AI_Teaming"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Human-AI Relationships: How Businesses Can Build Trust, Boundaries, and Better Workflows — Tasmela",
+      "url": "https://tasmela.com/en/blog/human-ai-relationships",
+      "date": "2026-07-11",
+      "category": "Human-AI Teaming",
+      "summary": "הפוסט דן על הצורך לבנות מערכות יחסים בין בני אדם ל-AI באופן שיבטיח שימוש יעיל ומוסרי ב-AI. הוא מציע כי AI צריך להיות מעוצב כשותף מובנה שיכול לעזור לצוותים לעבוד מהר יותר, באופן עקבי יותר, ועם דגש על עבודה שבה שיקול הדעת של בני אדם הוא הקריטי.",
+      "tags": [
+        "Human-AI_Collaboration",
+        "HAI",
+        "Job_Redesign_AI",
+        "Trust",
+        "Productivity"
+      ],
+      "status": [
+        "QUIET",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "39 Principles for Designing Human–AI Interaction",
+      "url": "https://www.linkedin.com/posts/adhamdannaway_39-principles-for-designing-humanai-interaction-activity-7480991676988145664-aleA",
+      "date": "2026-07-11",
+      "category": "Hybrid Intelligence",
+      "summary": "מסגרת עבודה של 39 עקרונות לתכנון אינטראקציה בין אדם ל-AI. היא מבוססת על מחקר בנושא אמון, אוטומציה ומערכות שיתופיות.",
+      "tags": [
+        "Human-AI_Interaction",
+        "Design_Principles",
+        "Trust"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Human-in-the-Loop Checkpoints for AI Agents: Why Full Autonomy Is the Wrong Goal | MindStudio",
+      "url": "https://www.mindstudio.ai/blog/human-in-the-loop-checkpoints-ai-agents-3",
+      "date": "2026-07-11",
+      "category": "Human-in-the-Loop",
+      "summary": "מאמר זה דן בנושא של נקודות ביקורת אנושיות בתהליכים של סוכנים אוטונומיים. הוא מציג את הרעיון של 'אדם בתוך הלולאה' (HITL) ומסביר את החשיבות של מעורבות אנושית בתהליכים של קבלת החלטות אוטונומיים. המאמר גם מתאר את הספקטרום של שליטה אנושית, החל משליטה מלאה של האדם ועד לאוטונומיה מלאה של הסוכן.",
+      "tags": [
+        "Human-in-the-Loop",
+        "Autonomous_Agents",
+        "Hybrid_Intelligence",
+        "HAIT"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "What are the best AI tools for enterprises in 2026?",
+      "url": "https://www.glean.com/blog/what-are-the-best-ai-tools-for-enterprises-in-2026",
+      "date": "2026-07-11",
+      "category": "Human-AI Teaming",
+      "summary": "הפוסט דן על הכלים הטובים ביותר של AI עבור ארגונים בשנת 2026, ומדגיש את החשיבות של שילוב כלים עם זרימות עבודה קיימות.",
+      "tags": [
+        "AI_Tools",
+        "Enterprise_AI",
+        "Workflow_Integration"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Deloitte Insights: AI adoption to AI adaptation",
+      "url": "https://www.deloitte.com/us/en/insights/topics/talent/ai-adoption-to-ai-adaptation.html",
+      "date": "2026-07-11",
+      "category": "Human-AI Teaming",
+      "summary": "דלויט פובלישד מחקר על המעבר מאימוץ AI להתאמה. הם מצאו כי ארגונים שמטפלים בנושא באופן יזום ומעודד ניסויים והתנסות עם AI הם אלו שיכולים לרתום את הפוטנציאל של הטכנולוגיה. 2,422 משתתפים בסקר דלויט ציינו כי עזרה לעובדים ללמוד להתנסות עם AI היא הפעולה החשובה ביותר לארגונים כדי לתכנן את האינטראקציה בין אדם ל-AI.",
+      "tags": [
+        "Human-AI_Collaboration",
+        "AI_adoption",
+        "Experimentation",
+        "Organizational_Change"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Mastra: AI Agent Workflows: A Complete Guide for Developers",
+      "url": "https://mastra.ai/articles/ai-agent-workflows",
+      "date": "2026-07-11",
+      "category": "Human-in-the-Loop",
+      "summary": "מדריך למפתחים על עבודה עם זרימות עבודה של סוכני AI. הוא מתאר את החשיבות של שילוב בני אדם בתהליכים של קבלת החלטות עם AI ומציג שלוש דפוסים של התערבות אנושית: בתוך הלולאה, סקירת טיוטות והשהיית ביצוע.",
+      "tags": [
+        "AI_Agent_Workflows",
+        "Human-in-the-Loop",
+        "AI_Development"
+      ],
+      "status": [
+        "QUIET",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Agentic AI and Retrieval-Augmented Models in Straight-Through ...",
+      "url": "https://arxiv.org/html/2607.07858v1",
+      "date": "2026-07-11",
+      "category": "Hybrid Intelligence",
+      "summary": "מאמר זה דן ביישום של מודלים אוטונומיים ומודלים של אחזור מידע בתהליכים אקטואריים. הוא מציג את החשיבות של מעורבות אנושית בתהליכים של קבלת החלטות אוטונומיים.",
+      "tags": [
+        "Agentic_AI",
+        "Retrieval-Augmented_Models",
+        "Hybrid_Intelligence"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
       "title": "Beyond Human-AI Collaboration: Co-Generation - The World Financial Review",
       "url": "https://worldfinancialreview.com/human-ai-collaboration-is-not-enough-from-hybrid-intelligence-to-co-generation",
       "date": "2026-07-10",
@@ -7913,42 +8095,6 @@
       ]
     },
     {
-      "title": "How AI Copilots Are Reshaping Manager–Employee Relationships",
-      "url": "https://www.gcu.edu/blog/business-management/ai-copilots-in-management",
-      "date": "2026-05-11",
-      "category": "Human-AI Teaming",
-      "summary": "מאמר זה בוחן כיצד כלי בינה מלאכותית משנים את היחסים בין מנהלים לעובדים. הכלים הללו יכולים לשפר את הפרודוקטיביות אך גם ליצור אתגרים בנוגע להערכת ביצועים ומשוב. המחבר דן בדרכים בהן מנהלים יכולים להתאים את סגנון הניהול שלהם כדי להפיק את המרב מהכלים הללו.",
-      "tags": [
-        "Human-AI_Collaboration",
-        "HAIT",
-        "Augmented_OB",
-        "Management",
-        "AI_Impact"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "AI-augmented teams: Training for human-machine collaboration",
-      "url": "https://www.techtarget.com/searchcio/tip/AI-augmented-teams-Training-for-human-machine-collaboration",
-      "date": "2026-05-11",
-      "category": "Human-AI Teaming",
-      "summary": "מאמר זה דן בדרכים בהן ארגונים יכולים להכשיר עובדים לשיתוף פעולה עם כלי בינה מלאכותית. הוא מציע מסגרת הכשרה שמטרתה לבנות יכולות עובדים לשיתוף פעולה יעיל עם כלים אלו.",
-      "tags": [
-        "Human-AI_Collaboration",
-        "HAIT",
-        "Augmented_OB",
-        "Training",
-        "AI_Literacy"
-      ],
-      "status": [
-        "CITED",
-        "HR Relevant"
-      ]
-    },
-    {
       "title": "Mission vs. Profit: What the OpenAI scandal teaches HR about ethical AI adoption",
       "url": "https://www.peoplehum.com/blog/mission-vs-profit-what-the-openai-scandal-teaches-hr-about-ethical-ai-adoption",
       "date": "2026-05-11",
@@ -7978,158 +8124,6 @@
         "HAIT",
         "Leadership",
         "Organizational_Change"
-      ],
-      "status": [
-        "CITED",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Five Crazy Shifts: What AI Can Teach Us about Organizational Design",
-      "url": "https://www.forbes.com/sites/devpatnaik/2026/05/04/five-crazy-shifts-what-ai-can-teach-us-about-organizational-design/",
-      "date": "2026-05-11",
-      "category": "Augmented OB",
-      "summary": "המאמר דן בחמש תמורות משמעותיות שיכולות ללמד אותנו על עיצוב ארגוני באמצעות בינה מלאכותית. הוא מדגיש את החשיבות של עבודה פנים-אל-פנים וקרבה פיזית בין חברי צוות.",
-      "tags": [
-        "Organizational_Design",
-        "Human-AI_Collaboration",
-        "Workplace_Trends"
-      ],
-      "status": [
-        "CITED",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "When Adopting AI, Tech Leaders Must Think About Organizational Design",
-      "url": "https://www.forbes.com/councils/forbeshumanresourcescouncil/2026/05/04/when-adopting-ai-tech-leaders-must-think-about-organizational-design/",
-      "date": "2026-05-11",
-      "category": "Augmented OB",
-      "summary": "המאמר מדגיש את החשיבות של עיצוב ארגוני בעת אימוץ בינה מלאכותית. הוא טוען כי מנהיגים טכניים צריכים לחשוב על עיצוב ארגוני כדי לנצל את מלוא הפוטנציאל של בינה מלאכותית.",
-      "tags": [
-        "Organizational_Design",
-        "Human-AI_Collaboration",
-        "Technology_Leadership"
-      ],
-      "status": [
-        "CITED",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Agents, human agency, and the opportunity for organizations",
-      "url": "https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization",
-      "date": "2026-05-11",
-      "category": "Human-AI Teaming",
-      "summary": "המאמר דן בנושא של סוכנים וסוכנות אנושית בהקשר של ארגונים. הוא מציג נתונים מהסקר של מיקרוסופט על שימוש בבינה מלאכותית בעבודה ומדגיש את חשיבותה של סוכנות אנושית ומנהיגות בארגונים המשתמשים בבינה מלאכותית.",
-      "tags": [
-        "Human-AI_Collaboration",
-        "Agents",
-        "Organizational_Design",
-        "Leadership"
-      ],
-      "status": [
-        "CITED",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "How is AI Reshaping Trust and Governance in Organizations?",
-      "url": "https://instituteforpr.org/how-is-ai-reshaping-trust-and-governance-in-organizational-communication/",
-      "date": "2026-05-11",
-      "category": "Human-AI Teaming",
-      "summary": "המאמר בוחן כיצד כלים של בינה מלאכותית משנים את האמון והממשל בארגונים. כאשר כלים של בינה מלאכותית משמשים לניסוח הודעות פנימיות, סיכום עדכוני מדיניות או יצירת תוכן חיצוני, ארגונים אינם רק מגדילים את היעילות, אלא גם מעבירים היבטים של עשיית משמעות למערכות שמשחזרות שיח קודם. לכן, ממשל צריך להתרחב מעבר לדיוק טכני כדי לכלול פיקוח דיסקורסיבי.",
-      "tags": [
-        "Human-AI_Collaboration",
-        "Trust",
-        "Governance",
-        "Organizational_Communication"
-      ],
-      "status": [
-        "CITED",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Mid-Career DIY Pathway to Continuously Upgrade AI Skills",
-      "url": "https://etcjournal.com/2026/05/04/mid-career-diy-pathway-to-continuously-upgrade-ai-skills/",
-      "date": "2026-05-10",
-      "category": "Hybrid Intelligence",
-      "summary": "מאמר זה מדגיש את חשיבות השילוב של כלים של בינה מלאכותית בעבודה היומיומית. ניתוח של הרווארד ביזנס ריוויו מ-2025 מראה כי עובדים שמשפרים את המשימות שלהם בעזרת בינה מלאכותית, ולא רק מוסיפים אותה ככלי נוסף, הם אלו שמקבלים יתרון מתמשך. המאמר ממליץ על גישה DIY שבה אנשי מקצוע מודדים את המשימות שלהם וקובעים היכן ניתן להשתמש בבינה מלאכותית כדי לחסוך זמן או להרחיב את הידע.",
-      "tags": [
-        "Hybrid_Intelligence",
-        "HAIT",
-        "HITL",
-        "Augmented_Intelligence",
-        "Job_Redesign_AI"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
-      "url": "https://insights.som.yale.edu/insights/the-real-job-destruction-from-ai-is-hitting-before-careers-can-start",
-      "date": "2026-05-10",
-      "category": "Hybrid Intelligence",
-      "summary": "המאמר דן בהשפעת הבינה המלאכותית (AI) על שוק העבודה, במיוחד בתפקידים ברמת כניסה. הוא מזכיר כי AI עלול להחליף תפקידים לפני שיכולים להתפתח קריירות חדשות. כמו כן, המאמר מדבר על תפקידים חדשים שייווצרו בזכות AI, כמו ניהול תהליכים, ממשל, תפעול מודלים ותשתיות נתונים, אשר ידרשו כישורים טכניים וניהוליים שטרם פותחו בקרב העובדים המוחלפים.",
-      "tags": [
-        "Hybrid_Intelligence",
-        "Job_Redesign_AI",
-        "Autonomous_Agents",
-        "HR"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Generative AI for HR Professionals",
-      "url": "https://wawiwa-tech.com/upskilling/ai/generative-ai-for-hr-professionals/",
-      "date": "2026-05-10",
-      "category": "Human-in-the-Loop",
-      "summary": "המאמר מציג תוכנית למקצועני HR להשתמש ב-AI גנרטיבית בעבודתם. הוא כולל הנדסת פקודות, שימושים מעשיים ב-AI בתהליכי HR ויישום AI בתהליכים שונים.",
-      "tags": [
-        "Generative_AI",
-        "HAIT",
-        "HR",
-        "Upskilling"
-      ],
-      "status": [
-        "CITED",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "AI Prompts for HR, Payroll, IT & Finance | Rippling",
-      "url": "https://www.rippling.com/ai-prompt-library",
-      "date": "2026-05-10",
-      "category": "Human-AI Teaming",
-      "summary": "פוסט זה מציג ספריית פקודות AI לשימוש בתחומי HR, Payroll, IT ופיננסים. הוא מתאר כיצד AI יכולה לאוטומט תהליכים, לנתח נתוני כוח עבודה ולשפר קבלת החלטות. כמו כן, הוא מזכיר כי פלטפורמות כמו Rippling AI מאפשרות שימוש מעשי ב-AI ללא צורך בידע טכני.",
-      "tags": [
-        "Human-AI_Collaboration",
-        "HAIT",
-        "HR",
-        "Productivity"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Is an AI in HR Certification Worth It for Career Growth? - AIHR",
-      "url": "https://www.aihr.com/blog/is-ai-in-hr-certification-worth-it/",
-      "date": "2026-05-10",
-      "category": "Hybrid Intelligence",
-      "summary": "המאמר דן בשאלה האם תעודה ב-AI ל-HR שווה את ההשקעה לצמיחת הקריירה. הוא מציג מספר תוכניות הכשרה ומדגיש את חשיבותן.",
-      "tags": [
-        "HAIT",
-        "HR",
-        "Upskilling",
-        "Career_Growth"
       ],
       "status": [
         "CITED",
