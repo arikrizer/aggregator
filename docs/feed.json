@@ -5,6 +5,191 @@
   "description": "אגרגטור תוכן יומי בתחום Human-AI Augmentation",
   "items": [
     {
+      "title": "Towards Hybrid Intelligence in Learning Organizations",
+      "url": "http://ebooks.iospress.com/volumearticle/74964",
+      "date": "2026-07-14",
+      "category": "Hybrid Intelligence",
+      "summary": "המאמר מציג מתודולוגיה של אינטליגנציה היברידית לארגונים כדי להתמודד עם שחיקת הידע. הוא מתמקד בשישה עקרונות לתכנון ארגונים מודיעגים: הוספה, רלוונטיות, החלפה, גיוון, שיתוף פעולה והסבר. המחקר מבוסס על מקרה מבחן מה- Legal Desk בהולנד.",
+      "tags": [
+        "Hybrid_Intelligence",
+        "HAIT",
+        "HITL",
+        "Augmented_OB",
+        "Human-AI_Collaboration"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Automate, Augment, Amplify: How Teams Turn AI Usage Into Adoption",
+      "url": "https://www.forbes.com/sites/melissadaimler/2026/07/13/automate-augment-amplify-how-teams-turn-ai-usage-into-adoption",
+      "date": "2026-07-14",
+      "category": "Human-AI Teaming",
+      "summary": "המאמר דן בדרכים בהן צוותים יכולים לאמץ ולהשתמש באינטליגנציה מלאכותית באופן יעיל. הוא מתמקד בשלושה שלבים: אוטומציה, הגברה והגשמה.",
+      "tags": [
+        "HAIT",
+        "HITL",
+        "Augmented_OB",
+        "AI_Adoption"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "3 shifts towards becoming an AI-augmented business",
+      "url": "https://bts.com/blog/3-shifts-towards-becoming-an-ai-augmented-business",
+      "date": "2026-07-14",
+      "category": "Hybrid Intelligence",
+      "summary": "הפוסט דן בדרכים בהן עסקים יכולים להפוך למונעי אינטליגנציה מלאכותית. הוא מתמקד בשלושה שינויים מרכזיים: השקעה בחוויות סימולציה, הגדרת פיתוח קריירה מחדש ובניית משוב לתוך תהליכי עבודה.",
+      "tags": [
+        "Augmented_Intelligence",
+        "AI_Augmented_Business",
+        "Organizational_Development"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "AI as a Business Advantage: Becoming Frontier",
+      "url": "https://fptsoftware.com/resource-center/blogs/ai-as-a-business-advantage",
+      "date": "2026-07-14",
+      "category": "Human-AI Teaming",
+      "summary": "המאמר דן בשלב הבא של הבינה המלאכותית (AI) והשפעתה על עיצוב מחדש של ארגונים. הוא מציג מחקר שמראה כי ארגונים בונים מודלים תפעוליים סביב שיתוף פעולה בין עובדים לאנושיים, עוזרים של AI, וסוכנים אוטונומיים. 43% מהארגונים רואים בפרודוקטיביות של כוח העבודה כיעד אסטרטגי, ו-36% מזהים את היצירה של כוח עבודה מוגבר בינה מלאכותית כעדיפות.",
+      "tags": [
+        "Hybrid_Intelligence",
+        "Human-AI_Collaboration",
+        "HAI",
+        "Job_Redesign_AI",
+        "Generative_AI"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Organizational change management for the AI era",
+      "url": "https://www.cultureamp.com/blog/organizational-change-management-ai",
+      "date": "2026-07-14",
+      "category": "Augmented OB",
+      "summary": "הפוסט דן בניהול שינויים ארגוניים בעידן הבינה המלאכותית. הוא מציע ליצור מרחב לאנשים לגדול בדרכים חדשות של עבודה, לדבר על השינויים בתפקידים, ולתמוך בפיתוח מיומנויות. הוא גם מדגיש את החשיבות של התנהגויות כמו ניסוי, שיתוף ידע, ובקשת עזרה.",
+      "tags": [
+        "Augmented_Intelligence",
+        "Human-AI_Collaboration",
+        "HAI",
+        "Leadership",
+        "Compliance"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Mastering the Context Workflow- A Practical Guide to Human-AI Collaboration",
+      "url": "https://jadanjohnson.medium.com/mastering-the-context-workflow-a-practical-guide-to-human-ai-collaboration-fa481722dba3",
+      "date": "2026-07-14",
+      "category": "Human-AI Teaming",
+      "summary": "מדריך מעשי לשיתוף פעולה בין אדם ל-AI, תוך התמקדות בהנדסת הקשר ובעבודה משותפת. המאמר מציג אסטרטגיות ליישום מעשי של זרימת עבודה מבוססת הקשר, במטרה להפוך את ה-AI לשותף קבוע ויעיל בפרויקטים.",
+      "tags": [
+        "Human-AI_Collaboration",
+        "Hybrid_Intelligence",
+        "HAIT"
+      ],
+      "status": [
+        "QUIET",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Best practices for human-in-the-loop automation",
+      "url": "https://www.parloa.com/knowledge-hub/best-practices-human-in-the-loop",
+      "date": "2026-07-14",
+      "category": "Human-in-the-Loop",
+      "summary": "המאמר דן בשיטות עבודה מומלצות עבור שילוב בני אדם בלולאה עם אוטומציה. הוא מדגיש כי תפקידי האנשים שנשארים בלולאה משתנים מ ביצוע משימות לתפקידי שיפוט, טיפול בחריגות ופיקוח על איכות. המאמר ממליץ לעדכן את תיאורי התפקיד, תוכניות האימון ומסלולי הקריירה כדי להכין את העובדים לתפקידים החדשים.",
+      "tags": [
+        "Human-in-the-Loop",
+        "Job_Redesign_AI",
+        "Hybrid_Intelligence"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Human AI interaction design | Deloitte Insights",
+      "url": "https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends/2026/human-ai-interaction-design.html",
+      "date": "2026-07-14",
+      "category": "Human-AI Teaming",
+      "summary": "הדו\"ח של דלויט מדגיש את החשיבות של עיצוב מודע של אינטראקציה בין בני אדם ל-AI. הוא ממליץ לארגונים לתכנן את האינטראקציה הזו הן ברמה הארגונית והן ברמה הגרעינית, כדי למקסם את התועלת מהשקעות ב-AI.",
+      "tags": [
+        "Human-AI Teaming",
+        "Augmented_Intelligence",
+        "Leadership"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "How to Design Agentic AI: Key Human-AI Interaction Patterns",
+      "url": "https://princepaluiux.com/blog/how-to-design-agentic-ai-key-human-ai-interaction-patterns",
+      "date": "2026-07-14",
+      "category": "Hybrid Intelligence",
+      "summary": "המאמר דן בתבניות עיצוב לאינטראקציה בין בני אדם ל-AI אגנטי. הוא מציג אתגרים ופתרונות לתקשורת, שיתוף פעולה וניהול אמון בין בני אדם ל-AI.",
+      "tags": [
+        "Agentic_AI",
+        "Hybrid_Intelligence",
+        "Human-AI_Collaboration"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "AI and Job Redesign: How AI Is Changing Job Roles",
+      "url": "https://www.centranum.com/resources/ai-and-job-redesign",
+      "date": "2026-07-14",
+      "category": "Job_Redesign_AI",
+      "summary": "דו\"ח זה דן בשינוי תפקידים בעבודה עקב השימוש ב-AI. הוא מספק מידע על כיצד לארגן מחדש את התפקידים בעבודה כדי להתאים לשימוש ב-AI.",
+      "tags": [
+        "Job_Redesign_AI",
+        "HAI",
+        "Hybrid_Intelligence"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "HR Prompt Engineering: Making AI Work for People Teams",
+      "url": "https://www.marianolazcomasson.com/hr-prompt-engineering-making-ai-work-for-people-teams",
+      "date": "2026-07-14",
+      "category": "Human-AI Teaming",
+      "summary": "המאמר דן בהנדסת קידום עבור צוותים של משאבי אנוש, ומסביר כיצד לכתוב הנחיות ברורות וספציפיות כדי לקבל תוצאות רלוונטיות ומועילות מ- AI. הוא מספק דוגמאות לשימוש בהנדסת קידום בתהליכי גיוס, הכשרה וניהול עובדים.",
+      "tags": [
+        "Human-AI_Collaboration",
+        "HAI",
+        "Job_Redesign_AI",
+        "Generative_AI",
+        "Prompt_Engineering"
+      ],
+      "status": [
+        "QUIET",
+        "HR Relevant"
+      ]
+    },
+    {
       "title": "Hybrid Intelligence for Effective Digital Governance: AI in Administration",
       "url": "https://link.springer.com/book/9783032280855",
       "date": "2026-07-13",
@@ -7947,68 +8132,6 @@
       ]
     },
     {
-      "title": "The agentic paradox and the case for hybrid AI",
-      "url": "https://www.redhat.com/en/blog/agentic-paradox-and-case-hybrid-ai",
-      "date": "2026-05-14",
-      "category": "Hybrid Intelligence",
-      "summary": "הפוסט דן בפרדוקס של סוכנים אוטונומיים ובמקרה עבור AI היברידי. הוא בוחן אתגרים באימוץ מודלים של שפה גדולים ופתרונות עצמאיים, ומדגיש את חשיבות הגמישות והתאמה לתשתיות שונות.",
-      "tags": [
-        "Hybrid_Intelligence",
-        "Autonomous_Agents",
-        "AI_Adoption"
-      ],
-      "status": [
-        "QUIET"
-      ]
-    },
-    {
-      "title": "Your company already has an AI strategy. You just didn't choose it",
-      "url": "https://fortune.com/2026/05/12/ai-strategy-five-bets-accidental-intentional-leaders/",
-      "date": "2026-05-14",
-      "category": "Hybrid Intelligence",
-      "summary": "מאמר הדן באסטרטגיות של חברות ביחס לבינה מלאכותית, תוך הצגת חמישה סוגים של אסטרטגיות, כולל הגברה של בינה מלאכותית ושינוי ארגוני מיסודי.",
-      "tags": [
-        "Hybrid_Intelligence",
-        "HAIT",
-        "Augmented_Intelligence"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "AI as a Teammate",
-      "url": "https://oxford-review.com/ai-as-a-teammate/",
-      "date": "2026-05-14",
-      "category": "Human-AI Teaming",
-      "summary": "מחקר על שיתוף פעולה בין בני אדם לבינה מלאכותית, תוך הצגת מאפיינים מרכזיים להצלחה של שיתוף פעולה זה, כגון תפיסה של בינה מלאכותית כשותף.",
-      "tags": [
-        "HAIT",
-        "Human-AI_Collaboration"
-      ],
-      "status": [
-        "CITED",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Stanford HAI Launches AI and Organizations Lab to Study Science of AI in the Workplace",
-      "url": "https://hai.stanford.edu/news/stanford-hai-launches-ai-and-organizations-lab-to-study-science-of-ai-in-the-workplace",
-      "date": "2026-05-14",
-      "category": "Human-AI Teaming",
-      "summary": "מעבדת הבינה המלאכותית והארגונים של אוניברסיטת סטנפורד תערוך מחקר רב-תחומי על השפעת הבינה המלאכותית על מקומות עבודה, תוך התמקדות בקואורדינציה ארגונית, קבלת החלטות, פיתוח כוח אדם ועיצוב ארגוני. המעבדה שואפת לתרגם את המחקר לתובנות ניתנות ליישום עבור קובעי מדיניות ומנהיגים ארגוניים.",
-      "tags": [
-        "Human-AI_Collaboration",
-        "HAIT",
-        "Augmented_OB"
-      ],
-      "status": [
-        "CITED",
-        "HR Relevant"
-      ]
-    },
-    {
       "title": "PLACO: A Multi-Stage Framework for Cost-Effective Performance in Human-AI Teams",
       "url": "https://arxiv.org/html/2605.08388v1",
       "date": "2026-05-14",
@@ -8056,88 +8179,6 @@
       ],
       "status": [
         "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "The skill that separates strategists from operators in the AI era | CIO",
-      "url": "https://www.cio.com/article/4168956/the-skill-that-separates-strategists-from-operators-in-the-ai-era.html",
-      "date": "2026-05-14",
-      "category": "Human-AI Teaming",
-      "summary": "המאמר דן במיומנות שמבדילה בין אסטרטגים לאופרטורים בעידן ה-AI. הוא מדגיש את חשיבות החשיבה האינטגרלית ויכולת העבודה בצוותים קטנים וגמישים.",
-      "tags": [
-        "Human-AI_Collaboration",
-        "Team_Structure",
-        "Skills_Gap"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "92% of organizations have invested in AI but 78% say ...",
-      "url": "https://www.orgvue.com/news/92-of-organizations-have-invested-in-ai-but-78-say-projects-have-either-stalled-or-failed/",
-      "date": "2026-05-14",
-      "category": "Augmented OB",
-      "summary": "מחקר על השקעות בבינה מלאכותית בארגונים, תוך הצגת אתגרים ביישום והשגת ערך.",
-      "tags": [
-        "Augmented_OB",
-        "HAIT",
-        "Productivity"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "AI in the Workplace: Tech Reshaping Your Workforce",
-      "url": "https://www.deloitte.com/us/en/industries/tmt/articles/ai-in-the-workplace-workforce-transformation.html",
-      "date": "2026-05-14",
-      "category": "Augmented OB",
-      "summary": "דו\"ח של דלויט על השפעת הבינה המלאכותית על מקומות עבודה, תוך הדגשת הצורך בשינוי תפקידים, נתיבי קריירה ומדדי ביצוע.",
-      "tags": [
-        "Augmented_OB",
-        "HAIT",
-        "Job_Redesign_AI"
-      ],
-      "status": [
-        "TRENDING",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Human-In-The-Loop AI: What It Takes To Find The Right Balance",
-      "url": "https://www.forbes.com/councils/forbestechcouncil/2026/05/13/human-in-the-loop-ai-what-it-takes-to-find-the-right-balance/",
-      "date": "2026-05-14",
-      "category": "Human-in-the-Loop",
-      "summary": "מאמר זה דן בחשיבות של מציאת האיזון הנכון בין AI לאנושי בתהליכים עסקיים. הוא מתאר את החשיבות של פירוק משימות עסקיות לשלבים וקביעת אילו משימות מתאימות יותר ל-AI ואילו דורשות אישור או משוב אנושי. המאמר גם מזכיר כי הדיוקנות של AI יכולה להיות מוגבלת ולגרום לתוצאות שליליות אם לא מתוכננת כראוי.",
-      "tags": [
-        "Human-in-the-Loop",
-        "AI_Workflows",
-        "Business_Processes",
-        "Productivity"
-      ],
-      "status": [
-        "QUIET",
-        "HR Relevant"
-      ]
-    },
-    {
-      "title": "Implementing AI in workflows: One step at a time - Clinical Trials Arena",
-      "url": "https://www.clinicaltrialsarena.com/features/implementing-ai-in-workflows-one-step-at-a-time/",
-      "date": "2026-05-14",
-      "category": "Human-in-the-Loop",
-      "summary": "מאמר זה דן ביישום AI בתהליכים קליניים. הוא מתאר את הגישה של 'אנושי בתוך הלולאה' (Human-in-the-Loop) ומדגיש את החשיבות של אמינות כלי AI כדי לאפשר התקדמות לתהליכים אוטומטיים יותר.",
-      "tags": [
-        "Human-in-the-Loop",
-        "AI_in_Healthcare",
-        "Clinical_Trials",
-        "Workflow_Optimization"
-      ],
-      "status": [
-        "QUIET",
         "HR Relevant"
       ]
     }
