@@ -5,6 +5,58 @@
   "description": "אגרגטור תוכן יומי בתחום Human-AI Augmentation",
   "items": [
     {
+      "title": "AI-Augmented Human Resource Management?",
+      "url": "https://arxiv.org/html/2607.13839v1",
+      "date": "2026-07-17",
+      "category": "Augmented OB",
+      "summary": "מאמר אקדמי זה בוחן את הפוטנציאל של AI בשיפור ניהול משאבי אנוש. הוא מציע כי יש צורך במחקר נוסף על השפעת AI על ניהול משאבי אנוש, במיוחד בהקשר של שינויים מוסדיים.",
+      "tags": [
+        "HAI",
+        "Augmented_OB",
+        "HRM"
+      ],
+      "status": [
+        "QUIET",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Towards Hybrid Intelligence in Learning Organizations",
+      "url": "https://ebooks.iospress.nl/volumearticle/74964",
+      "date": "2026-07-17",
+      "category": "Hybrid Intelligence",
+      "summary": "המאמר מציג מתודולוגיה של אינטליגנציה היברידית לארגונים כדי להתמודד עם שחיקת הידע. הוא מתאר מקרה מבחן מה- Legal Desk בהולנד, תוך שימוש בשישה עקרונות לתכנון ארגונים מודיעגיים: הוספה, רלוונטיות, החלפה, גיוון, שיתוף פעולה והסבר. המאמר מצא כי הקפדה על עקרונות אלו היא מאזן בין תרומת ה- AI לאינטליגנציה האנושית לעבודות.",
+      "tags": [
+        "Hybrid_Intelligence",
+        "HAIT",
+        "HITL",
+        "Augmented_OB",
+        "Human-AI_Collaboration"
+      ],
+      "status": [
+        "CITED",
+        "HR Relevant"
+      ]
+    },
+    {
+      "title": "Automate, Augment, Amplify: How Teams Turn AI Usage Into Adoption",
+      "url": "https://www.forbes.com/sites/melissadaimler/2026/07/13/automate-augment-amplify-how-teams-turn-ai-usage-into-adoption",
+      "date": "2026-07-17",
+      "category": "Human-AI Teaming",
+      "summary": "המאמר דן בדרכים בהן צוותים יכולים לאמץ שימוש ב- AI באופן יעיל. הוא מדגיש את החשיבות של עיצוב מכוון, טכנולוגיה מיושרת עם האסטרטגיה, והתנהגויות מבוססות ערכים. המאמר גם מציג את האתגר של שימוש ב- AI באופן שקוף ומראה כי צוותים נוטים להעדיף עבודה ללא שימוש ב- AI.",
+      "tags": [
+        "HAIT",
+        "HITL",
+        "Augmented_OB",
+        "Human-AI_Collaboration",
+        "Psychological_Safety"
+      ],
+      "status": [
+        "TRENDING",
+        "HR Relevant"
+      ]
+    },
+    {
       "title": "Towards Hybrid Intelligence in Learning Organizations",
       "url": "https://ebooks.iospress.nl/volumearticle/74964",
       "date": "2026-07-16",

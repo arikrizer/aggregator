@@ -1,7 +1,34 @@
 האגרגטור — Human-AI Augmentation
 https://arikrizer.github.io/aggregator/
-עודכן: 16 יולי 2026
+עודכן: 17 יולי 2026
 ============================================================
+
+כותרת: AI-Augmented Human Resource Management?
+קישור: https://arxiv.org/html/2607.13839v1
+תאריך: 2026-07-17
+קטגוריה: Augmented OB
+סטטוס: QUIET, HR Relevant
+תיאור: מאמר אקדמי זה בוחן את הפוטנציאל של AI בשיפור ניהול משאבי אנוש. הוא מציע כי יש צורך במחקר נוסף על השפעת AI על ניהול משאבי אנוש, במיוחד בהקשר של שינויים מוסדיים.
+תגיות: HAI, Augmented_OB, HRM
+---
+
+כותרת: Towards Hybrid Intelligence in Learning Organizations
+קישור: https://ebooks.iospress.nl/volumearticle/74964
+תאריך: 2026-07-17
+קטגוריה: Hybrid Intelligence
+סטטוס: CITED, HR Relevant
+תיאור: המאמר מציג מתודולוגיה של אינטליגנציה היברידית לארגונים כדי להתמודד עם שחיקת הידע. הוא מתאר מקרה מבחן מה- Legal Desk בהולנד, תוך שימוש בשישה עקרונות לתכנון ארגונים מודיעגיים: הוספה, רלוונטיות, החלפה, גיוון, שיתוף פעולה והסבר. המאמר מצא כי הקפדה על עקרונות אלו היא מאזן בין תרומת ה- AI לאינטליגנציה האנושית לעבודות.
+תגיות: Hybrid_Intelligence, HAIT, HITL, Augmented_OB, Human-AI_Collaboration
+---
+
+כותרת: Automate, Augment, Amplify: How Teams Turn AI Usage Into Adoption
+קישור: https://www.forbes.com/sites/melissadaimler/2026/07/13/automate-augment-amplify-how-teams-turn-ai-usage-into-adoption
+תאריך: 2026-07-17
+קטגוריה: Human-AI Teaming
+סטטוס: TRENDING, HR Relevant
+תיאור: המאמר דן בדרכים בהן צוותים יכולים לאמץ שימוש ב- AI באופן יעיל. הוא מדגיש את החשיבות של עיצוב מכוון, טכנולוגיה מיושרת עם האסטרטגיה, והתנהגויות מבוססות ערכים. המאמר גם מציג את האתגר של שימוש ב- AI באופן שקוף ומראה כי צוותים נוטים להעדיף עבודה ללא שימוש ב- AI.
+תגיות: HAIT, HITL, Augmented_OB, Human-AI_Collaboration, Psychological_Safety
+---
 
 כותרת: Towards Hybrid Intelligence in Learning Organizations
 קישור: https://ebooks.iospress.nl/volumearticle/74964
